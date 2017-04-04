@@ -1,0 +1,19 @@
+---
+layout: null
+---
+[
+  {% for outil in site.outil %}
+    {
+      "title" : "{{ outil.title }}",
+      "url": "{{ outil.url }}",
+      "description" : "{{ outil.tagline }}",
+      "image" : {% if outil.logo %}"{{ outil.logo }}"{% else %}"{{ outil.default_logo }}"{% endif %},
+      "domain" : "{{ outil.domain }}",
+      "owner" : "{{ outil.owner }}",
+      "contract" : "{{ outil.contract }}",
+      "keywords": [{% if outil.keywords %}"{{ outil.keywords | join: '","' }}"{% endif %}],
+      "clients": [{% if outil.clients %}"{{ outil.clients | join: '","' }}"{% endif %}],
+      "partners": [{% if outil.partners %}"{{ outil.partners | join: '","' }}"{% endif %}]
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

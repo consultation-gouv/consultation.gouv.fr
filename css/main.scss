@@ -1,0 +1,121 @@
+---
+# Main pages style
+---
+
+@import "variables";
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+
+
+}
+
+#page {
+	padding-bottom: 10rem;
+	main {
+		&#bonnes-pratiques {
+			.container::before {
+				display: inline-block;
+				width: 200px;
+				height: 200px;
+				margin-left: -200px;
+				position: absolute;
+				content: "";
+				background:  url(/img/illu-comment-faire.png) no-repeat left 60%;
+				background-size: 100%;
+			}
+		}
+
+	}
+}
+
+header {
+	nav {
+		position: relative;
+		h1 {
+			position: absolute;
+			right: 0;
+			margin:0;
+
+		}
+	}
+	padding: 0.5em;
+	background-color: #FEFEFE;
+	color: #555;
+
+	> nav.ui.secondary.menu {
+	  background-image: url(/img/marianne.svg);
+	  background-repeat: no-repeat;
+	  background-size: contain;
+	  background-position: 0;
+	}
+
+	#logo {
+		color: transparent;
+		//background-image: url(/img/logo.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: left center;
+		padding-right: 1.5em;
+		margin-right: .8em;
+	}
+}
+
+.ui.tiny.label {
+	margin-bottom: 2px;
+}
+
+main {
+	margin-bottom: 3em;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10rem;
+	padding: 1.5em 0;
+	background-color: #f8f8f8;
+    .logo {
+      width: 150px;
+      height: 70px;
+    }
+	.incubateur {
+		text-align: center;
+	}
+}
+.visual {
+  height: 140px;
+  display: block;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  img {
+    height: auto;
+    width: auto;
+    min-width: auto;
+    max-height: 55%;
+    max-width: 55%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+input:focus::-webkit-input-placeholder{
+    color: transparent!important;
+}
+input:focus::-moz-placeholder{
+    color: transparent!important;
+}
+
+@media (max-width: 30em) {
+	.medium.screen.only {
+		display: none !important;
+	}
+}

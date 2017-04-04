@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<section id="title" class="ui vertical center aligned segment">
+
+  <div class="ui text container">
+    <h1 class="ui inverted header">
+      {{ page.title }}
+    </h1>
+
+    <h2 class="ui inverted header">
+      {{ page.description }}
+    </h2>
+
+    <a class="large ui secondary button" href="{{ page.link }}" rel="noopener" target="_blank">
+      Accédez au cas d'usage &nbsp;&nbsp;<i class="rocket icon"></i>
+    </a>
+  </div>
+</section>
+
+
+<div class="ui container content">
+  <div class="ui stackable grid">
+    <div class="row">
+      <div class="five wide column">
+        <h3 class="ui divider horizontal">Les outils utilisées</h3>
+        <div class="ui segments">
+          {% for outilName in page.outil %}
+          {% assign outil = site.outil | where: "title", outilName | first %}
+
+          <div class="ui segment">
+            <div class="ui grid">
+              <div class="row">
+                <div class="three wide column">
+                  {% if outil.logo %}
+                    <img class="ui fluid image logooutil" src="/img/{{ outil.logo }}" alt="logo de {{ outil.title }}"/>
+                  {% else %}
+                    <img class="ui fluid image logooutil" src="/img/{{ outil.default_logo }}" alt="logo générique"/>
+                  {% endif %}
+                </div>
+                <div class="thirteen wide column">
+                  <h4>
+                    <a href="{{ outil.url }}" class="header">{{ outil.title }}</a>
+                  </h4>
+                  {{ outil.tagline }}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="eleven wide column">
+        <div class="markdown-body">
+          {{ content }}
+        </div>
+        <div>
+          <img class="ui bordered rounded fluid image" src="/img/{{ page.screenshot }}" alt="capture d'écran de {{ page.title }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

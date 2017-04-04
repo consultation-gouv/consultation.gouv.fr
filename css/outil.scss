@@ -1,0 +1,89 @@
+---
+# API pages style
+---
+
+@import "variables";
+@import "markdown";
+@import "usage";
+
+
+#mission-statement {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 2%;
+
+  h1 {
+    padding: .2em 0;
+    i.icon {
+      height: inherit;
+    }
+  }
+
+  h2 {
+    padding: .2em 0;
+  }
+
+  background: $backgroundBlue;
+
+  .large.ui.secondary.button {
+    margin: 10px;
+  }
+}
+#description {
+  .metadata {
+    margin-top: -1em;
+    z-index: -200;
+
+    ul {
+      margin-top: 0.3em;
+      margin-bottom: 0.6em;
+    }
+  }
+
+  .ribbon {
+    z-index: 200;
+  }
+
+  .logoWrapper {
+    text-align: center;
+  }
+  .markdown-body {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .menu {
+    margin-bottom: 2em;
+    .item {
+      font-size: 1.2em;
+    }
+  }
+  .swagger-section {
+    .info_title {
+      display: none;
+    }
+  }
+
+  #validator {
+    display: none
+  }
+  .ui.statistic {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    &>.value {
+        font-size: 3rem!important;
+    }
+  }
+}
+#callToAction {
+  margin-top: 3%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+
+  background: $backgroundBlue;
+}
+
+#usages {
+  margin-bottom: 3em;
+}

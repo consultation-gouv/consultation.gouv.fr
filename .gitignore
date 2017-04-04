@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+_algolia_api_key
+.idea
+
+# Bundler
+.bundle
+
+# Ruby
+.ruby-gemset

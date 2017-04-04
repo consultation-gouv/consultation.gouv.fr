@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+
+    <div id="wrapper">
+      <div id="page">
+        <header>
+          <nav class="ui container secondary menu">
+            <a class="header item" id="logo" href="/">consultation.gouv.fr</a>
+            <!--<a class="medium screen only item" href="/apis">Liste des outils</a>-->
+            <!--<a class="medium screen only item" href="/services">Liste des cas services</a>-->
+            <h1>Outils de consultation en ligne</h1>
+          </nav>
+        </header>
+        <main{% if page.nom %} id="{{ page.nom }}" {% endif %}>
+          {{ content }}
+        </main>
+        {% include footer.html %}
+      </div>
+    </div>
+    <script>
+    $('.ui.dropdown').dropdown();
+    </script>
+    {% include analytics.html %}
+  </body>
+</html>
