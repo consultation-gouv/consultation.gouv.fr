@@ -85,26 +85,28 @@ footer {
 		text-align: center;
 	}
 }
-.visual {
-  height: 140px;
-  display: block;
-  overflow: hidden;
-  vertical-align: middle;
-  text-align: center;
-  position: relative;
-  img {
-    height: auto;
-    width: auto;
-    min-width: auto;
-    max-height: 55%;
-    max-width: 55%;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+.ui.card , .ui.cards {
+	.visual {
+	  height: 140px;
+	  display: block;
+	  overflow: hidden;
+	  vertical-align: middle;
+	  text-align: center;
+	  position: relative;
+	  img {
+	    height: auto;
+	    width: auto;
+	    min-width: auto;
+	    max-height: 55%;
+	    max-width: 55%;
+	    position: absolute;
+	    margin: auto;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	  }
+	}
 }
 
 input:focus::-webkit-input-placeholder{
