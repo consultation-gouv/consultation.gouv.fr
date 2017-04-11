@@ -11,7 +11,9 @@
             <a class="header item" id="logo" href="/">consultation.gouv.fr</a>
             <!--<a class="medium screen only item" href="/apis">Liste des outils</a>-->
             <!--<a class="medium screen only item" href="/services">Liste des cas services</a>-->
-            <h1>Outils de consultation en ligne</h1>
+            {% for item in site.data.topmenu %}
+                    <a href="{{ item.link }}" class="header item medium">{{ item.name }}</a>
+            {% endfor %}
           </nav>
         </header>
         <main{% if page.nom %} id="{{ page.nom }}" {% endif %}>

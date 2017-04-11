@@ -1,0 +1,9 @@
+---
+- name: Comment faire une consultation ?
+  link: bonnes-pratiques.html
+- name: Pourquoi ?
+  link: apropos.html
+- name: Les outils
+  link: outils.html
+- name: Les cas d'usage
+  link: usages.html
