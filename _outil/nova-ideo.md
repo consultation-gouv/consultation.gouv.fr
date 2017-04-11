@@ -1,7 +1,7 @@
 ---
 title: Nova Ideo
-tagline: La fusion du meilleur de la boîte à idées, du portail collaboratif et des
-  outils de communication internes
+tagline: 'La fusion du meilleur de la boîte à idées, du portail collaboratif et des
+  outils de communication internes '
 doc_tech: https://www.nova-ideo.com/documentation
 domain: https://www.nova-ideo.com/
 url_video_demo: https://www.youtube.com/embed/gYkACVDFmeg
