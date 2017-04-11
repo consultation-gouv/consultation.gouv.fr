@@ -5,7 +5,9 @@ nom: bonnes-pratiques
 ---
 # Comment faire une bonne consultation ?
 
-Attention, réalisez une consultation publique en ligne n'est pas une mince affaire.**1. Préparer sa consultation :**
+Attention, réalisez une consultation publique en ligne n'est pas une mince affaire.
+
+**1. Préparer sa consultation :**
 
 Il est primordial de prendre le temps de **bien préparer votre consultation** :
 * Déterminer précisément le **périmètre **de votre consultation,
