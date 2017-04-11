@@ -1,12 +1,12 @@
 ---
   - name: Les outils
-    link: outils.html
+    link: /outils.html
 
   - name: Les cas d'usage
-    link: usages.html
+    link: /usages.html
 
   - name: Pourquoi ces outils ?
-    link: apropos.html
+    link: /apropos.html
 
   - name: Comment faire une consultation ?
-    link: bonnes-pratiques.html
+    link: /bonnes-pratiques.html
