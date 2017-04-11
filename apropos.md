@@ -3,7 +3,6 @@ layout: pages
 title: pourquoi ces outils ?
 nom: pourquoi-outils
 ---
-
 Pourquoi ces outils ?
 ========
 
@@ -15,7 +14,7 @@ Tomorrow, you will be released. If you are bored of brawling with thieves and wa
 
 <section id="list" class="ui container main">
 	<div class="ui two stackable cards">
-		<a class="ui fluid card" href="comment-utiliser">
+		<a class="ui fluid card" href="comment-utiliser.html">
         	<div class="content">
         		<div class="header">Comment les utiliser ?</div>
            		<div class="description">
@@ -23,7 +22,7 @@ Tomorrow, you will be released. If you are bored of brawling with thieves and wa
         		</div>
         	</div>
         </a>
-        <a class="ui fluid card" href="comment-soumettre">
+        <a class="ui fluid card" href="comment-soumettre.html">
            	<div class="content">
            		<div class="header">Comment soumettre un outil ?</div>
            		<div class="description">
@@ -34,4 +33,3 @@ Tomorrow, you will be released. If you are bored of brawling with thieves and wa
         </a>
 	</div>
 </section>
-
