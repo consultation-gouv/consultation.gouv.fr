@@ -1,5 +1,7 @@
 ---
 layout: pages
+title: pourquoi ces outils ?
+nom: pourquoi-outils
 ---
 
 Pourquoi ces outils ?

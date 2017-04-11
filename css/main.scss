@@ -3,6 +3,16 @@
 ---
 
 @import "variables";
+@mixin picto($url) {
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		margin-left: -200px;
+		position: absolute;
+		content: "";
+		background:  url($url) no-repeat left 60%;
+		background-size: 100%;
+}
 
 #wrapper {
 	min-height: 100%;
@@ -15,15 +25,18 @@
 	padding-bottom: 10rem;
 	main {
 		&#bonnes-pratiques {
-			.container::before {
-				display: inline-block;
-				width: 200px;
-				height: 200px;
-				margin-left: -200px;
-				position: absolute;
-				content: "";
-				background:  url(/img/illu-comment-faire.png) no-repeat left 60%;
-				background-size: 100%;
+		& >	.container::before {
+                @include picto("/img/illu-comment-faire.png");
+			}
+		}
+		&#pourquoi-outils {
+		& >	.container::before {
+                @include picto("/img/illu-pourquoi-outils.png");
+			}
+		}
+		&#comment-utiliser {
+		& >	.container::before {
+                @include picto("/img/illu-comment-utiliser.png");
 			}
 		}
 
