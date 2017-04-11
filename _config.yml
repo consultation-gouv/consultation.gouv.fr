@@ -27,7 +27,7 @@ defaults:
       type: outil	# targets a collection
     values:
       layout: outil
-      default_logo: logo-generique-startup-carre.jpg
+      default_logo: 
 
   -
     scope:
