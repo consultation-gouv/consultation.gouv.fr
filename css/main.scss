@@ -49,6 +49,8 @@ header {
 	  background-repeat: no-repeat;
 	  background-size: contain;
 	  background-position: 0;
+	  min-height: 50px;
+	  height: 50px;
 	}
 
 	#logo {
@@ -90,28 +92,29 @@ footer {
     padding: 0.5em 0;
 }
 .ui.card, .ui.cards { 
-& > .image.visual {
-  height: 140px;
-  display: block;
-  overflow: hidden;
-  vertical-align: middle;
-  text-align: center;
-  position: relative;
-  & > img {
-    height: auto;
-    width: inherit;
-    min-width: auto;
-    max-height: 55%;
-    max-width: 55%;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+    & > .image.visual {
+        height: 140px;
+        display: block;
+        overflow: hidden;
+        vertical-align: middle;
+        text-align: center;
+        position: relative;
+        & > img {
+            height: auto;
+            width: inherit;
+            min-width: auto;
+            max-height: 55%;
+            max-width: 55%;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+      }
+    }
 }
-}
+
 input:focus::-webkit-input-placeholder{
     color: transparent!important;
 }
