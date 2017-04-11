@@ -85,16 +85,21 @@ footer {
 		text-align: center;
 	}
 }
-.visual {
+.ui.image img {
+    margin: auto;
+    padding: 0.5em 0;
+}
+.ui.card, .ui.cards { 
+& > .image.visual {
   height: 140px;
   display: block;
   overflow: hidden;
   vertical-align: middle;
   text-align: center;
   position: relative;
-  img {
+  & > img {
     height: auto;
-    width: auto;
+    width: inherit;
     min-width: auto;
     max-height: 55%;
     max-width: 55%;
@@ -106,7 +111,7 @@ footer {
     bottom: 0;
   }
 }
-
+}
 input:focus::-webkit-input-placeholder{
     color: transparent!important;
 }
