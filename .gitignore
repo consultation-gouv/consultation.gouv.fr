@@ -4,6 +4,7 @@ _site
 .DS_Store
 _algolia_api_key
 .idea
+ansible-playbook
 
 # Bundler
 .bundle
