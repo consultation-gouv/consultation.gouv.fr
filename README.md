@@ -57,10 +57,19 @@ Le site utilise [Jekyll], un générateur de site statique en [Ruby].
 
 * `docker-compose up`. Il suffit de se rendre sur l'URL indiquée à l'exécution de la commande.
 
+## Hébergement 
+Le site est hébergé sur un VPS.
+
 ## Déploiement
-TO DO
+La gestion et le déploiement du contenu du site se fait via l'outil en ligne Forestry.io.
 
+Forestry utilise la branche "master" du repository comme source de données pour construire un CMS à la volée. 
 
+A chaque publication de contenu depuis le CMS, Forestry compile les fichiers et les pousse dans la branche "hosting" du repository.
+
+Voir la documentation de Forestry : http://forestry.io/docs/
+
+[Forestry.io]: https://forestry.io
 [Jekyll]: http://jekyllrb.com/
 [Ruby]: https://www.ruby-lang.org
 [heroku]: https://dashboard.heroku.com/
