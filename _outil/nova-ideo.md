@@ -4,7 +4,7 @@ tagline: 'La fusion du meilleur de la boîte à idées, du portail collaboratif 
   outils de communication internes '
 doc_tech: https://www.nova-ideo.com/documentation
 domain: https://www.nova-ideo.com/
-url_video_demo: https://www.youtube.com/embed/gYkACVDFmeg
+url_video_demo: ''
 vignette_video_demo: logo-novaideo.png
 contact: contact@ecreall.com
 contract: Logiciel libre - AGPLv3+
