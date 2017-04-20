@@ -4,9 +4,9 @@ additional_css: homepage
 ---
 <section id="mission-statement">
       <div class="ui container three column stackable grid">
-          <div class="column"><img class="ui image" src="/img/illu-comment-faire.png" alt="Pourquoi utiliser " />Sed statuerimus loquimur et amicis quidquid numero amicis ante quos iis sapientiam ab aut ab.</div>
-          <div class="column"><img class="ui image" src="/img/illu-pourquoi-outils.png" alt="Une API connecte des services à la puissance d'internet" />Sed statuerimus loquimur et amicis quidquid numero amicis ante quos iis sapientiam ab aut ab.</div>
-          <div class="column"><img class="ui image" src="/img/illu-comment-utiliser.png" alt="Une API connecte des services à la puissance d'internet" />Sed statuerimus loquimur et amicis quidquid numero amicis ante quos iis sapientiam ab aut ab.</div>
+          {% for item in site.data.bandeauhome %}
+          <div class="column"><img class="ui image" src="/img/{{ item.image }}" alt="" />{{ item.name }}</div>
+          {% endfor %}
       </div>
 </section>
 
