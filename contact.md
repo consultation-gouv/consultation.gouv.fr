@@ -5,7 +5,7 @@ layout: pages
 
 ## Détails d'un outil
 
-Contactez directement le producteur de l'outil en question. Vous trouverez un lien de contact sur la page le décrivant. Trouvez la page correspondante depuis la [liste des outils](/outils).
+Contactez directement le producteur de l'outil en question. Vous trouverez un lien de contact sur la page le décrivant. Trouvez la page correspondante depuis la [liste des outils](/outils.hmtl).
 
 consultation.gouv.fr référence et permet de déployer des outils existants. Nous ne pouvons donc pas vous renseigner sur un outil spécifique.
 
@@ -18,7 +18,7 @@ Vous ne savez pas comment faire ? [Écrivez-nous](mailto:contact@consultation.g
 
 ## Proposer un outil
 
-La page [Comment Soumettre un outil](/comment-soumettre) explique la démarche de soumission d'outil de consultation.
+La page [Comment Soumettre un outil](/comment-soumettre.hmtl) explique la démarche de soumission d'outil de consultation.
 
 ## Autres
 
