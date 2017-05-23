@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: default
 title: Les bonnes pratiques
 nom: bonnes-pratiques
 date: '2017-05-23T15:18:28.532Z'
