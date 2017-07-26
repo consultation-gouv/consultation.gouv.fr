@@ -10,8 +10,8 @@ collections:
     folder: ""
     create: false
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "text"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "mardown"}
 
   - name: "outil" #
     label: "Outil" #
