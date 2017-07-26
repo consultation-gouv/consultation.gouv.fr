@@ -1,9 +1,11 @@
 ---
-- name: Comment faire une consultation ?
-  link: "/bonnes-pratiques.html"
-- name: Pourquoi ?
-  link: "/apropos.html"
-- name: Les outils
-  link: "/outils.html"
-- name: Les cas d'usage
-  link: "/usages.html"
+- name: NOTRE PROJET
+  link: "/leprojet.html"
+- name: L'ART DE LA CONSULTATION
+  link: "/laconsultation.html"
+- name: LES OUTILS
+  link: "/lesoutils.html"
+- name: LES CRITÈRES DE SÉLECTION
+  link: "/criteres.html"
+- name: CONTACT
+  link: "/contact.html"

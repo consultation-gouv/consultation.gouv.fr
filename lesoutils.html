@@ -1,0 +1,68 @@
+---
+layout: default
+additional_css: outil
+---
+
+<section id="list" class="ui container main">
+	<h2>Tous les outils proposés</h2>
+	<div class="ui four stackable cards">
+		{% for outil in site.outil %}
+			{% include outil-card.html description=outil %}
+		{% endfor %}
+	</div>
+</section>
+
+
+
+<section id="notre-plateforme">
+  <h2> La plateforme </h2>
+  <h3>Créez votre consultation en ligne en quelques clics</h3>
+</section>
+
+<section id="espace-1">
+  <div class="ui container espace-des">
+    <div class="ui grid stackable">
+      <div class="height wide column">
+        <h2>1. Remplissez le formulaire</h2>
+        <p> Définissez l’URL et le nom de votre consultation et entrez vos informations personnelles (nom, prénom, administration).
+          <br> Saisissez votre adresse e-mail. À noter que seules les adresses de l’administration centrale (.gouv) sont
+          acceptées pour l’instant.</p>
+      </div>
+      <div class="height wide column">
+        <img class="espace-illustration" src="/img/espace-1.svg" alt="Illustration Consultation">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="espace-2">
+  <div class="ui container espace-des">
+    <div class="ui grid stackable">
+      <div class="height wide column">
+        <img class="espace-illustration" src="/img/espace-2.svg" alt="Illustration Plateforme">
+      </div>
+      <div class="height wide column">
+        <h2>2. Validez votre adresse e-mail</h2>
+        <p> Vous allez rapidement recevoir un e-mail de confirmation. Il faut bien vérifier que cet e-mail ne soit pas dans
+          vos spams.
+          <br> Cliquez sur le lien mentionné sur l’e-mail pour valider votre adresse.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="espace-3">
+  <div class="ui container espace-des">
+    <div class="ui grid stackable">
+      <div class="height wide column">
+        <h2>3. Créez votre consultation !</h2>
+        <p> La plateforme va mettre en place la base de données de votre consultation. Le délai de déploiement peut prendre
+          jusqu’à 48h.
+          <br>Vous recevrez un e-mail lorsque la base de données sera prête. Vous pouvez commencer !</p>
+      </div>
+      <div class="height wide column">
+        <img class="espace-illustration" src="/img/espace-3.svg" alt="Illustration Consultation">
+      </div>
+    </div>
+  </div>
+</section>

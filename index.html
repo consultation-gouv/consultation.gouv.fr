@@ -2,36 +2,55 @@
 layout: default
 additional_css: homepage
 ---
+
 <section id="mission-statement">
+    <h3> La mission Etalab et les acteurs de la Civic Tech ont collaboré pour proposer aux administrations des outils de consultation citoyen. Ces outils sont :</h3>
       <div class="ui container three column stackable grid">
           {% for item in site.data.bandeauhome %}
-          <div class="column"><img class="ui image" src="/img/%7B%7B%20item.image%20%7D%7D" alt="">{{ item.name }}</div>
+          <div class="column"><img class="ui image top-icons" src="/img/{{ item.image }}" alt="">{{ item.name }}</div>
           {% endfor %}
       </div>
 </section>
 
-<section id="apis">
+<section id="home-des">
   <div class="ui container">
-    <h2>Comment faire une bonne consultation en ligne ?</h2>
-    &nbsp;«&nbsp;Les consultations ouvertes sur internet constituent un outil de participation du public à l’élaboration des décisions. Pour être utiles, tant pour l’administration que pllkjlkjlkjour le public, elles doivent être utilisées de façon ciblées, en y consacrant des moyens suffisants, dans le respect de la déontologie qui doit accompagner tout processus d’élaboration d’une décision publique&nbsp;»<p><a href="http://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2016/12/coepia_consultations_ouvertes_sur_internet_2016.pdf">Rapport du COEPIA sur les Consultations ouvertes sur internet organisées par les administrations.</a></p>
-    
-    <a class="ui button moreButton" href="/bonnes-pratiques.html">Les bonnes pratiques</a>
+          <div class="ui grid stackable">
+        <div class="height wide column">
+    <h2>Pourquoi faire une consultation ?</h2>
+   <p> La consultation citoyenne est un processus d’élaboration d’une décision publique par concertation et co-construction avec un public de participants. Les consultations peuvent être réalisées en ligne via l’utilisation d’outils participatifs dédiés à cet usage.
+Nous avons construit pour vous, la démarche type à suivre pour mener une consultation en ligne de qualité :</p>    
+    <a class="ui button moreButton" href="/laconsultation.html">Découvrez les bonnes pratiques</a>
   </div>
+      <div class="height wide column">
+    <img class="home-illustration" src="/img/consultation.svg" alt="Illustration Consultation">  
+  </div>
+  </div>
+    </div>
 </section>
 
-<section id="usages" class="ui container">
-  <h2>Découvrez les outils de consultation</h2>
+<section id="home-des">
+  <div class="ui container">
+          <div class="ui grid stackable">
+        <div class="height wide column">
+        <img class="home-illustration" src="/img/plateforme.svg" alt="Illustration Plateforme">   
+  </div>
+      <div class="height wide column">
+     <h2>Pourquoi ce projet ?</h2>
+   <p> Consultation.gouv est un espace unique répertoriant les solutions de consultation ouvertes sur Internet labellisées par l'État. Les éditeurs sélectionnés mettent à disposition des organisations des solutions sur un premier niveau de service.
+Consultation.gouv vous permet de déployer simplement ces solutions directement depuis la plateforme.</p>    
+    <a class="ui button moreButton" href="/leprojet.html"> En savoir plus sur le projet</a>  
+  </div>
+  </div>
+    </div>
+</section>
 
+<section id="usages">
+  <h2> Les outils de consultation sélectionnés pour vous</h2>
+<div class="ui container">
     <div class="ui four stackable cards">
         {% for outil in site.outil %}
         {% include outil-card.html description=outil %}
         {% endfor %}
     </div>
-</section>
-
-<section id="description" class="ui container">
-    <h2>Comment utiliser ces outils ?</h2>
-   
-    <p>Les outils présentés sur cette plateforme vous permettent d’avoir accès dans un délais de 48h maximum à une plateforme de consultation hébergée chez l’éditeur de logiciel porteur de l’outil. Cette plateforme contient une offre de base, gratuite.</p><p>Au besoin, vous pouvez demander le développement de fonctionnalités spécifiques ou vous faire accompagner à la mise en œuvre de votre consultation. Les outils présentés à ce jour répondent à des critères de sécurité et d’usages adaptés aux administrations publiques. </p> 
-    <a class="ui button moreButton" href="/apropos.html">En savoir plus</a>
+    </div>
 </section>

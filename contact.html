@@ -1,0 +1,28 @@
+---
+layout: default
+additional_css: contact
+---
+
+<section id="contact">
+  <h2> Contacter les éditeurs d'outils </h2>
+  <div class="ui container">
+    <div class="ui four stackable cards">
+      {% for outil in site.outil %} {% include outil-card-contact.html description=outil %} {% endfor %}
+    </div>
+  </div>
+
+  <div id="contact-details" class="ui container">
+    <h2> Aidez-nous à améliorer le site consultation.gouv.fr </h2>
+    <p> Vous avez repéré un problème ou souhaitez proposer une amélioration du catalogue ? </p>
+    <a class="ui button moreButton" href="https://github.com/consultation-gouv/consultation.gouv.fr"> Suggérez-la sur github !</a>
+    <p id="dunno" ><small> Vous ne savez pas comment faire ?  <a href="mailto:consultation@etalab.gouv.fr">Contactez-nous</a></small></p>
+
+    <h2 id="soumettre-outil"> Soumettre un outil </h2>
+    <p> Vous êtes éditeur d’un outil de consultation citoyen et vous souhaitez voir votre solution sur notre plateforme ? Vérifiez
+      que vous êtes éligible grâce aux critères de sélection et envoyez-nous un message ! </p>
+    <a class="ui button moreButton2" href="mailto:consultation@etalab.gouv.fr"> consultation@etalab.gouv.fr</a>
+
+    <h2> Contactez-nous ! </h2>
+    <a class="ui button moreButton" href="mailto:consultation@etalab.gouv.fr"> consultation@etalab.gouv.fr</a>
+  </div>
+</section>

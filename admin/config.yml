@@ -1,0 +1,47 @@
+backend:
+  name: github
+  repo: your-github-login/your-repo-name
+  branch: master
+  site_domain: something-random-40716.netlify.com
+media_folder: "images/uploads"
+collections:
+  - name: "outil" #
+    label: "Outil" #
+    folder: "_outil"
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Chemin", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "tagline", name: "tagline", widget: "string"}
+      - {label: "img-bg", name: "img-bg", widget: "image"}
+      - {label: "doc_tech", name: "doc_tech", widget: "string"}
+      - {label: "domain", name: "domain", widget: "string"}
+      - {label: "demo", name: "demo", widget: "string"}
+      - {label: "url_video_demo", name: "url_video_demo", widget: "string"}
+      - {label: "vignette_video_demo", name: "vignette_video_demo", widget: "string"}
+      - {label: "contact", name: "contact", widget: "string"}
+      - {label: "contract", name: "contract", widget: "string"}
+      - {label: "logo", name: "logo", widget: "image"}
+      - {label: "clients", name: "clients", widget: "markdown"}
+      - {label: "owner", name: "owner", widget: "string"}
+      - {label: "access_link", name: "access_link", widget: "string"}
+      - {label: "developer", name: "developer", widget: "string"}
+      - {label: "programming_language", name: "programming_language", widget: "string"}
+      - {label: "languages", name: "languages", widget: "string"}
+      - {label: "opensource", name: "opensource", widget: "string"}
+      - {label: "source", name: "source", widget: "string"}
+      - {label: "date", name: "date", widget: "datetime"}
+      - {label: "atout1", name: "atout1", widget: "string"}
+      - {label: "atout2", name: "atout2", widget: "string"}
+      - {label: "atout3", name: "atout3", widget: "string"}
+      - {label: "feature_inclus1", name: "feature_inclus1", widget: "string"}
+      - {label: "feature_inclus2", name: "feature_inclus2", widget: "string"}
+      - {label: "feature_inclus3", name: "feature_inclus3", widget: "string"}
+      - {label: "feature_plusloin1", name: "feature_plusloin1", widget: "string"}
+      - {label: "feature_plusloin2", name: "feature_plusloin2", widget: "string"}
+      - {label: "feature_plusloin3", name: "feature_plusloin3", widget: "string"}
+      - {label: "accompagnement_plusloin1", name: "accompagnement_plusloin1", widget: "string"}
+      - {label: "accompagnement_plusloin2", name: "accompagnement_plusloin2", widget: "string"}
+      - {label: "accompagnement_plusloin3", name: "accompagnement_plusloin3", widget: "string"}

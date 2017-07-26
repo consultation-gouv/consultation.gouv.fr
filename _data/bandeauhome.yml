@@ -1,10 +1,7 @@
 ---
-- name: Sed statuerimus loquimur et amicis quidquid numero amicis ante quos iis sapientiam
-    ab aut ab.
-  image: illu-comment-utiliser.png
-- name: Statuerimus loquimur et amicis quidquid numero amicis ante quos iis sapientiam
-    ab aut ab
-  image: illu-comment-faire.png
-- name: Loquimur et amicis quidquid numero amicis ante quos iis sapientiam ab aut
-    ab
-  image: illu-pourquoi-outils.png
+- name: Déployables en quelques clics
+  image: home-1.svg
+- name: Ergonomiques et simples à prendre en main 
+  image: home-2.svg
+- name: Gratuits sur un premier niveau de services
+  image: home-3.svg

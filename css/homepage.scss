@@ -5,13 +5,23 @@
 @import "variables";
 @import "usage";
 
+
+@media ( max-width: 768px ) {
 #mission-statement {
-  background: $backgroundBlue;
+padding-top: 30% !important;
+}
+}
+
+#mission-statement {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.4)),url('/img/flying-bees.jpg');
+  background-size: cover;
+  background-position: center top;
   color: #fff;
   font-size: 115%;
   text-align: center;
-  padding-top: 8%;
+  padding-top: 10%;
   padding-bottom: 8%;
+
 
   .input {
     min-width: 60%;
@@ -23,6 +33,14 @@
     color: #fff;
     font-size: 200%;
     line-height: 1.8;
+  }
+
+  h3 {
+    font-weight: 500;
+    max-width: 900px; 
+    margin: auto;
+    padding: 0 0 3em;
+    line-height: 2.5rem;
   }
 
   .header-with-image {
@@ -60,17 +78,21 @@
   }
 }
 
+
+
 section {
-  padding: 4% 0 0 0;
+  padding: 5% 0;
 
   h2 {
     text-align: left;
+    color: $simulation-color;
   }
 }
 
-section#apis {
-
-
+section#home-des {
+p {
+  line-height: 2rem;
+}
 }
 
 #description {
@@ -89,6 +111,10 @@ a.ui.button.moreButton {
   color: #fff;
   text-shadow: none;
   background-image: none;
+  padding: 15px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 
   &:hover {
     background-color: darken($simulation-color, 5%)
@@ -114,4 +140,25 @@ a.ui.big.button.moreButton {
     margin-top: 10px;
     font-size: 1.3em;
   }
+}
+
+section#usages {
+  background-color: $simulation-color;
+  padding-bottom: 8em;
+    h2{
+      text-align: center;
+      color: #fff;
+    }
+}
+
+.home-illustration {
+  max-width: 250px;
+  margin: auto;
+  display: block;
+} 
+
+.top-icons {
+  width : 100px;
+  margin: auto;
+  padding: 0 0 1em;
 }

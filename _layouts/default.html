@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    <div id="wrapper">
-      <div id="page">
-        <header>
-          <nav class="ui container secondary menu">
-            <a class="header item" id="logo" href="/">consultation.gouv.fr</a>
-            <!--<a class="medium screen only item" href="/apis">Liste des outils</a>-->
-            <!--<a class="medium screen only item" href="/services">Liste des cas services</a>-->
-            {% for item in site.data.topmenu %}
-                    <a href="{{ item.link }}" class="header item medium">{{ item.name }}</a>
-            {% endfor %}
-          </nav>
-        </header>
-        <main{% if page.nom %} id="{{ page.nom }}" {% endif %}>
-          {{ content }}
+  <div id="wrapper">
+    <div id="page">
+      <header>
+        <nav class="ui secondary menu">
+            <a href="index.html">             
+                <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
+         <a href="/index.html">
+            <img id="header-logo" alt="Brand" src="/img/logo-long.svg" width="360" height="50"></a>
+          <!--<a class="medium screen only item" href="/apis">Liste des outils</a>-->
+          <!--<a class="medium screen only item" href="/services">Liste des cas services</a>-->
+        <div class="right menu">
+          {% for item in site.data.topmenu %}
+          <a href="{{ item.link }}" class="header item medium">{{ item.name }}</a> {% endfor %}           
+       </div>
+
+  <div  id="mobile-menu" class="ui dropdown">
+  <div class="text">MENU</div>
+  <i class="dropdown icon"></i>
+  <div class="menu">
+    {% for item in site.data.topmenu %}
+    <a href="{{ item.link }}" class="item">{{ item.name }}</a> {% endfor %}
+
+    </div>    
+  </div>
+
+        </nav>
+      </header> 
+
+
+      <main{% if page.nom %} id="{{ page.nom }}" {% endif %}>
+        {{ content }}
         </main>
         {% include footer.html %}
-      </div>
     </div>
-    <script>
+  </div>
+  <script>
     $('.ui.dropdown').dropdown();
-    </script>
-    {% include analytics.html %}
-  </body>
+    
+  </script>
+  {% include analytics.html %}
+</body>
+
+
+
 </html>

@@ -1,9 +1,20 @@
 ---
-- name: Les outils
-  link: "/outils.html"
-- name: Les cas d'usage
-  link: "/usages.html"
-- name: Pourquoi ces outils ?
-  link: "/apropos.html"
-- name: Comment faire une consultation ?
-  link: "/bonnes-pratiques.html"
+plateforme:
+- name: Condition générales d'utilisation
+  link: "/cgu.html"
+- name: Mentions légales
+  link: "/mentions.html"
+- name: À propos
+  link: "/leprojet.html"
+- name: Contact
+  link: "/contact.html"
+outils:
+- name: Les outils disponibles
+  link: "/lesoutils.html"
+- name: Proposer un outil
+  link: "/contact.html#dunno"
+consultation:
+- name: Nos contributeurs
+  link: "leprojet.html#espace-4"
+- name: Documentation utile
+  link: "/laconsultation.html#bonnes-pratiques"
