@@ -20,7 +20,7 @@ collections:
       - {label: "domain", name: "domain", widget: "string"}
       - {label: "demo", name: "demo", widget: "string"}
       - {label: "url_video_demo", name: "url_video_demo", widget: "string"}
-      - {label: "vignette_video_demo", name: "vignette_video_demo", widget: "string"}
+      - {label: "vignette_video_demo", name: "vignette_video_demo", widget: "image"}
       - {label: "contact", name: "contact", widget: "string"}
       - {label: "contract", name: "contract", widget: "string"}
       - {label: "logo", name: "logo", widget: "image"}
@@ -45,3 +45,18 @@ collections:
       - {label: "accompagnement_plusloin1", name: "accompagnement_plusloin1", widget: "string"}
       - {label: "accompagnement_plusloin2", name: "accompagnement_plusloin2", widget: "string"}
       - {label: "accompagnement_plusloin3", name: "accompagnement_plusloin3", widget: "string"}
+
+  - name: "usage" #
+    label: "Usage" #
+    folder: "_usage"
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "link", name: "body", widget: "string"}
+      - {label: "description", name: "body", widget: "string"}
+      - {label: "outil", name: "body", widget: "select"}
+      - {label: "screenshot", name: "body", widget: "image"}
+      - {label: "date", name: "body", widget: "datetime"}
