@@ -57,6 +57,6 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "link", name: "body", widget: "string"}
       - {label: "description", name: "body", widget: "string"}
-      - {label: "outil", name: "body", widget: "select"}
+      - {label: "outil", name: "body", widget: "select", options: ["democracyos", "cap-collectif", "assembl", "nova-ideo"]}
       - {label: "screenshot", name: "body", widget: "image"}
       - {label: "date", name: "body", widget: "datetime"}
