@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: your-github-login/your-repo-name
+  repo: consultation-gouv/consultation.gouv.fr
   branch: master
-  site_domain: something-random-40716.netlify.com
-media_folder: "images/uploads"
+  site_domain: consultation2.etalab.gouv.fr
+media_folder: "img"
 collections:
   - name: "outil" #
     label: "Outil" #
