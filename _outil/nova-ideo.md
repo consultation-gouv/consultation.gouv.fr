@@ -26,11 +26,15 @@ atout1: Capacité à créer plusieurs groupes de travail (12 personnes maximum) 
 atout2: Gestion efficace de discordes lors des débats par la création d'amendements automatiques facilitant le consensus
 atout3: Tri automatique des propositions et des votes par un système de jetons afin de gagner en visibilité et transparence
 feature_inclus1: L'offre gratuite dispose de tous les services, mais est ouverte et donc il n'y a pas de confidentialité ; tous les contenus sont visibles
-feature_plusloin1: Gestion de la sélection des membres et de la confidentialité des contenus
+feature_inclus2:
+feature_inclus3:
+feature_plusloin1:
+feature_plusloin2:
+feature_plusloin3:Gestion de la sélection des membres et de la confidentialité des contenus
 accompagnement_inclus1: Maintenance assurée par un système de tickets traité par Nova Ideo (sans engagement)
 accompagnement_plusloin1: Engagement de maintenance avec un traitement dans les 4 heures
 accompagnement_plusloin2: Formations par webinaires
-accompagnement_plusloin2: Accompagnement téléphonique (si nécéssaire)
+accompagnement_plusloin3: Accompagnement téléphonique (si nécéssaire)
 ---
 
 * Une bonne proposition est une proposition travaillée collectivement qui a franchi tous les "Oui, mais", et qui fait consensus.
