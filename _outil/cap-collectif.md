@@ -5,9 +5,7 @@ accompagnement_inclus1: >-
 accompagnement_inclus2: Assistance technique en ligne et maintenance corrective
 accompagnement_inclus3: Formation d’une journée
 title: Cap Collectif
-tagline: >-
-  Une plateforme d’fdfsfdsfsdfsdfintelligence collective complète et
-  polyvalente.
+tagline: Une plateforme d’intelligence collective complète et polyvalente.
 img-bg: cap-bg
 doc_tech: .
 domain: 'https://cap-collectif.com/'
@@ -47,9 +45,10 @@ accompagnement_plusloin2: Formation(s) supplémentaire(s)
 accompagnement_plusloin3: Réalisation des synthèses
 ---
 
-* Cap Collectif est uESTETSTETSTETne plateforme participative dotée de 6 applications : consultation,
+* Cap Collectif est une plateforme participative dotée de 6 applications : consultation,
 budget participatif, appel à projets, questionnaire, interpellation, boîte à idées.gdfgdfg
 
 * Cap Collectif constitue la boîte à outils complète du gouvernement ouvert, adaptée à de
 multiples cas d’usages : de la simple enquête à la construction collaborative des projets
 de loi, en passant par les appels à projets.
+
