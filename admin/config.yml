@@ -50,6 +50,9 @@ collections:
       - {label: "feature_plusloin1", name: "feature_plusloin1", widget: "string"}
       - {label: "feature_plusloin2", name: "feature_plusloin2", widget: "string"}
       - {label: "feature_plusloin3", name: "feature_plusloin3", widget: "string"}
+      - {label: "accompagnement_inclus1", name: "accompagnement_inclus1", widget: "string"}
+      - {label: "accompagnement_inclus2", name: "accompagnement_inclus2", widget: "string"}
+      - {label: "accompagnement_inclus3", name: "accompagnement_inclus3", widget: "string"}
       - {label: "accompagnement_plusloin1", name: "accompagnement_plusloin1", widget: "string"}
       - {label: "accompagnement_plusloin2", name: "accompagnement_plusloin2", widget: "string"}
       - {label: "accompagnement_plusloin3", name: "accompagnement_plusloin3", widget: "string"}
