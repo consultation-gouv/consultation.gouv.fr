@@ -5,6 +5,14 @@ backend:
   site_domain: consultation2.etalab.gouv.fr
 media_folder: "img"
 collections:
+  - name: "pages"
+    label: "Pages"
+    folder: ""
+    create: false
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "text"}
+
   - name: "outil" #
     label: "Outil" #
     folder: "_outil"
