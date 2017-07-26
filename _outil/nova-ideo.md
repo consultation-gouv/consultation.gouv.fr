@@ -30,7 +30,7 @@ feature_inclus2:
 feature_inclus3:
 feature_plusloin1:
 feature_plusloin2:
-feature_plusloin3:Gestion de la sélection des membres et de la confidentialité des contenus
+feature_plusloin3: Gestion de la sélection des membres et de la confidentialité des contenus
 accompagnement_inclus1: Maintenance assurée par un système de tickets traité par Nova Ideo (sans engagement)
 accompagnement_plusloin1: Engagement de maintenance avec un traitement dans les 4 heures
 accompagnement_plusloin2: Formations par webinaires
