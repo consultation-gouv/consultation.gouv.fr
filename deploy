@@ -1,10 +1,9 @@
 #!/bin/bash
 
 echo "Start deploy"
-git pull
-bundle exec jekyll doctor
-bundle exec jekyll build
-#scp -r _site/ consultation@pprod.consultation.etalab.gouv.fr:/home/consultation/consultation-site/_site
+ssh -tq consultation@pprod.consultation.etalab.gouv.fr "bash -lc 'cd /home/consultation/consultation.gouv.fr && git pull'"
+ssh -tq consultation@pprod.consultation.etalab.gouv.fr "bash -lc 'cd /home/consultation/consultation.gouv.fr && bundle exec jekyll doctor'"
+ssh -tq consultation@pprod.consultation.etalab.gouv.fr "bash -lc 'cd /home/consultation/consultation.gouv.fr && bundle exec jekyll build'"
 echo "Deployed Successfully!"
 
 exit 0
