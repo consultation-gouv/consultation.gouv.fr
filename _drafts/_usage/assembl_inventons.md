@@ -1,5 +1,5 @@
 ---
-title: "Débat « Inventons 2017 » : le manifeste des jeunes à la Présidentielle"
+title: 'Débat « Inventons 2017 » : le manifeste des jeunes à la Présidentielle'
 link: http://inventons2017.fr/
 description: Démarche d'intelligence collective en ligne
 outil:
