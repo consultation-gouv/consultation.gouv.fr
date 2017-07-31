@@ -4,7 +4,7 @@ tagline: Mobiliser le plus grand nombre autour d'un enjeu clé et co-construire 
   solutions, en 2 mois
 doc_tech: http://assembl.bluenove.com/user-guides-and-documentation/
 domain: http://assembl.bluenove.com
-img-bg: assembl-bg.jpg
+img-bg: assembl-bg
 url_video_demo: ''
 vignette_video_demo: assembl.png
 contact: contact@bluenove.com
