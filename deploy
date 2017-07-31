@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "Start deploy"
-ssh -tq consultation@ "bash -lc 'cd /home//consultation.gouv.fr && git pull'"
-ssh -tq consultation@ "bash -lc 'cd /home//consultation.gouv.fr && bundle exec jekyll doctor'"
-ssh -tq consultation@ "bash -lc 'cd /home//consultation.gouv.fr && bundle exec jekyll build'"
+ssh -tq ogptoolbox@consultation.etalab.gouv.fr "bash -lc 'cd /home/ogptoolbox/consultation.gouv.fr && git pull'"
+ssh -tq ogptoolbox@consultation.etalab.gouv.fr "bash -lc 'cd /home/ogptoolbox/consultation.gouv.fr && bundle exec jekyll doctor'"
+ssh -tq ogptoolbox@consultation.etalab.gouv.fr "bash -lc 'cd /home/ogptoolbox/consultation.gouv.fr && bundle exec jekyll build'"
 echo "Deployed Successfully!"
 
 exit 0
