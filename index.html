@@ -6,7 +6,7 @@ additional_css: homepage
     <h3>La mission ETALAB et les acteurs de la Civic Tech ont collaboré pour proposer aux administrations des outils de consultation citoyen. Ces outils sont :</h3>
       <div class="ui container three column stackable grid">
           {% for item in site.data.bandeauhome %}
-          <div class="column"><img class="ui image top-icons" src="/img/%7B%7B%20item.image%20%7D%7D" alt="">{{ item.name }}</div>
+          <div class="column"><img class="ui image top-icons" src="{{ item.image }}" alt="">{{ item.name }}</div>
           {% endfor %}
       </div>
 </section>
