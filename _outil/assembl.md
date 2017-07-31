@@ -16,7 +16,7 @@ clients:
 - Ministères
 - Entreprises
 owner: Bluenove
-access_link: https://deploiement.pprod.consultation.etalab.gouv.fr/outils/assembl
+access_link: https://deploiement.consultation.etalab.gouv.fr/outil/assembl
 demo: http://discussions.bluenove.com/sandbox
 developer: Bluenove, Imagination for people
 programming_language: Python
