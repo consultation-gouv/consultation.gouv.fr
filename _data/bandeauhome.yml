@@ -1,5 +1,5 @@
 ---
-- image: "/uploads/2017/07/28/home-1.svg"
+- image: "../img/home-1.svg"
   name: Déployables en quelques clics
 - image: "../img/home-2.svg"
   name: Ergonomiques et simples à prendre en main
