@@ -44,10 +44,8 @@ layout: outil
 default_logo: ''
 ---
 
-* Cap Collectif est une plateforme participative dotée de 6 applications : consultation,
-budget participatif, appel à projets, questionnaire, interpellation, boîte à idées.gdfgdfg
 
-* Cap Collectif constitue la boîte à outils complète du gouvernement ouvert, adaptée à de
-multiples cas d’usages : de la simple enquête à la construction collaborative des projets
-de loi, en passant par les appels à projets.
+*
 
+*
+* Cap Collectif propose une plateforme utilisée actuellement par 8 ministères.
