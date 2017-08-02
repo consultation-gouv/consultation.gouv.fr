@@ -6,7 +6,7 @@ doc_tech: http://assembl.bluenove.com/user-guides-and-documentation/
 domain: http://assembl.bluenove.com
 img-bg: assembl-bg
 url_video_demo: https://player.vimeo.com/video/227922253
-vignette_video_demo: ''
+vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 contact: contact@bluenove.com
 contract: Logiciel libre - AGPLv3
 logo: assembl.png
