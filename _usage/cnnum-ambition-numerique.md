@@ -5,7 +5,7 @@ layout: usage
 link: https://contribuez.cnnumerique.fr/
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "/uploads/2017/08/23/CNNum - Ambition Numérique.jpg"
 title: CNNum - Ambition Numérique
 ---
 
