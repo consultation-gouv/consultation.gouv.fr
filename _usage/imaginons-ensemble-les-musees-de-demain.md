@@ -1,12 +1,12 @@
 ---
-layout: usage
-title: Imaginons ensemble les Musées de demain
 date: 2017-08-10 00:00:00 +0000
-link: http://consultation-musee21e.culturecommunication.gouv.fr/
 description: " Démarche d'intelligence collective en ligne "
+layout: usage
+link: http://consultation-musee21e.culturecommunication.gouv.fr/
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "./Imaginons ensemble les Musées de demain.jpg"
+title: Imaginons ensemble les Musées de demain
 ---
 
 
