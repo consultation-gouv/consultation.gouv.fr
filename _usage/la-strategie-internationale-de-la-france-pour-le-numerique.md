@@ -1,12 +1,12 @@
 ---
-layout: usage
-title: La stratégie internationale de la France pour le numérique
 date: 2017-08-10 00:00:00 +0000
-link: https://strategie-numerique-internationale-maedi.fr/
 description: " Démarche d'intelligence collective en ligne "
+layout: usage
+link: https://strategie-numerique-internationale-maedi.fr/
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "./La stratégie internationale de la France pour le numérique.png"
+title: La stratégie internationale de la France pour le numérique
 ---
 
 
