@@ -1,12 +1,12 @@
 ---
-layout: usage
-title: Etats Généraux de l'Alimentation
 date: 2017-08-10 00:00:00 +0000
-link: https://www.egalimentation.gouv.fr
 description: Démarche d'intelligence collective en ligne
+layout: usage
+link: https://www.egalimentation.gouv.fr
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "./Etats Généraux de l'Alimentation.png"
+title: Etats Généraux de l'Alimentation
 ---
 
 
