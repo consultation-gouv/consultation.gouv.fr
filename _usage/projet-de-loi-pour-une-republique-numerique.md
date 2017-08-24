@@ -1,12 +1,12 @@
 ---
-layout: usage
-title: Projet de loi pour une République numérique
 date: 2017-08-08 00:00:00 +0000
-link: https://www.republique-numerique.fr/
 description: 'Démarche d''intelligence collective en ligne '
+layout: usage
+link: https://www.republique-numerique.fr/
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "./Projet de loi pour une République Numérique.jpg"
+title: Projet de loi pour une République numérique
 ---
 
 
