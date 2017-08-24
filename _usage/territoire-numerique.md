@@ -1,14 +1,14 @@
 ---
-layout: usage
-title: Territoire Numérique
 date: 2017-08-11 00:00:00 +0000
-link: https://article69.agencedunumerique.gouv.fr/
 description: Une plateforme libre déployée avec la Boîte à Outils du Gouvernement
   Ouvert mise en place par Etalab avec le concours de DemocracyOS France et Open Source
   Politics.
+layout: usage
+link: https://article69.agencedunumerique.gouv.fr/
 outil:
 - DemocracyOS
-screenshot: ''
+screenshot: "./LEAD.png"
+title: Territoire Numérique
 ---
 
 
