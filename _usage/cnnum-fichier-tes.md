@@ -1,12 +1,12 @@
 ---
-layout: usage
-title: CNNum - Fichier TES
 date: 2017-08-10 00:00:00 +0000
-link: https://tes.cnnumerique.fr/
 description: " Démarche d'intelligence collective en ligne "
+layout: usage
+link: https://tes.cnnumerique.fr/
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "./CNNum - Fichier TES.jpg"
+title: CNNum - Fichier TES
 ---
 
 
