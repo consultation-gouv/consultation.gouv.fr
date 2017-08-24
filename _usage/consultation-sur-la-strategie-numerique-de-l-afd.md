@@ -1,12 +1,12 @@
 ---
-layout: usage
-title: Consultation sur la stratégie numérique de l'AFD
 date: 2017-08-10 00:00:00 +0000
-link: http://consultation-numerique.afd.fr/
 description: " Démarche d'intelligence collective en ligne "
+layout: usage
+link: http://consultation-numerique.afd.fr/
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "./Consultation sur la stratégie numérique de l'AFD.jpg"
+title: Consultation sur la stratégie numérique de l'AFD
 ---
 
 
