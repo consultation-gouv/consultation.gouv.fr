@@ -1,12 +1,12 @@
 ---
-layout: usage
-title: Projet de loi Égalité et Citoyenneté
 date: 2017-08-08 00:00:00 +0000
-link: https://www.egalite-citoyennete-participez.gouv.fr/
 description: Démarche d'intelligence collective en ligne
+layout: usage
+link: https://www.egalite-citoyennete-participez.gouv.fr/
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "./Projet de loi Égalité Citoyenneté.jpg"
+title: Projet de loi Égalité et Citoyenneté
 ---
 
 
