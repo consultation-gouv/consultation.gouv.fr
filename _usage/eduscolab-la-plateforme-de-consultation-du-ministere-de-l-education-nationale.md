@@ -6,7 +6,7 @@ link: http://eduscol.cap-collectif.com/
 description: " Démarche d'intelligence collective en ligne "
 outil:
 - Cap Collectif
-screenshot: ''
+screenshot: "./Eduscolab.jpg"
 ---
 
 
