@@ -1,12 +1,12 @@
 ---
-layout: usage
-title: Consultation de la Caisse des dépôts
 date: 2017-08-10 00:00:00 +0000
 description: Démarche d'intelligence collective en ligne
+layout: usage
+link: ''
 outil:
 - Cap Collectif
-link: ''
-screenshot: ''
+screenshot: "./Caisse des dépôts.png"
+title: Consultation de la Caisse des dépôts
 ---
 
 
