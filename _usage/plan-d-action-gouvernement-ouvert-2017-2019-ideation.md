@@ -4,7 +4,7 @@ description: Une plateforme libre déployée avec la Boîte à Outils du Gouvern
   Ouvert mise en place par Etalab avec le concours de DemocracyOS France et Open Source
   Politics.
 layout: usage
-link: https://gouvernement-ouvert.etalab.gouv.fr/pgo-ideation
+link: https://democracyos.consultation.etalab.gouv.fr/pgo-ideation
 outil:
 - DemocracyOS
 screenshot: "./PAN2ter-1024x256.jpg"
