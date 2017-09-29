@@ -1,29 +1,13 @@
 ---
-title: Assembl
-tagline: Mobiliser le plus grand nombre autour d'un enjeu clé et co-construire des
-  solutions, en 2 mois
-doc_tech: http://assembl.bluenove.com/user-guides-and-documentation/
-domain: http://assembl.bluenove.com
-img-bg: assembl-bg
-url_video_demo: https://player.vimeo.com/video/227922253
-vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
-contact: contact@bluenove.com
-contract: Logiciel libre - AGPLv3
-logo: assembl.png
-clients:
-- Collectivités
-- Administrations
-- Ministères
-- Entreprises
-owner: Bluenove
 access_link: https://deploiement.consultation.etalab.gouv.fr/outil/assembl
-demo: http://discussions.bluenove.com/sandbox
-developer: Bluenove, Imagination for people
-programming_language: Python
-languages: fr, en
-opensource: oui
-source: https://github.com/assembl/assembl
-date: '2017-04-04T15:57:58.478+00:00'
+accompagnement_inclus1: ''
+accompagnement_inclus2: ''
+accompagnement_inclus3: ''
+accompagnement_plusloin1: Conseil en stratégie de consultation.
+accompagnement_plusloin2: Formation et coaching au rôle de gestionnaire des connaissances
+  et prise en charge par bluenove des autres rôles d’animation (attrapage, synthèse)
+accompagnement_plusloin3: Co-rédaction des synthèses intermédiaires et du rapport
+  final.
 atout1: Garantie d’une expression libre et argumentée et d’une problématisation fine
   du sujet de la consultation
 atout2: 'Modularité de la plateforme et des fonctionnalités au travers plusieurs modules
@@ -31,6 +15,19 @@ atout2: 'Modularité de la plateforme et des fonctionnalités au travers plusieu
   vote par tokens ou analyse multi-critères.'
 atout3: Organisation en continu une grande masse d'information et productions périodiques
   de synthèses sur l’état des discussions.
+clients:
+- Collectivités
+- Administrations
+- Ministères
+- Entreprises
+contact: contact@bluenove.com
+contract: Logiciel libre - AGPLv3
+date: 2017-04-04 15:57:58 +0000
+default_logo: ''
+demo: http://discussions.bluenove.com/sandbox
+developer: Bluenove, Imagination for people
+doc_tech: http://assembl.bluenove.com/guides-utilisateurs-et-documentation/
+domain: http://assembl.bluenove.com
 feature_inclus1: Nombre de débats illimités, mise à disposition de la plateforme sur
   la durée de la consultation, support technique.
 feature_inclus2: 'Accès aux fonctionnalités de base : forum structuré, synthèse, vote
@@ -41,16 +38,19 @@ feature_plusloin1: 'Fonctionnalités de base et fonctionnalités avancées : mo
 feature_plusloin2: Tableau de bord d’indicateurs et data visualisations des dynamiques
   de participation (développées avec le MIT).
 feature_plusloin3: ''
-accompagnement_inclus1: ''
-accompagnement_inclus2: ''
-accompagnement_inclus3: ''
-accompagnement_plusloin1: Conseil en stratégie de consultation.
-accompagnement_plusloin2: Formation et coaching au rôle de gestionnaire des connaissances
-  et prise en charge par bluenove des autres rôles d’animation (attrapage, synthèse)
-accompagnement_plusloin3: Co-rédaction des synthèses intermédiaires et du rapport
-  final.
+img-bg: assembl-bg
+languages: fr, en
 layout: outil
-default_logo: ''
+logo: assembl.png
+opensource: oui
+owner: Bluenove
+programming_language: Python
+source: https://github.com/assembl/assembl
+tagline: Mobiliser le plus grand nombre autour d'un enjeu clé et co-construire des
+  solutions, en 2 mois
+title: Assembl
+url_video_demo: https://player.vimeo.com/video/227922253
+vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 ---
 
 * Assembl est le premier logiciel open source de débat en ligne, au service des acteurs publics, basé sur un forum structuré et argumenté permettant la mobilisation et la co-construction collective de plusieurs centaines ou milliers de contributeurs.
