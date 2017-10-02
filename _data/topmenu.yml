@@ -1,7 +1,7 @@
 ---
 - name: NOTRE PROJET
   link: "/leprojet.html"
-- name: L'ART DE LA CONSULTATION
+- name: LES BONNES PRATIQUES
   link: "/laconsultation.html"
 - name: LES OUTILS
   link: "/lesoutils.html"
