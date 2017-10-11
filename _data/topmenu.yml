@@ -1,11 +1,11 @@
 ---
-- name: PLATEFORME
-  link: "/leprojet.html"
-- name: LES BONNES PRATIQUES
-  link: "/laconsultation.html"
-- name: LES OUTILS
-  link: "/lesoutils.html"
-- name: LES CRITÈRES DE SÉLECTION
-  link: "/criteres.html"
-- name: CONTACT
-  link: "/contact.html"
+- link: "/leprojet.html"
+  name: PLATEFORME
+- link: "/laconsultation.html"
+  name: BONNES PRATIQUES
+- link: "/lesoutils.html"
+  name: LES OUTILS
+- link: "/criteres.html"
+  name: LES CRITÈRES DE SÉLECTION
+- link: "/contact.html"
+  name: CONTACT
