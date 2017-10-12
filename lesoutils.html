@@ -3,12 +3,11 @@ layout: default
 additional_css: outil
 ---
 <section id="list" class="ui container main">
-	<h2>Tous les outils proposés</h2>
+	<h2>Les outils de consultation proposés</h2>
 	<div class="ui four stackable cards">
 		{% for outil in site.outil %}
 			{% include outil-card.html description=outil %}
-		{% endfor %}
-	</div>
+		{% endfor %}<br><p><br></p></div>
 </section>
 
 
