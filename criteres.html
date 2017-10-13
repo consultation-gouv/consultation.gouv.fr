@@ -2,6 +2,7 @@
 layout: default
 additional_css: criteres
 ---
+
 <section id="criteres-table">
   <div class="ui container">
     <div class="ui grid centered stackable">
@@ -90,7 +91,7 @@ additional_css: criteres
             <!-- Tab 2 -->
 
             <div class="title">
-              Droit &amp; liberté
+              Droit & liberté
               <i class="angle down icon"></i>
             </div>
             <div class="content">
@@ -131,12 +132,12 @@ additional_css: criteres
               <p>Saisir le référencement des cas d'usages et du partenaire associé dans une plateforme dédiée</p>
               <h4>Tutoriel / présentation</h4>
               <p>
-                </p><ul>
+                <ul>
                   <li>Avoir un film qui présente l'offre gratuite de la plateforme, ainsi qu'un tutoriel / démo permettant une
                     prise en main de la plateforme</li>
                   <li>Saisir la description de la plateforme sur le site</li>
                 </ul>
-              <p></p>
+              </p>
             </div>
             <!-- Tab 4 -->
 
@@ -218,11 +219,11 @@ additional_css: criteres
                 </div>
               </div>
               <p>
-                </p><ul>
+                <ul>
                   <li>Respecter les standards pour être en mesure de répondre à un appel d'offre de l'État français</li>
                   <li>Fournir son numéro de Siret</li>
                 </ul>
-              <p></p>
+              </p>
               <h4>Juridique</h4>
               <div class="ui menu">
                 <a class="browse">
@@ -242,7 +243,7 @@ additional_css: criteres
             <!-- Tab 5 -->
 
             <div class="title">
-              Sécurité &amp; transparence
+              Sécurité & transparence
               <i class="angle down icon"></i>
             </div>
             <div class="content">
@@ -261,12 +262,12 @@ additional_css: criteres
                 </div>
               </div>
               <p>
-                </p><ul>
+                <ul>
                   <li>Permettre aux participants de pouvoir se créer un compte pour participer à la consultation.</li>
                   <li>Offrir la possibilité d'enregistrer ce compte sur un mode déclaratif, l'utilisation d'un pseudonyme devra
                     être accepté</li>
                 </ul>
-              <p></p>
+              </p>
               <h4>OWASP (Open Web Application Security Project)</h4>
                  <div class="ui menu">
                 <a class="browse">
@@ -297,7 +298,7 @@ additional_css: criteres
                 </div>
               </div>
               <p>
-                </p><ul>
+                <ul>
                   <li>Garantir la reproductibilité, sincérité, loyauté de la plateforme</li>
                   <li>Permettre la mise à disposition et l’accès à tout instant aux votes et/ou avis des citoyens comme prérequis
                     essentiel pour qu’un acteur tiers puisse vérifier informatiquement la transparence et la sincérité de
@@ -306,17 +307,17 @@ additional_css: criteres
                     permettant de récupérer ces mêmes éléments par l’intermédiaire d’une application tiers) </li>
                   <li>Mettre à disposition les données sous la licence ouverte (LO).</li>
                 </ul>
-              <p></p>
+              </p>
               <h4>Exploitation des données</h4>
               <p>
-                </p><ul>
+                <ul>
                   <li>Proposer un accès publics aux données des consultations à des fins statistiques (seules les données anonymisées
                     sur les votes et commentaires sont concernées) </li>
                   <li>Offrir un accès à la demande de l'administration via soit un export des données soit via une API (Application
                     Programming Interface). </li>
                   <li>Un accès à toutes les données pour l'administration</li>
                 </ul>
-              <p></p>
+              </p>
               <h4>Tracker</h4>
                   <div class="ui menu">
                 <a class="browse">
@@ -358,7 +359,24 @@ additional_css: criteres
   </div>
 
 </section>
-<script type="null"><br>  $('.menu .browse')<br>    .popup({<br>      inline: true,<br>      hoverable: true,<br>      position: 'bottom right',<br>      on: 'click',<br>      delay: {<br>        show: 300,<br>        hide: 800<br>      }<br>    })<br>    ;<br><br></script>
+<script>
+  $('.menu .browse')
+    .popup({
+      inline: true,
+      hoverable: true,
+      position: 'bottom right',
+      on: 'click',
+      delay: {
+        show: 300,
+        hide: 800
+      }
+    })
+    ;
+</script>
 
 
-<script type="null"><br>  $('.ui.accordion')<br>    .accordion()<br>    ;<br></script>
+<script>
+  $('.ui.accordion')
+    .accordion()
+    ;
+</script>
