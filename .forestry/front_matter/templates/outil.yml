@@ -1,0 +1,193 @@
+---
+pages:
+- _outil/nova-ideo.md
+- _outil/democracyos.md
+- _outil/cap-collectif.md
+- _outil/assembl.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: tagline
+  label: Tagline
+  type: textarea
+  hidden: false
+  default: ''
+- name: doc_tech
+  label: Doc tech
+  type: text
+  hidden: false
+  default: ''
+- name: domain
+  label: Domain
+  type: text
+  hidden: false
+  default: ''
+- name: img-bg
+  label: Img bg
+  type: text
+  hidden: false
+  default: ''
+- name: url_video_demo
+  label: Url video demo
+  type: text
+  hidden: false
+  default: ''
+- name: vignette_video_demo
+  label: Vignette video demo
+  type: file
+  hidden: false
+  default: ''
+- name: contact
+  label: Contact
+  type: text
+  hidden: false
+  default: ''
+- name: contract
+  label: Contract
+  type: text
+  hidden: false
+  default: ''
+- name: logo
+  label: Logo
+  type: file
+  hidden: false
+  default: ''
+- name: clients
+  label: Clients
+  type: list
+  hidden: false
+  default: ''
+- name: owner
+  label: Owner
+  type: text
+  hidden: false
+  default: ''
+- name: access_link
+  label: Access link
+  type: text
+  hidden: false
+  default: ''
+- name: demo
+  label: Demo
+  type: text
+  hidden: false
+  default: ''
+- name: developer
+  label: Developer
+  type: text
+  hidden: false
+  default: ''
+- name: programming_language
+  label: Programming language
+  type: text
+  hidden: false
+  default: ''
+- name: languages
+  label: Languages
+  type: text
+  hidden: false
+  default: ''
+- name: opensource
+  label: Opensource
+  type: text
+  hidden: false
+  default: ''
+- name: source
+  label: Source
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: atout1
+  label: Atout1
+  type: textarea
+  hidden: false
+  default: ''
+- name: atout2
+  label: Atout2
+  type: textarea
+  hidden: false
+  default: ''
+- name: atout3
+  label: Atout3
+  type: textarea
+  hidden: false
+  default: ''
+- name: feature_inclus1
+  label: Feature inclus1
+  type: textarea
+  hidden: false
+  default: ''
+- name: feature_inclus2
+  label: Feature inclus2
+  type: text
+  hidden: false
+  default: ''
+- name: feature_inclus3
+  label: Feature inclus3
+  type: text
+  hidden: false
+  default: ''
+- name: feature_plusloin1
+  label: Feature plusloin1
+  type: textarea
+  hidden: false
+  default: ''
+- name: feature_plusloin2
+  label: Feature plusloin2
+  type: textarea
+  hidden: false
+  default: ''
+- name: feature_plusloin3
+  label: Feature plusloin3
+  type: text
+  hidden: false
+  default: ''
+- name: accompagnement_inclus1
+  label: Accompagnement inclus1
+  type: textarea
+  hidden: false
+  default: ''
+- name: accompagnement_inclus2
+  label: Accompagnement inclus2
+  type: text
+  hidden: false
+  default: ''
+- name: accompagnement_inclus3
+  label: Accompagnement inclus3
+  type: text
+  hidden: false
+  default: ''
+- name: accompagnement_plusloin1
+  label: Accompagnement plusloin1
+  type: text
+  hidden: false
+  default: ''
+- name: accompagnement_plusloin2
+  label: Accompagnement plusloin2
+  type: textarea
+  hidden: false
+  default: ''
+- name: accompagnement_plusloin3
+  label: Accompagnement plusloin3
+  type: textarea
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: outil
+- name: default_logo
+  label: Default logo
+  type: text
+  hidden: false
+  default: 
