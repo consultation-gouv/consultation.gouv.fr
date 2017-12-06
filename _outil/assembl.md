@@ -1,6 +1,9 @@
 ---
 access_link: https://deploiement.consultation.etalab.gouv.fr/outil/assembl
-accompagnement_inclus1: ''
+accompagnement_inclus1: 'Aucun accompagnement n''est inclu. Cependant, Bluenove vous
+  recommande de demander un accompagnement par leurs équipes lors d''une première
+  consultation. Plusieurs format sont possibles : coaching, co-animation, délégation
+  de l''animation. '
 accompagnement_inclus2: ''
 accompagnement_inclus3: ''
 accompagnement_plusloin1: Conseil en stratégie de consultation.
