@@ -9,11 +9,9 @@ accompagnement_inclus3: ''
 accompagnement_plusloin1: Conseil en stratégie de consultation.
 accompagnement_plusloin2: |-
   Formation et coaching au rôle de gestionnaire des connaissances et prise en charge par bluenove des autres rôles d’animation (attrapage, synthèse)
-
   Co-rédaction des synthèses intermédiaires et du rapport final.
 accompagnement_plusloin3: |-
   Conseil sur les actions de communication et de recrutement et animation de la communauté
-
   Animation d'ateliers physiques d'intelligence collective en soutien de la démarche en ligne
 atout1: Garantie d’une expression libre et argumentée et d’une problématisation fine
   du sujet de la consultation
