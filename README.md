@@ -63,9 +63,13 @@ Le site est hébergé sur un VPS.
 ## Déploiement
 La gestion et le déploiement du contenu du site se fait via l'outil en ligne Forestry.io.
 
-Forestry utilise la branche "master" du repository comme source de données pour construire un CMS à la volée. 
+Forestry gère deux sites :
+* le site de production http://consultation.etalab.gouv.fr via la branche "production"
+* le site de pré-production/test http://pprod.consultation.etalab.gouv.fr via la branche "pprod"
 
-A chaque publication de contenu depuis le CMS, Forestry compile les fichiers et les pousse dans la branche "hosting" du repository.
+À chaque édition de contenu depuis son interface graphique,
+Forestryconstruit le site à la volée en compilant les fichiers, crée un
+commit git, et le pousse dans la branche correspondante.
 
 Voir la documentation de Forestry : http://forestry.io/docs/
 
