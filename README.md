@@ -11,7 +11,7 @@ NG.md#ajouter-un-service) !
 
 Le nom de domaine `consultation.gouv.fr` héberge un catalogue d'outils et de cas d'usage.
 
-Les sous-domaines en `*.consultation.gouv.fr` hébergent les outils cataloguées sur `consultation.gouv.fr` et maintenues par la <abbr title="Direction interministérielle du numérique et du système d'information et de communication">DINSIC</abbr>.
+Les sous-domaines en `*.consultation.gouv.fr` hébergent les outils catalogués sur `consultation.gouv.fr` et maintenus par la <abbr title="Direction interministérielle du numérique et du système d'information et de communication">DINSIC</abbr>.
 
 
 ## Installation locale
@@ -19,8 +19,8 @@ Les sous-domaines en `*.consultation.gouv.fr` hébergent les outils cataloguées
 Il est nécessaire de récupérer les sources avec la commande :
 
 ``` sh
-git clone https://github.com/etalab/consultation-site.git
-cd consultation-site
+git clone https://github.com/consultation-gouv/consultation.gouv.fr
+cd consultation.gouv.fr
 ```
 
 Il existe ensuite deux manières de lancer le site sur sa machine :
@@ -36,8 +36,8 @@ Le site utilise [Jekyll], un générateur de site statique en [Ruby].
 
 #### Dépendances
 
-* [Ruby](https://www.ruby-lang.org/en/downloads/). Il est recommandé d'utiliser un système de virtualisation comme [RVM](https://rvm.io/) ou [RbEnv](https://github.com/rbenv/rbenv). La version à utiliser est : `2.2.3`
- * [bundle](http://bundler.io/). La commande a lancer est : `gem install bundle`
+* [Ruby](https://www.ruby-lang.org/en/downloads/). Il est recommandé d'utiliser un système de virtualisation comme [RVM](https://rvm.io/) ou [RbEnv](https://github.com/rbenv/rbenv). La version à utiliser est : `2.3`
+* [bundle](http://bundler.io/). La commande a lancer est : `gem install bundle`
 
 #### Commandes
 
@@ -63,9 +63,13 @@ Le site est hébergé sur un VPS.
 ## Déploiement
 La gestion et le déploiement du contenu du site se fait via l'outil en ligne Forestry.io.
 
-Forestry utilise la branche "master" du repository comme source de données pour construire un CMS à la volée. 
+Forestry gère deux sites :
+* le site de production http://consultation.etalab.gouv.fr via la branche "production"
+* le site de pré-production/test http://pprod.consultation.etalab.gouv.fr via la branche "pprod"
 
-A chaque publication de contenu depuis le CMS, Forestry compile les fichiers et les pousse dans la branche "hosting" du repository.
+À chaque édition de contenu depuis son interface graphique,
+Forestryconstruit le site à la volée en compilant les fichiers, crée un
+commit git, et le pousse dans la branche correspondante.
 
 Voir la documentation de Forestry : http://forestry.io/docs/
 
