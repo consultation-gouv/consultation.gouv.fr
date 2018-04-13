@@ -1,15 +1,13 @@
 machine:
   ruby:
     version: 2.3.1
-  java:  # see <https://github.com/svenkreiss/html5validator#integration-with-circleci>
-    version: oraclejdk8
   environment:
     NOKOGIRI_USE_SYSTEM_LIBRARIES: true # Faster installation of nokogiri, required by html-proofer
 
 dependencies:
   post:
     - bundle exec jekyll --version # print it out
-    - sudo pip install html5validator
+    # - sudo pip install html5validator
 
 test:
   override:
@@ -19,8 +17,8 @@ test:
     #- bundle exec htmlproofer ./_site --assume-extension --check-html --disable-external --empty-alt-ignore
     #- html5validator --root _site
 
-#deployment:
-#  production:
-#    branch: master
-#    commands:
-#      - ./deploy
+deployment:
+  default:
+    branch: [pprod, production]
+    commands:
+      - ./deploy $CIRCLE_BRANCH
