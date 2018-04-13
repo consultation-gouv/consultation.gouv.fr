@@ -1,12 +1,10 @@
 FROM ruby:2.3
 
 RUN mkdir -p /opt/site
-
-RUN gem install github-pages --no-ri --no-rdoc
-RUN gem install mini_racer
-RUN gem install html-proofer
-
 WORKDIR /opt/site
+
+COPY Gemfile* ./
+RUN bundle install
 
 VOLUME /opt/site
 
