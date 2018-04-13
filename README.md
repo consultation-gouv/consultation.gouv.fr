@@ -75,8 +75,19 @@ crée un commit git représentant ces modifications, et le pousse dans la
 branche correspondante.
 
 De son côté, CircleCI démarre un build dès qu'une modification est
-poussée sur GitHub: après avoir construit le site statique, il le
-déploie sur la machine qui correspond à la branche.
+poussée sur GitHub. Après avoir construit le site statique et le
+vérifie.
+Si la branche est pprod ou production, le CircleCI le déploie aussi sur
+la machine correspondante, Si c'est master, le site est uniquement
+construit mais aucun déploiement n'est effectué.
+Les modifications centrales, n'ayant pas trait à du contenu, doivent
+donc être préférentiellement être faites sur master afin de bénéficier
+de la validation automatique.
+
+but not deploy it
+    anywhere: core modifications, not related to content, should be
+    performed there.
+
 
 [Forestry.io]: https://forestry.io
 [Jekyll]: http://jekyllrb.com/

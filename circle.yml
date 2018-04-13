@@ -20,7 +20,7 @@ test:
     #- html5validator --root _site
 
 deployment:
-  production:
-    branch: pprod
+  default:
+    branch: [pprod, production]
     commands:
-      - ./deploy
+      - ./deploy $CIRCLE_BRANCH
