@@ -16,7 +16,7 @@ clients:
 - Ministères
 - Entreprises
 owner: Ecréall
-access_link: https://deploiement.pprod.consultation.etalab.gouv.fr/outils/nova-ideo
+access_link: https://deploiement.consultation.etalab.gouv.fr/outil/nova-ideo
 developer: Ecréall
 programming_language: Python
 languages: fr, en
