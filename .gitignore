@@ -7,6 +7,7 @@ _algolia_api_key
 
 # Bundler
 .bundle
+vendor/bundle
 
 # Ruby
 .ruby-gemset
