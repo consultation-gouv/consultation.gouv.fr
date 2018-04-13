@@ -1,9 +1,17 @@
 #!/bin/bash
 
-echo "Start deploy"
-ssh -tq user@domain "bash -lc 'cd /home/user/consultation.gouv.fr && git pull'"
-ssh -tq user@domain "bash -lc 'cd /home/user/consultation.gouv.fr && bundle exec jekyll doctor'"
-ssh -tq user@domain "bash -lc 'cd /home/user/consultation.gouv.fr && bundle exec jekyll build'"
-echo "Deployed Successfully!"
+USER="consultation"
+HOST="pprod.consultation.etalab.gouv.fr"
 
-exit 0
+echo "Start deploy"
+
+ssh -tq ${USER}@${HOST} "bash -lc 'cd consultation.gouv.fr && git pull && bundle exec jekyll doctor && bundle exec jekyll build'"
+rc=$?
+
+if [ $? == 0 ] ; then
+  echo "Deploy successful"
+else
+  echo "Deploy failed"
+fi
+
+exit $rc
