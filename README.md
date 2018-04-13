@@ -61,17 +61,22 @@ Le site utilise [Jekyll], un générateur de site statique en [Ruby].
 Le site est hébergé sur un VPS.
 
 ## Déploiement
-La gestion et le déploiement du contenu du site se fait via l'outil en ligne Forestry.io.
+La gestion et le déploiement du contenu du site se font via l'outil en
+ligne [Forestry.io](https://forestry.io) (la documentation est
+disponible sur http://forestry.io/docs/), couplé à
+[CircleCI](https://circleci.com).
 
 Forestry gère deux sites :
 * le site de production http://consultation.etalab.gouv.fr via la branche "production"
 * le site de pré-production/test http://pprod.consultation.etalab.gouv.fr via la branche "pprod"
 
-À chaque édition de contenu depuis son interface graphique,
-Forestryconstruit le site à la volée en compilant les fichiers, crée un
-commit git, et le pousse dans la branche correspondante.
+À chaque édition de contenu depuis son interface graphique, Forestry
+crée un commit git représentant ces modifications, et le pousse dans la
+branche correspondante.
 
-Voir la documentation de Forestry : http://forestry.io/docs/
+De son côté, CircleCI démarre un build dès qu'une modification est
+poussée sur GitHub: après avoir construit le site statique, il le
+déploie sur la machine qui correspond à la branche.
 
 [Forestry.io]: https://forestry.io
 [Jekyll]: http://jekyllrb.com/
