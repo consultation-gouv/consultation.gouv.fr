@@ -1,9 +1,9 @@
 ---
 pages:
-- _outil/assembl.md
-- _outil/cap-collectif.md
-- _outil/democracyos.md
 - _outil/nova-ideo.md
+- _outil/democracyos.md
+- _outil/cap-collectif.md
+- _outil/assembl.md
 hide_body: false
 fields:
 - name: title
