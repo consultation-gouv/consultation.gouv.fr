@@ -6,7 +6,7 @@ additional_css: homepage
     <h3>Etalab et les acteurs de la Civic Tech ont collaboré pour <b>mettre à disposition des administrations des outils de consultation ouverte en ligne</b>. <br></h3><h3>Ces outils sont :</h3>
       <div class="ui container three column stackable grid">
           {% for item in site.data.bandeauhome %}
-          <div class="column"><img class="ui image top-icons" src="{{ item.image }}" alt="">{{ item.name }}</div>
+          <div class="column">{{ '<img class="ui image top-icons" src="http://SRC" alt="">' | replace: "http://SRC", item.image }}{{ item.name }}</div>
           {% endfor %}
       </div>
 </section>
@@ -16,7 +16,7 @@ additional_css: homepage
           <div class="ui grid stackable">
         <div class="height wide column">
    <h2>Ce que vous trouverez sur cette plateforme<br></h2>
-   <p> Afin de faciliter l'usage des consultations par les administrations, cette plateforme réunit des <a href="https://consultation.etalab.gouv.fr/lesoutils.html"><b>outils de consultation en ligne</b></a>, couvrant une <b>pluralité de besoins</b>, et répondant à <b><a href="https://consultation.etalab.gouv.fr/criteres.html">25 critères de sélection</a> </b>définis conjointement par les&nbsp; administrations, les acteurs de la civic tech et des experts de la concertation. <br></p><p>Ces outils sont utilisables <b>gratuitement </b>sur un premier niveau de service. <br></p><p>Le portail des outils de consultations permet à tout agent public ayant une adresse en "<i>.gouv.fr</i>" de déployer simplement ces solutions, directement depuis ce site.</p>    
+   <p> <b>Afin</b> de faciliter l'usage des consultations par les administrations, cette plateforme réunit des <a href="https://consultation.etalab.gouv.fr/lesoutils.html"><b>outils de consultation en ligne</b></a>, couvrant une <b>pluralité de besoins</b>, et répondant à <b><a href="https://consultation.etalab.gouv.fr/criteres.html">25 critères de sélection</a> </b>définis conjointement par les&nbsp; administrations, les acteurs de la civic tech et des experts de la concertation. <br></p><p>Ces outils sont utilisables <b>gratuitement </b>sur un premier niveau de service. <br></p><p>Le portail des outils de consultations permet à tout agent public ayant une adresse en "<i>.gouv.fr</i>" de déployer simplement ces solutions, directement depuis ce site.</p>    
     <a class="ui button moreButton" href="/leprojet.html"> En savoir plus sur le projet</a>  
   </div>
       <div class="height wide column">
