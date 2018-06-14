@@ -66,28 +66,30 @@ ligne [Forestry.io](https://forestry.io) (la documentation est
 disponible sur http://forestry.io/docs/), couplé à
 [CircleCI](https://circleci.com).
 
-Forestry gère deux sites :
-* le site de production http://consultation.etalab.gouv.fr via la branche "production"
-* le site de pré-production/test http://pprod.consultation.etalab.gouv.fr via la branche "pprod"
+Forestry gère uniquement le site de pré-production/test
+http://pprod.consultation.etalab.gouv.fr via la branche "pprod".
 
 À chaque édition de contenu depuis son interface graphique, Forestry
 crée un commit git représentant ces modifications, et le pousse dans la
 branche correspondante.
 
 De son côté, CircleCI démarre un build dès qu'une modification est
-poussée sur GitHub. Après avoir construit le site statique et le
-vérifie.
-Si la branche est pprod ou production, le CircleCI le déploie aussi sur
-la machine correspondante, Si c'est master, le site est uniquement
-construit mais aucun déploiement n'est effectué.
+poussée sur GitHub. Après avoir construit le site statique, il est
+potentiellement déployé :
+
+  - si la branche est pprod ou production, CircleCI déploie aussi le
+    site sur la machine correspondante
+  - si la branche est master, le site est uniquement construit mais
+    aucun déploiement n'est effectué
+
 Les modifications centrales, n'ayant pas trait à du contenu, doivent
-donc être préférentiellement être faites sur master afin de bénéficier
-de la validation automatique.
+donc être préférentiellement réalisées sur master, afin de bénéficier de
+la validation automatique.
 
-but not deploy it
-    anywhere: core modifications, not related to content, should be
-    performed there.
-
+Une fois le contenu et l'aspect du site validés sur le site de
+pré-production, les mises en production s'effectuent simplement en
+créant une PullRequest GitHub, depuis la branche pprod vers la branche
+production.
 
 [Forestry.io]: https://forestry.io
 [Jekyll]: http://jekyllrb.com/
