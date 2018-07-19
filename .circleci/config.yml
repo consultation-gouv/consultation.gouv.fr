@@ -13,11 +13,7 @@ jobs:
       - checkout
       - run: bundle install
       - run: bundle exec jekyll --version
-
-  test:
-    docker:
-      - image: circleci/ruby:2.3
-    steps:
+      # below are the tests
       - run: bundle exec jekyll doctor
       - run: bundle exec jekyll build
       - run: grep "css/main.css" _site/index.html
@@ -27,9 +23,6 @@ workflows:
   build-test-deploy:
     jobs:
       - build
-      - test:
-          requires:
-            - build
       - deploy:
           requires:
             - test
