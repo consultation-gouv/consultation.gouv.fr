@@ -21,6 +21,7 @@ pages:
 - _usage/assembl_apprendre_demain.md
 - _usage/consultation-sur-le-plan-numerique-a-l-ecole-du-gouvernement.md
 hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
