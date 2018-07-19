@@ -22,6 +22,8 @@ jobs:
     working_directory: ~/consultation-gouv/consultation.gouv.fr
     parallelism: 1
     shell: /bin/bash --login
+    docker:
+      - image: circleci/ruby:2.3
     steps:
       - checkout
       - run: ./deploy.sh ${CIRCLE_BRANCH}
