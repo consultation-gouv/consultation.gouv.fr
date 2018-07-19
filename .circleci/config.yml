@@ -1,0 +1,45 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/consultation-gouv/consultation.gouv.fr
+    parallelism: 1
+    shell: /bin/bash --login
+    environment:
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+    docker:
+      - image: circleci/ruby:2.3
+    steps:
+      - checkout
+      - run: bundle install
+      - run: bundle exec jekyll --version
+      # below are the tests
+      - run: bundle exec jekyll doctor
+      - run: bundle exec jekyll build
+      - run: grep "css/main.css" _site/index.html
+
+  deploy:
+    working_directory: ~/consultation-gouv/consultation.gouv.fr
+    parallelism: 1
+    shell: /bin/bash --login
+    docker:
+      - image: circleci/ruby:2.3
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "6f:d4:79:3e:4a:6c:3b:71:ec:9b:52:44:76:49:af:c8"
+      - checkout
+      - run: eval `ssh-agent` && ssh-add ~/.ssh/id_rsa* && ./deploy.sh ${CIRCLE_BRANCH}
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: [pprod, production]
+

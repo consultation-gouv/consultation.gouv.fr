@@ -18,10 +18,12 @@ ENV="$1"
 case $1 in
   pprod)
     USER="consultation"
-    HOST="pprod.consultation.etalab.gouv.fr" ;;
+    HOST="pprod.consultation.etalab.gouv.fr"
+    DIRECTORY="consultation-website" ;;
   production)
     USER="ogptoolbox"
-    HOST="consultation.etalab.gouv.fr" ;;
+    HOST="consultation.etalab.gouv.fr"
+    DIRECTORY="consultation.gouv.fr" ;;
   *)
     usage
     exit 3 ;;
@@ -29,7 +31,7 @@ esac
 
 echo "Start deploy"
 
-ssh -tq ${USER}@${HOST} "bash -lc 'cd consultation.gouv.fr && git pull && bundle exec jekyll doctor && bundle exec jekyll build'"
+ssh -o StrictHostKeyChecking=no -tq ${USER}@${HOST} "source /etc/profile && cd ${DIRECTORY} && git pull && bundle exec jekyll doctor && bundle exec jekyll build"
 rc=$?
 
 if [ $? == 0 ] ; then
