@@ -29,11 +29,12 @@ jobs:
           fingerprints:
             - "6f:d4:79:3e:4a:6c:3b:71:ec:9b:52:44:76:49:af:c8"
       - checkout
-      - run: ./deploy.sh ${CIRCLE_BRANCH}
+      - run: ls ~/.ssh/
+      - run: eval `ssh-agent` && ssh-add ~/.ssh/id_rsa* && ./deploy.sh ${CIRCLE_BRANCH}
 
 workflows:
   version: 2
-  build-test-deploy:
+  build-deploy:
     jobs:
       - build
       - deploy:
