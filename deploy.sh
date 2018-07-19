@@ -29,7 +29,7 @@ esac
 
 echo "Start deploy"
 
-ssh -tq ${USER}@${HOST} "bash -lc 'cd consultation.gouv.fr && git pull && bundle exec jekyll doctor && bundle exec jekyll build'"
+ssh -o StrictHostKeyChecking=no -tq ${USER}@${HOST} "bash -lc 'cd consultation.gouv.fr && git pull && bundle exec jekyll doctor && bundle exec jekyll build'"
 rc=$?
 
 if [ $? == 0 ] ; then
