@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/consultation-gouv/deploiement.consultation.svg?branch=master)](https://travis-ci.org/consultation-gouv/deploiement.consultation)
+
 consultation.gouv.fr catalogue les outils de consultations offerts aux administrations. À chaque outil est associée une courte description fonctionnelles, une documentation technique, d'éventuelles ressources supplémentaires et des cas d'usages.
 
 
