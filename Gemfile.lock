@@ -164,7 +164,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0)
-    json (1.8.3.1)
+    json (1.8.3)
     kramdown (1.13.2)
     libv8 (5.3.332.38.5-x86_64-linux)
     liquid (3.0.6)
