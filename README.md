@@ -63,21 +63,15 @@ Le site utilise [Jekyll], un générateur de site statique en [Ruby].
 Le site est hébergé sur un VPS.
 
 ## Déploiement
-La gestion et le déploiement du contenu du site se font via l'outil en
-ligne [Forestry.io](https://forestry.io) (la documentation est
-disponible sur http://forestry.io/docs/), couplé à
-[CircleCI](https://circleci.com).
+La gestion du contenu du site se fait manuellement, en clonant le dépôt
+et en éditant les fichiers nécessaires (l'outil en ligne
+[Forestry.io](https://forestry.io) ne supporte plus, depuis mi-2018,
+l'édition en ligne de contenu HTML).
 
-Forestry gère uniquement le site de pré-production/test
-http://pprod.consultation.etalab.gouv.fr via la branche "pprod".
-
-À chaque édition de contenu depuis son interface graphique, Forestry
-crée un commit git représentant ces modifications, et le pousse dans la
-branche correspondante.
-
-De son côté, CircleCI démarre un build dès qu'une modification est
-poussée sur GitHub. Après avoir construit le site statique, il est
-potentiellement déployé :
+Les déploiements sont quant à eux automatisés via
+[CircleCI](https://circleci.com): ce dernier démarre un build dès qu'une
+modification est poussée sur GitHub. Après avoir construit le site
+statique, il est potentiellement déployé :
 
   - si la branche est pprod ou production, CircleCI déploie aussi le
     site sur la machine correspondante
@@ -91,7 +85,19 @@ la validation automatique.
 Une fois le contenu et l'aspect du site validés sur le site de
 pré-production, les mises en production s'effectuent simplement en
 créant une PullRequest GitHub, depuis la branche pprod vers la branche
-production.
+production :
+
+  1. Ouvrir https://github.com/consultation-gouv/consultation.gouv.fr
+  2. Choisir la branche "pprod"
+  3. Cliquer sur "New pull request"
+  4. Dans la page qui s'ouvre, laisser "pprod" à droite de la flèche
+     (origine de la pull request), et choisir "production" à gauche
+     (destination de la pull request), puis valider
+  5. Laisser l'intégration continue CircleCI se terminer
+  6. Une fois qu'elle est validée, vous pouvez cliquer sur "Merge" pour
+     finaliser la pull request
+  7. CircleCI va lancer le déploiement en production, ce qui prendra
+     quelques minutes
 
 [Forestry.io]: https://forestry.io
 [Jekyll]: http://jekyllrb.com/
