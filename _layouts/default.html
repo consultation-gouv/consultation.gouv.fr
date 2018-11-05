@@ -8,7 +8,7 @@
     <div id="page">
       <header>
         <nav class="ui secondary menu">
-            <a href="index.html">             
+            <a href="index.html">
               <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
 	    <div class="ui help banner high">
             Administrations, fabriquez votre consultation en ligne
@@ -22,7 +22,7 @@
           <!--<a class="medium screen only item" href="/services">Liste des cas services</a>-->
         <div class="right menu">
           {% for item in site.data.topmenu %}
-          <a href="{{ item.link }}" class="header item medium">{{ item.name }}</a> {% endfor %}           
+          <a href="{{ item.link }}" class="header item medium">{{ item.name }}</a> {% endfor %}
        </div>
 
   <div  id="mobile-menu" class="ui dropdown">
@@ -32,11 +32,11 @@
     {% for item in site.data.topmenu %}
     <a href="{{ item.link }}" class="item">{{ item.name }}</a> {% endfor %}
 
-    </div>    
+    </div>
   </div>
 
         </nav>
-      </header> 
+      </header>
 
 
       <main{% if page.nom %} id="{{ page.nom }}" {% endif %}>
@@ -47,7 +47,7 @@
   </div>
   <script>
     $('.ui.dropdown').dropdown();
-    
+
   </script>
   {% include analytics.html %}
 </body>

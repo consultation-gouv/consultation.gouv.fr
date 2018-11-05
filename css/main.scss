@@ -3,6 +3,8 @@
 ---
 
 @import "variables";
+@import "buttons";
+
 @mixin picto($url) {
 		display: inline-block;
 		width: 200px;
@@ -242,3 +244,15 @@ input:focus::-moz-placeholder{
 	}
 }
 
+.margin-left-1 {
+  margin-left: 1em;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center !important;
+}
+
+.text-center {
+  text-align: center;
+}

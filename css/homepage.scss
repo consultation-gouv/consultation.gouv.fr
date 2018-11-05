@@ -5,162 +5,259 @@
 @import "variables";
 @import "usage";
 
-
-@media ( max-width: 768px ) {
-
-
-#mission-statement {
-padding-top: 30% !important;
+header {
+  position: inherit;
+  box-shadow: none;
 }
-}
-
-#mission-statement {
-  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.4)),url('/img/flying-bees.jpg');
-  background-size: cover;
-  background-position: center top;
-  color: #fff;
-  font-size: 115%;
-  text-align: center;
-  padding-top: 10%;
-  padding-bottom: 8%;
-
-
-  .input {
-    min-width: 60%;
-    margin-bottom: 3%
- }
-
-  h1 {
-    padding: .2em 0;
-    color: #fff;
-    font-size: 200%;
-    line-height: 1.8;
-  }
-
-  h3 {
-    font-weight: 500;
-    max-width: 900px; 
-    margin: auto;
-    padding: 0 0 3em;
-    line-height: 2.5rem;
-  }
-
-  .header-with-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      margin-right: 3em;
-    }
-  }
-
-  .results {
-    width: 100%;
-
-    .searchError {
-      margin-top: 1em;
-    }
-
-    .result-highlight {
-      font-weight: 600;
-      color: black;
-    }
-  }
-
-  .poweredBy {
-    font-size: 95%;
-    padding: 0.5em;
-    text-align: right;
-    img {
-      height: 1em;
-      position: relative;
-      top: 0.2em;
-    }
-  }
-}
-
-
 
 section {
-  padding: 5% 0;
+  width: 70%;
+  margin: auto;
+}
 
+@media ( max-width: 1400px ) {
+  section {
+    width: 80%;
+  }
+}
+@media ( max-width: 1200px ) {
+  section {
+    width: 100%;
+  }
+}
+
+.gray-section {
+  background-color: $gray-background;
+}
+
+.home-section {
+  padding: 5em;
+  .section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    span {
+      color: $simulation-color;
+      font-size: 1.3em;
+      margin-left: 1em;
+    }
+  }
   h2 {
-    text-align: left;
-    color: $simulation-color;
-  }
-}
-
-section#home-des {
-p {
-  line-height: 2rem;
-}
-}
-
-#description {
-
-  .header.padded {
-    margin: 2em 0 1em 0;
-  }
-}
-
-p.buttonContainer {
-  text-align: center;
-}
-
-a.ui.button.moreButton {
-  background-color: $simulation-color;
-  color: #fff;
-  text-shadow: none;
-  background-image: none;
-  padding: 15px;
-  font-weight: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-
-  &:hover {
-    background-color: darken($simulation-color, 5%)
-  }
-}
-
-a.ui.big.button.moreButton {
-  margin-top: 4%;
-}
-
-@media (max-width: 768px) {
-	.header-with-image {
-		flex-direction: column;
-	}
-
-  #mission-statement .header-with-image img {
-    width: 30%;
+    font-weight: normal;
+    font-size: 2.6em;
+    color: $black;
     margin: 0;
   }
-
-  #mission-statement h1 {
-    padding: 0 10px;
-    margin-top: 10px;
-    font-size: 1.3em;
+  p {
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    font-size: 1.2em;
+  }
+  .fa-file-download {
+    font-size: 4em;
+    margin-bottom: 0.3em;
+  }
+  img {
+    height: 16em;
   }
 }
 
-section#usages {
-  background-color: $simulation-color;
-  padding-bottom: 8em;
-    h2{
-      text-align: center;
-      color: #fff;
-    }
+.home-contact {
+  padding: 3em 5rem;
+  p {
+    margin-bottom: 0;
+  }
 }
 
-.home-illustration {
-  max-width: 250px;
-  margin: auto;
-  display: block;
-} 
-
-.top-icons {
-  width : 100px;
-  margin: auto;
-  padding: 0 0 1em;
+.home-head {
+  padding: 9em 0;
+  .title {
+    margin: auto;
+    width: 80%;
+  }
+  h1 {
+    font-size: 2.4em;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  p {
+    text-align: right;
+  }
 }
+.container-kit-cadrage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.kit-cadrage {
+  background-color: #EEEEEE;
+  border-radius: 50%;
+  height: 13.5em;
+  width: 13.5em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+
+//@media ( max-width: 768px ) {
+//
+//
+//#mission-statement {
+//padding-top: 30% !important;
+//}
+//}
+//
+//#mission-statement {
+//  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.4)),url('/img/flying-bees.jpg');
+//  background-size: cover;
+//  background-position: center top;
+//  color: #fff;
+//  font-size: 115%;
+//  text-align: center;
+//  padding-top: 10%;
+//  padding-bottom: 8%;
+//
+//
+//  .input {
+//    min-width: 60%;
+//    margin-bottom: 3%
+// }
+//  //
+//  //h1 {
+//  //  padding: .2em 0;
+//  //  color: #fff;
+//  //  font-size: 200%;
+//  //  line-height: 1.8;
+//  //}
+//
+//  h3 {
+//    font-weight: 500;
+//    max-width: 900px;
+//    margin: auto;
+//    padding: 0 0 3em;
+//    line-height: 2.5em;
+//  }
+//
+//  .header-with-image {
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//
+//    img {
+//      margin-right: 3em;
+//    }
+//  }
+//
+//  .results {
+//    width: 100%;
+//
+//    .searchError {
+//      margin-top: 1em;
+//    }
+//
+//    .result-highlight {
+//      font-weight: 600;
+//      color: black;
+//    }
+//  }
+//
+//  .poweredBy {
+//    font-size: 95%;
+//    padding: 0.5em;
+//    text-align: right;
+//    img {
+//      height: 1em;
+//      position: relative;
+//      top: 0.2em;
+//    }
+//  }
+//}
+//
+//
+//
+////section {
+////  padding: 5% 0;
+////
+////  h2 {
+////    text-align: left;
+////    color: $simulation-color;
+////  }
+////}
+//
+//section#home-des {
+//p {
+//  line-height: 2em;
+//}
+//}
+//
+//#description {
+//
+//  .header.padded {
+//    margin: 2em 0 1em 0;
+//  }
+//}
+//
+//p.buttonContainer {
+//  text-align: center;
+//}
+//
+//a.ui.button.moreButton {
+//  background-color: $simulation-color;
+//  color: #fff;
+//  text-shadow: none;
+//  background-image: none;
+//  padding: 15px;
+//  font-weight: normal;
+//  letter-spacing: 2px;
+//  text-transform: uppercase;
+//
+//  &:hover {
+//    background-color: darken($simulation-color, 5%)
+//  }
+//}
+//
+//a.ui.big.button.moreButton {
+//  margin-top: 4%;
+//}
+//
+//@media (max-width: 768px) {
+//	.header-with-image {
+//		flex-direction: column;
+//	}
+//
+//  #mission-statement .header-with-image img {
+//    width: 30%;
+//    margin: 0;
+//  }
+//
+//  #mission-statement h1 {
+//    padding: 0 10px;
+//    margin-top: 10px;
+//    font-size: 1.3em;
+//  }
+//}
+//
+//section#usages {
+//  background-color: $simulation-color;
+//  padding-bottom: 8em;
+//    h2{
+//      text-align: center;
+//      color: #fff;
+//    }
+//}
+//
+//.home-illustration {
+//  max-width: 250px;
+//  margin: auto;
+//  display: block;
+//}
+//
+//.top-icons {
+//  width : 100px;
+//  margin: auto;
+//  padding: 0 0 1em;
+//}

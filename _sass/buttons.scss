@@ -1,0 +1,13 @@
+@import "variables";
+
+.blue-button {
+  color: $simulation-color;
+  box-shadow: 3px 3px 0px 0px $simulation-color;
+  border: 3px solid $simulation-color;
+  padding: 0.5em 0.7em;
+  font-size: 1.4em;
+  background-color: white;
+  &:hover {
+    color: $simulation-color;
+  }
+}
