@@ -1,11 +1,21 @@
 ---
-- link: "/lesoutils.html"
-  name: OUTILS
+#- link: "/lesoutils.html"
+#  name: OUTILS
+#- link: "/laconsultation.html"
+#  name: BONNES PRATIQUES
+#- link: "/leprojet.html"
+#  name: DEMARCHE
+#- link: "/criteres.html"
+#  name: CRITÈRES DE SÉLECTION
+#- link: "/contact.html"
+#  name: CONTACT
+
 - link: "/laconsultation.html"
-  name: BONNES PRATIQUES
+  name: Préparation
+- link: "/lesoutils.html"
+  name: Outils
 - link: "/leprojet.html"
-  name: DEMARCHE
-- link: "/criteres.html"
-  name: CRITÈRES DE SÉLECTION
-- link: "/contact.html"
-  name: CONTACT
+  name: Accompagnement
+- link: "/support.html"
+  name: Support
+

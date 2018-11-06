@@ -5,31 +5,6 @@
 @import "variables";
 @import "usage";
 
-header {
-  position: inherit;
-  box-shadow: none;
-}
-
-section {
-  width: 70%;
-  margin: auto;
-}
-
-@media ( max-width: 1400px ) {
-  section {
-    width: 80%;
-  }
-}
-@media ( max-width: 1200px ) {
-  section {
-    width: 100%;
-  }
-}
-
-.gray-section {
-  background-color: $gray-background;
-}
-
 .home-section {
   padding: 5em;
   .section-title {
@@ -70,6 +45,9 @@ section {
 }
 
 .home-head {
+  color: white;
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('/img/test-home.png');
+  background-size: cover;
   padding: 9em 0;
   .title {
     margin: auto;
