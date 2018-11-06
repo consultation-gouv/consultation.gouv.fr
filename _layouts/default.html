@@ -7,30 +7,41 @@
 <div id="wrapper">
   <div id="page">
     <header class="gray-background">
-      <nav>
-        <a href="index.html">
+
+      <nav class="navbar d-flex justify-content-start">
+        <a class="navbar-brand site-name" href="/">
           <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
-        <div class="margin-left-1">
+        <div class="ml-1">
           <div class="site-name">consultation.etalab.gouv</div>
-          <div>Fabriquez votre consultation en ligne</div>
+          <div class="low">
+            Fabriquez votre consultation en ligne
+          </div>
         </div>
-        <div class="right menu">
-          {% for item in site.data.topmenu %}
-          <a href="{{ item.link }}">
+        
 
-            {% unless item.name == site.data.topmenu[0].name %} <span>|</span> {% endunless %}
-            {{ item.name }}</a> {% endfor %}
+
+        <div class="flex-grow-1 text-right d-none d-lg-block" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              {% for item in site.data.topmenu %}
+              <a href="{{ item.link }}" class="header item medium">
+                {% unless item.name == site.data.topmenu[0].name %} <span class="pipe">|</span> {% endunless %}
+                {{ item.name }}</a>
+              {% endfor %}
+            </li>
+          </ul>
         </div>
 
-        <div  id="mobile-menu" class="ui dropdown">
-          <div class="text">MENU</div>
-          <i class="dropdown icon"></i>
-          <div class="menu">
-            {% for item in site.data.topmenu[0] %}
-            <a href="{{ item.link }}" class="item">
+        <div class="mr-2 text-right flex-grow-1 dropdown d-lg-none">
+          <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
+            {% for item in site.data.topmenu %}
+            <a href="{{ item.link }}" class="dropdown-item p-1">
+              {% unless item.name == site.data.topmenu[0].name %}{% endunless %}
               {{ item.name }}</a>
             {% endfor %}
-
           </div>
         </div>
 

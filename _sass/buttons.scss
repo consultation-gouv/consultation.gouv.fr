@@ -10,4 +10,7 @@
   &:hover {
     color: $simulation-color;
   }
+  @media (max-width: 1000px) {
+    font-size: 1em;
+  }
 }

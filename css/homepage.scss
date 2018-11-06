@@ -6,7 +6,7 @@
 @import "usage";
 
 .home-section {
-  padding: 5em;
+  //padding: 5em;
   .section-title {
     display: flex;
     align-items: center;
@@ -22,6 +22,9 @@
     font-size: 2.6em;
     color: $black;
     margin: 0;
+    @media (max-width: 1000px) {
+      font-size: 2em;
+    }
   }
   p {
     margin-top: 1.5em;
@@ -49,10 +52,6 @@
   background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('/img/test-home.png');
   background-size: cover;
   padding: 9em 0;
-  .title {
-    margin: auto;
-    width: 80%;
-  }
   h1 {
     font-size: 2.4em;
     text-align: center;
