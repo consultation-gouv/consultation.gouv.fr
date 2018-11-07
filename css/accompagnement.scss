@@ -1,0 +1,26 @@
+---
+# homepage page style
+---
+
+@import "variables";
+
+.logo-ugap {
+  width: 25rem;
+  margin: auto;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+#contact-ugap {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  span {
+    display: block;
+  }
+  img {
+    width: 2rem;
+  }
+}

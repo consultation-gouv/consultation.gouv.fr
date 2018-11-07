@@ -18,7 +18,9 @@
 .btn-primary {
   background-color: $simulation-color;
   border: none;
-  &:hover {
-    background-color: $simulation-color;
+  &:hover, &:active, &:focus {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: $btn-hover !important;
   }
 }
