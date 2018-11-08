@@ -131,3 +131,18 @@ additional_css: outil
     </div>
   </div>
 </div>
+
+<script>
+    $(function () {
+        var activeTab = $(location.hash)
+        console.log(activeTab)
+        if (activeTab.length > 0) {
+          var activeLink = $(location.hash + '-tab')
+          $('.tab-pane').removeClass('active show')
+          activeTab.addClass('active show')
+          $('.nav-link').removeClass('active').attr('aria-selected', false)
+          activeLink.addClass('active')
+          activeLink.attr('aria-selected', true)
+        }
+    });
+</script>
