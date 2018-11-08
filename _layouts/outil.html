@@ -82,8 +82,8 @@ additional_css: outil
               <div class="header">Contact</div>
               <div class="description">
                 {% if page.contact contains "@" %}
-                <a href="mailto:{{ page.contact }}?subject={{ " Contact via consultation.gouv.fr " | url_encode }}">{{ page.contact }}</a>                {% else %}
-                <a href="{{ page.contact }}" target="_blank" rel="noopener">Formulaire</a> {% endif%}
+                <a target="_blank" href="mailto:{{ page.contact }}?subject={{ " Contact via consultation.gouv.fr " | url_encode }}">{{ page.contact }}</a>                {% else %}
+                <a target="_blank" href="{{ page.contact }}" target="_blank" rel="noopener">Formulaire</a> {% endif%}
               </div>
             </div>
           </div>
