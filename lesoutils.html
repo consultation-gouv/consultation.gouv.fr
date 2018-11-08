@@ -2,65 +2,146 @@
 layout: default
 additional_css: outil
 ---
-<section id="list" class="ui container main">
-	<h2>Les outils de consultation proposés</h2>
-	<div class="ui four stackable cards">
-		{% for outil in site.outil %}
-			{% include outil-card.html description=outil %}
-		{% endfor %}<br><p><br></p></div>
-</section>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active text-dark" id="plateformes-tab" data-toggle="tab" href="#plateformes" role="tab" aria-controls="plateformes" aria-selected="true">Plateformes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" id="exemples-tab" data-toggle="tab" href="#exemples" role="tab" aria-controls="exemples" aria-selected="false">Exemples</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" id="mode-emploi-tab" data-toggle="tab" href="#mode-emploi" role="tab" aria-controls="mode-emploi" aria-selected="false">Mode d'emploi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
+  <div class="row py-5">
+    <div class="tab-content" id="myTabContent">
 
-
-<section id="notre-plateforme">
-  <h2> Déployez simplement votre plateforme de consultation en ligne</h2>
-  
-</section>
-
-<section id="espace-1">
-  <div class="ui container espace-des">
-    <div class="ui grid stackable">
-      <div class="height wide column">
-        <h2>1. Sélectionnez l'outil <br></h2><p>Étudiez attentivement la documentation mise à disposition par les éditeurs de logiciel et consultez les cas d'usage. N'hésitez pas à nous contacter ou à contacter les éditeurs. Vous pouvez aussi déployer gratuitement les outils pour les tester. <br></p><h2>2. Remplissez le formulaire</h2>
-        <p>Une fois l'outil choisi, rendez-vous sur la page de l'outil et cliquez sur "<i>Utilisez</i>" dans le bandeau en haut de la page. <br> </p><p>Définissez l’URL et le nom de votre consultation et entrez vos informations personnelles (nom, prénom, administration).
-          <br> Saisissez votre adresse e-mail. À noter que seules les adresses de l’administration centrale (.gouv.fr) sont
-          acceptées pour l’instant.</p><p>Cette démarche vous permet de demander la création, sous 48h, d'une base de données et d'une instance de consultation, hébergées chez l'éditeur de solution, auxquelles vous seul aurez accès. <br></p>
+      <!--plateformes-->
+      <div class="tab-pane fade show active container" id="plateformes" role="tabpanel" aria-labelledby="plateformes-tab">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="blue mb-5">Choisir une plateforme de consultation</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-12">
+            <h4 class="mb-3">Plusieurs plateformes permettent de générer des consultations en ligne <strong>en quelques clics</strong></h4>
+            <p>Afin de faciliter l'usage des consultations par les administrations, Étalab et les acteurs de la Civi Tech
+              ont collaboré pour mettre à disposition des administrations outils de consultation ouverte en ligne.</p>
+              Ces outils sont :
+            <ul class="list-unstyled ml-4">
+              <li><i class="fas fa-dot-circle blue"></i> déployables en quelques clics,</li>
+              <li><i class="fas fa-dot-circle blue"></i> ergonomiques et simples à prendre en main,</li>
+              <li><i class="fas fa-dot-circle blue"></i> gratuits sur un premier niveau de services.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-5">
+          {% for outil in site.outil %}
+          {% include outil-card.html description=outil %}
+          {% endfor %}
+          <div class="col-12">
+            <p class="mt-4">Tout agent public ayant une adresse en « .gouv » peut déployer simplement ces solutions, directement à partir de ce site.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-12">
+            <h2 class="mt-5 blue">Comparer les outils</h2>
+            <p>Ces outils couvrent une pluralité de besoins et répondent à <a href="/criteres.html">25 critères de sélection</a>
+            Définis conjointement par les administration, les acteurs de la Civi Tech et des experts de la concertation</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-12">
+            <h2 class="mt-5 blue">Soumettre un outil</h2>
+            <p>Vous êtes éditeur d’un outil de consultation citoyen et vous souhaitez voir votre solution sur notre
+              plateforme ? Vérifiez que vous êtes éligible grâce aux <a href="/criteres.html">critères de sélection</a>
+              et <a href="mailto:consultation@etalab.gouv.fr">envoyez-nous un message&nbsp!</a></p>
+          </div>
+        </div>
       </div>
-      <div class="height wide column">
-        <img class="espace-illustration" src="/img/espace-1.svg" alt="Illustration Consultation">
+      <!--Exemples-->
+      <div class="tab-pane fade container" id="exemples" role="tabpanel" aria-labelledby="exemples-tab">
+        <div id="usages" class="container">
+          <div class="stackable cards row">
+            {% for usage in site.usage %}
+            {% include exemple-card.html usage=usage %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <!--Mode d'emploi-->
+      <div class="tab-pane fade container" id="mode-emploi" role="tabpanel" aria-labelledby="mode-emploi-tab">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="blue mb-5">Déployez simplement votre plateforme de consultation en ligne</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h2 class="blue">1. Sélectionnez l'outil</h2>
+            <p>Étudiez attentivement la documentation mise à disposition par les éditeurs de logiciel et consultez les
+              cas d'usage. N'hésitez pas à nous contacter ou à contacter les éditeurs. Vous pouvez aussi déployer
+              gratuitement les outils pour les tester.</p>
+            <h2 class="mt-5 blue">2. Remplissez le formulaire</h2>
+            <p>Une fois l'outil choisi, rendez-vous sur la page de l'outil et cliquez sur "<i>Utilisez</i>" dans le
+              bandeau en haut de la page.</p>
+            <p>Définissez l’URL et le nom de votre consultation et entrez vos informations personnelles
+              (nom, prénom, administration). Saisissez votre adresse e-mail. À noter que seules les adresses de
+              l’administration centrale (.gouv.fr) sont
+            acceptées pour l’instant.</p>
+            <p>Cette démarche vous permet de demander la création, sous 48h, d'une base de données et d'une instance
+              de consultation, hébergées chez l'éditeur de solution, auxquelles vous seul aurez accès.</p>
+          </div>
+          <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+            <img class="espace-illustration" src="/img/espace-1.svg" alt="Illustration Consultation">
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+            <img class="espace-illustration" src="/img/espace-2.svg" alt="Illustration Plateforme">
+          </div>
+          <div class="col-md-6 col-12">
+            <h2 class="blue">3. Validez votre adresse e-mail</h2>
+            <p> Vous allez rapidement recevoir un e-mail de confirmation. Il faut bien vérifier que cet e-mail
+              ne soit pas dans vos spams.<br>
+              Cliquez sur le lien mentionné sur l’e-mail pour valider votre adresse.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <h2 class="blue">4. Créez votre consultation !</h2>
+            <p> La plateforme va mettre en place la base de données de votre consultation. Le délai de déploiement
+              peut prendre jusqu’à 48h.<br>
+              Vous recevrez un e-mail lorsque la base de données sera prête et l'instance de consultation déployée.
+              Vous pouvez commencer à prendre en main l'outil.</p>
+          </div>
+          <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+            <img class="espace-illustration" src="/img/espace-3.svg" alt="Illustration Consultation">
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section id="espace-2">
-  <div class="ui container espace-des">
-    <div class="ui grid stackable">
-      <div class="height wide column">
-        <img class="espace-illustration" src="/img/espace-2.svg" alt="Illustration Plateforme">
-      </div>
-      <div class="height wide column">
-        <h2>3. Validez votre adresse e-mail</h2>
-        <p> Vous allez rapidement recevoir un e-mail de confirmation. Il faut bien vérifier que cet e-mail ne soit pas dans
-          vos spams.
-          <br> Cliquez sur le lien mentionné sur l’e-mail pour valider votre adresse.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="espace-3">
-  <div class="ui container espace-des">
-    <div class="ui grid stackable">
-      <div class="height wide column">
-        <h2>4. Créez votre consultation !</h2>
-        <p> La plateforme va mettre en place la base de données de votre consultation. Le délai de déploiement peut prendre
-          jusqu’à 48h.
-          <br>Vous recevrez un e-mail lorsque la base de données sera prête et l'instance de consultation déployée. Vous pouvez commencer à prendre en main l'outil.<br></p><p><br></p>
-      </div>
-      <div class="height wide column">
-        <img class="espace-illustration" src="/img/espace-3.svg" alt="Illustration Consultation">
-      </div>
-    </div>
-  </div>
-</section>
+<script>
+    $(function () {
+        var activeTab = $(location.hash)
+        if (activeTab.length > 0) {
+          var activeLink = $(location.hash + '-tab')
+          $('.tab-pane').removeClass('active show')
+          activeTab.addClass('active show')
+          $('.nav-link').removeClass('active').attr('aria-selected', false)
+          activeLink.addClass('active')
+          activeLink.attr('aria-selected', true)
+        }
+    });
+</script>
