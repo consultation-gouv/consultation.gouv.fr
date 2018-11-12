@@ -1,0 +1,23 @@
+---
+layout: default
+additional_css: catalogue
+---
+<div id="catalogue" class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="blue mt-5 mb-3">Les consultations en cours</h1>
+    </div>
+  </div>
+  <div class="row">
+    {% for usage in site.usage %}
+    {% unless usage.in_progress %}
+    {% include exemple-card.html usage=usage %}
+    {% endunless %}
+    {% endfor %}
+  </div>
+  <div class="row row my-3 p-4 text-center gray-background">
+    <div class="col-12">
+      <a target="_blank" class="blue mailto-link" href="mailto:consultation@etalab.gouv.fr">Rejoignez la communauté de contributeurs</a>
+    </div>
+  </div>
+</div>
