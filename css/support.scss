@@ -5,8 +5,6 @@
 @import "variables";
 
 .row-icons {
-  background-color: $smartData-color;
-  color: #ffffff;
   i {
     font-size: 7rem;
   }
@@ -17,8 +15,6 @@
 }
 
 .row-support {
-  border: 2px solid black;
-  border-radius: 10px;
   i {
     font-size: 4rem;
   }
@@ -29,14 +25,12 @@
 }
 
 .row-consultation {
-  background-color: $smartData-color;
-  color: #ffffff;
   p {
     font-size: 1.3rem;
     margin: 0;
   }
   a {
-    color: #ffffff;
+    color: black;
   }
   .links-consultation {
     flex: 1 0 30%;

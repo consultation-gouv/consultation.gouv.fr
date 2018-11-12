@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: "./Europe des startups.png"
 title: Europe des startups
+in_progress: false
 ---
 
 

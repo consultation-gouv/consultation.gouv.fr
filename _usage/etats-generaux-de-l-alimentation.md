@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: "./Etats Généraux de l'Alimentation.png"
 title: Etats Généraux de l'Alimentation
+in_progress: false
 ---
 
 

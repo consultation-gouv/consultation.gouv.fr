@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: "./La stratégie internationale de la France pour le numérique.png"
 title: La stratégie internationale de la France pour le numérique
+in_progress: false
 ---
 
 

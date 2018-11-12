@@ -6,6 +6,7 @@ outil:
 - Assembl
 screenshot: assembl_inventons.png
 date: 2017-04-11 09:29:08 +0000
+in_progress: false
 ---
 * Débat lancé conjointement avec Sciences Po, Les Echos Start et Make.org afin de co-construire le programme des Jeunes à la Présidentielle. Cette consultation a été animée par des étudiants de Sciences Po, appuyée par la société bluenove. Les étudiants ont rencontré en parallèle de cette démarche en ligne des experts et des chercheurs afin de challenger les avis des participants.
 
