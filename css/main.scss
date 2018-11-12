@@ -68,7 +68,6 @@
 	}
 }
 
-
 header {
   position: inherit;
   box-shadow: none;
@@ -162,69 +161,9 @@ header {
 
 footer {
   img, svg {
-    width: 70%;
+    width: 60%;
   }
 }
-//footer {
-//	position: relative;
-//	bottom: 0;
-//	width: 100%;
-//	padding: 3em 0 3em;
-//	background-color: #fefefe;
-//	box-shadow: 0px -20px 38px -1px rgba(0,0,0,0.23);
-//	#footer-logo {
-//		text-align: center;
-//	}
-//    .logo {
-//      width: 150px;
-//      height: 70px;
-//    }
-//	.incubateur {
-//		text-align: center;
-//	}
-//	#social-icons {
-//		text-align: left;
-//	}
-//	.fa {
-//		font-size: 24px;
-//		margin: 20px 10px 0 0;
-//		width: 40px;
-//		height: 40px;
-//		padding-top: 7px;
-//	}
-//	.fa-linkedin {
-//		color: #fff;
-//		background-color: #0679BE;
-//		border-radius: 100%;
-//		padding-left: 9px;
-//			 }
-//	.fa-twitter {
-//		color: #fff;
-//		background-color: #56AAF4;
-//		border-radius: 100%;
-//		padding-left: 8px;
-//			 }
-//	.fa-facebook {
-//		color: #fff;
-//		background-color: #3A589B;
-//		border-radius: 100%;
-//		padding-left: 13px;
-//			 }
-//			 h3 {
-//				 color: $simulation-color;
-//			 }
-//			 li a {
-//				 color: $simulation-color;
-//			 }
-//			 ul {
-//				 list-style: none;
-//				 padding: 0;
-//			 }
-//
-//			 ul li {
-//				 padding: 0.5em 0;
-//			 }
-//}
 .ui.image img {
     margin: auto;
     padding: 0.5em 0;
