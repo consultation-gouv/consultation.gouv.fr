@@ -6,6 +6,7 @@ outil:
 - Assembl
 screenshot: assembl_apprendre.jpg
 date: '2017-04-11T09:29:08.124+00:00'
+in_progress: false
 ---
 * Consultation lancée par le Centre de Recherches Interdisciplinaires et le ministère de l’Education nationale, de l’Enseignement supérieur et de la Recherche dans le cadre d’un rapport ministériel sur la R&D de l’éducation et l’apprentissage tout au long de la vie.
 

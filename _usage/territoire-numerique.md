@@ -9,6 +9,7 @@ outil:
 - DemocracyOS
 screenshot: "./LEAD.png"
 title: Territoire Numérique
+in_progress: false
 ---
 
 

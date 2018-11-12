@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: cap-collaboration.jpg
 date: 2016-10-12 21:37
+in_progress: false
 ---
 
 

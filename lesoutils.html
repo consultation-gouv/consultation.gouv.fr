@@ -71,7 +71,9 @@ additional_css: outil
         <div id="usages" class="container">
           <div class="stackable cards row">
             {% for usage in site.usage %}
+            {% unless usage.in_progress %}
             {% include exemple-card.html usage=usage %}
+            {% endunless %}
             {% endfor %}
           </div>
         </div>

@@ -7,6 +7,7 @@ description: " Démarche d'intelligence collective en ligne "
 outil:
 - Cap Collectif
 screenshot: "./Eduscolab.jpg"
+in_progress: false
 ---
 
 
