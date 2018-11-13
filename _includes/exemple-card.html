@@ -1,0 +1,27 @@
+ <div class="col-md-6 col-12 mt-4">
+  <div class="card mb-3 card-exemple">
+    <div class="content card-header bg-transparent">
+      <h4>
+        <a class="header" href="{{ include.usage.url }}">{{ include.usage.title }}</a>
+      </h4>
+      <div class="meta">
+        {{ include.usage.description }}
+      </div>
+    </div>
+    <div class="card-body d-flex justify-content-center align-items-center">
+      <a href="{{ include.usage.url }}" style="background-image: url('/img/{{ include.usage.screenshot }}');">
+      </a>
+    </div>
+    <div class="card-footer bg-transparent extra content d-flex justify-content-between align-items-center">
+      <div>
+        Outil utilisée{% if include.usage.outil.size > 1 %}s{% endif %}&nbsp;:
+        {% for outilName in include.usage.outil %}
+        {% assign outil = site.outil | where: "title", outilName | first %}
+        <a class="btn btn-secondary btn-sm" href="{{ outil.url }}"> {{ outil.title }}</a>
+        {% endfor %}
+      </div>
+      <a class="more" href="{{ outil.url }}">En savoir plus</a>
+      <a href="{{ outil.access_link }}" class="text-light btn btn-primary">Essayer</a>
+    </div>
+  </div>
+ </div>

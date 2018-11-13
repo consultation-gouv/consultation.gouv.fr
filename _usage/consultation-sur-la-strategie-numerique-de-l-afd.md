@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: "./Consultation sur la stratégie numérique de l'AFD.jpg"
 title: Consultation sur la stratégie numérique de l'AFD
+in_progress: false
 ---
 
 

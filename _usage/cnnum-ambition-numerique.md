@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: "./CNNum-Ambition_Numérique.jpg"
 title: CNNum - Ambition Numérique
+in_progress: false
 ---
 
 

@@ -1,0 +1,42 @@
+---
+# Homepage pages style
+---
+
+@import "variables";
+
+.row-icons {
+  i {
+    font-size: 7rem;
+  }
+  p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.row-support {
+  i {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+}
+
+.row-consultation {
+  p {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  a {
+    color: black;
+  }
+  .links-consultation {
+    flex: 1 0 30%;
+    text-align: center;
+  }
+  .important-link {
+    font-size: 1.7rem;
+  }
+}

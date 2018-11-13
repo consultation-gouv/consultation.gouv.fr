@@ -5,130 +5,13 @@
 @import "variables";
 @import "usage";
 
-
-@media ( max-width: 768px ) {
-#notre-espace  {
-padding-top: 30% !important;
-}
-}
-
-#notre-espace {
-  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('/img/working-space.jpg');
-  background-size: contain no-repeat;
-  background-position: center center;
-  color: #fff;
-  font-size: 115%;
-  text-align: center;
-  padding-top: 10%;
-  padding-bottom: 8%;
-
-  .input {
-    min-width: 60%;
-    margin-bottom: 3%
- }
-
-  h1 {
-    padding: .2em 0;
-    color: #fff;
-    font-size: 220%;
-    line-height: 1.8;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 400;
+.row-github {
+  i {
+    font-size: 3rem;
   }
-
-  h3 {
-    font-weight: 400;
-    max-width: 900px; 
-    margin: auto;
-    font-size: 130%;
-    padding: 0 0 3em;
-    line-height: 2.5rem;
-    letter-spacing: 2.5px;
-  }
-
-  .header-with-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      margin-right: 3em;
-    }
-  }
-
-  .results {
-    width: 100%;
-
-    .searchError {
-      margin-top: 1em;
-    }
-
-    .result-highlight {
-      font-weight: 600;
-      color: black;
-    }
-  }
-
-  .poweredBy {
-    font-size: 95%;
-    padding: 0.5em;
-    text-align: right;
-    img {
-      height: 1em;
-      position: relative;
-      top: 0.2em;
-    }
-  }
-}
-
-
-
-section {
-  padding: 5% 0 0;
-
-  h2 {
-    color: $simulation-color;
-    padding: 0em 0 2em;
-    text-align: center;
-  }
-  h2:after {
-    content:'';
-    display: block;
-    position: relative;
-    height: 3px;
-    width: 30%;
-    background-color: $simulation-color;
-    top: 30px;
-    margin: auto;
-    opacity: .5;
-  }
-}
-
-
-.espace-illustration {
-  max-width: 300px;
-  margin: auto;
-  display: block;
-} 
-
-.top-icons {
-  width : 100px;
-  margin: auto;
-  padding: 0 0 1em;
-}
-
-.espace-des {
   p {
-    line-height: 2rem;
+    margin: 0;
   }
-}
-#espace-4 {
-  margin-bottom: 8em;
-}
-
-.twelve.wide.column {
-  text-align: center;
 }
 
 .projet-logos {

@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: "./Projet de loi Égalité Citoyenneté.jpg"
 title: Projet de loi Égalité et Citoyenneté
+in_progress: false
 ---
 
 
