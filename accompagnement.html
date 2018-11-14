@@ -13,7 +13,7 @@ title: Accompagnement
         </li>
         <li class="nav-item">
           <a class="nav-link text-dark" id="autodidacte-tab" data-toggle="tab" href="#autodidacte" role="tab"
-             aria-controls="autodidacte" aria-selected="false">Autodidacte ?</a>
+             aria-controls="autodidacte" aria-selected="false">Faire soi-même</a>
         </li>
       </ul>
     </div>
@@ -81,7 +81,8 @@ title: Accompagnement
       <div class="tab-pane fade container" id="autodidacte" role="tabpanel" aria-labelledby="autodidacte-tab">
         <div class="row">
           <div class="col-12">
-            <h1 class="mb-5 blue">Documentation</h1>
+            <h1 class="mb-5 blue">Documentation utile</h1>
+            <h2 class="mb-3 blue">Bonne pratiques</h2>
             <ul class="list-unstyled ml-4">
               <li><i class="fas fa-dot-circle blue"></i> Guide du COEPIA :&nbsp;
                 <a target="_blank" href="https://www.google.fr/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwi0x_mum8jWAhVKHxoKHffvB14QFggnMAA&amp;url=https%3A%2F%2Fwww.institutions-democratiques.gouv.qc.ca%2Finstitutions-democratiques%2Fdocuments%2Fcadre-ref-participation-publique.pdf&amp;usg=AFQjCNGuhf5DX1a3QpCi_jpnxzE5ICpxUA">
@@ -94,9 +95,33 @@ title: Accompagnement
               <li><i class="fas fa-dot-circle blue"></i> <a target="_blank" href="http://www.participation-et-democratie.fr/">
                 Démocratie et participation</a></li>
             </ul>
+            <h2 class="mb-3 mt-5 blue">Tutoriels</h2>
+            <p>Si vous voulez commencer à paramétrer vous-même votre consultation, voici les tutoriels existants
+              pour l’instant :</p>
+            <ul class="list-unstyled ml-4">
+              <li><i class="fas fa-dot-circle blue"></i> <a href="/uploads/democracyOS.pdf" target="_blank">
+                Premiers pas avec DemocracyOS </a></li>
+              <li><i class="fas fa-dot-circle blue"></i> <a href="/uploads/Gouvernement&Citoyens.pdf" target="_blank">
+                Premiers pas avec Gouvernement & Citoyen </a></li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+    $(function () {
+        var activeTab = $(location.hash)
+        if (activeTab.length > 0) {
+            var activeLink = $(location.hash + '-tab')
+            $('.tab-pane').removeClass('active show')
+            activeTab.addClass('active show')
+            $('.nav-link').removeClass('active').attr('aria-selected', false)
+            activeLink.addClass('active')
+            activeLink.attr('aria-selected', true)
+        }
+        window.scrollTo(500, 0)
+    });
+</script>

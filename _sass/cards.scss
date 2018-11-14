@@ -10,8 +10,8 @@
     text-decoration: none;
   }
   .card-img {
-    height: 30%;
     flex: 0 0 40%;
+    max-height: 40%;
     img {
       height: auto;
       width: inherit;

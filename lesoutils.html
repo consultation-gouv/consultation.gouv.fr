@@ -14,7 +14,7 @@ title: Outils
           <a class="nav-link text-dark" id="exemples-tab" data-toggle="tab" href="#exemples" role="tab" aria-controls="exemples" aria-selected="false">Exemples</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" id="mode-emploi-tab" data-toggle="tab" href="#mode-emploi" role="tab" aria-controls="mode-emploi" aria-selected="false">Mode d'emploi</a>
+          <a class="nav-link text-dark" id="mode-emploi-tab" data-toggle="tab" href="#mode-emploi" role="tab" aria-controls="mode-emploi" aria-selected="false">Tutoriel : générer sa plateforme</a>
         </li>
       </ul>
     </div>
@@ -59,7 +59,7 @@ title: Outils
         </div>
         <div class="row mt-5 pt-5">
           <div class="offset-md-4 col-md-8 col-12 text-right">
-            <p>Vous êtes éditeur d’un outil de consultation citoyen et vous souhaitez voir votre solution sur notre
+            <p class="editeur">Vous êtes éditeur d’un outil de consultation citoyen et vous souhaitez voir votre solution sur notre
               plateforme ? Vérifiez que vous êtes éligible grâce aux <a href="/criteres.html">critères de sélection</a>
               et <a href="mailto:consultation@etalab.gouv.fr">envoyez-nous un message&nbsp!</a></p>
           </div>
@@ -125,14 +125,10 @@ title: Outils
               Vous recevrez un e-mail lorsque la base de données sera prête et l'instance de consultation déployée.
               Vous pouvez commencer à prendre en main l'outil.</p>
             <h2 class="blue mt-5 ">5. Paramétrez votre consultation</h2>
-            <p>Si vous voulez commencer à paramétrer vous-même votre consultation, voici les tutoriels existants
-              pour l’instant :</p>
-            <ul class="list-unstyled ml-4">
-              <li><i class="fas fa-dot-circle blue"></i> <a href="/uploads/democracyOS.pdf" target="_blank">
-                Premiers pas avec DemocracyOS </a></li>
-              <li><i class="fas fa-dot-circle blue"></i> <a href="/uploads/Gouvernement&Citoyens.pdf" target="_blank">
-                Premiers pas avec Gouvernement & Citoyen </a></li>
-            </ul>
+            <p>Si vous voulez commencer à paramétrer vous-même votre consultation, consultez la
+              <a href="/accompagnement.html#autodidacte" class="blue">documentation disponible</a>.</p>
+            Si vous voulez faire appel à un prestataire de service pour vous accompagner, consultez la page
+            <a href="/accompagnement.html" class="blue">accompagnement</a>.
           </div>
           <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
             <img class="espace-illustration" src="/img/espace-3.svg" alt="Illustration Consultation">
@@ -154,5 +150,6 @@ title: Outils
           activeLink.addClass('active')
           activeLink.attr('aria-selected', true)
         }
+        window.scrollTo(500, 0)
     });
 </script>
