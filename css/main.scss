@@ -113,25 +113,11 @@ header {
 	font-size: 1.3rem;
 }
 
-@media ( min-width: 850px ) {
-#mobile-menu {
-	display: none;
-}
-	}
 @media ( max-width: 850px ) {
 .menu .item, {
 	display: none !important;
 }
 
-#mobile-menu {
-	margin-right: 0.5em;
-	top: 20px;
-}
-#mobile-menu .menu.transition.visible {
-	height: auto;
-	width: auto;
-	margin-left: -10em;
-}
 .ui.menu .ui.dropdown .menu>.item {
 	display: block !important;
 }
@@ -148,9 +134,6 @@ header {
     }
     #header-logo {
       max-width: 80%;
-    }
-    #mobile-menu {
-        min-width: 25%;
     }
   }
 }
@@ -203,17 +186,4 @@ input:focus::-moz-placeholder{
 	.medium.screen.only {
 		display: none !important;
 	}
-}
-
-.margin-left-1 {
-  margin-left: 1em;
-}
-
-.flex-center {
-  display: flex;
-  align-items: center !important;
-}
-
-.text-center {
-  text-align: center;
 }
