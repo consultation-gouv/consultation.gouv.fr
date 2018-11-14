@@ -1,64 +1,56 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+  {% include head.html %}
+  <body>
+    <div id="wrapper">
+      <div id="page">
+        <header>
 
-<body>
+          <nav class="navbar d-flex justify-content-start ">
+            <a class="navbar-brand site-name" href="/">
+              <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
+            <div class="ml-1">
+              <div class="site-name"><b>consultation.etalab.gouv.</b><i>fr</i></div>
+              <div class="low">
+                Fabriquez votre consultation en ligne
+              </div>
+            </div>
+            <div class="flex-grow-1 text-right d-none d-lg-block" id="navbarNavDropdown">
+              <ul class="navbar-nav flex-row justify-content-end">
+                {% for item in site.data.topmenu %}
+                <li class="nav-item ">
+                  <a href="{{ item.link }}" class="{% if page.title ==  item.name%} font-weight-bold {% endif %}">
+                    {% unless item.name == site.data.topmenu[0].name %} <span class="pipe font-weight-normal">|</span> {% endunless %}
+                    {{ item.name }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
 
-<div id="wrapper">
-  <div id="page">
-    <header class="gray-background">
+            <div class="mr-2 text-right flex-grow-1 dropdown d-lg-none">
+              <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
+                {% for item in site.data.topmenu %}
+                <a href="{{ item.link }}" class="dropdown-item p-1">
+                  {% unless item.name == site.data.topmenu[0].name %}{% endunless %}
+                  {{ item.name }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </nav>
+        </header>
 
-      <nav class="navbar d-flex justify-content-start ">
-        <a class="navbar-brand site-name" href="/">
-          <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
-        <div class="ml-1">
-          <div class="site-name">consultation.etalab.gouv</div>
-          <div class="low">
-            Fabriquez votre consultation en ligne
-          </div>
-        </div>
-        <div class="flex-grow-1 text-right d-none d-lg-block" id="navbarNavDropdown">
-          <ul class="navbar-nav flex-row justify-content-end">
-            {% for item in site.data.topmenu %}
-            <li class="nav-item ">
-              <a href="{{ item.link }}" class="{% if page.title ==  item.name%} font-weight-bold {% endif %}">
-                {% unless item.name == site.data.topmenu[0].name %} <span class="pipe font-weight-normal">|</span> {% endunless %}
-                {{ item.name }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-
-        <div class="mr-2 text-right flex-grow-1 dropdown d-lg-none">
-          <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Menu
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
-            {% for item in site.data.topmenu %}
-            <a href="{{ item.link }}" class="dropdown-item p-1">
-              {% unless item.name == site.data.topmenu[0].name %}{% endunless %}
-              {{ item.name }}</a>
-            {% endfor %}
-          </div>
-        </div>
-
-      </nav>
-    </header>
-
-
-    <main{% if page.nom %} id="{{ page.nom }}" {% endif %}>
-    {{ content }}
-    </main>
-    {% include footer.html %}
-  </div>
-</div>
-<script>
-    $('.ui.dropdown').dropdown();
-
-</script>
-{% include analytics.html %}
-</body>
-
-
-
+        <main class="pt-5 mt-5" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
+        {{ content }}
+        </main>
+        {% include footer.html %}
+      </div>
+    </div>
+    <script>
+        $('.ui.dropdown').dropdown();
+    </script>
+    {% include analytics.html %}
+  </body>
 </html>

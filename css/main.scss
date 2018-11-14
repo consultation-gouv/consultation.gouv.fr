@@ -17,6 +17,10 @@
 		background-size: 100%;
 }
 
+body {
+  font-family: open-sans, sans-serif;
+}
+
 #wrapper {
 	min-height: 100%;
 	position: relative;
@@ -31,7 +35,7 @@
 }
 
 
-#wrapper {
+#wrapper, header {
   width: 70%;
   margin: auto;
   @media ( max-width: 1400px ) {
@@ -69,9 +73,11 @@
 }
 
 header {
-  position: inherit;
-  box-shadow: none;
-
+  box-shadow: 0px 20px 38px -1px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+  top: 0;
   nav {
     padding: 1em;
     display: flex;
@@ -86,7 +92,6 @@ header {
     }
     .site-name {
       font-size: 1.5em;
-      font-weight: bold;
     }
     .text {
       margin-left: 1em;
