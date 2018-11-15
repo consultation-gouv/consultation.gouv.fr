@@ -2,7 +2,7 @@
 layout: default
 additional_css: outil
 ---
-
+{{ site.data.outils }}
 <section id="mission-statement" class="ui vertical center aligned segment" {% if page.img-bg %} style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/img/{{ page.img-bg }}.jpg); background-position: center center;" {% endif %} >
 
   <div class="ui container">
@@ -38,7 +38,7 @@ additional_css: outil
         </div>
         {% endif %}
         <div class="ui relaxed divided list metadata">
-          <div class="item logoWrapper">
+          <div class="item logoWrapper text-center">
             <div class="ui small image">
               {% if page.logo %}
               <img src="/img/{{ page.logo }}" alt="{{ page.title }}" /> {% else %}
