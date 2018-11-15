@@ -36,6 +36,10 @@ body {
   color: $simulation-color;
 }
 
+.row {
+  width: 100%;
+  margin: auto;
+}
 
 #wrapper, header {
   width: 70%;
@@ -53,26 +57,26 @@ body {
     padding-top: 30% !important;
   }
 }
-#page {
-
-	main {
-		&#bonnes-pratiques {
-		& >	.container::before {
-                @include picto("/img/illu-comment-faire.png");
-			}
-		}
-		&#pourquoi-outils {
-		& >	.container::before {
-                @include picto("/img/illu-pourquoi-outils.png");
-			}
-		}
-		&#comment-utiliser {
-		& >	.container::before {
-                @include picto("/img/illu-comment-utiliser.png");
-			}
-		}
-	}
-}
+//#page {
+//
+//	main {
+//		&#bonnes-pratiques {
+//		& >	.container::before {
+//                @include picto("/img/illu-comment-faire.png");
+//			}
+//		}
+//		&#pourquoi-outils {
+//		& >	.container::before {
+//                @include picto("/img/illu-pourquoi-outils.png");
+//			}
+//		}
+//		&#comment-utiliser {
+//		& >	.container::before {
+//                @include picto("/img/illu-comment-utiliser.png");
+//			}
+//		}
+//	}
+//}
 
 header {
   box-shadow: 0px 20px 38px -1px rgba(0, 0, 0, 0.1);
