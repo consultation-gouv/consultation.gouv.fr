@@ -8,8 +8,8 @@ outil:
 screenshot: "./Europe des startups.png"
 title: Europe des startups
 in_progress: true
-note-citoyenne: 5
-note-decidee: 5
+note-citoyenne: 3
+note-decidee: 2
 ---
 
 
