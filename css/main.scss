@@ -6,8 +6,6 @@
 @import "buttons";
 @import "cards";
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
-
 @mixin picto($url) {
 		display: inline-block;
 		width: 200px;
@@ -20,7 +18,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 #wrapper {
@@ -57,26 +55,6 @@ body {
     padding-top: 30% !important;
   }
 }
-//#page {
-//
-//	main {
-//		&#bonnes-pratiques {
-//		& >	.container::before {
-//                @include picto("/img/illu-comment-faire.png");
-//			}
-//		}
-//		&#pourquoi-outils {
-//		& >	.container::before {
-//                @include picto("/img/illu-pourquoi-outils.png");
-//			}
-//		}
-//		&#comment-utiliser {
-//		& >	.container::before {
-//                @include picto("/img/illu-comment-utiliser.png");
-//			}
-//		}
-//	}
-//}
 
 header {
   box-shadow: 0px 20px 38px -1px rgba(0, 0, 0, 0.1);
@@ -199,4 +177,11 @@ input:focus::-moz-placeholder{
 	.medium.screen.only {
 		display: none !important;
 	}
+}
+
+.nav-tabs {
+  font-size: 1.3rem;
+}
+.tab-content {
+  width: 100%;
 }

@@ -36,3 +36,15 @@
 #usage-content {
   padding-bottom: 10%;
 }
+
+.list-parameters {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 1rem !important;
+  ul {
+    margin: 0;
+  }
+  .fas {
+    font-size: 2rem;
+  }
+}
