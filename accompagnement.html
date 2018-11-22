@@ -82,15 +82,17 @@ title: Accompagnement
         </div>
 
         <div class="row">
-          <div class="mt-5 col-12">
+          <div class="my-5 col-12">
             <h2 class="blue">Contacter directement les éditeurs</h2>
-            <p>Pour des montants inférieurs à 25 000€, vous pouvez contacter directement les éditeurs, et mettre en concurrence 3 devis : </p>
-              <p class="mt-3 text-center">contact@bluenove.com</p>
-              <p class="mt-3 text-center">contact@capcollectif.com/</p>
-              <p class="mt-3 text-center">contact@democracyos.eu</p>
-              <p class="mt-3 text-center">contact@ecreall.com</p>
+            <p>Pour des montants inférieurs à 25 000€, vous pouvez contacter directement les éditeurs : </p>
+          </div>
+          <div class="col-12">
+            <div class="ui container">
+              <div class="ui four stackable cards">
+                {% for outil in site.outil %} {% include outil-card-contact.html description=outil %} {% endfor %}
+              </div>
             </div>
-        </div>
+          </div>
 
       </div>
 
