@@ -1,5 +1,6 @@
 ---
 layout: default
+additional_css: usage
 ---
 
 <section id="title" class="ui vertical center aligned segment">
@@ -53,6 +54,20 @@ layout: default
       </div>
       <div class="eleven wide column">
         <div class="markdown-body">
+          {% if page.parameters %}
+            <div class="row list-parameters mb-4">
+              <div class="col-md-1 col-12 d-flex justify-content-center align-items-center">
+                <i class="fas fa-info blue"></i>
+              </div>
+              <div class="col-md-11 col-12 d-flex align-items-center">
+                <ul class="list-unstyled">
+                  {% for parameter in page.parameters %}
+                  <li><strong>{{ parameter.name }} :</strong> {{ parameter.content }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          {% endif %}
           {{ content }}
         </div>
         <div>
