@@ -1,0 +1,312 @@
+---
+layout: default
+additional_css: outil
+---
+<<<<<<< .merge_file_a04168
+
+=======
+{{ site.data.outils }}
+>>>>>>> .merge_file_a09896
+<section id="mission-statement" class="ui vertical center aligned segment" {% if page.img-bg %} style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/img/{{ page.img-bg }}.jpg); background-position: center center;" {% endif %} >
+
+  <div class="ui container">
+    <div class="ui grid">
+      <div class="twelve wide centered column">
+        <h1 class="ui inverted header">
+          {{ page.title }}
+        </h1>
+        <h3 class="ui inverted header">
+          {{ page.tagline }}
+        </h3>
+        {% if page.doc_tech %}
+        <a class="large ui secondary button" href="{{ page.doc_tech }}" rel="noopener" target="_blank">
+          Documentation technique &nbsp;&nbsp;<i class="code icon"></i>
+        </a> {% endif %} {% if page.access_link %}
+        <a class="large ui secondary button" href="{{ page.access_link }}" rel="noopener" target="_blank">
+          Utilisez !&nbsp;
+          <i class="ticket icon"></i>
+        </a> {% endif %}
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<div id="description" class="ui container">
+  <div class="ui mobile reversed stackable grid">
+    <div class="five wide column">
+      <div class="ui segment">
+        {% if page.experimental %}
+        <div class="ui yellow left ribbon label">
+          Expérimentale
+        </div>
+        {% endif %}
+        <div class="ui relaxed divided list metadata">
+<<<<<<< .merge_file_a04168
+          <div class="item logoWrapper">
+=======
+          <div class="item logoWrapper text-center">
+>>>>>>> .merge_file_a09896
+            <div class="ui small image">
+              {% if page.logo %}
+              <img src="/img/{{ page.logo }}" alt="{{ page.title }}" /> {% else %}
+              <img src="/img/{{ page.default_logo }}" alt="{{ page.title }}" /> {% endif %}
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="content">
+              <div class="ui embed" data-url="{{ page.url_video_demo }}" data-placeholder="/img/{{ page.vignette_video_demo }}"></div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              <div class="header">Licence</div>
+              <div class="description">
+                {% if page.contract == "OUVERT sous contrat"%} {{ page.contract }} au :
+                <ul>
+                  {% for client in page.clients %}
+                  <li>{{ client }}</li>
+                  {% endfor%}
+                </ul>
+                {% else %} {{ page.contract }} {% endif %}
+              </div>
+            </div>
+          </div>
+          {% if page.domain %}
+          <div class="item">
+            <div class="content">
+              <div class="header">Web</div>
+              <div class="description">
+
+                <a href="{{ page.domain }}" target="_blank" rel="noopener">{{ page.domain }}</a>
+
+              </div>
+            </div>
+          </div>
+          {% endif %} {% if page.contact %}
+          <div class="item">
+            <div class="content">
+              <div class="header">Contact</div>
+              <div class="description">
+                {% if page.contact contains "@" %}
+                <a target="_blank" href="mailto:{{ page.contact }}?subject={{ " Contact via consultation.gouv.fr " | url_encode }}">{{ page.contact }}</a>                {% else %}
+                <a target="_blank" href="{{ page.contact }}" target="_blank" rel="noopener">Formulaire</a> {% endif%}
+              </div>
+            </div>
+          </div>
+          {% endif %} {% if page.partners %}
+          <div class="item">
+            <div class="content">
+              <div class="header">Sources et partenaires</div>
+              <div class="description">
+                {{ page.partners | join: ' - ' }}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="eleven wide column">
+      <div class="ui secondary pointing menu">
+        <a class="item tab active" data-tab="funk">Description</a>
+        <a class="item tab" data-tab="services">Services inclus</a>
+        <a class="item tab" data-tab="tech"> Détails Techniques</a>
+      </div>
+      <div class="ui active tab" data-tab="funk">
+        <section class="markdown-body">
+           <div class="ui grid">
+            <div class="ten wide column">
+                {{ content }}
+              </div>
+              {% if page.atout1  %}
+               <div id="atouts" class="six wide column">
+                 <h4>Atouts</h4>
+                  <ul>
+              
+              
+          <li>{{ page.atout1  }} </li>
+          {% endif %}
+
+          {% if page.atout2  %}
+          <li>{{ page.atout2  }} </li>
+          {% endif %}
+
+          {% if page.atout3  %}
+          <li>{{ page.atout3  }} </li>
+          {% endif %}
+              </ul>
+              </div>
+              <div>
+        
+        </section>
+      </div>
+
+      <div class="ui tab" data-tab="services">
+        <section class="markdown-body">
+          <div class="ui grid">
+            <div class="eight wide column">
+              <h4>Inclus</h4>
+              <h6>Fonctionnalités</h6>
+              <ul>
+              
+              {% if page.feature_inclus1  %}
+          <li>{{ page.feature_inclus1  }} </li>
+          {% endif %}
+
+          {% if page.feature_inclus2  %}
+          <li>{{ page.feature_inclus2  }} </li>
+          {% endif %}
+
+          {% if page.feature_inclus3  %}
+          <li>{{ page.feature_inclus3  }} </li>
+          {% endif %}
+              </ul>
+
+              <h6>Accompagnement</h6>
+<ul>
+                {% if page.accompagnement_inclus1  %}
+          <li>{{ page.accompagnement_inclus1  }} </li>
+          {% endif %}
+
+          {% if page.accompagnement_inclus2  %}
+          <li>{{ page.accompagnement_inclus2  }} </li>
+          {% endif %}
+
+          {% if page.accompagnement_inclus3  %}
+          <li>{{ page.accompagnement_inclus3  }} </li>
+          {% endif %}
+              </ul>
+
+            </div>
+            <div class="eight wide column">
+              <h4>Pour aller plus loin</h4>
+              <h6>Fonctionnalités</h6>
+              <ul>
+              
+              {% if page.feature_plusloin1  %}
+          <li>{{ page.feature_plusloin1  }} </li>
+          {% endif %}
+
+          {% if page.feature_plusloin2  %}
+          <li>{{ page.feature_plusloin2  }} </li>
+          {% endif %}
+
+          {% if page.feature_plusloin3  %}
+          <li>{{ page.feature_plusloin3  }} </li>
+          {% endif %}
+              </ul>
+
+              <h6>Accompagnement</h6>
+<ul>
+              {% if page.accompagnement_plusloin1  %}
+          <li>{{ page.accompagnement_plusloin1  }} </li>
+          {% endif %}
+
+          {% if page.accompagnement_plusloin2  %}
+          <li>{{ page.accompagnement_plusloin2  }} </li>
+          {% endif %}
+
+          {% if page.accompagnement_plusloin3  %}
+          <li>{{ page.accompagnement_plusloin3  }} </li>
+          {% endif %}
+              </ul>
+
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="ui tab list" data-tab="tech">
+
+        {% if page.demo %}
+        <div class="item">
+          <div class="content">
+            <div class="header">Demo</div>
+            <div class="description">
+              <a href="{{ page.demo }}" target="_blank" rel="noopener">{{ page.demo }}</a>
+            </div>
+          </div>
+        </div>
+        {% endif %} {% if page.developer %}
+        <div class="item">
+          <div class="content">
+            <div class="header">Développeur</div>
+            <div class="description">{{ page.developer }}</a>
+            </div>
+          </div>
+        </div>
+        {% endif %} {% if page.programming_language %}
+        <div class="item">
+          <div class="content">
+            <div class="header">Language de programmation</div>
+            <div class="description">{{ page.programming_language }}</a>
+            </div>
+          </div>
+        </div>
+        {% endif %} {% if page.languages %}
+        <div class="item">
+          <div class="content">
+            <div class="header">Langues</div>
+            <div class="description">{{ page.languages }}</a>
+            </div>
+          </div>
+        </div>
+        {% endif %} {% if page.opensource %}
+        <div class="item">
+          <div class="content">
+            <div class="header">Opensource</div>
+            <div class="description">{{ page.opensource }}</a>
+            </div>
+          </div>
+        </div>
+        {% endif %} {% if page.source %}
+        <div class="item">
+          <div class="content">
+            <div class="header">Source</div>
+            <div class="description"><a href="{{ page.source }}" target="_blank" rel="noopener">{{ page.source }}</a>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% capture usageHtml %} {% for usage in site.usage %} {% if usage.outil contains page.title%} {% include usage-card.html
+usage=usage %} {% endif %} {% endfor %} {% endcapture %} {% assign usageHtmlWithoutSpace = usageHtml | strip_newlines | strip
+%} {% if usageHtmlWithoutSpace != "" %}
+<section id="usages" class="ui container">
+  <h2 class="ui divider horizontal">Ils l'ont utilisé</h2>
+  <div class="ui two stackable cards">
+    {{ usageHtml }}
+  </div>
+</section>
+{% endif %}
+
+
+<script>
+  $(function () {
+    $('.ui.embed').embed();
+    $('.menu .item.tab').tab();
+    {% if page.stat.url %}
+    var $divStat = $(".statistic .value")
+    $.get("{{ page.stat.url }}", function (data) {
+      {% if page.stat.path %}
+      data = data["{{ page.stat.path | join: '"]["' }}"]
+      {% endif %}
+      printStat(data)
+    });
+
+    function printStat(data) {
+      $divStat.text(parseInt(data).toLocaleString('fr-FR'));
+    }
+
+    {% endif %}
+  });
+
+</script>
