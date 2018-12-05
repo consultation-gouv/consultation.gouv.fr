@@ -18,8 +18,6 @@ consultation:
   link: "/laconsultation.html#bonnes-pratiques"
 
 troisieme:
-- name: À propos
-  link: "/leprojet.html"
 - name: Notre démarche
   link: "/leprojet.html#demarche"
 - name: Critères de sélection
