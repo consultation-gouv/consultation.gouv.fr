@@ -3,12 +3,38 @@
 ---
 
 @import "variables";
-@import "markdown";
 @import "usage";
 
-.espace-illustration {
-  max-width: 50%;
+#outil {
+  .outil-banner {
+    background-position: center center;
+    min-height: 18rem;
+    background-size: cover;
+    color: #ffffff;
+  }
+  .logo-outil {
+    img {
+      max-width: 100%;
+      max-height: 10rem;
+    }
+  }
+  .item {
+    .title {
+      font-weight: bold;
+    }
+  }
+  #atouts {
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+  }
+  .tab-pane {
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+  h6 {
+    font-weight: bold;
+    color: $gray;
+  }
 }
-.editeur {
-  font-size: 0.9rem;
-}
+

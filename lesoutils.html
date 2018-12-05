@@ -72,7 +72,7 @@ title: Outils
           <div class="stackable cards row">
             {% for usage in site.usage %}
             {% unless usage.in_progress %}
-            {% include exemple-card.html usage=usage %}
+            {% include exemple-card.html usage=usage en-savoir-plus=true%}
             {% endunless %}
             {% endfor %}
           </div>

@@ -1,4 +1,4 @@
- <div class="col-md-6 col-12 mt-4">
+ <div class="col-md-4 col-12 mt-4">
   <div class="card mb-3 card-exemple">
     <div class="content card-header bg-transparent">
       <h4>
@@ -20,7 +20,9 @@
         <a class="btn btn-secondary btn-sm" href="{{ outil.url }}"> {{ outil.title }}</a>
         {% endfor %}
       </div>
+      {% if en-savoir-plus %}
       <a class="more" href="{{ outil.url }}">En savoir plus</a>
+      {% endif %}
     </div>
   </div>
  </div>

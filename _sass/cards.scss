@@ -29,6 +29,7 @@
 .card-exemple {
   height: 100%;
   .card-header {
+    min-height: 30%;
     a {
       text-decoration: none;
       color: $simulation-color;
@@ -37,6 +38,7 @@
   .card-body {
     background-color: #F2F2F2;
     height: 18rem;
+    padding: 0;
     a {
       height: 100%;
       width: 100%;

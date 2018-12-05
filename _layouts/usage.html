@@ -2,78 +2,66 @@
 layout: default
 additional_css: usage
 ---
-
-<section id="title" class="ui vertical center aligned segment">
-
-  <div class="ui text container">
-    <h1 class="ui inverted header">
+<div id="title" class="row py-5 ">
+  <div class="offset-md-1 text-center col-md-10 col-12 d-flex justify-content-center flex-column align-items-center">
+    <h1 class="m-0">
       {{ page.title }}
     </h1>
-
-    <h2 class="ui inverted header">
+    <h3 class="my-4">
       {{ page.description }}
-    </h2>
-
-    <a class="large ui secondary button" href="{{ page.link }}" rel="noopener" target="_blank">
-      Accédez au cas d'usage &nbsp;&nbsp;<i class="rocket icon"></i>
-    </a>
+    </h3>
+    <div>
+      {% if page.link %}
+      <a class="btn btn-outline-light mr-2" href="{{ page.link }}" rel="noopener" target="_blank">
+        Accédez au cas d'usage &nbsp;&nbsp;<i class="rocket icon"></i>
+      </a>
+      {% endif %}
+    </div>
   </div>
-</section>
+</div>
 
-
-<div id="usage-content" class="ui container content">
-  <div class="ui stackable grid">
-    <div class="row">
-      <div class="five wide column">
-        <h3 class="ui divider horizontal">Les outils utilisées</h3>
-        <div class="ui segments">
-          {% for outilName in page.outil %}
-          {% assign outil = site.outil | where: "title", outilName | first %}
-
-          <div class="ui segment">
-            <div class="ui grid">
-              <div class="row">
-                <div class="three wide column">
-                  {% if outil.logo %}
-                    <img class="ui fluid image logooutil" src="/img/{{ outil.logo }}" alt="logo de {{ outil.title }}"/>
-                  {% else %}
-                    <img class="ui fluid image logooutil" src="/img/{{ outil.default_logo }}" alt="logo générique"/>
-                  {% endif %}
-                </div>
-                <div class="thirteen wide column">
-                  <h4>
-                    <a href="{{ outil.url }}" class="header">{{ outil.title }}</a>
-                  </h4>
-                  {{ outil.tagline }}
-                </div>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
+<div class="row">
+  <div class="col-md-4 col-12">
+    <h4 class="text-center my-4">Les outils utilisées</h4>
+    {% for outilName in page.outil %}
+    {% assign outil = site.outil | where: "title", outilName | first %}
+    <div class="row card-outils-utilise p-2">
+      <div class="col-4 d-flex align-items-center">
+        {% if outil.logo %}
+        <img class="" src="/img/{{ outil.logo }}" alt="logo de {{ outil.title }}"/>
+        {% else %}
+        <img class="" src="/img/{{ outil.default_logo }}" alt="logo générique"/>
+        {% endif %}
       </div>
-      <div class="eleven wide column">
-        <div class="markdown-body">
-          {% if page.parameters %}
-            <div class="row list-parameters mb-4">
-              <div class="col-md-1 col-12 d-flex justify-content-center align-items-center">
-                <i class="fas fa-info blue"></i>
-              </div>
-              <div class="col-md-11 col-12 d-flex align-items-center">
-                <ul class="list-unstyled">
-                  {% for parameter in page.parameters %}
-                  <li><strong>{{ parameter.name }} :</strong> {{ parameter.content }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          {% endif %}
-          {{ content }}
-        </div>
-        <div>
-          <img class="ui bordered rounded fluid image" src="/img/{{ page.screenshot }}" alt="capture d'écran de {{ page.title }}">
-        </div>
+      <div class="col-8">
+        <h4>
+          <a href="{{ outil.url }}" class="">{{ outil.title }}</a>
+        </h4>
+        {{ outil.tagline }}
       </div>
     </div>
+    {% endfor %}
+  </div>
+
+  <div class="col-md-8 col-12 mt-4">
+    {% if page.parameters %}
+    <div class="row list-parameters mb-4">
+      <div class="col-md-1 col-12 d-flex justify-content-center align-items-center">
+        <i class="fas fa-info blue"></i>
+      </div>
+      <div class="col-md-11 col-12 d-flex align-items-center">
+        <ul class="list-unstyled m-0">
+          {% for parameter in page.parameters %}
+          <li><i class="fas fa-angle-right blue"></i> <strong>{{ parameter.name }} :</strong> {{ parameter.content }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endif %}
+    {{ content }}
+    <div class="text-center" >
+      <img class="img-fluid" src="/img/{{ page.screenshot }}" alt="capture d'écran de {{ page.title }}">
+    </div>
+
   </div>
 </div>
