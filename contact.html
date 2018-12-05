@@ -2,27 +2,25 @@
 layout: default
 additional_css: contact
 ---
-
-<section id="contact">
-  <h2> Contacter les éditeurs d'outils </h2>
-  <div class="ui container">
-    <div class="ui four stackable cards">
-      {% for outil in site.outil %} {% include outil-card-contact.html description=outil %} {% endfor %}
-    </div>
+<div class="row mt-5">
+  <div class="col-md-8 col-12">
+    <h2 class="mb-3 blue">Aidez-nous à améliorer le site consultation.gouv.fr</h2>
+    <p>Vous avez repéré un problème ou souhaitez proposer une amélioration du catalogue ? </p>
+    <a target="_blank" class="mb-3 btn btn-primary" href="https://github.com/consultation-gouv/consultation.gouv.fr">Suggérez-la sur github&nbsp;!</a>
+    <p>Vous ne savez pas comment faire&nbsp;? <a target="_blank" href="mailto:consultation@etalab.gouv.fr">Contactez-nous</a></p>
   </div>
-
-  <div id="contact-details" class="ui container">
-    <h2> Aidez-nous à améliorer le site consultation.gouv.fr </h2>
-    <p> Vous avez repéré un problème ou souhaitez proposer une amélioration du catalogue ? </p>
-    <a target="_blank" class="ui button moreButton" href="https://github.com/consultation-gouv/consultation.gouv.fr"> Suggérez-la sur github !</a>
-    <p id="dunno" ><small> Vous ne savez pas comment faire ?  <a target="_blank" href="mailto:consultation@etalab.gouv.fr">Contactez-nous</a></small></p>
-
-    <h2 id="soumettre-outil"> Soumettre un outil </h2>
-    <p> Vous êtes éditeur d’un outil de consultation citoyen et vous souhaitez voir votre solution sur notre plateforme ? Vérifiez
-      que vous êtes éligible grâce aux critères de sélection et envoyez-nous un message ! </p>
-    <a target="_blank" class="ui button moreButton2" href="mailto:consultation@etalab.gouv.fr"> consultation@etalab.gouv.fr</a>
-
-    <h2> Contactez-nous ! </h2>
-    <a target="_blank" class="ui button moreButton" href="mailto:consultation@etalab.gouv.fr"> consultation@etalab.gouv.fr</a>
+</div>
+<div class="row mt-4">
+  <div class="col-md-8 col-12">
+    <h2 class="mb-3 blue">Soumettre un outil</h2>
+    <p>Vous êtes éditeur d’un outil de consultation citoyen et vous souhaitez voir votre solution sur notre plateforme&nbsp;? Vérifiez
+      que vous êtes éligible grâce aux critères de sélection et envoyez-nous un message&nbsp;!</p>
+    <a target="_blank" class="btn btn-primary" href="mailto:consultation@etalab.gouv.fr">consultation@etalab.gouv.fr</a>
   </div>
-</section>
+</div>
+<div class="row my-4">
+  <div class="col-md-8 col-12">
+    <h2 class="mb-3 blue">Contactez-nous&nbsp;!</h2>
+    <a target="_blank" class="btn btn-primary btn-fade" href="mailto:consultation@etalab.gouv.fr">consultation@etalab.gouv.fr</a>
+  </div>
+</div>
