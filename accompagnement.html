@@ -85,10 +85,10 @@ title: Accompagnement
             <p>Pour des montants inférieurs à 25 000€, vous pouvez contacter directement les éditeurs : </p>
           </div>
           <div class="col-12">
-            <div class="ui container">
-              <div class="ui four stackable cards">
-                {% for outil in site.outil %} {% include outil-card-contact.html description=outil %} {% endfor %}
-              </div>
+            <div class="row">
+              {% for outil in site.outil %}
+              {% include outil-card-contact.html description=outil %}
+              {% endfor %}
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ title: Accompagnement
             <a href="www."></a>
             <p> Un portail de data visualisation est en cours de développement afin de vous permettre de mieux comprendre le marché des civic tech. Il sera disponible sur cette page, <i> stay tuned !</i> </p>
           </br>
-          <p> L'équipe d'Étalab </p>
+          <p> L'équipe d'Etalab </p>
           </div>
         </div>
       </div>

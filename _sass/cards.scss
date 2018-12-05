@@ -13,12 +13,7 @@
     flex: 0 0 40%;
     max-height: 40%;
     img {
-      height: auto;
-      width: inherit;
-      min-width: auto;
       max-height: 100%;
-      max-width: 60%;
-      margin: auto;
     }
   }
   &:hover {
@@ -59,5 +54,11 @@
     max-height: 100%;
     max-width: 100%;
     margin: auto;
+  }
+}
+
+.card-contact {
+  a:hover {
+    text-decoration: none;
   }
 }
