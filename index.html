@@ -11,7 +11,7 @@ additional_css: homepage
   </div>
 </div>
 
-<div class="home-section p-md-5 p-4 row">
+<div id="preparer" class="home-section p-md-5 p-4 row" data-name="Préparation">
   <div class="row">
     <div class="py-3 col-md-8 col-12 py-3 col-md-8 col-12 d-flex flex-column justify-content-between">
       <div class="section-title">
@@ -35,7 +35,7 @@ additional_css: homepage
   </div>
 </div>
 
-<div class="row home-section gray-background p-md-5 p-4">
+<div class="row home-section gray-background p-md-5 p-4" data-name="Outils">
   <div class="py-3 col-md-8 col-12">
     <div class="section-title">
       <h2>2. <strong>Choisir</strong> un outil de consultation <span class="time">(20&nbsp;minutes)</span></h2>
@@ -51,7 +51,7 @@ additional_css: homepage
   </div>
 </div>
 
-<div class="row home-section p-md-5 p-4">
+<div class="row home-section p-md-5 p-4" data-name="Accompagnement">
   <div class="py-3 col-md-8 col-12">
     <div class="section-title">
       <h2>3. Choisir un <strong>accompagnement</strong><span class="time">(5&nbsp;minutes)</span></h2>
@@ -69,7 +69,7 @@ additional_css: homepage
   </div>
 </div>
 
-<div class="home-section home-contact gray-background p-md-5 p-4 row">
+<div class="home-section home-contact gray-background p-md-5 p-4 row" data-name="Support">
   <div class="py-3 col-md-8 col-12">
     <div class="section-title">
       <h2>Une question, un problème&nbsp;?</h2>
@@ -80,3 +80,16 @@ additional_css: homepage
     <a href="/support.html" class="btn btn-primary btn-lg"><i class="fas fa-chevron-right"></i> Contactez-nous</a>
   </div>
 </div>
+
+<script>
+  $(".home-section")
+    .mouseenter(function() {
+      var target = "#" + $(this).data('name')
+      console.log(target)
+      console.log($(target))
+      $(target).addClass('underline')
+    })
+    .mouseleave(function() {
+      $('a').removeClass('underline')
+    });
+</script>
