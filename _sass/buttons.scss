@@ -24,3 +24,15 @@
     background-color: $btn-hover !important;
   }
 }
+
+.btn-outline-primary {
+  color: $simulation-color;
+  background-color: transparent;
+  background-image: none;
+  border-color: $simulation-color;
+  &:hover, &:active, &:focus {
+    color: #fff;
+    background-color: $simulation-color;
+    border-color: $simulation-color;
+  }
+}
