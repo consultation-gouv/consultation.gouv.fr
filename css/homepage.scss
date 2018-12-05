@@ -5,13 +5,18 @@
 @import "variables";
 
 .home-section {
+  transition: ease 0.3s;
+  &:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
   .section-title {
     display: flex;
     align-items: center;
     margin-bottom: 1em;
-    span {
+    .time {
       color: $simulation-color;
-      font-size: 1.3em;
+      font-size: 1.3rem;
       margin-left: 1em;
     }
   }
