@@ -7,12 +7,12 @@ additional_css: leprojet
   <div class="row">
     <div class="col-12">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <!--<li class="nav-item">-->
+          <!--<a class="nav-link active text-dark" id="apropos-tab" data-toggle="tab" href="#apropos" role="tab"-->
+             <!--aria-controls="apropos" aria-selected="true">À propos</a>-->
+        <!--</li>-->
         <li class="nav-item">
-          <a class="nav-link active text-dark" id="apropos-tab" data-toggle="tab" href="#apropos" role="tab"
-             aria-controls="apropos" aria-selected="true">À propos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" id="demarche-tab" data-toggle="tab" href="#demarche" role="tab"
+          <a class="nav-link text-dark active" id="demarche-tab" data-toggle="tab" href="#demarche" role="tab"
              aria-controls="demarche" aria-selected="false">Démarche</a>
         </li>
         <li class="nav-item">
@@ -26,39 +26,39 @@ additional_css: leprojet
     <div class="tab-content" id="myTabContent">
 
       <!--apropos-->
-      <div class="tab-pane fade show active container" id="apropos" role="tabpanel" aria-labelledby="apropos-tab">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="blue mb-5">À propos</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-12">
-            <p>Ce service est fourni par la DINSIC via Etalab</p>
-            <p>Etalab et les acteurs de la CiviTech ont collaboré pour facilité l'usage des consultations ouvertes en
-              ligne et mettre des outils et bonne pratiques à disposition des administrations.</p>
-            <p>Ce site recense des outils existants, déjà utilisés par des administrations, et fournissant un certain
-              nombre de facilités et garanties aux acteurs publics.</p>
-          </div>
-        </div>
-        <hr class="my-5">
-        <div class="row mb-5 row-github">
-          <div class="col-sm-2 col-12 d-flex justify-content-center align-items-center py-2">
-            <i class="fab fa-github"></i>
-          </div>
-          <div class="col-sm-10 col-12">
-            <h4>Aidez-nous à améliorer ce site</h4>
-            <p>Vous avez repéré un problème ou souhaitez proposer une amélioration du catalogue&nbsp?</p>
-            <p>Faite une suggestion via Github :
-              <a href="https://github.com/consultation-gouv/consultation.gouv.fr/issues" target="_blank">
-                https://github.com/consultation-gouv/consultation.gouv.fr/issues</a>
-            </p>
-          </div>
-        </div>
-      </div>
+      <!--<div class="tab-pane fade show active container" id="apropos" role="tabpanel" aria-labelledby="apropos-tab">-->
+        <!--<div class="row">-->
+          <!--<div class="col-12">-->
+            <!--<h1 class="blue mb-5">À propos</h1>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+          <!--<div class="col-md-8 col-12">-->
+            <!--<p>Ce service est fourni par la DINSIC via Etalab</p>-->
+            <!--<p>Etalab et les acteurs de la CiviTech ont collaboré pour facilité l'usage des consultations ouvertes en-->
+              <!--ligne et mettre des outils et bonne pratiques à disposition des administrations.</p>-->
+            <!--<p>Ce site recense des outils existants, déjà utilisés par des administrations, et fournissant un certain-->
+              <!--nombre de facilités et garanties aux acteurs publics.</p>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<hr class="my-5">-->
+        <!--<div class="row mb-5 row-github">-->
+          <!--<div class="col-sm-2 col-12 d-flex justify-content-center align-items-center py-2">-->
+            <!--<i class="fab fa-github"></i>-->
+          <!--</div>-->
+          <!--<div class="col-sm-10 col-12">-->
+            <!--<h4>Aidez-nous à améliorer ce site</h4>-->
+            <!--<p>Vous avez repéré un problème ou souhaitez proposer une amélioration du catalogue&nbsp?</p>-->
+            <!--<p>Faite une suggestion via Github :-->
+              <!--<a href="https://github.com/consultation-gouv/consultation.gouv.fr/issues" target="_blank">-->
+                <!--https://github.com/consultation-gouv/consultation.gouv.fr/issues</a>-->
+            <!--</p>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
 
       <!--demarche-->
-      <div class="tab-pane fade container" id="demarche" role="tabpanel" aria-labelledby="demarche-tab">
+      <div class="tab-pane fade container show active" id="demarche" role="tabpanel" aria-labelledby="demarche-tab">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -124,6 +124,20 @@ additional_css: leprojet
               {% for logo in site.data.logos-projet %}
                 <a href="{{ logo.link }}" target="_blank"><div class="projet-logos" id="{{ logo.name }}"></div></a>
               {% endfor %}
+            </div>
+          </div>
+          <hr class="my-5">
+          <div class="row mb-5 row-github">
+            <div class="col-sm-2 col-12 d-flex justify-content-center align-items-center py-2">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="col-sm-10 col-12">
+              <h4>Aidez-nous à améliorer ce site</h4>
+              <p>Vous avez repéré un problème ou souhaitez proposer une amélioration du catalogue&nbsp?</p>
+              <p>Faite une suggestion via Github :
+                <a href="https://github.com/consultation-gouv/consultation.gouv.fr/issues" target="_blank">
+                  https://github.com/consultation-gouv/consultation.gouv.fr/issues</a>
+              </p>
             </div>
           </div>
         </div>

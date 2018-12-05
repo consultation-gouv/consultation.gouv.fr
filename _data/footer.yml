@@ -4,8 +4,6 @@ plateforme:
   link: "/cgu.html"
 - name: Mentions légales
   link: "/mentions.html"
-- name: À propos
-  link: "/leprojet.html"
 - name: Contact
   link: "/contact.html"
 outils:
