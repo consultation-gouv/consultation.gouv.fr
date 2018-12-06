@@ -1,6 +1,7 @@
 ---
 title: Cap Collectif
 tagline: Une plateforme d’intelligence collective complète et polyvalente.
+lettre_engagement: "/uploads/Lettre-engagement-Cap-Collectif.jpeg"
 img-bg: cap-bg
 domain: https://cap-collectif.com/
 contact: contact@cap-collectif.com

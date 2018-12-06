@@ -20,6 +20,7 @@ tagline: Mobiliser le plus grand nombre autour d'un enjeu clé et co-construire 
 title: Assembl
 url_video_demo: https://player.vimeo.com/video/227922253
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
+lettre_engagement: "/uploads/Lettre-engagement-Bluenove.jpeg"
 atouts:
 - Garantie d’une expression libre et argumentée et d’une problématisation fine
   du sujet de la consultation

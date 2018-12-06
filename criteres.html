@@ -18,6 +18,7 @@ additional_css: criteres
   <div class="row mt-4">
     <div class="col-md-10 col-12">
       <div class="accordion" id="accordionExample">
+        <!--accessibilite-->
         <div class="card">
           <button class="card-header btn-link blue d-flex justify-content-between align-items-center"  id="headingOne" type="button" data-toggle="collapse" data-target="#accessibilite"
                   aria-expanded="true" aria-controls="accessibilite" >
@@ -27,7 +28,6 @@ additional_css: criteres
             <i class="fas fa-angle-down"></i>
           </button>
 
-          <!--accessibilite-->
           <div id="accessibilite" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
               <div class="row">
@@ -471,6 +471,24 @@ additional_css: criteres
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 mb-5">
+      <h3 class="blue">Les éditeurs des Civic Tech s'engagent à respecter ces critères</h3>
+    </div>
+    {% for outil in site.outil %}
+      {% if outil.lettre_engagement %}
+        <a class="col-md-3 col-6" href="{{ outil.lettre_engagement }}" target="_blank">
+          <img class="letters" src="{{ outil.lettre_engagement }}" alt="lettre d'engagement {{ outil.title }}" >
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="row mt-4">
+    <div id="etalabel" class="col-12">
+      <h5 class="blue">Cet engagement a donné lieu à l'attribution du label de confiance "Etalabel"</h5>
+      <img src="/img/etalabel.png" alt="logo etalabel">
     </div>
   </div>
 </div>
