@@ -20,7 +20,7 @@
                 {% for item in site.data.topmenu %}
                 <li class="nav-item">
                     {% unless item.name == site.data.topmenu[0].name %} <span class="pipe font-weight-normal">|</span> {% endunless %}
-                  <a href="{{ item.link }}" id="{{item.name%}}" class="{% if page.title ==  item.name%} font-weight-bold {% endif %}">
+                  <a href="{{ item.link }}" id="{{ item.name }}" class="{% if page.title ==  item.name %} font-weight-bold {% endif %}">
                     {{ item.name }}</a>
                 </li>
                 {% endfor %}
