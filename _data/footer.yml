@@ -6,11 +6,13 @@ plateforme:
   link: "/mentions.html"
 - name: Contact
   link: "/contact.html"
+
 outils:
 - name: Les outils disponibles
   link: "/lesoutils.html"
 - name: Proposer un outil
   link: "/contact.html#dunno"
+
 consultation:
 - name: Nos contributeurs
   link: "leprojet.html#espace-4"
@@ -28,7 +30,10 @@ troisieme:
   link: "/mentions.html"
 - name: Contact
   link: "/contact.html"
+
 quatrieme:
+- name: Consultation.gouv.fr
+  link: "/catalogue.html"
 - name: Service Public.fr
   link: "https://www.service-public.fr"
 - name: Legifrance.gouv.fr

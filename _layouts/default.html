@@ -32,6 +32,7 @@
                 Menu
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
+                <a href="/" class="dropdown-item p-1">Accueil</a>
                 {% for item in site.data.topmenu %}
                 <a href="{{ item.link }}" class="dropdown-item p-1">
                   {% unless item.name == site.data.topmenu[0].name %}{% endunless %}
