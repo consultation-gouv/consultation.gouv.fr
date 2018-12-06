@@ -27,3 +27,38 @@
 #icon-malentendants {
   width: 2rem;
 }
+
+.accompagnement-choices {
+  .links {
+    border-radius: 0;
+    margin-bottom: -0.5rem;
+    cursor: pointer;
+    max-width: 70%;
+    font-weight: bold;
+    background: $simulation-color;
+    color: #fff;
+    padding: 1rem;
+    z-index: 1;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .dark-gray {
+    background: #EEE;
+    padding: 1rem;
+    flex: 1;
+    z-index: -1;
+    margin-left: 1rem;
+  }
+  .row-choice {
+    display: flex;
+  }
+  .time {
+    color: $gray;
+    flex: 0 1 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

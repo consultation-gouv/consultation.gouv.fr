@@ -6,10 +6,37 @@ title: Accompagnement
 <div class="row mt-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="blue mb-5">Choisir un accompagnement</h1>
+      <h1 class="blue mb-5">Plusieurs accompagnements sont possibles</h1>
     </div>
-    <div class="col-12 mb-3">
-      <img class="w-100 img-fluid" src="/img/schema-consultation.png" alt="schema comment organiser sa consultation citoyenne">
+  </div>
+  <div class="row accompagnement-choices mb-5">
+    <div class="col-md-4 col-12">
+      <button class="links btn-primary btn" data-target="#autodidacte"><i class="fas fa-chevron-right"></i> Faire seul</button>
+      <div class="dark-gray">avec l'appui d'ETALAB</div>
+    </div>
+    <div class="col-md-6 col-12">
+      <button class="links btn-primary btn" data-target="#accompagne"><i class="fas fa-chevron-right"></i> Mobiliser un prestataire</button>
+      <div class="row-choice">
+        <div class="dark-gray">Mise en concurrence de 3 devis</div>
+        <div class="time">
+          <span>max 25 000€</span>
+          <span><i class="fas fa-stopwatch"></i> < 1 mois</span>
+        </div>
+      </div>
+      <div class="row-choice mt-2">
+        <div class="dark-gray">Procédure accélérée UGAP</div>
+        <div class="time">
+          <span>max 100 000€</span>
+          <span><i class="fas fa-stopwatch"></i> 1 à 2 mois</span>
+        </div>
+      </div>
+      <div class="row-choice mt-2">
+        <div class="dark-gray">Marché public</div>
+        <div class="time">
+          <span>max 100 000€</span>
+          <span><i class="fas fa-stopwatch"></i> 6 à 9 mois</span>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -50,14 +77,6 @@ title: Accompagnement
           </div>
         </div>
         <div class="row">
-          <div class="col-md-8 col-12">
-            <h2 class="blue">Comment choisir un prestataire</h2>
-          </div>
-          <div class="col-md-8 col-12">
-            <p>
-              Mise en concurrence de 3 devis, marché public, procédure accélérée UGAP... le mode de recours à un prestataire dépend de multiples paramètres. Voici un guide pour vous y retrouver :
-            </p>
-          </div>
           <div class="col-12">
             <hr>
           </div>
@@ -203,4 +222,17 @@ title: Accompagnement
         }
         window.scrollTo(500, 0)
     });
+    $('.links').click(function() {
+      var target = $(this).data('target')
+      var activeLink =  $(target + '-tab')
+      console.log(activeLink)
+      $('.tab-pane').removeClass('active show')
+      $(target).addClass('active show')
+      $('.nav-link').removeClass('active').attr('aria-selected', false)
+      activeLink.addClass('active')
+      activeLink.attr('aria-selected', true)
+      $('html,body').animate({
+        scrollTop: $('#myTab').offset().top
+      }, 500);
+    })
 </script>

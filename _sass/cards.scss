@@ -10,8 +10,6 @@
     text-decoration: none;
   }
   .card-img {
-    flex: 0 0 40%;
-    max-height: 40%;
     position: relative;
     img {
       max-height: 100%;
@@ -26,6 +24,9 @@
   }
   &:hover {
     border-color: $simulation-color;
+  }
+  .card-body {
+    height: 10rem;
   }
 }
 
