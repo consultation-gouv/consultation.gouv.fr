@@ -15,15 +15,14 @@ fi
 
 ENV="$1"
 
+USER="consultation"
+DIRECTORY="consultation-website" ;;
+
 case $1 in
   pprod)
-    USER="consultation"
     HOST="pprod.consultation.etalab.gouv.fr"
-    DIRECTORY="consultation-website" ;;
   production)
-    USER="ogptoolbox"
     HOST="consultation.etalab.gouv.fr"
-    DIRECTORY="consultation.gouv.fr" ;;
   *)
     usage
     exit 3 ;;
