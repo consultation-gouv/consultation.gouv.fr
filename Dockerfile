@@ -1,5 +1,7 @@
 FROM ruby:2.3
 
+ENV LC_ALL C.UTF-8
+
 RUN mkdir -p /opt/site
 WORKDIR /opt/site
 
