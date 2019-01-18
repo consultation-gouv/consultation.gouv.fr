@@ -6,6 +6,7 @@ outil:
 - Assembl
 screenshot: assembl_cities.jpg
 date: 2017-04-11 09:29:08 +0000
+in_progress: false
 ---
 * Débat international sur les villes inclusives lancé par les villes de Paris et de Medellin dans le cadre du Sommet mondial sur l’inclusion, l’innovation et la résilience qui s’est tenu à Paris le 21 et 22 novembre 2016.
 

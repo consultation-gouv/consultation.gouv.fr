@@ -3,104 +3,33 @@
 ---
 
 @import "variables";
-@import "usage";
 
-
-@media ( max-width: 768px ) {
-#criteres-table {
-padding-top: 30% !important;
-}
-}
-
-
-#criteres-table {
-  padding: 10% 0;
-
-  .ui.menu {
-    border: none;
-    box-shadow: none;
-    text-align: right;
-    margin-top: -40px;
-    z-index: -30;
-    background-color: transparent;
-    margin-bottom: 0;
-  }
-
- .mypopup {
-   padding: 15px;
-   text-align: left;
-   ul {
-     margin-left: 15px;
-   }
- }
- .fa.fa-plus-square-o {
-    font-size: 30px;
+#criteres {
+  .far {
+    font-size: 2rem;
     color: $simulation-color;
   }
-  .browse {
-    margin-left: 96% !important;
-  }
-
-.ui.styled.accordion {
-  background-color: #F2F2F2;
-  box-shadow: none;
-  width: 100%;
-  margin: 5% 0;
-  padding: 0 0 5% 0;
-}
-  h1 {
-    color: $simulation-color;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 400;
-  }
-
-  .title {
+  button {
     text-align: left;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: $simulation-color;
-    font-size: 120%;
-    padding: 1.5em 1em;
+    &:hover, &:active, &:focus {
+      text-decoration: none;
+      background-color: #F7F7F7;
+      box-shadow: none;
+      outline: none;
+    }
+    i {
+      font-size: 2rem;
+    }
   }
-
-  h4:first-child{
-    border-top: none;
+  .letters {
+    width: 100%;
   }
-  h4{
-    font-weight: 600;
-    padding-top: 10px;
-    border-top: solid 2px #f2f2f2;
-  }
-
-   h4::after{
-    content: '';
-    width: 150px;
-    height: 3px;
-    background-color: $simulation-color;
-    display: block;
-    left: 0;
-    margin-top: 6px;
-  }
-
-  .content {
-    text-align: left;
-    background-color: #fff;
-    margin-left: 10px;
-    height: 100%!important;
-  }
-
-
- .icon {
-  transform: rotate(0deg);
-  transition: all 0.4s;
-  float: right;
-  font-size: 130%;
 }
-
-  .ui-state-focus .icon {
-  transform: rotate(270deg);
-}
-
-
+#etalabel {
+  img {
+    width: 4rem;
+  }
+  h5 {
+    display: inline;
+  }
 }

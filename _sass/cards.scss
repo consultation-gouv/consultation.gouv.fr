@@ -1,0 +1,73 @@
+.outil-card {
+  height: 100%;
+  .link {
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  .card-img {
+    position: relative;
+    img {
+      max-height: 100%;
+    }
+    .logo-etalabel {
+      width: 6rem;
+      width: 6rem;
+      position: absolute;
+      right: -2.5rem;
+      bottom: -3.5rem;
+    }
+  }
+  &:hover {
+    border-color: $simulation-color;
+  }
+  .card-body {
+    height: 10rem;
+  }
+}
+
+.card-exemple {
+  height: 100%;
+  .card-header {
+    min-height: 30%;
+    a {
+      text-decoration: none;
+      color: $simulation-color;
+    }
+  }
+  .card-body {
+    background-color: #F2F2F2;
+    height: 18rem;
+    padding: 0;
+    a {
+      height: 100%;
+      width: 100%;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  .card-footer {
+    .more {
+      color: $simulation-color;
+    }
+  }
+  img {
+    height: auto;
+    width: inherit;
+    min-width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+.card-contact {
+  a:hover {
+    text-decoration: none;
+  }
+}

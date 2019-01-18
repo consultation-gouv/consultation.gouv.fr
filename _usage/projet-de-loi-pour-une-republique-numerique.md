@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: "./Projet de loi pour une République Numérique.jpg"
 title: Projet de loi pour une République numérique
+in_progress: false
 ---
 
 

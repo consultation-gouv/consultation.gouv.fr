@@ -9,6 +9,7 @@ outil:
 - DemocracyOS
 screenshot: "./PAN2ter-1024x256.jpg"
 title: 'Plan d''action gouvernement ouvert 2017-2019 : Idéation'
+in_progress: false
 ---
 
 

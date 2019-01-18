@@ -15,9 +15,6 @@ padding-top: 30% !important;
 
 #contact {
   padding: 10% 0 10%;
-  .ui.card .meta, .ui.cards>.card .meta {
-    color: $simulation-color;
-  }
   h1{
     text-transform: uppercase;
     color: $simulation-color;
@@ -25,11 +22,6 @@ padding-top: 30% !important;
     text-align: center;
     letter-spacing: 2px;
     font-weight: 400;
-  }
-
-  .ui.card, .ui.cards>.card {
-    border: solid 1px $simulation-color;
-    box-shadow: none;
   }
 
   #contact-details {
@@ -73,4 +65,7 @@ padding-top: 30% !important;
     margin: 1em;
   }
 
+}
+.card:hover {
+  z-index: 0 !important;
 }

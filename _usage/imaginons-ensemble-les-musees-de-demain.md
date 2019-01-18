@@ -7,6 +7,7 @@ outil:
 - Cap Collectif
 screenshot: "./Imaginons ensemble les Musées de demain.jpg"
 title: Imaginons ensemble les Musées de demain
+in_progress: false
 ---
 
 

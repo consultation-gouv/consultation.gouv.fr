@@ -8,6 +8,7 @@ outil:
 screenshot: "./Consultation sur l'élaboration de la Charte de la participation du
   public.png"
 title: Consultation sur l'élaboration de la Charte de la participation du public
+in_progress: false
 ---
 
 

@@ -3,36 +3,20 @@
 ---
 
 @import "variables";
-@import "markdown";
 
 #title {
-  padding-top: 10%;
-  padding-bottom: 5%;
-  margin-bottom: 2%;
-  h1 {
-    padding: .2em 0;
-  }
-
-  h2 {
-    padding: .2em 0;
-  }
-
   background: $backgroundBlue;
+  color: #fff;
 }
 
 .logoAPI {
   margin-top: 0.5em;
 }
 
-.markdown-body {
-  border: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-#usage-content {
-  padding-bottom: 10%;
+.card-outils-utilise {
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  img {
+    width: 100%;
+  }
 }
