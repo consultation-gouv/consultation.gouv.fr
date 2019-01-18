@@ -16,7 +16,7 @@ fi
 ENV="$1"
 
 USER="consultation"
-DIRECTORY="consultation-website" ;;
+DIRECTORY="consultation-website"
 
 case $1 in
   pprod)
