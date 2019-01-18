@@ -20,9 +20,9 @@ DIRECTORY="consultation-website" ;;
 
 case $1 in
   pprod)
-    HOST="pprod.consultation.etalab.gouv.fr"
+    HOST="pprod.consultation.etalab.gouv.fr" ;;
   production)
-    HOST="consultation.etalab.gouv.fr"
+    HOST="consultation.etalab.gouv.fr" ;;
   *)
     usage
     exit 3 ;;
