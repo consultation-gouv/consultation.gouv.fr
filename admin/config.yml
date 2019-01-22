@@ -8,7 +8,6 @@ media_folder: "img"
 collections:
   - name: "pages"
     label: "Pages"
-    folder: ""
     create: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
