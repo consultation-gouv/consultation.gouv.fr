@@ -27,7 +27,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "6f:d4:79:3e:4a:6c:3b:71:ec:9b:52:44:76:49:af:c8"
+            - "06:45:ff:9c:7f:45:07:79:4c:f9:2e:99:d4:64:1f:3b"
       - checkout
       - run: eval `ssh-agent` && ssh-add ~/.ssh/id_rsa* && ./deploy.sh ${CIRCLE_BRANCH}
 
