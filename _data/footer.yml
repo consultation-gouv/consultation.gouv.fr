@@ -32,7 +32,7 @@ troisieme:
   link: "/contact.html"
 
 quatrieme:
-- name: Consultation en cours
+- name: Consultations en cours
   link: "/catalogue.html"
 - name: Service Public.fr
   link: "https://www.service-public.fr"
@@ -42,3 +42,9 @@ quatrieme:
   link: "https://www.data.gouv.fr"
 - name: Gouvernement.fr
   link: "https://www.gouvernement.fr"
+- name:
+  link: 
+- name:
+  link: 
+- name: Ce site est en version beta
+  link: 
