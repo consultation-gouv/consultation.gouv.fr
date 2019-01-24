@@ -41,10 +41,6 @@ quatrieme:
 - name: Data.gouv.fr
   link: "https://www.data.gouv.fr"
 - name: Gouvernement.fr
-  link: "https://www.gouvernement.fr"
-- name: &nbsp;
-  link: 
-- name: &nbsp;
-  link: 
+  link: "https://www.gouvernement.fr" 
 - name: Ce site est en version beta
   link: 
