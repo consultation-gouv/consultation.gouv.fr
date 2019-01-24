@@ -1,13 +1,13 @@
 backend:
   name: github
   repo: consultation-gouv/consultation.gouv.fr
-  branch: master
-  site_domain: consultation2.etalab.gouv.fr
+  branch: pprod
+  site_domain: pprod.consultation.etalab.gouv.fr
+  base_url: https://netlify-api.consultation.etalab.gouv.fr
 media_folder: "img"
 collections:
   - name: "pages"
     label: "Pages"
-    folder: ""
     create: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
