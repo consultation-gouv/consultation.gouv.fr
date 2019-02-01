@@ -4,9 +4,15 @@ backend:
   branch: pprod
   site_domain: pprod.consultation.etalab.gouv.fr
   base_url: https://netlify-api.consultation.etalab.gouv.fr
-
 media_folder: "img"
 collections:
+  - name: "pages"
+    label: "Pages"
+    create: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "mardown"}
+
   - name: "outil" #
     label: "Outil" #
     folder: "_outil"
