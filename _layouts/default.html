@@ -43,7 +43,10 @@
           </nav>
         </header>
 
+
         <main class="pt-5 mt-5 mb-3" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
+        <div class="cr cr-top cr-right cr-sticky cr-blue d-none d-xl-block">BETA</div>
+        <div class="cr cr-no-top cr-right cr-sticky cr-blue d-xl-none">BETA</div>
         {{ content }}
         </main>
         {% include footer.html %}

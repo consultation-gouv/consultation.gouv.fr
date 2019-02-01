@@ -149,3 +149,39 @@ input:focus::-moz-placeholder{
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
   border-color: #28A7D0 #28A7D0 #ffffff;
 }
+
+// Bandeau BETA
+.cr {
+  width: 200px;
+  padding: 11px;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 1.4rem;
+  z-index: 1;
+}
+
+.cr-sticky {
+  position: fixed;
+}
+
+/* Positions */
+
+.cr-top    { top: 25px; }
+.cr-no-top { top: 110px; }
+.cr-right  { right: -50px; }
+
+/* Rotations */
+
+.cr-top.cr-right,
+.cr-no-top.cr-right {
+  transform: rotate(45deg);
+}
+
+/* Colors */
+
+.cr-white     { background-color: #f0f0f0; color: #444; }
+.cr-black     { background-color: #333; }
+.cr-grey      { background-color: #999; }
+.cr-blue      { background-color: $simulation-color; }
+//
