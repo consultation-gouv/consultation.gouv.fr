@@ -16,7 +16,7 @@ fi
 ENV="$1"
 
 USER="consultation"
-DIRECTORY="consultation-website"
+DIRECTORY="/home/${USER}/consultation-website"
 
 case $1 in
   pprod)
@@ -30,7 +30,7 @@ esac
 
 echo "Start deploy"
 
-ssh -o StrictHostKeyChecking=no -tq ${USER}@${HOST} "{ source .bash_profile || source /etc/profile ; } && cd ${DIRECTORY} && git pull && bundle exec jekyll doctor && bundle exec jekyll build"
+ssh -o StrictHostKeyChecking=no -tq ${USER}@${HOST} "{ source .bash_profile || source /etc/profile ; } && cd ${DIRECTORY} && sudo git pull && bundle exec jekyll doctor && bundle exec jekyll build"
 rc=$?
 
 if [ $? == 0 ] ; then
