@@ -18,8 +18,8 @@ access_link: https://deploiement.consultation.etalab.gouv.fr/outil/democracyos
 date: '2017-04-04T15:57:58.478+00:00'
 details_techniques:
 - name: Demo
-  link: https://try.decidim.org/
-  content: https://try.decidim.org/
+  link: https://try.decidim.org/?locale=en
+  content: https://try.decidim.org/?locale=en
 - name: Développeur
   content: OpenSourcePolitics, Democracia en Red
 - name: Language de programmation
