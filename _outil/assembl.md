@@ -9,7 +9,7 @@ contact: contact@bluenove.com
 contract: Logiciel libre - AGPLv3
 date: 2017-04-04 15:57:58 +0000
 default_logo: ''
-doc_tech: ''
+doc_tech: http://assembl.bluenove.com/guides-utilisateurs-et-documentation/
 domain: http://assembl.bluenove.com
 img-bg: assembl-bg
 layout: outil
