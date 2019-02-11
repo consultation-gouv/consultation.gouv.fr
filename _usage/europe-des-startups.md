@@ -2,7 +2,7 @@
 date: 2017-08-08 00:00:00 +0000
 description: Démarche d'intelligence collective en ligne
 layout: usage
-link: https://www.europe-des-startups.eu/
+link: 
 outil:
 - Cap Collectif
 screenshot: "./Europe des startups.png"
