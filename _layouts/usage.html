@@ -13,12 +13,7 @@ additional_css: usage
     <div>
       {% if page.link %}
       <a class="btn btn-outline-light mr-2" href="{{ page.link }}" rel="noopener" target="_blank">
-        Voir la consultation &nbsp;&nbsp;<i class="rocket icon"></i>
-      </a>
-      {% endif %}
-      {% if page.opendata %}
-      <a class="btn btn-outline-light mr-2" href="{{ page.opendata }}" rel="noopener" target="_blank">
-        Accéder aux données en OpenData &nbsp;&nbsp;<i class="rocket icon"></i>
+        Accédez au cas d'usage &nbsp;&nbsp;<i class="rocket icon"></i>
       </a>
       {% endif %}
     </div>
@@ -27,7 +22,7 @@ additional_css: usage
 
 <div class="row">
   <div class="col-md-4 col-12">
-    <h4 class="text-center my-4">Les outils utilisés</h4>
+    <h4 class="text-center my-4">Les outils utilisées</h4>
     {% for outilName in page.outil %}
     {% assign outil = site.outil | where: "title", outilName | first %}
     <div class="row card-outils-utilise p-2">
