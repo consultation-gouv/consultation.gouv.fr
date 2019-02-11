@@ -2,7 +2,7 @@
 date: 2017-08-08 00:00:00 +0000
 description: Démarche d'intelligence collective en ligne
 layout: usage
-link: http://www.charte-participation.developpement-durable.gouv.fr/
+link: https://www.ecologique-solidaire.gouv.fr/charte-participation-du-public
 outil:
 - Cap Collectif
 screenshot: "./Consultation sur l'élaboration de la Charte de la participation du
