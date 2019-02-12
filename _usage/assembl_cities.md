@@ -1,6 +1,6 @@
 ---
 title: Débat international « Cities for Life » sur les villes inclusives
-link: http://bluenove.com/wp-content/uploads/RAPPORT_CITIESforLIFE-Assembl-2016-by-bluenove.pdf
+link: https://assembl-civic.bluenove.com/debate/citiesforlife
 description: Démarche d'intelligence collective en ligne
 outil:
 - Assembl
@@ -14,8 +14,7 @@ in_progress: false
 
 * Cette consultation multilingue s’adressait aux citoyens du monde entier désireux d’accélérer l’inclusion urbaine et les initiatives innovantes à l’échelle du globe. Ce débat a permis la discussion entre différentes nationalités.
 
-
 * Cette initiative a permis aux participants de définir la ville inclusive, de relever les principaux défis de l’inclusion à l’échelle mondiale et de faire émerger 45 propositions citoyennes pour inventer la ville pour tous.
 
-* Pour connaître les 45 recommandations citoyennes, téléchargez le [rapport « Cities for Life »](http://bluenove.com/wp-content/uploads/RAPPORT_CITIESforLIFE-Assembl-2016-by-bluenove.pdf)
+* Pour connaître les 45 recommandations citoyennes, téléchargez le [rapport « Cities for Life »](https://bluenove.com/app/uploads/2018/12/REPORT_CITIESforLIFE.pdf)
 
