@@ -5,7 +5,7 @@ layout: usage
 link: https://www.ecologique-solidaire.gouv.fr/charte-participation-du-public
 outil:
 - Cap Collectif
-screenshot: "./consultation sur l'élaboration de la charte de la participation du public.png"
+screenshot: "./consultation_charte_participation_du_public.png"
 title: Consultation sur l'élaboration de la Charte de la participation du public
 in_progress: false
 ---
