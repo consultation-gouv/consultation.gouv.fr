@@ -4,7 +4,7 @@ link: https://democracyos.consultation.etalab.gouv.fr/strategieclouddeletat
 description: Consulter les éditeurs français sur la stratégie cloud de l'Etat
 outil:
 - DemocracyOS
-screenshot: logovide.png
+screenshot: cloud.png
 date: 2018-08-15 00:00:01 +0000
 in_progress: false
 note-citoyenne: 5
