@@ -11,6 +11,6 @@ note-citoyenne: 5
 note-decidee: 5
 ---
 
-* Consultation d'éditeurs français sur une partie du texte liée à la Stratégie Cloud de l'Etat.
+* Consultation d'éditeurs français sur une partie du texte lié à la Stratégie Cloud de l'Etat.
 
 * La plateforme a été générée sur consultation.etalab.gouv.fr et paramétrée par l'administration organisatrice elle-même.
