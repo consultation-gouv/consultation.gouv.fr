@@ -5,7 +5,7 @@ layout: usage
 link: http://consultation-numerique.afd.fr/
 outil:
 - Cap Collectif
-screenshot: "./consultation_afd.jpg"
+screenshot: consultation_afd.jpg
 title: Consultation sur la stratégie numérique de l'AFD
 in_progress: false
 ---
