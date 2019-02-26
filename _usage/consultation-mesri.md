@@ -6,6 +6,6 @@ description: Consultation sur un projet de loi
 outil:
 - Cap Collectif
 screenshot: consultation-mesri.png
-date: 2019-03-01 09:29:08 +0000
+date: 2019-02-24 09:29:08 +0000
 in_progress: true
 ---
