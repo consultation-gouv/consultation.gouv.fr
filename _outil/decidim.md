@@ -5,7 +5,7 @@ lettre_engagement:
 img-bg: democracy-bg
 doc_tech: https://decidim.org/
 domain: https://decidim.org/
-contact: arnaud.dechampsavin@data.gouv.fr
+contact: contact@opensourcepolitics.eu
 contract: Logiciel libre - AGPLv3
 logo: decidimlogo.png
 clients:
@@ -18,8 +18,8 @@ access_link: https://deploiement.consultation.etalab.gouv.fr/outil/democracyos
 date: '2017-04-04T15:57:58.478+00:00'
 details_techniques:
 - name: Demo
-  link: https://try.decidim.org/?locale=en
-  content: https://try.decidim.org/?locale=en
+  link: https://demo.decidim.opensourcepolitics.eu/?locale=fr
+  content: https://demo.decidim.opensourcepolitics.eu/?locale=fr
 - name: Développeur
   content: OpenSourcePolitics, Democracia en Red
 - name: Language de programmation
