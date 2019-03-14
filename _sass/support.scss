@@ -1,10 +1,10 @@
 .row-icons {
+  padding: 3rem;
   i {
     font-size: 7rem;
   }
   p {
     margin-top: 1rem;
-    font-size: 1.5rem;
   }
 }
 
@@ -15,5 +15,20 @@
   p {
     font-size: 1.3rem;
     margin: 0;
+  }
+}
+
+#logo-data {
+  width: 21rem;
+}
+
+.img-team {
+  border-radius: 50%;
+  height: 10rem;
+}
+
+.buttons-links {
+  a {
+    width: 40%;
   }
 }
