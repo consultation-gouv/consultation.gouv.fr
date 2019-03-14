@@ -1,7 +1,6 @@
 ---
 title: DemocracyOS
-tagline: Plateforme web qui permet d'organiser des consultations publiques et de prendre
-  des décisions de manière transparente et collective.
+tagline: Plateforme web qui permet d'organiser des consultations publiques.
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: democracy-bg
 doc_tech: http://democracyos.eu/docs-fr/
