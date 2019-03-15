@@ -6,7 +6,7 @@ description: Les contributeurs peuvent voter, donner leur avis et faire des prop
 outil:
 - Cap Collectif
 screenshot: consultation_eau.png
-date: 2019-14-01 09:29:08 +0000
+date: 2019-01-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
