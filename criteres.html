@@ -477,12 +477,14 @@ additional_css: criteres
     <div class="col-12 mb-5">
       <h3 class="blue">Les éditeurs des Civic Tech s'engagent à respecter ces critères</h3>
     </div>
-    {% for outil in site.outil %}
-      {% if outil.lettre_engagement %}
-        <a class="col-md-3 col-6" href="{{ outil.lettre_engagement }}" target="_blank">
-          <img class="letters" src="{{ outil.lettre_engagement }}" alt="lettre d'engagement {{ outil.title }}" >
-        </a>
-      {% endif %}
-    {% endfor %}
+    <div class="col-12 mb-5 d-flex justify-content-center">
+      {% for outil in site.outil %}
+        {% if outil.lettre_engagement %}
+          <a class="col-md-3 col-6" href="{{ outil.lettre_engagement }}" target="_blank">
+            <img class="letters" src="{{ outil.lettre_engagement }}" alt="lettre d'engagement {{ outil.title }}" >
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>

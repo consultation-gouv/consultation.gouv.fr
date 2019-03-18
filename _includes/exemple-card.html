@@ -1,4 +1,4 @@
- <div class="col-md-4 col-12 mt-4">
+ <div class="col-md-4 col-12 mt-4 card-list">
   <div class="card mb-3 card-exemple">
     <div class="content card-header bg-transparent">
       <h5>
@@ -17,7 +17,11 @@
         Outil utilisé{% if include.usage.outil.size > 1 %}s{% endif %}&nbsp;:
         {% for outilName in include.usage.outil %}
         {% assign outil = site.outil | where: "title", outilName | first %}
-        <a class="btn btn-secondary btn-sm" href="{{ outil.url }}"> {{ outil.title }}</a>
+        {% if outilName == 'Autre' %}
+          <span class="btn btn-secondary btn-sm outil-title">Autre</span>
+        {% else %}
+          <a class="btn btn-secondary btn-sm outil-title" href="{{ outil.url }}">{{ outil.title }}</a>
+        {% endif %}
         {% endfor %}
       </div>
       {% if en-savoir-plus %}

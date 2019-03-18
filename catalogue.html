@@ -17,14 +17,14 @@ additional_css: catalogue
     <div class="col-sm-4">
       <input id="search" name="search" placeholder="Recherche rapide" type="text" data-list=".list" class="form-control" >
     </div>
-    <div class="form-group col-md-2">
-      <select name="outils" id="outils" class="form-control" data-list=".list">
-        <option value="">Sélectionner un outils</option>
-        {% for outil in site.outil %}
-          <option value='{{ outil.title }}'>{{ outil.title }}</option>
-        {% endfor %}
-      </select>
-    </div>
+    <!--<div class="form-group col-md-2">-->
+      <!--<select name="outils" id="outils" class="form-control" data-list=".list" >-->
+        <!--<option value="">Sélectionner un outils</option>-->
+        <!--{% for outil in site.outil %}-->
+          <!--<option value='{{ outil.title }}'>{{ outil.title }}</option>-->
+        <!--{% endfor %}-->
+      <!--</select>-->
+    <!--</div>-->
   </div>
   <div class="row list" id="results">
     {% for usage in site.usage %}
@@ -41,17 +41,19 @@ additional_css: catalogue
     $('#search').hideseek({
       nodata: 'Aucun résultat trouvé pour cette recherche',
       ignore_accents: true
-    });
-    $('#outils').change(function() {
-      console.log('coucou')
-      $('#outils').hideseek({
-        nodata: 'Aucun résultat trouvé pour cette recherche',
-        ignore_accents: true
-      });
     })
+
+    $('#outils').on('change', function() {
+      console.log('hello')
+      var e = jQuery.Event("keydown");
+      e.which = 90; // # Some key code value
+      $('#outils').trigger(e);
+    })
+
     $('#outils').hideseek({
       nodata: 'Aucun résultat trouvé pour cette recherche',
-      ignore_accents: true
+      ignore_accents: true,
+      navigation: true
     });
   });
 </script>
