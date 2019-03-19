@@ -5,7 +5,7 @@ opendata:
 description: Les contributeurs peuvent voter, donner leur avis et faire des propositions sur les nouvelles régulations numériques
 outil:
 - Cap Collectif
-screenshot: consultation_eau.png
+screenshot: cnnum.jpg
 date: 2019-01-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5

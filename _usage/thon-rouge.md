@@ -5,7 +5,7 @@ opendata:
 description: Ministère de l'Agriculture et de l'Alimentation
 outil:
 - Autre
-screenshot: consultation_eau.png
+screenshot: min-agri.png
 date: 2019-03-01 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
