@@ -5,7 +5,7 @@ opendata:
 description: Consultation sur un projet de loi
 outil:
 - Cap Collectif
-screenshot: consultation-mesri.png
+screenshot: mesri.png
 date: 2019-02-24 09:29:08 +0000
 in_progress: true
 ---
