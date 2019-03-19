@@ -1,6 +1,6 @@
 ---
 title: Projets de décrets portant diverses dispositions d’adaptation des règles relatives aux ouvrages de prévention des inondations
-link: https://www.vie-publique.fr/forums/projets-decrets-portant-diverses-dispositions-adaptation-regles-relatives-aux-ouvrages-prevention-inondations-modifiant-article-d181-15-1-du-code-environnement.html
+link: http://www.consultations-publiques.developpement-durable.gouv.fr/projets-de-decrets-portant-diverses-dispositions-d-a1929.html
 opendata: 
 description: Consultation sur les projets de décrets portant diverses dispositions d’adaptation des règles relatives aux ouvrages de prévention des inondations et modifiant l’article D181-15-1 du code de l’environnement.
 outil:
