@@ -9,7 +9,17 @@
   a {
     text-decoration: none;
   }
+  &:hover {
+    border-color: $simulation-color;
+  }
+  .card-body {
+    height: 7rem;
+  }
+  .card-body {
+    flex: 0 1 auto;
+  }
   .card-img {
+    height: 7rem;
     position: relative;
     img {
       max-height: 100%;
@@ -21,12 +31,6 @@
       right: -2.5rem;
       bottom: -3.5rem;
     }
-  }
-  &:hover {
-    border-color: $simulation-color;
-  }
-  .card-body {
-    height: 10rem;
   }
 }
 
@@ -41,7 +45,7 @@
   }
   .card-body {
     background-color: #F2F2F2;
-    height: 18rem;
+    height: 8.5rem;
     padding: 0;
     a {
       height: 100%;

@@ -4,20 +4,56 @@ additional_css: catalogue
 ---
 <div id="catalogue">
   <div class="row">
-    <div class="col-12">
+    <div class="col-12 d-flex align-items-end">
       <h1 class="blue mt-5 mb-3">Les consultations en cours</h1>
+      <div class="mb-3 ml-5">
+        <button class="btn btn-primary btn-add-consutlation">
+          <a target="_blank" href="https://framaforms.org/enregistrer-sa-consultation-au-catalogue-des-consultations-publiques-1551266276">Ajouter une consultation</a>
+        </button>
+      </div>
     </div>
   </div>
-  <div class="row">
+  <div class="form-group row my-3">
+    <div class="col-sm-4">
+      <input id="search" name="search" placeholder="Recherche rapide" type="text" data-list=".list" class="form-control" >
+    </div>
+    <!--<div class="form-group col-md-2">-->
+      <!--<select name="outils" id="outils" class="form-control" data-list=".list" >-->
+        <!--<option value="">Sélectionner un outils</option>-->
+        <!--{% for outil in site.outil %}-->
+          <!--<option value='{{ outil.title }}'>{{ outil.title }}</option>-->
+        <!--{% endfor %}-->
+      <!--</select>-->
+    <!--</div>-->
+  </div>
+  <div class="row list" id="results">
     {% for usage in site.usage %}
     {% if usage.in_progress %}
     {% include exemple-card.html usage=usage en-savoir-plus=true %}
     {% endif %}
     {% endfor %}
   </div>
-  <div class="row row my-3 p-4 text-center gray-background">
-    <div class="col-12">
-      <a target="_blank" class="blue mailto-link" href="mailto:consultation@etalab.gouv.fr">Rejoignez la communauté de contributeurs</a>
-    </div>
-  </div>
 </div>
+
+<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#search').hideseek({
+      nodata: 'Aucun résultat trouvé pour cette recherche',
+      ignore_accents: true
+    })
+
+    $('#outils').on('change', function() {
+      console.log('hello')
+      var e = jQuery.Event("keydown");
+      e.which = 90; // # Some key code value
+      $('#outils').trigger(e);
+    })
+
+    $('#outils').hideseek({
+      nodata: 'Aucun résultat trouvé pour cette recherche',
+      ignore_accents: true,
+      navigation: true
+    });
+  });
+</script>

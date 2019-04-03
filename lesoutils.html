@@ -32,7 +32,7 @@ title: Outils
         </div>
         <div class="row">
           <div class="col-md-8 col-12">
-            <h4 class="mb-3">Voici {{ site.outil | size }} outils vous permettant de fabriquer vos consultations. Vous y avez accès <strong>en quelques clics</strong></h4>
+            <h4 class="mb-3">Nous avons référencé {{ site.outil | size }} outils respectant les <a href="/criteres.html">25 critères</a> des consultations publiques. Vous y avez accès <strong>en quelques clics</strong> pour fabriquer vos consultations</h4>
           </div>
         </div>
         <div class="row mt-5">
@@ -74,8 +74,11 @@ title: Outils
 
       <!--Exemples-->
       <div class="tab-pane fade container" id="exemples" role="tabpanel" aria-labelledby="exemples-tab">
+        <div class="col-sm-4 offset-sm-4">
+          <input id="search" name="search" placeholder="Recherche par nom d'outil" type="text" data-list=".list" class="form-control" >
+        </div>
         <div id="usages" class="container">
-          <div class="stackable cards row">
+          <div class="stackable cards row list">
             {% for usage in site.usage %}
             {% unless usage.in_progress %}
             {% include exemple-card.html usage=usage en-savoir-plus=true%}
@@ -145,6 +148,7 @@ title: Outils
   </div>
 </div>
 
+<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
 <script>
     $(function () {
         var activeTab = $(location.hash)
@@ -158,4 +162,11 @@ title: Outils
         }
         window.scrollTo(500, 0)
     });
+
+  $(document).ready(function() {
+    $('#search').hideseek({
+      nodata: 'Aucun résultat trouvé pour cette recherche',
+      ignore_accents: true
+    })
+  });
 </script>
