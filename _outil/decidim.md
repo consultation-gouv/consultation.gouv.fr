@@ -42,16 +42,10 @@ accompagnement_inclus:
 - Notice et un appel pour identifier l'interlocuteur et son besoin
 accompagnement_plusloin:
 - Cadrage, formation, suivi méthodologique, animation numérique et d'ateliers présentiels, synthèse et évaluation de la démarche
-
 layout: outil
 default_logo: ''
 ---
-* Decidim est une plateforme complète :
-- Personnalisable et modulaire pour s'adapter à votre contexte avec 9 fonctionnalités activables.
-- Intuitive pour les administrateurs et responsive.
-- Open Source, conforme au RGPD, dotée d'une API complète pour l'open data.
-
-* TEST TEST TEST TEST
-
-* TEST 
-* TEST
+Decidim est une plateforme complète :
+* Personnalisable et modulaire pour s'adapter à votre contexte avec 9 fonctionnalités activables.
+* Intuitive pour les administrateurs et responsive.
+* Open Source, conforme au RGPD, dotée d'une API complète pour l'open data.
