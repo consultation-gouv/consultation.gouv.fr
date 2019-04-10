@@ -34,7 +34,7 @@ details_techniques:
   link: https://github.com/OpenSourcePolitics/decidim
   content: https://github.com/OpenSourcePolitics/decidim
 atouts: 
-- 9 fonctionnalités activables : dépôt de proposition, budget participatif, sondage, vote, ...
+- 9 fonctionnalités activables (dépôt de proposition, budget participatif, sondage, vote,...)
 - Intuitive pour les administrateurs et responsive (s'adapte au format téléphone)
 - Open Source, conforme au RGPD, dotée d'une API complète pour l'open data
 feature_inclus:

@@ -5,7 +5,7 @@ opendata:
 description: La plateforme de participation citoyenne de la CNDP
 outil:
 - Decidim
-screenshot: Logo-Decidim.png
+screenshot: logodecidim.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
