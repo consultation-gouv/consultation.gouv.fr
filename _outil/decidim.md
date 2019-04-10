@@ -2,12 +2,12 @@
 title: Decidim
 tagline: La démocratie n'a jamais été aussi réelle
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
-img-bg: democracy-bg
+img-bg: honey_bees
 doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
 domain: https://meta.decidim.org/
 contact: contact@opensourcepolitics.eu
 contract: Logiciel libre - AGPLv3
-logo: logodecidim.PNG
+logo: logodecidim.png
 clients:
 - Collectivités
 - Administrations
@@ -16,7 +16,7 @@ clients:
 owner: Open Source Politics
 access_link: https://deploiement.consultation.etalab.gouv.fr/outil/decidim
 date: '2017-04-04T15:57:58.478+00:00'
-url_video_demo: https://www.youtube.com/watch?v=NdjvAjnzqaQ
+url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 details_techniques:
 - name: Demo
@@ -34,10 +34,9 @@ details_techniques:
   link: https://github.com/OpenSourcePolitics/decidim
   content: https://github.com/OpenSourcePolitics/decidim
 atouts: 
-- Decidim est une plateforme complète
-- Personnalisable et modulaire pour s'adapter à votre contexte avec 9 fonctionnalités activables.
-- Intuitive pour les administrateurs et responsive.
-- Open Source, conforme au RGPD, dotée d'une API complète pour l'open data.
+- 9 fonctionnalités activables : dépôt de proposition, budget participatif, sondage, vote, ...
+- Intuitive pour les administrateurs et responsive (s'adapte au format téléphone)
+- Open Source, conforme au RGPD, dotée d'une API complète pour l'open data
 feature_inclus:
 - 1 concertation et 1 accès administrateur
 feature_plusloin:
@@ -49,9 +48,15 @@ accompagnement_plusloin:
 layout: outil
 default_logo: ''
 ---
-Decidim est une plateforme complète :
-* Personnalisable et modulaire pour s'adapter à votre contexte avec 9 fonctionnalités activables.
-* Intuitive pour les administrateurs et responsive.
-* Open Source, conforme au RGPD, dotée d'une API complète pour l'open data.
-* Plus de 20 clients actifs en France, dont les mairies d'Angers, Nancy, Nanterre, Roubaix et Villeurbanne, la Métropole européenne de Lille, les départements de Loire-Atlantique et du Loiret, la région Nouvelle-Aquitaine.
-owner: Open Source Politics
+Decidim est une plateforme complète, personnalisable et modulaire pour s'adapter à votre contexte grâce à ses 9 fonctionnalités activables : 
+* co-écriture de texte, 
+* dépôts de propositions, 
+* sondage, 
+* vote, 
+* budget participatif, 
+* tirage au sort, 
+* suivi de l'avancement des propositions
+* assemblées et groupes de décision fermés
+* ...
+
+Decidim à plus de 20 clients actifs en France, dont les mairies d'Angers, Nancy, Nanterre, Roubaix et Villeurbanne, la Métropole européenne de Lille, les départements de Loire-Atlantique et du Loiret, la région Nouvelle-Aquitaine...
