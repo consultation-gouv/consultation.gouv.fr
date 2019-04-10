@@ -1,15 +1,18 @@
 ---
 title: Decidim
 tagline: La démocratie n'a jamais été aussi réelle
-lettre_engagement:
-img-bg: Logo-Decidim.png
+lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
+img-bg: democracy-bg
 doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
 domain: https://meta.decidim.org/
 contact: contact@opensourcepolitics.eu
 contract: Logiciel libre - AGPLv3
-logo: Logo-Decidim.png
+logo: Logo-Decidim.PNG
 clients:
-- Plus de 20 clients actifs en France, dont les mairies d'Angers, Nancy, Nanterre, Roubaix et Villeurbanne, la Métropole européenne de Lille, les départements de Loire-Atlantique et du Loiret, la région Nouvelle-Aquitaine.
+- Collectivités
+- Administrations
+- Ministères
+- Entreprises
 owner: Open Source Politics
 access_link: https://deploiement.consultation.etalab.gouv.fr/outil/decidim
 date: '2019-04-10T15:57:58.478+00:00'
@@ -20,7 +23,7 @@ details_techniques:
   link: https://demo.decidim.opensourcepolitics.eu/
   content: https://demo.decidim.opensourcepolitics.eu/
 - name: Développeur
-  content: Plusieurs entreprises contribuent au développement à travers l'Europe, dont OSP en France
+  content: Plusieurs entreprises contribuent au développement à travers l'Europe, dont OpenSourcePolitics en France
 - name: Language de programmation
   content: Ruby on Rails
 - name: Langues
@@ -49,3 +52,5 @@ Decidim est une plateforme complète :
 * Personnalisable et modulaire pour s'adapter à votre contexte avec 9 fonctionnalités activables.
 * Intuitive pour les administrateurs et responsive.
 * Open Source, conforme au RGPD, dotée d'une API complète pour l'open data.
+* Plus de 20 clients actifs en France, dont les mairies d'Angers, Nancy, Nanterre, Roubaix et Villeurbanne, la Métropole européenne de Lille, les départements de Loire-Atlantique et du Loiret, la région Nouvelle-Aquitaine.
+owner: Open Source Politics
