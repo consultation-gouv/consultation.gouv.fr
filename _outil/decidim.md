@@ -7,7 +7,7 @@ doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
 domain: https://meta.decidim.org/
 contact: contact@opensourcepolitics.eu
 contract: Logiciel libre - AGPLv3
-logo: Logo-Decidim.PNG
+logo: logodecidim.PNG
 clients:
 - Collectivités
 - Administrations
@@ -15,7 +15,7 @@ clients:
 - Entreprises
 owner: Open Source Politics
 access_link: https://deploiement.consultation.etalab.gouv.fr/outil/decidim
-date: '2019-04-10T15:57:58.478+00:00'
+date: '2017-04-04T15:57:58.478+00:00'
 url_video_demo: https://www.youtube.com/watch?v=NdjvAjnzqaQ
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 details_techniques:
@@ -23,7 +23,7 @@ details_techniques:
   link: https://demo.decidim.opensourcepolitics.eu/
   content: https://demo.decidim.opensourcepolitics.eu/
 - name: Développeur
-  content: Plusieurs entreprises contribuent au développement à travers l'Europe, dont OpenSourcePolitics en France
+  content: OpenSourcePolitics, Democracia en Red
 - name: Language de programmation
   content: Ruby on Rails
 - name: Langues
@@ -33,7 +33,8 @@ details_techniques:
 - name: Source
   link: https://github.com/OpenSourcePolitics/decidim
   content: https://github.com/OpenSourcePolitics/decidim
-atouts: Decidim est une plateforme complète :
+atouts: 
+- Decidim est une plateforme complète
 - Personnalisable et modulaire pour s'adapter à votre contexte avec 9 fonctionnalités activables.
 - Intuitive pour les administrateurs et responsive.
 - Open Source, conforme au RGPD, dotée d'une API complète pour l'open data.
