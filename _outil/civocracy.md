@@ -3,7 +3,7 @@ title: Civocracy
 tagline: La solution pour une participation citoyenne réussie
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: honey_bees
-doc_tech: https://guide.civocracy.org/hc/fr
+doc_tech: https://www.guide.civocracy.org/hc/fr/
 domain: https://www.civocracy.com/
 contact: contact@civocracy.org
 contract: Logiciel propriétaire
@@ -14,7 +14,7 @@ clients:
 - Ministères
 - Entreprises
 owner: Civocracy BV Zweigniederlassung
-access_link: https://www.civocracy.org/
+access_link: https://deploiement.consultation.etalab.gouv.fr/outil/civocracy
 date: '2017-04-04T15:57:58.478+00:00'
 url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
@@ -31,30 +31,8 @@ details_techniques:
 - name: Opensource
   content: non
 - name: Source
-  link: https://www.civocracy.org/
-  content:https://www.civocracy.org/
-atouts:
-- Un espace en ligne pour rassembler toutes les informations utiles à votre concertation
-- Une page personnalisable pour rejoindre et faire grandir le réseau des citoyens engagés dans les actions de territoire
-- Une plateforme conçue pour les échanges entre les citoyens et avec leur collectivité, pour la co-construction et l'émergence du consensus
-feature_inclus:
-- La plateforme de concertation en ligne, sa page d’accueil personnalisable et son système d’envoi d’actualités et de notifications
-- L’action de participation DISCUSSION conçue spécifiquement pour les échanges entre les citoyens et leur gouvernement, pour la co-construction et l’émergence d’un consensus
-- L’accès permanent au tableau de bord de statistiques, l'accès à la base de connaissance Civocracy
-- La maintenance évolutive et corrective de la plateforme
-feature_plusloin:
-- Les actions de participation de type QUESTIONNAIRE et PROPOSITION
-- La création de nom de domaine
-- La redirection URL
-accompagnement_inclus:
-- aucun
-accompagnement_plusloin:
-- Les formations, avec la journée de formation en présentiel lors du lancement de la plateforme, la formation flash, ou encore la demi-journée de formation
-- Le management de projet avec le cadrage au démarrage d'une démarche participative, le suivi d'une
-démarche participative et la gestion du projet
-- Le community management et l'accompagnement à l'animation de la plateforme
-- L'analyse des résultats, avec la synthèse quantitative d’action participative, la synthèse quantitative
-globale, et la analyse qualitative d'action
+  link: https://www.civocracy.org
+  content:https://www.civocracy.org
 layout: outil
 default_logo: ''
 ---
