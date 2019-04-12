@@ -5,7 +5,7 @@ lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: honey_bees
 doc_tech: https://www.civocracy.org
 domain: https://www.civocracy.org
-contact: contact@opensourcepolitics.eu
+contact: contact@civocracy.org
 contract: Logiciel Propriétaire
 logo: civocracylogo.png
 clients:
