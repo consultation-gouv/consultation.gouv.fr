@@ -27,7 +27,7 @@ details_techniques:
 - name: Language de programmation
   content: PHP, JavaScript
 - name: Langues
-  content: français, anglais, allemand
+  content: français,anglais,allemand
 - name: Opensource
   content: non
 - name: Source
