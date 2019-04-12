@@ -43,11 +43,18 @@ feature_inclus:
 - L’accès permanent au tableau de bord de statistiques, l'accès à la base de connaissance Civocracy
 - La maintenance évolutive et corrective de la plateforme
 feature_plusloin:
-- 1 instance dédiée et l'accompagnement des équipes Open Source Politics
+- Les actions de participation de type QUESTIONNAIRE et PROPOSITION
+- La création de nom de domaine
+- La redirection URL
 accompagnement_inclus:
-- Notice et un appel pour identifier l'interlocuteur et son besoin
+- aucun
 accompagnement_plusloin:
-- Cadrage, formation, suivi méthodologique, animation numérique et d'ateliers présentiels, synthèse et évaluation de la démarche
+- Les formations, avec la journée de formation en présentiel lors du lancement de la plateforme, la formation flash, ou encore la demi-journée de formation
+- Le management de projet avec le cadrage au démarrage d'une démarche participative, le suivi d'une
+démarche participative et la gestion du projet
+- Le community management et l'accompagnement à l'animation de la plateforme
+- L'analyse des résultats, avec la synthèse quantitative d’action participative, la synthèse quantitative
+globale, et la analyse qualitative d'action
 layout: outil
 default_logo: ''
 ---
