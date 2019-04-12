@@ -47,12 +47,14 @@ feature_plusloin:
 - La création de nom de domaine
 - La redirection URL
 accompagnement_inclus:
-- Notice 
+- Aucun
 accompagnement_plusloin:
 - Les formations
-- Le management de projet
-- Le community management
-- L'analyse des résultats
+- Le management de projet avec le cadrage au démarrage d'une démarche participative, le suivi d'une
+démarche participative et la gestion du projet
+- Le community management et l'accompagnement à l'animation de la plateforme
+- L'analyse des résultats, avec la synthèse quantitative d’action participative, la synthèse quantitative
+globale, et l'analyse qualitative d'action
 layout: outil
 default_logo: ''
 ---
