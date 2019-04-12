@@ -16,7 +16,7 @@ clients:
 owner: Civocracy bv Zweigniederlassung
 access_link: https://deploiement.consultation.etalab.gouv.fr/outil/civocracy
 date: '2019-04-04T15:57:58.478+00:00'
-url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
+url_video_demo: https://www.youtube.com/embed/6HAx04JZFm4
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 details_techniques:
 - name: Demo
@@ -47,7 +47,7 @@ feature_plusloin:
 - La création de nom de domaine
 - La redirection URL
 accompagnement_inclus:
-- Notice
+- Aide en ligne
 accompagnement_plusloin:
 - Les formations
 - Le cadrage de la démarche et la gestion du projet
