@@ -47,7 +47,7 @@ feature_plusloin:
 - La création de nom de domaine
 - La redirection URL
 accompagnement_inclus:
-- Aide en ligne
+- Mise à disposition de tutoriels en ligne
 accompagnement_plusloin:
 - Les formations
 - Le cadrage de la démarche et la gestion du projet
