@@ -33,10 +33,10 @@ details_techniques:
 - name: Source
   link: https://www.civocracy.org
   content: https://www.civocracy.org
-atouts: 
-- 9 fonctionnalités activables (dépôt de proposition, budget participatif, sondage, vote,...)
-- Intuitive pour les administrateurs et responsive (s'adapte au format téléphone)
-- Open Source, conforme au RGPD, dotée d'une API complète pour l'open data
+atouts:
+- Un espace en ligne pour rassembler toutes les informations utiles à votre concertation
+- Une page personnalisable pour rejoindre et faire grandir le réseau des citoyens engagés dans les actions de territoire
+- Une plateforme conçue pour les échanges entre les citoyens et avec leur collectivité, pour la co-construction et l'émergence du consensus
 feature_inclus:
 - 1 concertation et 1 accès administrateur
 feature_plusloin:
