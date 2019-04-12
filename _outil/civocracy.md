@@ -3,7 +3,7 @@ title: Civocracy
 tagline: La solution pour une participation citoyenne réussie
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: honey_bees
-doc_tech: https://www.civocracy.org
+doc_tech: https://guide.civocracy.org/hc/fr
 domain: https://www.civocracy.org
 contact: contact@civocracy.org
 contract: Logiciel Propriétaire
@@ -50,10 +50,9 @@ accompagnement_inclus:
 - Notice
 accompagnement_plusloin:
 - Les formations
-- Le management
-- Le community management et l'accompagnement à l'animation de la plateforme
-- L'analyse des résultats, avec la synthèse quantitative d’action participative, la synthèse quantitative
-globale, et l'analyse qualitative d'action
+- Le cadrage de la démarche et la gestion du projet
+- L'animation de la plateforme et le community management
+- L'analyse des résultats
 layout: outil
 default_logo: ''
 ---
