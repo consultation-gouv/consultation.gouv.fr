@@ -20,16 +20,16 @@ url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 details_techniques:
 - name: Demo
-  link: https://demo.decidim.opensourcepolitics.eu/
-  content: https://demo.decidim.opensourcepolitics.eu/
+  link: https://www.civocracy.org/
+  content: https://www.civocracy.org/
 - name: Développeur
-  content: OpenSourcePolitics, Democracia en Red
+  content: Civocracy
 - name: Language de programmation
-  content: Ruby on Rails
+  content: php, javascript
 - name: Langues
-  content: en,es,fr
+  content: fr,en,de
 - name: Opensource
-  content: oui
+  content: non
 - name: Source
   link: https://github.com/OpenSourcePolitics/decidim
   content: https://github.com/OpenSourcePolitics/decidim
