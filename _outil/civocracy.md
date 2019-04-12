@@ -1,12 +1,12 @@
 ---
-title: Decidim
+title: Civocracy
 tagline: La solution pour une participation citoyenne réussie
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: honey_bees
 doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
 domain: https://meta.decidim.org/
 contact: contact@opensourcepolitics.eu
-contract: Logiciel libre - AGPLv3
+contract: Logiciel Propriétaire
 logo: civocracylogo.png
 clients:
 - Collectivités
