@@ -7,7 +7,7 @@ doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
 domain: https://meta.decidim.org/
 contact: contact@opensourcepolitics.eu
 contract: Logiciel libre - AGPLv3
-logo: logodecidim.png
+logo: civocracylogo.png
 clients:
 - Collectivités
 - Administrations
