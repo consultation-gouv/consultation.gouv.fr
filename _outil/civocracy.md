@@ -3,8 +3,8 @@ title: Civocracy
 tagline: La solution pour une participation citoyenne réussie
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: honey_bees
-doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
-domain: https://meta.decidim.org/
+doc_tech: https://www.civocracy.org
+domain: https://www.civocracy.org
 contact: contact@opensourcepolitics.eu
 contract: Logiciel Propriétaire
 logo: civocracylogo.png
@@ -31,8 +31,8 @@ details_techniques:
 - name: Opensource
   content: non
 - name: Source
-  link: https://github.com/OpenSourcePolitics/decidim
-  content: https://github.com/OpenSourcePolitics/decidim
+  link: https://www.civocracy.org
+  content: https://www.civocracy.org
 atouts: 
 - 9 fonctionnalités activables (dépôt de proposition, budget participatif, sondage, vote,...)
 - Intuitive pour les administrateurs et responsive (s'adapte au format téléphone)
