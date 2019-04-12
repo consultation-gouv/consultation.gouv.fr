@@ -52,7 +52,7 @@ accompagnement_plusloin:
 - Les formations, avec la journée de formation en présentiel lors du lancement de la plateforme, la formation flash, ou encore la demi-journée de formation
 - Le management de projet avec le cadrage au démarrage d'une démarche participative, le suivi d'une
 démarche participative et la gestion du projet
-- Le “community management” et l'accompagnement à l'animation de la plateforme
+- Le community management et l'accompagnement à l'animation de la plateforme
 - L'analyse des résultats, avec la synthèse quantitative d’action participative, la synthèse quantitative
 globale, et la analyse qualitative d'action
 layout: outil
