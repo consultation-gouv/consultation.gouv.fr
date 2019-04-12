@@ -1,12 +1,12 @@
 ---
-title: Civocracy
-tagline: La solution pour une participation citoyenne réussie
+title: Decidim
+tagline: La démocratie n'a jamais été aussi réelle
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: honey_bees
-doc_tech: https://www.guide.civocracy.org/hc/fr/
-domain: https://www.civocracy.com/
-contact: contact@civocracy.org
-contract: Logiciel propriétaire
+doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
+domain: https://meta.decidim.org/
+contact: contact@opensourcepolitics.eu
+contract: Logiciel libre - AGPLv3
 logo: logodecidim.png
 clients:
 - Collectivités
@@ -33,6 +33,18 @@ details_techniques:
 - name: Source
   link: https://www.civocracy.org
   content:https://www.civocracy.org
+atouts: 
+- 9 fonctionnalités activables (dépôt de proposition, budget participatif, sondage, vote,...)
+- Intuitive pour les administrateurs et responsive (s'adapte au format téléphone)
+- Open Source, conforme au RGPD, dotée d'une API complète pour l'open data
+feature_inclus:
+- 1 concertation et 1 accès administrateur
+feature_plusloin:
+- 1 instance dédiée et l'accompagnement des équipes Open Source Politics
+accompagnement_inclus:
+- Notice et un appel pour identifier l'interlocuteur et son besoin
+accompagnement_plusloin:
+- Cadrage, formation, suivi méthodologique, animation numérique et d'ateliers présentiels, synthèse et évaluation de la démarche
 layout: outil
 default_logo: ''
 ---
