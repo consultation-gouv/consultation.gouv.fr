@@ -13,48 +13,38 @@ clients:
 - Administrations
 - Ministères
 - Entreprises
-owner: Open Source Politics
-access_link: https://deploiement.consultation.etalab.gouv.fr/outil/decidim
+owner: Civocracy BV Zweigniederlassung
+access_link: https://deploiement.consultation.etalab.gouv.fr/outil/civocracy
 date: '2017-04-04T15:57:58.478+00:00'
 url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 details_techniques:
 - name: Demo
-  link: https://demo.decidim.opensourcepolitics.eu/
-  content: https://demo.decidim.opensourcepolitics.eu/
+  link: https://www.civocracy.org/
+  content: https://www.civocracy.org/
 - name: Développeur
-  content: OpenSourcePolitics, Democracia en Red
+  content: Civocracy
 - name: Language de programmation
-  content: Ruby on Rails
+  content: PHP, JavaScript
 - name: Langues
-  content: en,es,fr
+  content: fr,en,de
 - name: Opensource
-  content: oui
+  content: non
 - name: Source
-  link: https://github.com/OpenSourcePolitics/decidim
-  content: https://github.com/OpenSourcePolitics/decidim
-atouts:
-- Un espace en ligne pour rassembler toutes les informations utiles à votre concertation
-- Une page personnalisable pour rejoindre et faire grandir le réseau des citoyens engagés dans les actions de territoire
-- Une plateforme conçue pour les échanges entre les citoyens et avec leur collectivité, pour la co-construction et l'émergence du consensus
+  link: https://www.civocracy.org
+  content:https://www.civocracy.org
+atouts: 
+- 9 fonctionnalités activables (dépôt de proposition, budget participatif, sondage, vote,...)
+- Intuitive pour les administrateurs et responsive (s'adapte au format téléphone)
+- Open Source, conforme au RGPD, dotée d'une API complète pour l'open data
 feature_inclus:
-- La plateforme de concertation en ligne, sa page d’accueil personnalisable et son système d’envoi d’actualités et de notifications
-- L’action de participation DISCUSSION conçue spécifiquement pour les échanges entre les citoyens et leur gouvernement, pour la co-construction et l’émergence d’un consensus
-- L’accès permanent au tableau de bord de statistiques, l'accès à la base de connaissance Civocracy
-- La maintenance évolutive et corrective de la plateforme
+- 1 concertation et 1 accès administrateur
 feature_plusloin:
-- Les actions de participation de type QUESTIONNAIRE et PROPOSITION
-- La création de nom de domaine
-- La redirection URL
+- 1 instance dédiée et l'accompagnement des équipes Open Source Politics
 accompagnement_inclus:
-- aucun
+- Notice et un appel pour identifier l'interlocuteur et son besoin
 accompagnement_plusloin:
-- Les formations, avec la journée de formation en présentiel lors du lancement de la plateforme, la formation flash, ou encore la demi-journée de formation
-- Le management de projet avec le cadrage au démarrage d'une démarche participative, le suivi d'une
-démarche participative et la gestion du projet
-- Le community management et l'accompagnement à l'animation de la plateforme
-- L'analyse des résultats, avec la synthèse quantitative d’action participative, la synthèse quantitative
-globale, et la analyse qualitative d'action
+- Cadrage, formation, suivi méthodologique, animation numérique et d'ateliers présentiels, synthèse et évaluation de la démarche
 layout: outil
 default_logo: ''
 ---
