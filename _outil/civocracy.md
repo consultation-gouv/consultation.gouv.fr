@@ -1,19 +1,23 @@
 ---
 title: Civocracy
 tagline: La solution pour une participation citoyenne réussie
-lettre_engagement:
-img-bg: democracy-bg
+lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
+img-bg: honey_bees
 doc_tech: https://guide.civocracy.org/hc/fr
 domain: https://www.civocracy.com/
 contact: contact@civocracy.org
 contract: Logiciel propriétaire
 logo: civocracylogo.png
 clients:
-- Collectivités locales
+- Collectivités
+- Administrations
+- Ministères
 - Entreprises
 owner: Civocracy B.V Zweigniederlassung
 access_link: https://www.civocracy.org/
-date: '2019-04-10T15:57:58.478+00:00'
+date: '2017-04-04T15:57:58.478+00:00'
+url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
+vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 details_techniques:
 - name: Demo
   link: https://www.civocracy.org/
@@ -27,8 +31,8 @@ details_techniques:
 - name: Opensource
   content: non
 - name: Source
-  link: 
-  content:
+  link: https://www.civocracy.org/
+  content:https://www.civocracy.org/
 atouts:
 - Un espace en ligne pour rassembler toutes les informations utiles à votre concertation
 - Une page personnalisable pour rejoindre et faire grandir le réseau des citoyens engagés dans les actions de territoire
@@ -62,9 +66,9 @@ locaux pour collaborer sur des sujets allant de la planification urbaine au tran
 culture, leur permettant ainsi de cocréer leur territoire de demain.
 
 * Concrètement, la plateforme Civocracy a pour ambition de répondre à deux principaux objectifs :
-** Constituer un levier d’idéation et co-construction des projets avec les citoyens et parties
+* Constituer un levier d’idéation et co-construction des projets avec les citoyens et parties
 prenantes sur des projets de territoire
-** Proposer de nouvelles méthodes pour engager les citoyens du territoire, en permettant
+* Proposer de nouvelles méthodes pour engager les citoyens du territoire, en permettant
 notamment d’accroitre l’implication des citoyens qui ne se déplacent pas aux évènements en
 présentiel
 
