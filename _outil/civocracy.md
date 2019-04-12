@@ -1,7 +1,6 @@
 ---
 title: Civocracy
-tagline: La solution pour une participation
-citoyenne réussie
+tagline: La solution pour une participation citoyenne réussie
 lettre_engagement:
 img-bg: democracy-bg
 doc_tech: https://guide.civocracy.org/hc/fr
@@ -56,16 +55,16 @@ globale, analyse qualitative d'action
 layout: outil
 default_logo: ''
 ---
-Civocracy est la plateforme en ligne collaborative sécurisée destinée aux collectivités territoriales qui leur permet d’utiliser des méthodes d’intelligence collective efficaces pour imaginer et concrétiser leurs projets.
+Civocracy est la plateforme en ligne collaborative sécurisée destinée aux collectivités territoriales qui leur permet d’utiliser des méthodes d’intelligence collective efficaces pour imaginer et concrétiser leurs projets :
 
 * Que ce soit des territoires de 10 000 ou 500 000 habitants, Civocracy les connecte avec leurs acteurs
 locaux pour collaborer sur des sujets allant de la planification urbaine au transport, de l'éducation à la
 culture, leur permettant ainsi de cocréer leur territoire de demain.
 
 * Concrètement, la plateforme Civocracy a pour ambition de répondre à deux principaux objectifs :
-- Constituer un levier d’idéation et co-construction des projets avec les citoyens et parties
+** Constituer un levier d’idéation et co-construction des projets avec les citoyens et parties
 prenantes sur des projets de territoire
-- Proposer de nouvelles méthodes pour engager les citoyens du territoire, en permettant
+** Proposer de nouvelles méthodes pour engager les citoyens du territoire, en permettant
 notamment d’accroitre l’implication des citoyens qui ne se déplacent pas aux évènements en
 présentiel
 
