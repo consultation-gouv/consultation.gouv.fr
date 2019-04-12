@@ -38,7 +38,10 @@ atouts:
 - Une page personnalisable pour rejoindre et faire grandir le réseau des citoyens engagés dans les actions de territoire
 - Une plateforme conçue pour les échanges entre les citoyens et avec leur collectivité, pour la co-construction et l'émergence du consensus
 feature_inclus:
-- 1 concertation et 1 accès administrateur
+- La plateforme de concertation en ligne, sa page d’accueil personnalisable et son système d’envoi d’actualités et de notifications
+- L’action de participation DISCUSSION conçue spécifiquement pour les échanges entre les citoyens et leur gouvernement, pour la co-construction et l’émergence d’un consensus
+- L’accès permanent au tableau de bord de statistiques, l'accès à la base de connaissance Civocracy
+- La maintenance évolutive et corrective de la plateforme
 feature_plusloin:
 - 1 instance dédiée et l'accompagnement des équipes Open Source Politics
 accompagnement_inclus:
