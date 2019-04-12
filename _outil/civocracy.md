@@ -50,8 +50,7 @@ accompagnement_inclus:
 - Notice
 accompagnement_plusloin:
 - Les formations
-- Le management de projet avec le cadrage au démarrage d'une démarche participative, le suivi d'une
-démarche participative et la gestion du projet
+- Le management
 - Le community management
 - L'analyse des résultats
 layout: outil
