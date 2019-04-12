@@ -13,9 +13,9 @@ clients:
 - Administrations
 - Ministères
 - Entreprises
-owner: Open Source Politics
-access_link: https://deploiement.consultation.etalab.gouv.fr/outil/decidim
-date: '2017-04-04T15:57:58.478+00:00'
+owner: Civocracy bv Zweigniederlassung
+access_link: https://deploiement.consultation.etalab.gouv.fr/outil/civocracy
+date: '2019-04-04T15:57:58.478+00:00'
 url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 details_techniques:
