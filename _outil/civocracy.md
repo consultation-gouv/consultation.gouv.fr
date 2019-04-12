@@ -13,7 +13,7 @@ clients:
 - Administrations
 - Ministères
 - Entreprises
-owner: Civocracy B.V Zweigniederlassung
+owner: Civocracy BV Zweigniederlassung
 access_link: https://www.civocracy.org/
 date: '2017-04-04T15:57:58.478+00:00'
 url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
@@ -27,7 +27,7 @@ details_techniques:
 - name: Language de programmation
   content: PHP, JavaScript
 - name: Langues
-  content: français,anglais,allemand
+  content: fr, en, de
 - name: Opensource
   content: non
 - name: Source
