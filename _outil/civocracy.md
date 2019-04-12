@@ -13,26 +13,26 @@ clients:
 - Administrations
 - Ministères
 - Entreprises
-owner: Civocracy BV Zweigniederlassung
-access_link: https://deploiement.consultation.etalab.gouv.fr/outil/civocracy
+owner: Open Source Politics
+access_link: https://deploiement.consultation.etalab.gouv.fr/outil/decidim
 date: '2017-04-04T15:57:58.478+00:00'
 url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 details_techniques:
 - name: Demo
-  link: https://www.civocracy.org/
-  content: https://www.civocracy.org/
+  link: https://demo.decidim.opensourcepolitics.eu/
+  content: https://demo.decidim.opensourcepolitics.eu/
 - name: Développeur
-  content: Civocracy
+  content: OpenSourcePolitics, Democracia en Red
 - name: Language de programmation
-  content: PHP, JavaScript
+  content: Ruby on Rails
 - name: Langues
-  content: fr,en,de
+  content: en,es,fr
 - name: Opensource
-  content: non
+  content: oui
 - name: Source
-  link: https://www.civocracy.org
-  content:https://www.civocracy.org
+  link: https://github.com/OpenSourcePolitics/decidim
+  content: https://github.com/OpenSourcePolitics/decidim
 atouts: 
 - 9 fonctionnalités activables (dépôt de proposition, budget participatif, sondage, vote,...)
 - Intuitive pour les administrateurs et responsive (s'adapte au format téléphone)
