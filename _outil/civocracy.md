@@ -7,7 +7,7 @@ doc_tech: https://guide.civocracy.org/hc/fr
 domain: https://www.civocracy.com/
 contact: contact@civocracy.org
 contract: Logiciel propriétaire
-logo: civocracylogo.png
+logo: logodecidim.png
 clients:
 - Collectivités
 - Administrations
@@ -27,7 +27,7 @@ details_techniques:
 - name: Language de programmation
   content: PHP, JavaScript
 - name: Langues
-  content: fr, en, de
+  content: fr,en,de
 - name: Opensource
   content: non
 - name: Source
