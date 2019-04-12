@@ -47,14 +47,9 @@ feature_plusloin:
 - La création de nom de domaine
 - La redirection URL
 accompagnement_inclus:
-- aucun
+- Notice et un appel pour identifier l'interlocuteur et son besoin
 accompagnement_plusloin:
-- Les formations, avec la journée de formation en présentiel lors du lancement de la plateforme, la formation flash, ou encore la demi-journée de formation
-- Le management de projet avec le cadrage au démarrage d'une démarche participative, le suivi d'une
-démarche participative et la gestion du projet
-- Le community management et l'accompagnement à l'animation de la plateforme
-- L'analyse des résultats, avec la synthèse quantitative d’action participative, la synthèse quantitative
-globale, et la analyse qualitative d'action
+- Cadrage, formation, suivi méthodologique, animation numérique et d'ateliers présentiels, synthèse et évaluation de la démarche
 layout: outil
 default_logo: ''
 ---
