@@ -51,8 +51,9 @@ accompagnement_inclus:
 accompagnement_plusloin:
 - Les formations
 - Le management
-- Le community management
-- L'analyse des résultats
+- Le community management et l'accompagnement à l'animation de la plateforme
+- L'analyse des résultats, avec la synthèse quantitative d’action participative, la synthèse quantitative
+globale, et l'analyse qualitative d'action
 layout: outil
 default_logo: ''
 ---
