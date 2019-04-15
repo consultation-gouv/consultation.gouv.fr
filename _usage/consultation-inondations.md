@@ -1,8 +1,8 @@
 ---
-title: Projets de décrets portant diverses dispositions d’adaptation des règles relatives aux ouvrages de prévention des inondations
+title: Consultation sur la prévention des inondations
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/projets-de-decrets-portant-diverses-dispositions-d-a1929.html
 opendata: 
-description: Consultation sur les projets de décrets portant diverses dispositions d’adaptation des règles relatives aux ouvrages de prévention des inondations et modifiant l’article D181-15-1 du code de l’environnement.
+description: Ministère de la Transition Écologique et Solidaire
 outil:
 - Autre
 screenshot: min-agri.png
@@ -11,6 +11,12 @@ in_progress: true
 note-citoyenne: 5
 note-decidee: 4
 ---
+Organisateur : Ministère de la Transition 144Écologiqsue et Solidaire
+
+Type de consultation : appel à commentaire. Mode de participation : Contribution sur la plateforme interne.
+
+
+Projets de décrets portant diverses dispositions d’adaptation des règles relatives aux ouvrages de prévention des inondations
 
 Consultation sur les projets de décrets portant diverses dispositions d’adaptation des règles relatives aux ouvrages de prévention des inondations et modifiant l’article D181-15-1 du code de l’environnement.
 
