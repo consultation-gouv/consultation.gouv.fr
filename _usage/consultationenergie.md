@@ -2,7 +2,7 @@
 title: Projet de décret relatif aux obligations de réduction des consommations d’énergie dans les bâtiments à usage tertiaire
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/projet-de-decret-relatif-aux-obligations-de-a1940.html?id_rubrique=1
 opendata: 
-description:  L’article 175 de la loi n°2108-1021 du 23 novembre 2018 portant évolution du logement et de l’aménagement et du numérique (ELAN) a modifié les dispositions de l’article L.111-10-3 du code de la construction et de l’habitation relatif aux obligations de réduction des consommations d’énergie dans les bâtiments à usage tertiaire.
+description:  Organisée par le Ministère de la Transition Écologique et Solidaire
 outil:
 - Autre
 screenshot: min-agri.png
