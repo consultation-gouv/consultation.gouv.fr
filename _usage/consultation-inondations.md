@@ -8,13 +8,10 @@ outil:
 screenshot: min-agri.png
 date: 2019-03-18 09:29:08 +0000
 in_progress: true
-note-citoyenne: 5
-note-decidee: 4
 ---
-Organisateur : Ministère de la Transition 144Écologiqsue et Solidaire
+Organisateur : Ministère de la Transition Écologique et Solidaire
 
-Type de consultation : appel à commentaire. Mode de participation : Contribution sur la plateforme interne.
-
+Type de consultation : appel à commentaire. Mode de participation : dépôt de commentaires la plateforme interne.
 
 Projets de décrets portant diverses dispositions d’adaptation des règles relatives aux ouvrages de prévention des inondations
 
