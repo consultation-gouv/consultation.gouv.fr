@@ -22,7 +22,6 @@ details_techniques:
 - name: Demo
   link: 
   content: n/a
-  content: Civocracy
 - name: Language de programmation
   content: php, javascript
 - name: Langues

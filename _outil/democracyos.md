@@ -23,7 +23,7 @@ details_techniques:
 - name: Développeur
   content: DemocracyOS France, OpenSourcePolitics, Democracia en Red
 - name: Language de programmation
-  content: Javascript (node.js)
+  content: Javascript, NodeJS & NPM, Babel/js, Browserify, Stylus, Jade, MongoDB, Mongoose
 - name: Langues
   content: fr
 - name: Opensource
