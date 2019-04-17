@@ -1,8 +1,8 @@
 ---
-title: Projet de décret relatif aux substances naturelles à usage biostimulant et aux préparations naturelles peu préoccupantes en contenant
+title: Consultation sur les substances naturelles à usage biostimulant
 link: https://agriculture.gouv.fr/projet-de-decret-relatif-aux-substances-naturelles-usage-biostimulant-et-aux-preparations-naturelles
 opendata: 
-description: Consultation sur le projet de décret relatif aux substances naturelles à usage biostimulant et aux préparations naturelles peu préoccupantes en contenant (SNUB)
+description: Ministère de l'Agriculture et de l'Alimentation
 outil:
 - Autre
 screenshot: alimagri.png
@@ -11,6 +11,11 @@ in_progress: true
 note-citoyenne: 5
 note-decidee: 5
 ---
+Organisé par le Ministère de l'Agriculture et de l'Alimentation
+Type de consultation : Appel à commentaires. Participation par envoi de mail.
+
+Consultation sur le projet de décret relatif aux substances naturelles à usage biostimulant et aux préparations naturelles peu préoccupantes en contenant (SNUB)
+
 L’article 77 de la loi n°2018-938 du 30 octobre 2018 pour l’équilibre des relations commerciales dans le secteur agricole et alimentaire et une alimentation saine, durable et accessible à tous a modifié l’article L. 253-1 du code rural et de la pêche maritime, afin notamment de préciser que la procédure d’autorisation et d’évaluation des substances naturelles à usage biostimulant est adaptée lorsque la demande d’autorisation porte sur la partie consommable d’une plante utilisée en alimentation humaine ou animale.
 
 La procédure d’autorisation des substances naturelles à usage biostimulant a été établie par le décret n°2016-532 du 27 avril 2016 relatif à la procédure d’autorisation des substances naturelles à usage biostimulant. Elle est codifié à l’article D. 255-30-1 du code rural et de la pêche maritime.
