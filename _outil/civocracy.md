@@ -2,9 +2,9 @@
 title: Civocracy
 tagline: La solution pour une participation citoyenne réussie
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
-img-bg: honey_bees
+img-bg: Etalab_Civocracy
 doc_tech: https://guide.civocracy.org/hc/fr
-domain: https://www.civocracy.org
+domain: https://www.civocracy.com
 contact: contact@civocracy.org
 contract: Logiciel Propriétaire
 logo: civocracylogo.png
@@ -34,9 +34,9 @@ details_techniques:
   link: https://www.civocracy.org
   content: https://www.civocracy.org
 atouts:
-- Un espace en ligne pour rassembler toutes les informations utiles à votre concertation
-- Une page personnalisable pour rejoindre et faire grandir le réseau des citoyens engagés dans les actions de territoire
-- Une plateforme conçue pour les échanges entre les citoyens et avec leur collectivité, pour la co-construction et l'émergence du consensus
+- Un outil interactif pour communiquer et engager votre communauté tout au long du projet
+- Une plateforme personnalisable pour respecter votre charte graphique et l’identité de votre projet participatif
+- Un back office intégrant des conseils sur chaque item et des fonctionnalités faciles d’accès pour une participation inclusive.
 feature_inclus:
 - La plateforme de concertation en ligne, sa page d’accueil personnalisable et son système d’envoi d’actualités et de notifications
 - L’action de participation DISCUSSION conçue spécifiquement pour les échanges entre les citoyens et leur gouvernement, pour la co-construction et l’émergence d’un consensus
