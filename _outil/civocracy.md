@@ -57,7 +57,7 @@ default_logo: ''
 
 * Expert en participation citoyenne numérique, Civocracy offre une plateforme numérique sécurisée et transparente qui facilite l’émergence du consensus citoyen.
 
-* La plateforme offre aux décideurs publics - de la ville au niveau national - un levier d’idéation et de co-construction avec les citoyens et leurs parties prenantes sur des projets de territoire et des sujets tels que l’éducation et l’aménagement urbain, le changement climatique et la biodiversité, permettant des prises de décision inclusives et durables.
+* La plateforme offre aux décideurs publics - du niveau local au niveau national et international (disponible en 3 langues) - un levier d’idéation et de co-construction avec les citoyens et leurs parties prenantes sur des projets de territoire et des sujets tels que l’éducation et l’aménagement urbain, le changement climatique et la biodiversité, permettant des prises de décision inclusives et durables.
 
     * Les fonctionnalités de base ont été précisément conçues et développées pour fournir des recommandations concrètes et réalisables pour les décideurs. La plateforme comporte des pages de dialogue (DISCUSSION), un espace boîte à idées (PROPOSITION) et des QUESTIONNAIRES. 
 
