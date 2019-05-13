@@ -1,6 +1,6 @@
 ---
 title: DemocracyOS
-tagline: Plateforme web qui permet d'organiser des consultations publiques.
+tagline: Plateforme web qui permet d'organiser des consultations publiques
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: democracy-bg
 doc_tech: http://democracyos.eu/docs-fr/
@@ -23,7 +23,7 @@ details_techniques:
 - name: Développeur
   content: DemocracyOS France, OpenSourcePolitics, Democracia en Red
 - name: Language de programmation
-  content: Javascript (node.js)
+  content: Javascript, NodeJS & NPM, Babel/js, Browserify, Stylus, Jade, MongoDB, Mongoose
 - name: Langues
   content: fr
 - name: Opensource
