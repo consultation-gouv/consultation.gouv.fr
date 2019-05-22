@@ -5,7 +5,7 @@ opendata:
 description: La plateforme de participation citoyenne de la ville d'Angers
 outil:
 - Decidim
-screenshot: logodecidim.png
+screenshot: decidim_angers.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5

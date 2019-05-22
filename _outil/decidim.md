@@ -1,13 +1,13 @@
 ---
 title: Decidim
 tagline: La démocratie n'a jamais été aussi réelle
-lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
-img-bg: honey_bees
+lettre_engagement: "/uploads/Lettre-engagement-OSP-Decidim.pdf"
+img-bg: cover_decidim
 doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
 domain: https://meta.decidim.org/
 contact: contact@opensourcepolitics.eu
 contract: Logiciel libre - AGPLv3
-logo: logodecidim.png
+logo: decidim-logo.svg
 clients:
 - Collectivités
 - Administrations
@@ -23,7 +23,7 @@ details_techniques:
   link: https://demo.decidim.opensourcepolitics.eu/
   content: https://demo.decidim.opensourcepolitics.eu/
 - name: Développeur
-  content: OpenSourcePolitics, Democracia en Red
+  content: Mairie de Barcelone,Open Source Politics,aLabs,Populate,ASP gems,Codegram,Codi Tramuntana,Platoniq
 - name: Language de programmation
   content: Ruby on Rails
 - name: Langues
