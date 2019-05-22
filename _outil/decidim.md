@@ -48,7 +48,8 @@ accompagnement_plusloin:
 layout: outil
 default_logo: ''
 ---
-Decidim est une plateforme complète, personnalisable et modulaire pour s'adapter à votre contexte grâce à ses 9 fonctionnalités activables : 
+
+Grâce à un investissement public initial de la mairie de Barcelone, Decidim est rapidement devenu le meilleur logiciel libre de participation citoyenne en Europe. Complète, personnalisable et modulaire pour s'adapter à votre contexte grâce à ses 9 fonctionnalités activables : 
 * co-écriture de texte, 
 * dépôts de propositions, 
 * sondage, 
@@ -59,4 +60,4 @@ Decidim est une plateforme complète, personnalisable et modulaire pour s'adapte
 * assemblées et groupes de décision fermés
 * ...
 
-Decidim à plus de 20 clients actifs en France, dont les mairies d'Angers, Nancy, Nanterre, Roubaix et Villeurbanne, la Métropole européenne de Lille, les départements de Loire-Atlantique et du Loiret, la région Nouvelle-Aquitaine...
+Ne croyant pas aux outils magiques, et ne travaillant que sur des technologies open source, Open Source Politics existe depuis 3 ans et a accompagné plus de 50 clients dans leurs démarches de consultations numériques, dont les mairies d'Angers, Nancy, Nanterre, Roubaix et Villeurbanne, la Métropole européenne de Lille, les départements de Loire-Atlantique et du Loiret, la région Nouvelle-Aquitaine...
