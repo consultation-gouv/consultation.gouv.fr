@@ -10,7 +10,7 @@ contract: Logiciel libre - AGPLv3
 date: 2017-04-04 15:57:58 +0000
 default_logo: ''
 doc_tech: ''
-domain: https://bluenove.com/offres/assembl/
+domain: http://assembl.bluenove.com
 img-bg: assembl-bg
 layout: outil
 logo: assembl.png
