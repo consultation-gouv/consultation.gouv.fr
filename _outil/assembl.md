@@ -10,7 +10,7 @@ contract: Logiciel libre - AGPLv3
 date: 2017-04-04 15:57:58 +0000
 default_logo: ''
 doc_tech: ''
-domain: http://assembl.bluenove.com
+domain: http://bluenove.com/offres/assembl
 img-bg: assembl-bg
 layout: outil
 logo: assembl.png
@@ -55,8 +55,8 @@ feature_plusloin:
   de participation (développées avec le MIT).
 details_techniques:
 - name: Demo
-  link: http://discussions.bluenove.com/sandbox
-  content: http://discussions.bluenove.com/sandbox
+  link: https://bluenove.com/offres/assembl/
+  content: https://bluenove.com/offres/assembl/
 - name: Développeur
   content: Bluenove, Imagination for people
 - name: Language de programmation
