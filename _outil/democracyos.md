@@ -17,9 +17,6 @@ owner: Open Source Politics
 access_link: https://deploiement.consultation.etalab.gouv.fr/outil/democracyos
 date: '2017-04-04T15:57:58.478+00:00'
 details_techniques:
-- name: Demo
-  link: https://app.democracyos.org
-  content: https://app.democracyos.org
 - name: Développeur
   content: DemocracyOS France, OpenSourcePolitics, Democracia en Red
 - name: Language de programmation
