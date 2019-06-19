@@ -6,7 +6,7 @@ description: Plateforme de la Commune de Nanterre
 outil: 
 - decidim
 screenshot: Nanterre.png
-date: 
+date: 2019-01-01 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 4
