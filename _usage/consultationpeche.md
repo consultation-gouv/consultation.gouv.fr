@@ -1,7 +1,6 @@
 ---
-title: Makaire Bleu et Blanc d'Atlantique : projet d'arrêté précisant les conditions d'exercice de la pêche de loisir
-link: hhttps://agriculture.gouv.fr/consultation-publique-projet-darrete-encadrant-la-peche-de-loisir-des-makaires-bleus-et-blancs-de
-opendata: 
+title: Projet d'arrêté précisant les conditions d'exercice de la pêche de loisir du Makaire Bleu et Blanc d'Atlantique
+link: https://agriculture.gouv.fr/consultation-publique-projet-darrete-encadrant-la-peche-de-loisir-des-makaires-bleus-et-blancs-de
 description: Ministère de l'Agriculture et de l'Alimentation
 outil:
 - Autre

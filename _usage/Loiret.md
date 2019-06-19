@@ -6,7 +6,7 @@ description: Plateforme du Département du Loiret
 outil: 
 - decidim
 screenshot: Loiret.png
-date:2019-05-22 09:29:08 +0000
+date: 2019-05-22 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 4
