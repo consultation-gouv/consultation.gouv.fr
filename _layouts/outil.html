@@ -14,7 +14,7 @@ additional_css: outil
       </h3>
       <div>
         {% if page.doc_tech %}
-        <a class="btn btn-outline-light mr-2" href="{{ page.doc_tech }}" target="_blank">
+        <a class="btn btn-outline-light mr-2" href="{{ page.doc_tech }}" target="_blank" onclick="_paq.push(['trackEvent', 'Utilisez', '{{ page.title }}']);">
           Documentation technique &nbsp;&nbsp;<i class="code icon"></i>
         </a>
         {% endif %}
