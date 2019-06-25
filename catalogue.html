@@ -17,14 +17,18 @@ additional_css: catalogue
     <div class="col-sm-4">
       <input id="search" name="search" placeholder="Recherche rapide" type="text" data-list=".list" class="form-control" >
     </div>
-    <!--<div class="form-group col-md-2">-->
-      <!--<select name="outils" id="outils" class="form-control" data-list=".list" >-->
-        <!--<option value="">Sélectionner un outils</option>-->
-        <!--{% for outil in site.outil %}-->
-          <!--<option value='{{ outil.title }}'>{{ outil.title }}</option>-->
-        <!--{% endfor %}-->
-      <!--</select>-->
-    <!--</div>-->
+    
+    <!-- filtre spécial -->
+    <div class="form-group col-md-2">
+      <select name="outils" id="outils" class="form-control" data-list=".list" >
+        <option value="">Sélectionner un outils</option>
+        {% for outil in site.outil %}
+          <option value='{{ outil.title }}'>{{ outil.title }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <!-- fin filtre spécial -->
+
   </div>
   <div class="row list" id="results">
     {% for usage in site.usage %}
