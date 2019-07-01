@@ -20,6 +20,10 @@ consultation:
   link: "/laconsultation.html#bonnes-pratiques"
 
 troisieme:
+- name: Chiffre Clés
+  link: "/chiffres"
+- name: La communauté
+  link: "/chiffres#"
 - name: Notre démarche
   link: "/leprojet.html#demarche"
 - name: Critères de sélection
@@ -32,7 +36,7 @@ troisieme:
   link: "/contact.html"
 
 quatrieme:
-- name: Consultations en cours
+- name: Catalogue de la participation
   link: "/catalogue.html"
 - name: Service Public.fr
   link: "https://www.service-public.fr"

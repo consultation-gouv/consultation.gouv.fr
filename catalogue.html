@@ -39,25 +39,5 @@ additional_css: catalogue
   </div>
 </div>
 
-<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
-<script>
-  $(document).ready(function() {
-    $('#search').hideseek({
-      nodata: 'Aucun résultat trouvé pour cette recherche',
-      ignore_accents: true
-    })
-
-    $('#outils').on('change', function() {
-      console.log('hello')
-      var e = jQuery.Event("keydown");
-      e.which = 90; // # Some key code value
-      $('#outils').trigger(e);
-    })
-
-    $('#outils').hideseek({
-      nodata: 'Aucun résultat trouvé pour cette recherche',
-      ignore_accents: true,
-      navigation: true
-    });
-  });
+  
 </script>
