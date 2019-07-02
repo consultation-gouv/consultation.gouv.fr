@@ -13,9 +13,18 @@ additional_css: outil
         {{ page.tagline }}
       </h3>
       <div>
+        <!-- bouton documentation technique
         {% if page.doc_tech %}
         <a class="btn btn-outline-light mr-2" href="{{ page.doc_tech }}" target="_blank">
           Documentation technique &nbsp;&nbsp;<i class="code icon"></i>
+        </a>
+        {% endif %}
+      -->
+
+        {% if page.demo_link %}
+        <a class="btn btn-outline-light" href="{{ page.demo_link }}" target="_blank">
+          Utilisez !&nbsp;
+          <i class="ticket icon"></i>
         </a>
         {% endif %}
         {% if page.access_link %}
