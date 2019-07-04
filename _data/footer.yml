@@ -21,9 +21,9 @@ consultation:
 
 troisieme:
 - name: Chiffre Clés
-  link: "/chiffres"
+  link: "/chiffres.html"
 - name: La communauté
-  link: "/chiffres#"
+  link: "/chiffres.html#mardis"
 - name: Notre démarche
   link: "/leprojet.html#demarche"
 - name: Critères de sélection
