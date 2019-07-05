@@ -20,9 +20,9 @@
 #  name: Une question ?
 
 - link: "/catalogue.html"
- name: Trouver une démarche
+  name: Trouver une démarche
 - link: "/catalogue.html"
- name: Suivre les démarches
+  name: Suivre les démarches
 - link: "/notifications.html"
   name: Tenez moi au courant
 
