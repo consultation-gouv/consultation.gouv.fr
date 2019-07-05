@@ -1,0 +1,28 @@
+---
+#- link: "/lesoutils.html"
+#  name: OUTILS
+#- link: "/laconsultation.html"
+#  name: BONNES PRATIQUES
+#- link: "/leprojet.html"
+#  name: DEMARCHE
+#- link: "/criteres.html"
+#  name: CRITÈRES DE SÉLECTION
+#- link: "/contact.html"
+#  name: CONTACT
+
+#- link: "/laconsultation.html"
+# name: Préparation
+#- link: "/lesoutils.html"
+# name: Outils
+#- link: "/accompagnement.html"
+#  name: Accompagnement
+#- link: "/support.html"
+#  name: Une question ?
+
+- link: "/catalogue.html"
+ name: Trouver une démarche
+- link: "/catalogue.html"
+ name: Suivre les démarches
+- link: "/notifications.html"
+  name: Tenez moi au courant
+

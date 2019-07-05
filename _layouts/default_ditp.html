@@ -14,9 +14,9 @@
             </div>
             <div class="flex-grow-1 text-right d-none d-lg-block" id="navbar">
               <ul class="navbar-nav flex-row justify-content-end">
-                {% for item in site.data.topmenu %}
+                {% for item in site.data.topmenu_ditp %}
                 <li class="nav-item">
-                    {% unless item.name == site.data.topmenu[0].name %} <span class="pipe font-weight-normal">|</span> {% endunless %}
+                    {% unless item.name == site.data.topmenu_ditp[0].name %} <span class="pipe font-weight-normal">|</span> {% endunless %}
                   <a href="{{ item.link }}" id="{{ item.name }}" class="{% if page.title ==  item.name %} font-weight-bold {% endif %}">
                     {{ item.name }}</a>
                 </li>
@@ -30,9 +30,9 @@
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
                 <a href="/" class="dropdown-item p-1">Accueil</a>
-                {% for item in site.data.topmenu %}
+                {% for item in site.data.topmenu_ditp %}
                 <a href="{{ item.link }}" class="dropdown-item p-1">
-                  {% unless item.name == site.data.topmenu[0].name %}{% endunless %}
+                  {% unless item.name == site.data.topmenu_ditp[0].name %}{% endunless %}
                   {{ item.name }}</a>
                 {% endfor %}
               </div>
@@ -45,7 +45,7 @@
         <img id="bandeau-beta" src="/img/bandeau-beta.png" alt="bandeau site en beta">
         {{ content }}
         </main>
-        {% include foote_ditp.html %}
+        {% include footer_ditp.html %}
       </div>
     </div>
     {% include analytics.html %}
