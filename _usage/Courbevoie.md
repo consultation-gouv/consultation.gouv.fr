@@ -3,6 +3,7 @@ title: Commune de Courbevoie
 link: https://jeparticipe.courbevoie.fr/consultation/budget-participatif-edition-2019/presentation/presentation-11
 opendata: 
 description: Plateforme de Consultation de la Ville de Courbevoie
+organisateur: Ville de Courbevoie
 outil: 
 - cap-collectif
 screenshot: Courbevoie.png

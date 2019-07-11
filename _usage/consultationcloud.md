@@ -2,6 +2,7 @@
 title: Stratégie Cloud de l'Etat
 link: https://democracyos.consultation.etalab.gouv.fr/strategieclouddeletat
 description: Consulter les éditeurs français sur la stratégie cloud de l'Etat
+organisateur : DINSIC
 outil:
 - DemocracyOS
 screenshot: cloud.png

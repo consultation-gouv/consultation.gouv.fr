@@ -3,6 +3,7 @@ title: Consultation sur la distribution de gaz
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/arrete-modifiant-l-arrete-ministeriel-du-30-aout-a1947.html
 opendata: 
 description: Ministère de la Transition Écologique et Solidaire
+organisateur: Ministère de la Transition Écologique et Solidaire
 outil:
 - Autre
 screenshot: min-agri.png

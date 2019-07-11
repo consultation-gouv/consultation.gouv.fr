@@ -3,6 +3,7 @@ title: Démarche de concertation de la Région Auvergne Rhône Alpes autour du S
 link: https://www.civocracy.org/ambitionterritoires2030
 opendata: 
 description: Construire une région unifiée et résiliente
+organisateur: Région Auvergne Rhône Alpes
 outil:
 - Civocracy
 screenshot: auvergne-rhonesalpes.png

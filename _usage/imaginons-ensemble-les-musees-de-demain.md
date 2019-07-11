@@ -3,6 +3,7 @@ date: 2017-08-10 00:00:00 +0000
 description: " Démarche d'intelligence collective en ligne "
 layout: usage
 link: http://consultation-musee21e.culturecommunication.gouv.fr/
+organisateur: Ministère de la Culture et de la Communication
 outil:
 - Cap Collectif
 screenshot: "./Imaginons ensemble les Musées de demain.jpg"

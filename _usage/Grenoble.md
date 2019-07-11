@@ -3,6 +3,7 @@ title: Consultations de la Ville de Grenoble
 link: https://participation.lametro.fr/projects?type=2
 opendata: 
 description: Plateforme de la Commune de Grenoble
+organisateur: Ville de Grenoble
 outil: 
 - capcollectif
 screenshot: Grenoble.png

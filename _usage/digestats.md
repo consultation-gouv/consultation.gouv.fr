@@ -3,6 +3,7 @@ title: Consultation sur l’utilisation de digestats de méthanisation agricoles
 link: https://agriculture.gouv.fr/consultation-publique-projet-darrete-approuvant-deux-cahiers-des-charges-pour-la-mise-sur-le-marche
 opendata: 
 description: Ministère de l'Agriculture et de l'Alimentation
+organisateur: Ministère de l'Agriculture et de l'Alimentation
 outil:
 - Autre
 screenshot: alimagri.png

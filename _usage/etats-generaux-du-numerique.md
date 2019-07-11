@@ -2,6 +2,7 @@
 title: Consultation en ligne dans le cadre des États généraux des nouvelles régulations numériques 
 link: https://egnum.cnnumerique.fr/projects
 opendata: 
+organisateur : Conseil National du Numérique
 description: Les contributeurs peuvent voter, donner leur avis et faire des propositions sur les nouvelles régulations numériques
 outil:
 - Cap Collectif

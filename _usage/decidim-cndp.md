@@ -3,6 +3,7 @@ title: Commission Nationale du Débat Public
 link: https://participons.debatpublic.fr/
 opendata: 
 description: La plateforme de participation citoyenne de la CNDP
+organisateur: CNDP
 outil:
 - Decidim
 screenshot: decidim_cndp.png

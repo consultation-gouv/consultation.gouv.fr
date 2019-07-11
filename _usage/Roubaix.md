@@ -2,6 +2,7 @@
 title: Consultations de la Ville de Roubaix
 link: https://budgetparticipatif.ville-roubaix.fr/processes/bpe2019
 description: Plateforme de la Commune de Roubaix
+organisateur: ville de Roubaix
 outil: 
 - decidim
 screenshot: Roubaix.png

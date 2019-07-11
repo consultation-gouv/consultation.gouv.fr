@@ -1,6 +1,7 @@
 ---
 date: 2017-08-08 00:00:00 +0000
 description: Démarche d'intelligence collective en ligne
+organisateur: Ministère de la Ville, de la Jeunesse et des Sports
 layout: usage
 link: https://www.egalite-citoyennete-participez.gouv.fr/
 outil:

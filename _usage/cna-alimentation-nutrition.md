@@ -3,6 +3,7 @@ title: Retours sur le programme national de l'alimentation et de la nutrition
 link: https://democracyos.consultation.etalab.gouv.fr/conseilnationaldelalimentation
 opendata: 
 description: organisé par le Conseil National de l'Alimentation
+organisateur: Conseil National de l'Alimentation
 outil:
 - DemocracyOS
 screenshot: cna-programme-alimentation-nutrition.png

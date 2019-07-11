@@ -3,6 +3,7 @@ title: Métropôle Européenne de Lille
 link: https://participation.lillemetropole.fr/
 opendata: 
 description: La plateforme de participation citoyenne de la Métropole Européenne de Lille
+organisateur: Métropole Européenne de Lille
 outil:
 - Decidim
 screenshot: avouslaparole.png

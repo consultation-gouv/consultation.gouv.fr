@@ -3,6 +3,7 @@ title: Budget Participatif du Loiret
 link: https://atelierdevosidees.loiret.fr/processes
 opendata: 
 description: Plateforme du Département du Loiret
+organisateur: Département du Loiret
 outil: 
 - decidim
 screenshot: Loiret.png

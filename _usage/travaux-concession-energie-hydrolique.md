@@ -3,6 +3,7 @@ title: Consultation sur l’utilisation de digestats de méthanisation agricoles
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/projet-de-decret-relatif-aux-autorisations-de-a1951.html
 opendata: 
 description: Ministère de la Transition Écologique et Solidaire
+organisateur: Ministère de l'Agriculture et de l'Alimentation
 outil:
 - Autre
 screenshot: min-agri.png

@@ -3,6 +3,7 @@ title: Consultation sur la prévention des inondations
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/projets-de-decrets-portant-diverses-dispositions-d-a1929.html
 opendata: 
 description: Ministère de la Transition Écologique et Solidaire
+organisateur : Ministère de la Transition Écologique et Solidaire
 outil:
 - Autre
 screenshot: min-agri.png

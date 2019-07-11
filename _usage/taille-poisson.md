@@ -2,6 +2,7 @@
 title: Consultation sur la taille minimale ou le poids minimal de capture et de débarquement des poissons et autres organismes marins pour la pêche professionnelle
 link: https://agriculture.gouv.fr/projet-darrete-modifiant-larrete-du-28-janvier-2013-determinant-la-taille-ou-le-poids-minimal-des
 description: Ministère de l'Agriculture et de l'Alimentation
+organisateur: Ministère de la Transition Écologique et Solidaire
 outil:
 - Autre
 screenshot: alimagri.png

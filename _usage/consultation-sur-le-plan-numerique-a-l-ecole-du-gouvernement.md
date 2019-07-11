@@ -3,6 +3,7 @@ layout: usage
 title: Consultation sur le plan numérique à l'école du Gouvernement
 link: https://forum.ecolenumerique.education.gouv.fr/
 description: Démarche d'intelligence collective en ligne
+organisateur : Ministère de l'Education nationale
 outil:
 - Cap Collectif
 screenshot: cap-collaboration.jpg

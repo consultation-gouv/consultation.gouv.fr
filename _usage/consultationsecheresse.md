@@ -2,6 +2,7 @@
 title: Projet de décret et d'arrêté pour l'article 71 de la loi ELAN
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/projets-de-decret-et-d-arrete-pris-en-application-a1934.html?id_rubrique=1
 description: Consultation sur l'article visant à adapter les obligations en matière d’individualisation des frais de chauffage en modifiant l’article L. 241-9 du code de l’énergie et se mettre en conformité avec la Directive Européenne relative à l’Efficacité Énergétique (DEE-2012, articles 9 à 11).
+organisateur: Ministère de la Transition Ecologique et Solidaire
 outil:
 - Autre
 screenshot: min-agri.png

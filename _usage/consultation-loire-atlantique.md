@@ -3,6 +3,7 @@ title: Un été pour changer
 link: https://gouvernement-et-citoyens.consultation.etalab.gouv.fr/project/un-ete-pour-changer/questionnaire/questionnaire
 opendata: 
 description: Préfecture de Loire-Atlantique (44)
+organisateur: Préfecture de Loire-Atlantique (44)
 outil:
 - Cap-collectif
 screenshot: Loire-atlantique.png
