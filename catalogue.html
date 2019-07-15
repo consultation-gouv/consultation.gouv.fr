@@ -15,7 +15,7 @@ additional_css: catalogue
   </div>
   <div class="form-group row my-3">
     <div class="col-sm-4">
-      <input id="search" name="search" placeholder="Recherche rapide" type="text" data-list=".list" class="form-control" >
+      <input id="search" name="search" placeholder="Ville, Région, Nom de la démarche, ... " type="text" data-list=".list" class="form-control" >
     </div>
 
     <!-- filtre spécial -->
@@ -30,63 +30,25 @@ additional_css: catalogue
     <!-- fin filtre spécial -->
   </div>
 
-  <!-- TO REPLACE
-    <div class="row list" id="results">
-    {% for usage in site.usage %}
-    {% if usage.in_progress %}
-    {% include exemple-card.html usage=usage en-savoir-plus=true %}
-    {% endif %}
-    {% endfor %}
-  </div> -->
-
   <div class="row list" id="results">
     <div v-for="item in items" class="col-md-4 col-12 mt-4 card-list">
       <div class="card mb-3 card-exemple">
         <div class="content card-header bg-transparent">
           <h5>
-            <a class="header" :href="item.fields.url" >{{ item.fields.title }}</a>
+            <a class="header" :href="item.fields.link" v-text="item.fields.title">            </a>
           </h5>
-          <div class="meta">
-            {{ item.fields.description }}
+          <div class="meta" v-text="item.fields.organisateur">
           </div>
         </div>
         <div class="card-body d-flex justify-content-center align-items-center">
-          <a v-if="item.fields.screenshot && item.fields.screenshot[0]" :href="item.fields.screenshot[0].url" :style="getImageStyleProperties(item)"></a>
+          <a v-if="item.fields.screenshot && item.fields.screenshot[0]" :href="item.fields.link" :style="getImageStyleProperties(item)"></a>
         </div>
         <div class="card-footer bg-transparent extra content d-flex justify-content-between align-items-center">
 
-          <!-- <div> TO REPLACE
-              Outil utilisé{% if item.fields.outil.size > 1 %}s{% endif %}&nbsp;:
-              {% for outilName in include.usage.outil %}
-              {% assign outil = site.outil | where: "title", outilName | first %}
-              {% if outilName == 'Autre' %}
-                <span class="btn btn-secondary btn-sm outil-title">Autre</span>
-              {% else %}
-                <a class="btn btn-secondary btn-sm outil-title" href="{{ outil.url }}">{{ outil.title }}</a>
-              {% endif %}
-              {% endfor %}
-            </div> -->
           <div>
-            <template v-if="item.fields.outil && item.fields.outil.size > 1" >Outils utilisés</template>
-            <template v-else>Outil utilisé</template>
-            &nbsp;:
-            <template v-for="outilName in item.fields.outil">
-                <span v-if="outilName == 'Autre'" class="btn btn-secondary btn-sm outil-title">Autre</span>
-                <a v-else class="btn btn-secondary btn-sm outil-title" :href="outilName.url">{{ outilName.title }}</a>
-            </template>
-            {% for outilName in include.usage.outil %}
-            {% assign outil = site.outil | where: "title", outilName | first %}
-              <span v-if="outilName == 'Autre'" class="btn btn-secondary btn-sm outil-title">Autre</span>
-              <a v-else class="btn btn-secondary btn-sm outil-title" href="{{ outil.url }}">{{ outil.title }}</a>
-            {% endfor %}
+            <span v-if="item.fields.date_debut" v-text=item.fields.date_debut></span>
+            <span v-if="item.fields.date_fin"v-text=item.fields.date_fin></span>
           </div>
-
-
-          <!-- TO REPLACE
-          {% if en-savoir-plus %}
-          <a class="more" href="{{ outil.url }}">En savoir plus</a>
-          {% endif %} -->
-          <a v-if=en-savoir-plus class="more" :href="outil.url">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -124,31 +86,28 @@ additional_css: catalogue
           items: []
       },
       mounted: function(){
-         this.loadItems();
+        this.loadItems();
       },
       methods: {
-          loadItems: function(){
-              // Init variables
-              var self = this
-              var app_id = "appGm0fBXKeCfIHSH";
-              var app_key = "keyXfCXZNCfIupNra";
-              this.items = []
-                axios.get(
-                  "https://api.airtable.com/v0/"+app_id+"/Catalogue?",
-                  {
-                      headers: { Authorization: "Bearer "+app_key }
-                  }
-              ).then(function(response){
-                  self.items = response.data.records
-                  console.log(JSON.stringify(self.items))
-                  console.log(JSON.stringify(self.items[0].fields.title))
-              }).catch(function(error){
-                  console.log(error)
-              })
-          },
-          getImageStyleProperties:function(item){
-            return 'background: url(' + item.fields.screenshot[0].url + '); background-size: cover';
-          }
+        loadItems: function (offset) {
+          var self = this
+          var app_id = "appGm0fBXKeCfIHSH";
+          var app_key = "keyXfCXZNCfIupNra";
+          axios.get(
+            "https://api.airtable.com/v0/"+app_id+"/Catalogue?" + (!!offset && `&offset=${offset}` || ''),
+            {
+              headers: { Authorization: "Bearer "+app_key }
+            }
+          ).then(response => {
+            self.items = self.items.concat(response.data.records);
+            if (response.data.offset){
+              this.loadItems(response.data.offset)
+            }
+          })
+        },
+        getImageStyleProperties:function(item){
+          return 'background: url(' + item.fields.screenshot[0].url + '); background-size: cover';
+        }
       }
   })
 </script>
