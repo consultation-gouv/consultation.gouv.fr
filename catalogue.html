@@ -44,10 +44,9 @@ additional_css: catalogue
           <a v-if="item.fields.screenshot && item.fields.screenshot[0]" :href="item.fields.link" :style="getImageStyleProperties(item)"></a>
         </div>
         <div class="card-footer bg-transparent extra content d-flex justify-content-between align-items-center">
-
           <div>
-            <span v-if="item.fields.date_debut" v-text=item.fields.date_debut></span>
-            <span v-if="item.fields.date_fin"v-text=item.fields.date_fin></span>
+            <span v-if="item.fields.date_debut" v-text="'Début : ' + formatDate(item.fields.date_debut)"></span>
+            <span v-if="item.fields.date_fin" v-text="'Fin : ' + formatDate(item.fields.date_fin)"></span>
           </div>
         </div>
       </div>
@@ -58,6 +57,7 @@ additional_css: catalogue
 <script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
 <script type="text/javascript" src="https://unpkg.com/vue"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+<script src="https://unpkg.com/moment"></script>
 
 <script>
   $(document).ready(function() {
@@ -107,6 +107,9 @@ additional_css: catalogue
         },
         getImageStyleProperties:function(item){
           return 'background: url(' + item.fields.screenshot[0].url + '); background-size: cover';
+        },
+        formatDate: function (date) {
+          return moment(date).format('L');
         }
       }
   })
