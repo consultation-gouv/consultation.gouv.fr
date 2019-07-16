@@ -21,29 +21,102 @@ additional_css: catalogue
   </div>
   <div class="form-group row my-3">
     <div class="col-sm-4">
-      <input id="search" name="search" placeholder="Recherche rapide" type="text" data-list=".list" class="form-control" >
+      <input id="search" name="search" placeholder="Ville, Région, Nom de la démarche, ... " type="text" data-list=".list" class="form-control" >
     </div>
-    
+
     <!-- filtre spécial -->
     <div class="form-group col-md-2">
       <select name="outils" id="outils" class="form-control" data-list=".list" >
-        <option value="">Sélectionner un outils</option>
+        <option value="">Sélectionner un outil</option>
         {% for outil in site.outil %}
           <option value='{{ outil.title }}'>{{ outil.title }}</option>
         {% endfor %}
       </select>
     </div>
     <!-- fin filtre spécial -->
-
   </div>
+
   <div class="row list" id="results">
-    {% for usage in site.usage %}
-    {% if usage.in_progress %}
-    {% include exemple-card.html usage=usage en-savoir-plus=true %}
-    {% endif %}
-    {% endfor %}
+    <div v-for="item in items" class="col-md-4 col-12 mt-4 card-list">
+      <div class="card mb-3 card-exemple">
+        <div class="content card-header bg-transparent">
+          <h5>
+            <a class="header" :href="item.fields.link" v-text="item.fields.title">            </a>
+          </h5>
+          <div class="meta" v-text="item.fields.organisateur">
+          </div>
+        </div>
+        <div class="card-body d-flex justify-content-center align-items-center">
+          <a v-if="item.fields.screenshot && item.fields.screenshot[0]" :href="item.fields.link" :style="getImageStyleProperties(item)"></a>
+        </div>
+        <div class="card-footer bg-transparent extra content d-flex justify-content-between align-items-center">
+          <div>
+            <span v-if="item.fields.date_debut" v-text="'Début : ' + formatDate(item.fields.date_debut)"></span>
+            <span v-if="item.fields.date_fin" v-text="'Fin : ' + formatDate(item.fields.date_fin)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-  
+<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/vue"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+<script src="https://unpkg.com/moment"></script>
+
+<script>
+  $(document).ready(function() {
+    $('#search').hideseek({
+      nodata: 'Aucun résultat trouvé pour cette recherche',
+      ignore_accents: true
+    })
+    $('#outils').on('change', function() {
+      console.log('hello')
+      var e = jQuery.Event("keydown");
+      e.which = 90; // # Some key code value
+      $('#outils').trigger(e);
+    })
+    $('#outils').hideseek({
+      nodata: 'Aucun résultat trouvé pour cette recherche',
+      ignore_accents: true,
+      navigation: true
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  var results = new Vue({
+      el: '#results',
+      data: {
+          items: []
+      },
+      mounted: function(){
+        this.loadItems();
+      },
+      methods: {
+        loadItems: function (offset) {
+          var self = this
+          var app_id = "appGm0fBXKeCfIHSH";
+          var app_key = "keyXfCXZNCfIupNra";
+          axios.get(
+            "https://api.airtable.com/v0/"+app_id+"/Catalogue?" + (!!offset && `&offset=${offset}` || ''),
+            {
+              headers: { Authorization: "Bearer "+app_key }
+            }
+          ).then(response => {
+            self.items = self.items.concat(response.data.records);
+            if (response.data.offset){
+              this.loadItems(response.data.offset)
+            }
+          })
+        },
+        getImageStyleProperties:function(item){
+          return 'background: url(' + item.fields.screenshot[0].url + '); background-size: cover';
+        },
+        formatDate: function (date) {
+          return moment(date).format('L');
+        }
+      }
+  })
 </script>
