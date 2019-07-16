@@ -2,6 +2,7 @@
 title: 'Débat « Inventons 2017 » : le manifeste des jeunes à la Présidentielle'
 link: https://assembl-civic.bluenove.com/debate/inventons2017
 description: Démarche d'intelligence collective en ligne
+organisateur: SciencePo Les Echos et Make.org
 outil:
 - Assembl
 screenshot: assembl_inventons.png

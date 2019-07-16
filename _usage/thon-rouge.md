@@ -3,6 +3,7 @@ title: Projet d’arrêté précisant les conditions d’exercice de la pêche d
 link: https://agriculture.gouv.fr/consultation-publique-projet-darrete-encadrant-la-peche-de-loisir-du-thon-rouge-pour-2019
 opendata: 
 description: Ministère de l'Agriculture et de l'Alimentation
+organisateur: Ministère de l'Agriculture et de l'Alimentation
 outil:
 - Autre
 screenshot: min-agri.png

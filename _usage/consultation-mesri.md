@@ -3,6 +3,7 @@ title: Loi de programmation pluriannuelle de la Recherche
 link: https://gouvernement-et-citoyens.consultation.etalab.gouv.fr/project/consultation-du-mesri/presentation/vers-une-loi-de-programmation-pluriannuelle-de-la-recherche
 opendata: 
 description: Consultation sur un projet de loi
+organisateur : Ministère de l'Enseignement Supérieur de la Recherche et de l'innovation
 outil:
 - Cap Collectif
 screenshot: mesri.png

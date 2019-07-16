@@ -2,7 +2,8 @@
 title: Prévention des risques de mouvement de terrain différentiel consécutif à la sécheresse et à la réhydratation des sols
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/decrets-et-arrete-relatifs-a-la-prevention-des-a1935.html?id_rubrique=1
 opendata: 
-description: Ministère de la Transition Ecologie et Solidaire
+description: Ministère de la Transition Ecologique et Solidaire
+organisateur: Ministère de la Transition Ecologique et Solidaire
 outil:
 - Autre
 screenshot: min-agri.png

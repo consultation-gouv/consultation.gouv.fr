@@ -2,6 +2,7 @@
 title: Budget Participatif de Romainville
 link: https://www.budget-participatif-romainville.fr/processes/budgetparticipatif2019
 description: Plateforme de la Commune de Romainville
+organisateur: Ville de Romainville
 outil: 
 - decidim
 screenshot: Romainville.png

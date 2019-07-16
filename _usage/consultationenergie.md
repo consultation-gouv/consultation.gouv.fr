@@ -3,6 +3,7 @@ title: Projet de décret relatif aux obligations de réduction des consommations
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/projet-de-decret-relatif-aux-obligations-de-a1940.html?id_rubrique=1
 opendata: 
 description:  Organisée par le Ministère de la Transition Écologique et Solidaire
+organisateur: Ministère de la Transition Ecologique et Solidaire
 outil:
 - Autre
 screenshot: min-agri.png

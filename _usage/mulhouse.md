@@ -3,6 +3,7 @@ title: Consultations de la Ville de Mulhouse
 link: https://mulhousecestvous.fr/projects
 opendata: 
 description: Plateforme de la Commune de Mulhouse
+organisateur: Ville de Mulhouse
 outil: 
 - capcollectif
 screenshot: Mulhouse.png

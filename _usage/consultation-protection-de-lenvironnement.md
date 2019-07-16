@@ -3,6 +3,7 @@ title: Consultation sur les installations pour la protection de l'environnement
 link: http://www.consultations-publiques.developpement-durable.gouv.fr/decret-modifiant-la-nomenclature-des-installations-a1948.html
 opendata: 
 description: Ministère de la Transition Écologique et Solidaire
+organisateur : Ministère de la Transition Écologique et Solidaire
 outil:
 - Autre
 screenshot: min-agri.png

@@ -3,6 +3,7 @@ title: Ecrivons Angers
 link: https://ecrivons.angers.fr/
 opendata: 
 description: La plateforme de participation citoyenne de la ville d'Angers
+organisateur: Ville d'Angers
 outil:
 - Decidim
 screenshot: decidim_angers.png

@@ -3,6 +3,7 @@ title: Projet d'arrêté de protection de biotope "Embouchure du fleuve Var" sur
 link: https://agriculture.gouv.fr/consultation-publique-projet-darrete-de-protection-de-biotope-embouchure-du-fleuve-var-sur-le
 opendata: https://consultation.etalab.gouv.fr
 description: Consultation du Ministère de l'Agriculture et de l'Alimentation
+organisateur: Ministère de l'Agriculture et de l'Alimentation
 outil:
 - Autre
 screenshot: alimagri.png

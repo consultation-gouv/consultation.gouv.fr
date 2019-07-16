@@ -3,6 +3,7 @@ title: Métropole de Nice Côte d'Azur - Concertation citoyenne en ligne pour un
 link: https://www.civocracy.org/nicecotedazur/discussions/
 opendata: 
 description: Engagement citoyen autour de la SmartCity
+organisateur: Ville de Nice
 outil:
 - Civocracy
 screenshot: nice.png

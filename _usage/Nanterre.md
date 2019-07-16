@@ -3,6 +3,7 @@ title: Consultations de la Ville de Nanterre
 link: https://participez.nanterre.fr/processes/budget-participatif-2019/f/1/
 opendata: 
 description: Plateforme de la Commune de Nanterre
+organisateur: Ville de Nanterre
 outil: 
 - decidim
 screenshot: Nanterre.png

@@ -1,6 +1,7 @@
 ---
 date: 2017-08-10 00:00:00 +0000
 description: 'Démarche d''intelligence collective en ligne '
+organisateur: Ministère des Outre-Mer
 layout: usage
 link: https://egalite-reelle-outre-mer.fr
 outil:

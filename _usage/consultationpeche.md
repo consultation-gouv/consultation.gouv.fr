@@ -2,6 +2,7 @@
 title: Projet d'arrêté précisant les conditions d'exercice de la pêche de loisir du Makaire Bleu et Blanc d'Atlantique
 link: https://agriculture.gouv.fr/consultation-publique-projet-darrete-encadrant-la-peche-de-loisir-des-makaires-bleus-et-blancs-de
 description: Ministère de l'Agriculture et de l'Alimentation
+organisateur: Ministère de la Transition Ecologique et Solidaire
 outil:
 - Autre
 screenshot: alimagri.png

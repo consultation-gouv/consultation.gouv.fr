@@ -3,6 +3,7 @@ title: Consultation sur les substances naturelles à usage biostimulant
 link: https://agriculture.gouv.fr/projet-de-decret-relatif-aux-substances-naturelles-usage-biostimulant-et-aux-preparations-naturelles
 opendata: 
 description: Ministère de l'Agriculture et de l'Alimentation
+organisateur: Ministère de la Transition Écologique et Solidaire
 outil:
 - Autre
 screenshot: alimagri.png

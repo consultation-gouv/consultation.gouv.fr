@@ -3,6 +3,7 @@ title: Donnez votre avis sur l'avenir de l'eau
 link: https://consultationeau.fr
 opendata: https://consultation.etalab.gouv.fr
 description: https://consultationeau.fr
+organisateur: DRIEE
 outil:
 - Autre
 screenshot: consultation_eau.png
