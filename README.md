@@ -1,19 +1,19 @@
 [![Build Status](https://api.travis-ci.org/consultation-gouv/deploiement.consultation.svg?branch=master)](https://travis-ci.org/consultation-gouv/deploiement.consultation)
 
-consultation.gouv.fr catalogue les outils de consultations offerts aux administrations. À chaque outil est associée une courte description fonctionnelles, une documentation technique, d'éventuelles ressources supplémentaires et des cas d'usages.
+consultation.etalab.gouv.fr catalogue les outils de consultations offerts aux administrations. À chaque outil est associée une courte description fonctionnelles, une documentation technique, d'éventuelles ressources supplémentaires et des cas d'usages.
 
 
 ## Public visé
 
-consultation.gouv.fr s'adresse avant tout aux administrations française susceptibles de lancer des consulations
+consultation.etalab.gouv.fr s'adresse avant tout aux administrations française susceptibles de lancer des consulations
 NG.md#ajouter-un-service) !
 
 
 ## Sous-domaines
 
-Le nom de domaine `consultation.gouv.fr` héberge un catalogue d'outils et de cas d'usage.
+Le nom de domaine `consultation.etalab.gouv.fr` héberge un catalogue d'outils et de cas d'usage.
 
-Les sous-domaines en `*.consultation.gouv.fr` hébergent les outils catalogués sur `consultation.gouv.fr` et maintenus par la <abbr title="Direction interministérielle du numérique et du système d'information et de communication">DINSIC</abbr>.
+Les sous-domaines en `*.consultation.etalab.gouv.fr` hébergent les outils catalogués sur `consultation.etalab.gouv.fr` et maintenus par la <abbr title="Direction interministérielle du numérique et du système d'information et de communication">DINSIC</abbr>.
 
 
 ## Installation locale
