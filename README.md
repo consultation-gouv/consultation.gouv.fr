@@ -103,3 +103,10 @@ production :
 [Jekyll]: http://jekyllrb.com/
 [Ruby]: https://www.ruby-lang.org
 [heroku]: https://dashboard.heroku.com/
+## Auteur et licence
+
+2017-2019 DINSIC/Etalab
+
+Le code source de ce dépôt est publié sous licence GNU Affero General
+Public License (voir [LICENSE](LICENSE)).
+
