@@ -1,17 +1,15 @@
 [![Build Status](https://api.travis-ci.org/consultation-gouv/deploiement.consultation.svg?branch=master)](https://travis-ci.org/consultation-gouv/deploiement.consultation)
 
-consultation.etalab.gouv.fr catalogue les outils de consultations offerts aux administrations. À chaque outil est associée une courte description fonctionnelles, une documentation technique, d'éventuelles ressources supplémentaires et des cas d'usages.
+https://consultation.etalab.gouv.fr catalogue les outils de consultations offerts aux administrations. À chaque outil est associée une courte description fonctionnelles, une documentation technique, d'éventuelles ressources supplémentaires et des cas d'usages.
 
 
 ## Public visé
 
-consultation.etalab.gouv.fr s'adresse avant tout aux administrations française susceptibles de lancer des consulations
-NG.md#ajouter-un-service) !
-
+https://consultation.etalab.gouv.fr s'adresse avant tout aux administrations française susceptibles de lancer des consulations.
 
 ## Sous-domaines
 
-Le nom de domaine `consultation.etalab.gouv.fr` héberge un catalogue d'outils et de cas d'usage.
+Le nom de domaine `consultation.etalab.gouv.fr` pointe vers un catalogue d'outils et de cas d'usage.
 
 Les sous-domaines en `*.consultation.etalab.gouv.fr` hébergent les outils catalogués sur `consultation.etalab.gouv.fr` et maintenus par la <abbr title="Direction interministérielle du numérique et du système d'information et de communication">DINSIC</abbr>.
 
@@ -60,9 +58,11 @@ Le site utilise [Jekyll], un générateur de site statique en [Ruby].
 * `docker-compose up`. Il suffit de se rendre sur l'URL indiquée à l'exécution de la commande.
 
 ## Hébergement 
+
 Le site est hébergé sur un VPS.
 
 ## Déploiement
+
 La gestion du contenu du site se fait manuellement, en clonant le dépôt
 et en éditant les fichiers nécessaires (l'outil en ligne
 [Forestry.io](https://forestry.io) ne supporte plus, depuis mi-2018,
