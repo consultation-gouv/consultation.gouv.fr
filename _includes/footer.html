@@ -15,7 +15,13 @@
       </div>
       <div class="col-md-3 col-6">
         <ul class="list-unstyled">
-            {% for item in site.data.topmenu %}
+            {% for item in site.data.nav-menu.top %}
+          <li class="mb-1">
+            <a href="{{ item.link }}" class="text-dark">
+              {{ item.name }}</a>
+          </li>
+            {% endfor %}
+            {% for item in site.data.nav-menu.bottom %}
           <li class="mb-1">
             <a href="{{ item.link }}" class="text-dark">
               {{ item.name }}</a>
