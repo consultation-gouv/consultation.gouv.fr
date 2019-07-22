@@ -17,8 +17,8 @@ padding-top: 30% !important;
   padding: 10% 0 10%;
   h1{
     text-transform: uppercase;
-    color: $simulation-color;
-   
+    color: $bleu;
+
     text-align: center;
     letter-spacing: 2px;
     font-weight: 400;
@@ -32,9 +32,9 @@ padding-top: 30% !important;
   h2:first-child {
     padding-bottom: 2em;
   }
-  
+
   h2 {
-    color: $simulation-color;    
+    color: $bleu;
     letter-spacing: 2px;
     text-align: center;
      padding: 2em 0 0.5em;
@@ -46,7 +46,7 @@ padding-top: 30% !important;
   }
   .button.moreButton {
     color: #fff;
-    background: $simulation-color;
+    background: $bleu;
     margin: auto;
     text-transform: uppercase;
     font-weight: 300;
@@ -55,12 +55,12 @@ padding-top: 30% !important;
   }
 
   .button.moreButton2 {
-    color: $simulation-color;
+    color: $bleu;
     background: #fff;
     margin: auto;
     text-transform: uppercase;
     font-weight: 300;
-    border: solid 2px $simulation-color;
+    border: solid 2px $bleu;
     padding: 1.5em 1em;
     margin: 1em;
   }

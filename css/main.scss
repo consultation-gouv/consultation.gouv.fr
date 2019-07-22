@@ -8,6 +8,20 @@
 @import "support";
 @import "utilities";
 
+@font-face {
+  font-family: 'Courgette';
+  src: url('/fonts/courgette/Courgette-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat/Montserrat-Black.ttf', '/fonts/Montserrat/Montserrat-BlackItalic.ttf', '/fonts/Montserrat/Montserrat-Bold.ttf',
+  '/fonts/Montserrat/Montserrat-BoldItalic.ttf', '/fonts/Montserrat/Montserrat-ExtraBold.ttf', '/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf',
+  '/fonts/Montserrat/Montserrat-ExtraLight.ttf', '/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf', '/fonts/Montserrat/Montserrat-Italic.ttf',
+  '/fonts/Montserrat/Montserrat-Light.ttf', '/fonts/Montserrat/Montserrat-LightItalic.ttf', '/fonts/Montserrat/Montserrat-Medium.ttf',
+  '/fonts/Montserrat/Montserrat-MediumItalic.ttf', '/fonts/Montserrat/Montserrat-Regular.ttf', '/fonts/Montserrat/Montserrat-SemiBold.ttf',
+  '/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf', '/fonts/Montserrat/Montserrat-Thin.ttf', '/fonts/Montserrat/Montserrat-ThinItalic.ttf');
+}
+
 @mixin picto($url) {
 		display: inline-block;
 		width: 200px;
@@ -20,7 +34,8 @@
 }
 
 body {
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, Verdana, sans-serif;
+  font-weight: 500;
 }
 
 #wrapper {
@@ -33,7 +48,7 @@ body {
 }
 
 .blue {
-  color: $simulation-color;
+  color: $bleu;
 }
 
 .light-gray {
@@ -83,11 +98,12 @@ header {
     }
     .pipe {
       margin: 0 0.5em;
-      color: $simulation-color !important;
+      color: $bleu !important;
       font-size: 1.3em !important;
     }
     .site-name {
       font-size: 1.5em;
+      font-family: Courgette, Georgia, sans-serif;
     }
     .text {
       margin-left: 1em;
@@ -98,12 +114,12 @@ header {
     }
   }
   .navbar-nav a {
-    color: $simulation-color !important;
+    color: $vert !important;
     font-size: 1.3em !important;
     padding: 0 !important;
     margin: 0 !important;
     &:hover {
-      color: $simulation-color;
+      color: $bleu;
     }
   }
 
@@ -149,7 +165,7 @@ input:focus::-moz-placeholder{
 
 .nav-tabs {
   font-size: 1.3rem;
-  border-bottom: 1px solid $simulation-color;
+  border-bottom: 1px solid $bleu;
 }
 .tab-content {
   width: 100%;

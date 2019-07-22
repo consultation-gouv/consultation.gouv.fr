@@ -10,7 +10,7 @@
     text-decoration: none;
   }
   &:hover {
-    border-color: $simulation-color;
+    border-color: $bleu;
   }
   .card-body {
     height: 7rem;
@@ -40,7 +40,7 @@
     min-height: 30%;
     a {
       text-decoration: none;
-      color: $simulation-color;
+      color: $bleu;
     }
   }
   .card-body {
@@ -57,7 +57,7 @@
   }
   .card-footer {
     .more {
-      color: $simulation-color;
+      color: $bleu;
     }
   }
   img {
