@@ -10,21 +10,34 @@
             <a class="navbar-brand site-name" href="/">
               <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
             <div class="ml-1">
-              <div class="site-name"><b>consultation.etalab</b><i>.gouv.fr</i></div>
-              <div class="low">
+              <div class="site-name">Participation-Citoyenne-<b class="bleu">agent</b>.fr</div>
+              <div class="low font-italic">
                 Fabriquez votre consultation en ligne
               </div>
             </div>
             <div class="flex-grow-1 text-right d-none d-lg-block" id="navbar">
-              <ul class="navbar-nav flex-row justify-content-end">
-                {% for item in site.data.topmenu %}
+              <ul class="navbar-nav flex-row justify-content-center">
+                {% for item in site.data.nav-menu.top %}
                 <li class="nav-item">
-                    {% unless item.name == site.data.topmenu[0].name %} <span class="pipe font-weight-normal">|</span> {% endunless %}
+                    {% unless item.name == site.data.nav-menu.top[0].name %} <span class="pipe font-weight-normal">/</span> {% endunless %}
                   <a href="{{ item.link }}" id="{{ item.name }}" class="{% if page.title ==  item.name %} font-weight-bold {% endif %}">
                     {{ item.name }}</a>
                 </li>
                 {% endfor %}
               </ul>
+              <ul class="navbar-nav flex-row justify-content-center">
+                {% for item in site.data.nav-menu.bottom %}
+                <li class="nav-item">
+                    {% unless item.name == site.data.nav-menu.bottom[0].name %} <span class="pipe font-weight-normal">/</span> {% endunless %}
+                  <a href="{{ item.link }}" id="{{ item.name }}" class="{% if page.title ==  item.name %} font-weight-bold {% endif %}">
+                    {{ item.name }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="navbar-nav flex-row justify-content-end align-items-center d-none d-lg-flex">
+              <i class="fas fa-mobile-alt logo-telephone"></i>
+              <a href="/contact.html" class="bleu">Se faire<br> accompagner</a>
             </div>
 
             <div class="mr-2 text-right flex-grow-1 dropdown d-lg-none">
@@ -33,11 +46,17 @@
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
                 <a href="/" class="dropdown-item p-1">Accueil</a>
-                {% for item in site.data.topmenu %}
+                {% for item in site.data.nav-menu.top %}
                 <a href="{{ item.link }}" class="dropdown-item p-1">
-                  {% unless item.name == site.data.topmenu[0].name %}{% endunless %}
+                  {% unless item.name == site.data.nav-menu.top[0].name %}{% endunless %}
                   {{ item.name }}</a>
                 {% endfor %}
+                {% for item in site.data.nav-menu.bottom %}
+                <a href="{{ item.link }}" class="dropdown-item p-1">
+                  {% unless item.name == site.data.nav-menu.bottom[0].name %}{% endunless %}
+                  {{ item.name }}</a>
+                {% endfor %}
+                <a href="/contact.html" class="bleu">Se faire<br> accompagner</a>
               </div>
             </div>
           </nav>

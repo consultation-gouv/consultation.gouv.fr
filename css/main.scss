@@ -6,6 +6,7 @@
 @import "buttons";
 @import "cards";
 @import "support";
+@import "utilities";
 
 @mixin picto($url) {
 		display: inline-block;
@@ -90,6 +91,10 @@ header {
     }
     .text {
       margin-left: 1em;
+    }
+    .logo-telephone {
+      font-size: 2.5rem;
+      padding: 0 1rem;
     }
   }
   .navbar-nav a {

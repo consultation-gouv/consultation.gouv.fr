@@ -1,0 +1,15 @@
+---
+top:
+  - link: "/inspirations.html"
+    name: S'inspirer
+  - link: "/#"
+    name: Concevoir
+  - link: "/#"
+    name: Choisir
+bottom:
+  - link: "/#"
+    name: Acheter
+  - link: "/"
+    name: Analyser
+  - link: "/#"
+    name: Evaluer
