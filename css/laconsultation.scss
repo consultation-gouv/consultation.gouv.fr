@@ -1,0 +1,23 @@
+---
+# Homepage pages style
+---
+
+@import "variables";
+
+
+#title {
+  color: $bleu;
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+h2 {
+  color: $bleu;
+  margin-bottom: 3rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+}

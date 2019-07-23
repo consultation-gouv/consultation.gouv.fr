@@ -2,7 +2,7 @@
 top:
   - link: "/catalogue.html"
     name: S'inspirer
-  - link: "/#"
+  - link: "/laconsultation.html"
     name: Concevoir
   - link: "/#"
     name: Choisir

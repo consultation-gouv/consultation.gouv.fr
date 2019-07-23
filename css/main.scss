@@ -38,6 +38,13 @@ body {
   font-weight: 500;
 }
 
+a {
+  color: $vert;
+  &:hover {
+    color: $bleu;
+  }
+}
+
 #wrapper {
 	min-height: 100%;
 	position: relative;
@@ -168,11 +175,11 @@ input:focus::-moz-placeholder{
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  border-color: #28A7D0 #28A7D0 #ffffff;
+  border-color: $bleu $bleu #ffffff;
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-  border-color: #28A7D0 #28A7D0 #ffffff;
+  border-color: $bleu $bleu #ffffff;
 }
 
 #bandeau-beta {

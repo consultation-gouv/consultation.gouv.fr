@@ -1,14 +1,3 @@
-$confidential-color: #10C6B0;
-$reference-color: #23B0B7;
-$smartData-color: #1E4C8E;
-$usage-color: #AF2341;
-$main-color: #275166;
-$btn-hover: #2296BB;
-
-$black: #000000;
-$gray-background: #EEEEEE;
-$gray: #585858;
-
 // Charte DITP
 $bleu: rgb(46, 44, 125);
 $rouge: rgb(230, 48, 45);
@@ -19,3 +8,9 @@ $bleu-vert: rgb(117, 198, 197);
 $violet-pale: rgb(233, 234, 244);
 
 $backgroundBlue: linear-gradient($bleu, lighten($bleu, 10%));
+
+$btn-hover: rgba(46, 44, 125, 0.8);
+
+$black: #000000;
+$gray-background: #EEEEEE;
+$gray: #585858;
