@@ -13,6 +13,12 @@
   }
 }
 
+h2 {
+  color: $bleu;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
 #contact-ugap {
   text-align: center;
   border: 2px solid black;
@@ -78,7 +84,7 @@
 .price {
   color: white;
   padding: 0.8rem;
-  background-color: $bleu;
+  background-color: $vert;
 }
 
 .kit-cadrage {

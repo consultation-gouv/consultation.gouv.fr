@@ -7,7 +7,7 @@ top:
   - link: "/lesoutils.html"
     name: Choisir
 bottom:
-  - link: "/#"
+  - link: "/accompagnement.html"
     name: Acheter
   - link: "/"
     name: Analyser

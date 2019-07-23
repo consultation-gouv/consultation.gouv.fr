@@ -1,20 +1,16 @@
 ---
 layout: default
 additional_css: accompagnement
-title: Accompagnement
+title: Acheter
 ---
 <div class="row mt-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="blue mb-5 ">Plusieurs accompagnements sont possibles</h1>
+      <h1 class="blue mb-5 ">Acheter de la prestation de service</h1>
     </div>
   </div>
   <div class="row accompagnement-choices mb-5">
-    <div class="col-md-4 col-12">
-      <button class="links btn-primary btn" data-target="#autodidacte"><i class="fas fa-chevron-right"></i> Faire soi-même</button>
-      <div class="dark-gray">avec l'appui d'ETALAB et de l'équipe interministérielle</div>
-    </div>
-    <div class="col-md-6 col-12">
+    <div class="col-md-8 offset-md-2 col-12">
       <button class="links btn-primary btn" data-target="#accompagne"><i class="fas fa-chevron-right"></i> Mobiliser un prestataire</button>
       <div class="row-choice">
         <div class="dark-gray">Mise en concurrence de 3 devis</div>
@@ -47,21 +43,120 @@ title: Accompagnement
     </div>
   </div>
 
-  <div class="col-12">
-    <ul class="nav nav-tabs" id="Tab" role="tablist">
-      <li class="nav-item">
-        <a class="nav-link text-dark" id="autodidacte-tab" data-toggle="tab" href="#autodidacte" role="tab"
-           aria-controls="autodidacte" aria-selected="false">Faire soi-même avec Etalab</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active text-dark" id="accompagne-tab" data-toggle="tab" href="#accompagne" role="tab"
-           aria-controls="accompagne" aria-selected="true">Mobiliser des prestataires</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" id="combiencoute-tab" data-toggle="tab" href="#combiencoute" role="tab"
-           aria-controls="combiencoute" aria-selected="true">Prévoir les ressources nécessaires</a>
-      </li>
-    </ul>
+  <div class="row">
+    <div class="col-12">
+      <h2 class="mb-3 blue">Un prestataire peut vous accompagner dans la réalisation de votre consultation </h2>
+
+      Ce prestataire pourra :
+      <ul class="list-unstyled ml-4">
+        <li><i class="fas fa-angle-right blue"></i> penser et organiser le projet de consultation, </li>
+        <li><i class="fas fa-angle-right blue"></i> paramétrer l'outil de consultation, </li>
+        <li><i class="fas fa-angle-right blue"></i> gérer la consultation pour vous, </li>
+        <li><i class="fas fa-angle-right blue"></i> analyser les résultats </li>
+        <li><i class="fas fa-angle-right blue"></i> etc. etc. </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="my-5 col-12">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="blue">Contacter directement les éditeurs</h2>
+        <span class="price">- 25 000€</span>
+      </div>
+      <p>Pour des montants inférieurs à 25 000€, vous pouvez contacter directement les éditeurs et mettre en concurrence 3 devis : </p>
+    </div>
+    <div class="col-12">
+      <div class="row">
+        {% for outil in site.outil %}
+        {% include outil-card-contact.html description=outil %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5 p-4 gray-background">
+    <div class="row d-flex justify-content-between p-4">
+      <div>
+        <h2 class="blue">Procédure d'Achat Innovant</h2>
+        <h4 class="blue">par la Direction des Achats de l'Etat</h4>
+        <p>dans le cadre du décret n°2018-1225 du 24 décembre 2018</p>
+      </div>
+      <div>
+        <span class="price">- 100 000€ HT</span>
+      </div>
+    </div>
+    <div class="row row-procedure">
+      <div class="col cols-procedure">
+        <h5 class="text-center">Conditions</h5>
+        <ul class="list-unstyled">
+          <li>- Besoin inférieur à 100 00 euros HT</li>
+          <li>- Solution innovante : procédé, usage qui n’existe pas encore dans l’administration</li>
+        </ul>
+      </div>
+      <div class="col cols-procedure">
+        <h5 class="text-center">Recommandations</h5>
+        <ul class="list-unstyled">
+          <li>- Rencontrer ou solliciter plusieurs prestataires</li>
+          <li>- Fixer des critères de choix</li>
+          <li>- Négocier</li>
+        </ul>
+      </div>
+      <div class="col cols-procedure">
+        <h5 class="text-center">Obligations</h5>
+        <ul class="list-unstyled">
+          <li>- Traçabilité (Rapport de présentation)</li>
+          <li>- Nécessité d’un contrat (CCP valant acte d’engagement)</li>
+          <li>- Déclaration à l’OECP</li>
+        </ul>
+      </div>
+      <div class="py-3 col wide column container-kit-cadrage d-flex justify-content-center align-items-center">
+        <div>
+          <div class="kit-cadrage d-flex align-items-center justify-content-center">
+            <i class="fas fa-file-download"></i>
+          </div>
+          <div>
+            <a href="/uploads/kit-d-aide-achat-innovant.rar" download="kit-d-aide-achat-innovant.rar" class="btn btn-primary btn-lg">Téléchargez le guide</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-end">
+      <p class="font-weight-bold">Téléchargez le guide et commencez dès à présent la procédure d'achat innovant</p>
+    </div>
+  </div>
+  <div class="row my-4 py-4">
+    <div class="col-12">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="blue">Contacter l'UGAP</h2>
+        <span class="price">pas de limite de montant</span>
+      </div>
+      <p>L'UGAP vous permettra de faire appel à un prestataire en 1 mois, même pour les prestations de + de 25 000€ </p>
+      <div class="logo-ugap d-flex justify-content-center flex-column mt-5 offset-md-3 col-md-6 col-12">
+        <a href="https://www.ugap.fr" target="_blank" class="mt-3 text-center">
+          <img class="img-fluid" src="/img/ugap-slogant.png" alt="logo UGAP">
+        </a>
+        <a href="https://www.ugap.fr" target="_blank" class="my-2 text-center">https://www.ugap.fr/</a>
+        <div id="contact-ugap" class="py-3 text-center">
+          <h5>Contacter l'UGAP</h5>
+          <span><img id="icon-malentendants" src="/img/icon-malentendants.png" alt="icon malentendants"> 0 811 702 703</span>
+          <span>(prix d'un appel local depuis un post fixe)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row gray-background my-4 py-4">
+    <div class="col-12">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="blue">Passer un marché public</h2>
+        <span class="price">pas de limite de montant</span>
+      </div>
+      <p>Pour les devis à plus de 100 000€, vous devrez passer par un marché public classique.</p>
+    </div>
   </div>
 
   <div class="row py-5">
@@ -69,190 +164,7 @@ title: Accompagnement
 
       <!--se faire accompagner-->
       <div class="tab-pane fade container active show" id="accompagne" role="tabpanel" aria-labelledby="accompagne-tab">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="mb-3 blue">Un prestataire peut vous accompagner dans la réalisation de votre consultation </h2>
 
-            Ce prestataire pourra :
-            <ul class="list-unstyled ml-4">
-              <li><i class="fas fa-angle-right blue"></i> penser et organiser le projet de consultation, </li>
-              <li><i class="fas fa-angle-right blue"></i> paramétrer l'outil de consultation, </li>
-              <li><i class="fas fa-angle-right blue"></i> gérer la consultation pour vous, </li>
-              <li><i class="fas fa-angle-right blue"></i> analyser les résultats </li>
-              <li><i class="fas fa-angle-right blue"></i> etc. etc. </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="my-5 col-12">
-            <div class="d-flex justify-content-between align-items-center">
-              <h2 class="blue">Contacter directement les éditeurs</h2>
-              <span class="price">- 25 000€</span>
-            </div>
-            <p>Pour des montants inférieurs à 25 000€, vous pouvez contacter directement les éditeurs et mettre en concurrence 3 devis : </p>
-          </div>
-          <div class="col-12">
-            <div class="row">
-              {% for outil in site.outil %}
-              {% include outil-card-contact.html description=outil %}
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-
-        <div class="row mt-5 p-4 gray-background">
-          <div class="row d-flex justify-content-between p-4">
-            <div>
-              <h2 class="blue">Procédure d'Achat Innovant</h2>
-              <h4 class="blue">par la Direction des Achats de l'Etat</h4>
-              <p>dans le cadre du décret n°2018-1225 du 24 décembre 2018</p>
-            </div>
-            <div>
-              <span class="price">- 100 000€ HT</span>
-            </div>
-          </div>
-          <div class="row row-procedure">
-            <div class="col cols-procedure">
-              <h5 class="text-center">Conditions</h5>
-              <ul class="list-unstyled">
-                <li>- Besoin inférieur à 100 00 euros HT</li>
-                <li>- Solution innovante : procédé, usage qui n’existe pas encore dans l’administration</li>
-              </ul>
-            </div>
-            <div class="col cols-procedure">
-              <h5 class="text-center">Recommandations</h5>
-              <ul class="list-unstyled">
-                <li>- Rencontrer ou solliciter plusieurs prestataires</li>
-                <li>- Fixer des critères de choix</li>
-                <li>- Négocier</li>
-              </ul>
-            </div>
-            <div class="col cols-procedure">
-              <h5 class="text-center">Obligations</h5>
-              <ul class="list-unstyled">
-                <li>- Traçabilité (Rapport de présentation)</li>
-                <li>- Nécessité d’un contrat (CCP valant acte d’engagement)</li>
-                <li>- Déclaration à l’OECP</li>
-              </ul>
-            </div>
-            <div class="py-3 col wide column container-kit-cadrage d-flex justify-content-center align-items-center">
-              <div>
-                <div class="kit-cadrage d-flex align-items-center justify-content-center">
-                  <i class="fas fa-file-download"></i>
-                </div>
-                <div>
-                  <a href="/uploads/kit-d-aide-achat-innovant.rar" download="kit-d-aide-achat-innovant.rar" class="btn btn-primary btn-lg">Téléchargez le guide</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-end">
-            <p class="font-weight-bold">Téléchargez le guide et commencez dès à présent la procédure d'achat innovant</p>
-          </div>
-        </div>
-        <div class="row my-4 py-4">
-          <div class="col-12">
-            <div class="d-flex justify-content-between align-items-center">
-              <h2 class="blue">Contacter l'UGAP</h2>
-              <span class="price">pas de limite de montant</span>
-            </div>
-            <p>L'UGAP vous permettra de faire appel à un prestataire en 1 mois, même pour les prestations de + de 25 000€ </p>
-            <div class="logo-ugap d-flex justify-content-center flex-column mt-5 offset-md-3 col-md-6 col-12">
-              <a href="https://www.ugap.fr" target="_blank" class="mt-3 text-center">
-                <img class="img-fluid" src="/img/ugap-slogant.png" alt="logo UGAP">
-              </a>
-              <a href="https://www.ugap.fr" target="_blank" class="my-2 text-center">https://www.ugap.fr/</a>
-              <div id="contact-ugap" class="py-3 text-center">
-                <h5>Contacter l'UGAP</h5>
-              <span><img id="icon-malentendants" src="/img/icon-malentendants.png" alt="icon malentendants"> 0 811 702 703</span>
-                <span>(prix d'un appel local depuis un post fixe)</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row gray-background my-4 py-4">
-          <div class="col-12">
-            <div class="d-flex justify-content-between align-items-center">
-              <h2 class="blue">Passer un marché public</h2>
-              <span class="price">pas de limite de montant</span>
-            </div>
-            <p>Pour les devis à plus de 100 000€, vous devrez passer par un marché public classique.</p>
-          </div>
-        </div>
-      </div>
-
-      <!--faire soi-même-->
-      <div class="tab-pane fade container" id="autodidacte" role="tabpanel" aria-labelledby="autodidacte-tab">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="mb-3 blue">Faire soi-même, avec l’aide d’ETALAB</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <h4 class="mb-3 mt-5">Notre équipe est là pour vous faire monter en compétence&nbsp;:</h4>
-          </div>
-        </div>
-        <div class="row mt-4 text-center row-icons gray-background">
-          <div class="my-5 col-sm-4 col-12">
-            <i class="fas fa-crop"></i>
-            <p>Atelier de cadrage</p>
-          </div>
-          <div class="my-5 col-sm-4 col-12">
-            <i class="fas fa-toolbox"></i>
-            <p>Aide au choix de l'outil</p>
-          </div>
-          <div class="my-5 col-sm-4 col-12">
-            <i class="fas fa-hands-helping"></i>
-            <p>Entraide de la communauté</p>
-          </div>
-        </div>
-        <h2 class="mb-3 mt-5 blue">Tutoriels</h2>
-        <p>Si vous voulez commencer à paramétrer vous-même votre consultation, voici les tutoriels existants
-          pour l’instant :</p>
-        <ul class="list-unstyled ml-4">
-          <li><i class="fas fa-dot-circle blue"></i> <a href="/uploads/democracyOS.pdf" target="_blank">
-            Tutoriel : premiers pas avec DemocracyOS </a></li>
-          <li><i class="fas fa-dot-circle blue"></i> <a href="/uploads/Gouvernement&Citoyens.pdf" target="_blank">
-            Tutoriel : premiers pas avec Gouvernement & Citoyen (CapCollectif) </a></li>
-          <li><i class="fas fa-dot-circle blue"></i> <a href="https://aide.cap-collectif.com/" target="_blank">
-            Lien vers la documentation complète de l'outil Gouvernement & Citoyen (Cap Collectif) </a></li>
-          <li><i class="fas fa-dot-circle blue"></i> <a href="https://www.opensourcepolitics.eu/docs-admin-decidim/support-OSP/support-OSP/" target="_blank">
-            Lien vers la documentation complète de l'outil DECIDIM (OpenSourcePolitics) </a></li>
-          <li><i class="fas fa-dot-circle blue"></i> <a href="https://guide.civocracy.org/hc/fr" target="_blank">
-            Lien vers la documentation complète de l'outil Civocracy </a></li>
-        </ul>
-        <h2 class="mb-3 blue">Documentation utile</h2>
-        <ul class="list-unstyled ml-4">
-          <li><i class="fas fa-dot-circle blue"></i> Guide du COEPIA :&nbsp;
-            <a target="_blank" href="https://www.google.fr/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwi0x_mum8jWAhVKHxoKHffvB14QFggnMAA&amp;url=https%3A%2F%2Fwww.institutions-democratiques.gouv.qc.ca%2Finstitutions-democratiques%2Fdocuments%2Fcadre-ref-participation-publique.pdf&amp;usg=AFQjCNGuhf5DX1a3QpCi_jpnxzE5ICpxUA">
-              Consultations ouvertes sur internet organisées par les administrations</a>&nbsp;(Novembre 2016)</li>
-          <li><i class="fas fa-dot-circle blue"></i>
-            <a target="_blank" href="https://www.ecologique-solidaire.gouv.fr/sites/default/files/Charte_participation_public.pdf">
-              Charte de la participation du public</a></li>
-          <li><i class="fas fa-dot-circle blue"></i> <a target="_blank" href="https://www.debatpublic.fr/">
-            Commission nationale du débat public</a></li>
-          <li><i class="fas fa-dot-circle blue"></i> <a target="_blank" href="http://www.participation-et-democratie.fr/">
-            Démocratie et participation</a></li>
-          <li><i class="fas fa-dot-circle blue"></i> <a target="_blank" href="https://solidarites-sante.gouv.fr/IMG/pdf/avis_cns_standards_qualite_consultations_en_ligne_adopte_ap_3101_15_190219_vuap.pdf">
-           Les 7 standards de qualité pour les consultations numériques en santé </a></li>
-        </ul>
-        <div class="row mt-4 p-5 row-support">
-          <div class="offset-sm-2 col-sm-8 col-12 d-flex justify-content-center align-items-center">
-            <div>
-              <i class="far fa-envelope"></i>
-            </div>
-            <div class="d-flex justify-content-center flex-column ml-3">
-              <h4>Une question, un problème ?</h4>
-              <p>Contactez-nous via <a target="_blank" href="mailto:consultation@etalab.gouv.fr">consultation@etalab.gouv.fr</a></p>
-            </div>
-          </div>
-        </div>
       </div>
 
       <!--combien ça coûte ?-->
