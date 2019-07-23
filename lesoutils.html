@@ -1,75 +1,99 @@
 ---
 layout: default
 additional_css: outil
-title: Outils
+title: Choisir
 ---
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-12">
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active text-dark" id="plateformes-tab" data-toggle="tab" href="#plateformes" role="tab" aria-controls="plateformes" aria-selected="true">Outils</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" id="exemples-tab" data-toggle="tab" href="#exemples" role="tab" aria-controls="exemples" aria-selected="false">Exemples de consultations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" id="mode-emploi-tab" data-toggle="tab" href="#mode-emploi" role="tab" aria-controls="mode-emploi" aria-selected="false">Comment déployer votre outil</a>
-        </li>
-      </ul>
+<div id="title" class="mt-5 row col">
+  <h1>Choisir un outil ou une méthode de participation</h1>
+  <p>Budget particiaptif, consultation, ateliers citoyens... difficile de se repérer</p>
+</div>
+<div class="row mt-5 mb-3 col">
+  <h2>Choisir une méthode de participation</h2>
+</div>
+{% assign methodes = site.outil | where: "categorie", "methode" %}
+<div class="row">
+  <div class="col-md-8 col-12">
+    <h4 class="mb-3">Nous avons référencé {{ methodes | size }} méthodes respectant les <a href="/criteres.html">25 critères</a> des consultations publiques. Vous y avez accès <strong>en quelques clics</strong> pour fabriquer vos consultations</h4>
+  </div>
+</div>
+<div class="row mt-5">
+  {% for outil in methodes %}
+  {% include outil-card.html description=outil %}
+  {% endfor %}
+  <div class="row mt-3 d-flex align-items-center">
+    <div class="col-md-9">
+      <p class="m-0">Fiabilité, sécurité, RGPD, hébergement en France, ... ces outils répondent à
+        <a href="/criteres.html">25 critères</a> de sélection définis conjointement par les
+        administrations, les acteurs de la Civic Tech et des experts de la concertation.</p>
     </div>
   </div>
+  <div class="col-12">
+    <p class="mt-2 mb-3">Tout agent public ayant une adresse en « .gouv » peut déployer simplement ces outils,
+      directement à partir de ce site.</p>
+    Ces outils sont :
+    <ul class="list-unstyled ml-4">
+      <li><i class="fas fa-angle-right blue"></i> déployables en quelques clics,</li>
+      <li><i class="fas fa-angle-right blue"></i> ergonomiques et simples à prendre en main,</li>
+      <li><i class="fas fa-angle-right blue"></i> gratuits sur un premier niveau de services.</li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 col-12">
+    <p class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</p>
+    <p>Pour être accompagné sur le choix des outils, <a href="/support.html"> sollicitez Etalab </a> </p>
+  </div>
+</div>
+
+<div class="row mt-5">
+  <div class="col-12">
+    <h2>Choisir un outil de consultation</h2>
+  </div>
+</div>
+{% assign outils = site.outil | where: "categorie", "outil" %}
+<div class="row">
+  <div class="col-md-8 col-12">
+    <h4 class="mb-3">Nous avons référencé {{ outils | size }} outils respectant les <a href="/criteres.html">25 critères</a> des consultations publiques. Vous y avez accès <strong>en quelques clics</strong> pour fabriquer vos consultations</h4>
+  </div>
+</div>
+<div class="row mt-5">
+  {% for outil in outils %}
+  {% include outil-card.html description=outil %}
+  {% endfor %}
+  <div class="row mt-3 d-flex align-items-center">
+    <div class="col-md-9">
+      <p class="m-0">Fiabilité, sécurité, RGPD, hébergement en France, ... ces outils répondent à
+        <a href="/criteres.html">25 critères</a> de sélection définis conjointement par les
+        administrations, les acteurs de la Civic Tech et des experts de la concertation.</p>
+    </div>
+  </div>
+  <div class="col-12">
+    <p class="mt-2 mb-3">Tout agent public ayant une adresse en « .gouv » peut déployer simplement ces outils,
+      directement à partir de ce site.</p>
+    Ces outils sont :
+    <ul class="list-unstyled ml-4">
+      <li><i class="fas fa-angle-right blue"></i> déployables en quelques clics,</li>
+      <li><i class="fas fa-angle-right blue"></i> ergonomiques et simples à prendre en main,</li>
+      <li><i class="fas fa-angle-right blue"></i> gratuits sur un premier niveau de services.</li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8 col-12">
+    <h2 class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</h2>
+    <p>Pour être accompagné sur le choix des outils, <a href="/support.html"> sollicitez Etalab </a> </p>
+  </div>
+</div>
+
+--------------------------------------------------------------------------------------------
+<div class="container mt-5">
 
   <div class="row py-5">
     <div class="tab-content" id="myTabContent">
 
       <!--plateformes-->
       <div class="tab-pane fade show active container" id="plateformes" role="tabpanel" aria-labelledby="plateformes-tab">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="blue mb-5">Choisir un outil de consultation</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-12">
-            <h4 class="mb-3">Nous avons référencé {{ site.outil | size }} outils respectant les <a href="/criteres.html">25 critères</a> des consultations publiques. Vous y avez accès <strong>en quelques clics</strong> pour fabriquer vos consultations</h4>
-          </div>
-        </div>
-        <div class="row mt-5">
-          {% for outil in site.outil %}
-          {% include outil-card.html description=outil %}
-          {% endfor %}
-          <div class="row mt-3 d-flex align-items-center">
-            <div class="col-md-9">
-              <p class="m-0">Fiabilité, sécurité, RGPD, hébergement en France, ... ces outils répondent à
-                <a href="/criteres.html">25 critères</a> de sélection définis conjointement par les
-                administrations, les acteurs de la Civic Tech et des experts de la concertation.</p>
-            </div>
-          </div>
-          <div class="col-12">
-            <p class="mt-2 mb-3">Tout agent public ayant une adresse en « .gouv » peut déployer simplement ces outils,
-              directement à partir de ce site.</p>
-            Ces outils sont :
-            <ul class="list-unstyled ml-4">
-              <li><i class="fas fa-angle-right blue"></i> déployables en quelques clics,</li>
-              <li><i class="fas fa-angle-right blue"></i> ergonomiques et simples à prendre en main,</li>
-              <li><i class="fas fa-angle-right blue"></i> gratuits sur un premier niveau de services.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-12">
-            <h2 class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</h2>
-            <p>Pour être accompagné sur le choix des outils, <a href="/support.html"> sollicitez Etalab </a> </p>
-          </div>
-        </div>
-        <div class="row mt-5 pt-5">
-          <div class="offset-md-4 col-md-8 col-12 text-right">
-            <p class="editeur">Vous êtes éditeur d’un outil de consultation citoyen et vous souhaitez voir votre solution sur notre
-              plateforme ? Vérifiez que vous êtes éligible aux <a href="/criteres.html">critères de sélection</a>
-              et <a target="_blank" href="mailto:consultation@etalab.gouv.fr">envoyez-nous un message&nbsp!</a></p>
-          </div>
-        </div>
+
       </div>
 
       <!--Exemples-->
@@ -107,7 +131,7 @@ title: Outils
             <p>Définissez l’URL et le nom de votre consultation et entrez vos informations personnelles
               (nom, prénom, administration). Saisissez votre adresse e-mail. À noter que seules les adresses de
               l’administration centrale (.gouv.fr) sont
-            acceptées pour l’instant.</p>
+              acceptées pour l’instant.</p>
             <p>Cette démarche vous permet de demander la création, sous 48h, d'une base de données et d'une instance
               de consultation, hébergées chez l'éditeur de solution, auxquelles vous seul aurez accès.</p>
           </div>
@@ -150,23 +174,23 @@ title: Outils
 
 <script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
 <script>
-    $(function () {
-        var activeTab = $(location.hash)
-        if (activeTab.length > 0) {
-          var activeLink = $(location.hash + '-tab')
-          $('.tab-pane').removeClass('active show')
-          activeTab.addClass('active show')
-          $('.nav-link').removeClass('active').attr('aria-selected', false)
-          activeLink.addClass('active')
-          activeLink.attr('aria-selected', true)
-        }
-        window.scrollTo(500, 0)
-    });
+$(function () {
+  var activeTab = $(location.hash)
+  if (activeTab.length > 0) {
+    var activeLink = $(location.hash + '-tab')
+    $('.tab-pane').removeClass('active show')
+    activeTab.addClass('active show')
+    $('.nav-link').removeClass('active').attr('aria-selected', false)
+    activeLink.addClass('active')
+    activeLink.attr('aria-selected', true)
+  }
+  window.scrollTo(500, 0)
+});
 
-  $(document).ready(function() {
-    $('#search').hideseek({
-      nodata: 'Aucun résultat trouvé pour cette recherche',
-      ignore_accents: true
-    })
-  });
+$(document).ready(function() {
+  $('#search').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true
+  })
+});
 </script>

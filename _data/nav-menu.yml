@@ -4,7 +4,7 @@ top:
     name: S'inspirer
   - link: "/laconsultation.html"
     name: Concevoir
-  - link: "/#"
+  - link: "/lesoutils.html"
     name: Choisir
 bottom:
   - link: "/#"

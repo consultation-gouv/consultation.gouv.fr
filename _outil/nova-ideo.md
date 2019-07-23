@@ -2,6 +2,7 @@
 title: Nova Ideo
 tagline: 'La fusion du meilleur de la boîte à idées, du portail collaboratif et des
   outils de communication internes '
+categorie: outil
 lettre_engagement: "/uploads/Lettre-engagement-NovaIdeo.jpeg"
 img-bg: nova-bg
 doc_tech: https://www.nova-ideo.com/documentation

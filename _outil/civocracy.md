@@ -1,6 +1,7 @@
 ---
 title: Civocracy
 tagline: La solution pour une participation citoyenne réussie
+categorie: outil
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: Etalab_Civocracy
 doc_tech: https://guide.civocracy.org/hc/fr

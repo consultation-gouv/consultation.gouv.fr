@@ -5,6 +5,23 @@
 @import "variables";
 @import "usage";
 
+#title {
+  color: $bleu;
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  color: $bleu;
+  font-size: 1.7rem;
+}
+
 #outil {
   .outil-banner {
     background-position: center center;
