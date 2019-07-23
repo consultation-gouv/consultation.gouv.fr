@@ -1,0 +1,56 @@
+---
+layout: default
+additional_css: inspirations
+---
+<div id="catalogue">
+  <div class="row">
+    <div class="col-12" id="title">
+      <h2 class="mt-5 mb-3">S'inspirer d'exemples de dispositifs</h2>
+      <p>Ces démarches de participation mixent ateliers en présentiel, plateformes en ligne et divers formats participatifs</p>
+    </div>
+  </div>
+  <div class="row my-5">
+    <div id="retraites" class="ligne-dispositifs">
+      <h3>La réforme des retraites (Haut Commissariat à la Réforme des Retraites)</h3>
+    </div>
+    <div id="grand-debat" class="ligne-dispositifs">
+      <h3>Le Grand Débat National (Service d'Information du Gouvernement)</h3>
+    </div>
+    <div id="revenu-universel" class="ligne-dispositifs">
+      <h3>Le Revenu Universel d'Activité</h3>
+    </div>
+  </div>
+  <div class="form-group row my-3">
+    <div class="col-sm-4">
+      <input id="search" name="search" placeholder="Recherche rapide" type="text" data-list=".list" class="form-control" >
+    </div>
+  </div>
+  <div class="row list" id="results">
+    {% for usage in site.usage %}
+    {% if usage.in_progress %}
+    {% include exemple-card.html usage=usage en-savoir-plus=true %}
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('#search').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true
+  })
+  $('#outils').on('change', function() {
+    console.log('hello')
+    var e = jQuery.Event("keydown");
+    e.which = 90; // # Some key code value
+    $('#outils').trigger(e);
+  })
+  $('#outils').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true,
+    navigation: true
+  });
+});
+</script>

@@ -1,8 +1,8 @@
- <div class="col-md-4 col-12 mt-4 card-list">
+<div class="col-md-4 col-12 mt-4 card-list">
   <div class="card mb-3 card-exemple">
     <div class="content card-header bg-transparent">
       <h5>
-        <a class="header" href="{{ include.usage.url }}" >{{ include.usage.title }}</a>
+        <a class="header vert" href="{{ include.usage.url }}" >{{ include.usage.title }}</a>
       </h5>
       <div class="meta">
         {{ include.usage.organisateur }}
@@ -18,9 +18,11 @@
         {% for outilName in include.usage.outil %}
         {% assign outil = site.outil | where: "title", outilName | first %}
         {% if outilName == 'Autre' %}
-          <span class="btn btn-secondary btn-sm outil-title">Autre</span>
+        <span class="btn btn-secondary btn-sm outil-title">Autre</span>
         {% else %}
-          <a class="btn btn-secondary btn-sm outil-title" href="{{ outil.url }}">{{ outil.title }}</a>
+        {% if outil.title %}
+        <a class="btn btn-secondary btn-sm outil-title" href="{{ outil.url }}">{{ outil.title }}</a>
+        {% endif %}
         {% endif %}
         {% endfor %}
       </div>
@@ -29,4 +31,4 @@
       {% endif %}
     </div>
   </div>
- </div>
+</div>
