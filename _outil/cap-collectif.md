@@ -1,7 +1,7 @@
 ---
 title: Cap Collectif
 tagline: Une plateforme d’intelligence collective complète et polyvalente.
-categorie: methode
+categorie: outil
 lettre_engagement: "/uploads/Lettre-engagement-Cap-Collectif.jpeg"
 img-bg: cap-bg
 domain: https://cap-collectif.com/
@@ -29,7 +29,7 @@ atouts:
 - Référence - cette plateforme est utilisée par 6 ministères, des collectivités,
   des associations et des organisations professionnelles
 feature_inclus:
-- Toutes les fonctionnalités sont comprises gratuitement
+- Toutes les fonctionnalités de la plateforme sont comprises gratuitement
 accompagnement_inclus:
 - Accès intégral à la plateforme avec un nombre d’utilisateurs
   et de projets illimités
