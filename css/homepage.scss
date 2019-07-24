@@ -25,7 +25,7 @@
     font-size: 4em;
     margin-bottom: 0.3em;
   }
-  img {
+  .icons {
     height: 10em;
   }
 }
@@ -70,4 +70,9 @@
 
 .underline {
   text-decoration: underline;
+}
+
+.img-team {
+  border-radius: 50%;
+  height: 7rem;
 }

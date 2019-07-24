@@ -7,7 +7,6 @@
 
 h1 {
   font-size: 1.5rem;
-  color: $vert;
 }
 
 #banniere-contact {
@@ -22,6 +21,7 @@ h1 {
   justify-content: center;
   h2 {
     font-size: 4rem;
+    color: white;
   }
   .logo-telephone {
     background: white;
@@ -39,8 +39,7 @@ h1 {
 
 h3 {
   font-size: 2rem;
-  color: $vert;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .ligne-contact {
@@ -59,7 +58,7 @@ h3 {
     flex-direction: column;
     .bouton {
       color: white;
-      background-color: $vert;
+      background-color: $bleu;
       margin-top: 1rem;
       padding: 1rem;
       border-radius: 30px;

@@ -6,7 +6,6 @@
 
 
 #title {
-  color: $vert;
   h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -31,6 +30,10 @@
     color: white;
     margin: 2rem;
   }
+}
+
+.header {
+  color: $bleu;
 }
 
 #grand-debat {
