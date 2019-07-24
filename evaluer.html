@@ -1,0 +1,33 @@
+---
+layout: default
+additional_css: evaluer
+title: "Evaluer"
+---
+
+<div class="title col">
+  <h2>Evaluer les résultats de sa démarche</h2>
+</div>
+
+<div class="row">
+  <div class="col">
+    <h2>Participez au trophés</h2>
+  </div>
+</div>
+
+<div class="row">
+  {% for usage in site.usage %}
+  {% if usage.in_progress %}
+  {% include trophes-card.html usage=usage %}
+  {% endif %}
+  {% endfor %}
+</div>
+
+<div class="row my-3 p-4 text-center gray-background footer-trophes d-flex align-items-center">
+  <div class="col-md-8 col-12 blue">
+    <h3>Participez à la soirée de remise des trophées de la consultation&nbsp!</h3>
+  </div>
+  <div class="col-md-4 col-12">
+    <a href="https://www.deciderensemble.com/page/9393-nos-evenements" class="text-light btn btn-primary mb-2" >S'inscrire à l'événement</a>
+    <a href="https://www.deciderensemble.com/page/9348-presentation" class="text-light btn btn-primary" >Soumettre un dossier</a>
+  </div>
+</div>

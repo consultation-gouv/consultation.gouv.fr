@@ -27,7 +27,8 @@ title: "S'inspirer"
     </div>
   </div>
   <div class="row list" id="results">
-    {% for usage in site.usage %}
+    {% assign usages = site.usage | sort: 'ordre' | reverse %}
+    {% for usage in usages %}
     {% if usage.in_progress %}
     {% include exemple-card.html usage=usage en-savoir-plus=true %}
     {% endif %}

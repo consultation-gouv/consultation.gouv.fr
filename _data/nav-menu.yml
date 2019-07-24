@@ -9,7 +9,7 @@ top:
 bottom:
   - link: "/accompagnement.html"
     name: Acheter
-  - link: "/"
+  - link: "/analyser.html"
     name: Analyser
-  - link: "/#"
+  - link: "/evaluer.html"
     name: Evaluer
