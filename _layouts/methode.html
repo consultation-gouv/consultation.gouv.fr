@@ -13,14 +13,6 @@ additional_css: outil
         {{ page.tagline }}
       </h3>
       <div>
-        <!-- bouton documentation technique
-        {% if page.doc_tech %}
-        <a class="btn btn-outline-light mr-2" href="{{ page.doc_tech }}" target="_blank">
-          Documentation technique &nbsp;&nbsp;<i class="code icon"></i>
-        </a>
-        {% endif %}
-      -->
-
         {% if page.demo_link %}
         <a class="btn btn-outline-light" href="{{ page.demo_link }}" target="_blank">
           Utilisez !&nbsp;
@@ -41,11 +33,11 @@ additional_css: outil
     <!--Left column-->
     <div class="col-md-4 col-12">
       <div class="logo-outil p-4 d-flex justify-content-center align-items-center">
-      {% if page.logo %}
+        {% if page.logo %}
         <img src="/img/{{ page.logo }}" alt="{{ page.title }}" />
         {% else %}
         <img src="/img/{{ page.default_logo }}" alt="{{ page.title }}" />
-      {% endif %}
+        {% endif %}
       </div>
       {% if page.url_video_demo %}
       <div class="embed-responsive embed-responsive-16by9">
@@ -107,7 +99,7 @@ additional_css: outil
               <a class="nav-link active text-dark" id="description-tab" data-toggle="tab" target="_blank" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" id="services-inclus-tab" data-toggle="tab" target="_blank" href="#services-inclus" role="tab" aria-controls="services-inclus" aria-selected="false">Détails</a>
+              <a class="nav-link text-dark" id="services-inclus-tab" data-toggle="tab" target="_blank" href="#services-inclus" role="tab" aria-controls="services-inclus" aria-selected="false">Services inclus</a>
             </li>
           </ul>
         </div>
@@ -132,34 +124,11 @@ additional_css: outil
               </ul>
             </div>
             {% endif %}
-
-            {% if page.facteurscles  %}
-            <div id="facteurscles" class="p-3 mt-4">
-              <h4 class="blue">Facteurs clés de succès</h4>
-              <ul class="list-unstyled">
-                {% for facteurcle in page.facteurscles %}
-                <li><i class="fas fa-angle-right blue"></i> {{ facteurcle }} </li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% endif %}
-
-            {% if page.risques  %}
-            <div id="risques" class="p-3 mt-4">
-              <h4 class="blue">Précautions à prendre</h4>
-              <ul class="list-unstyled">
-                {% for risques in page.risques %}
-                <li><i class="fas fa-angle-right blue"></i> {{ risques }} </li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% endif %}
-
           </div>
 
-          <!--Détails-->
+          <!--Services inclus-->
           <div class="tab-pane fade" id="services-inclus" role="tabpanel" aria-labelledby="services-inclus-tab">
-            <h4 class="blue">Détail de la méthodologie</h4>
+            <h4 class="blue">Inclus avec l'offre gratuite</h4>
 
             {% if page.feature_inclus %}
             <h6 class="mb-1">Fonctionnalités</h6>
@@ -199,17 +168,16 @@ additional_css: outil
             </ul>
             {% endif %}
           </div>
-
         </div>
       </div>
     </div>
   </div>
 
   <div class="row">
-      {% for usage in site.usage %}
-      {% if usage.outil contains page.title %}
-      {% include exemple-card.html usage=usage en-savoir-plus=false%}
-      {% endif %}
-      {% endfor %}
+    {% for usage in site.usage %}
+    {% if usage.outil contains page.title %}
+    {% include exemple-card.html usage=usage en-savoir-plus=false%}
+    {% endif %}
+    {% endfor %}
   </div>
 </div>
