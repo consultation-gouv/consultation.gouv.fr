@@ -1,0 +1,215 @@
+---
+layout: default
+additional_css: outil
+---
+
+<div class="section" id="outil">
+  <div class="row outil-banner" {% if page.img-bg %} style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/img/{{ page.img-bg }}.jpg);" {% endif %} >
+    <div class="offset-md-1 text-center col-md-10 col-12 d-flex justify-content-center flex-column align-items-center">
+      <h1 class="m-0">
+        {{ page.title }}
+      </h1>
+      <h3 class="my-4">
+        {{ page.tagline }}
+      </h3>
+      <div>
+        <!-- bouton documentation technique
+        {% if page.doc_tech %}
+        <a class="btn btn-outline-light mr-2" href="{{ page.doc_tech }}" target="_blank">
+          Documentation technique &nbsp;&nbsp;<i class="code icon"></i>
+        </a>
+        {% endif %}
+      -->
+
+        {% if page.demo_link %}
+        <a class="btn btn-outline-light" href="{{ page.demo_link }}" target="_blank">
+          Utilisez !&nbsp;
+          <i class="ticket icon"></i>
+        </a>
+        {% endif %}
+        {% if page.access_link %}
+        <a class="btn btn-outline-light" href="{{ page.access_link }}" target="_blank">
+          Utilisez !&nbsp;
+          <i class="ticket icon"></i>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <!--Left column-->
+    <div class="col-md-4 col-12">
+      <div class="logo-outil p-4 d-flex justify-content-center align-items-center">
+      {% if page.logo %}
+        <img src="/img/{{ page.logo }}" alt="{{ page.title }}" />
+        {% else %}
+        <img src="/img/{{ page.default_logo }}" alt="{{ page.title }}" />
+      {% endif %}
+      </div>
+      {% if page.url_video_demo %}
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="{{ page.url_video_demo }}" placeholder="/img/{{ page.vignette_video_demo }}" allowfullscreen></iframe>
+      </div>
+      <hr>
+      {% endif %}
+      <div class="item">
+        <div class="title">Licence</div>
+        <div class="description">
+          {% if page.contract == "OUVERT sous contrat"%} {{ page.contract }} au :
+          <ul>
+            {% for client in page.clients %}
+            <li>{{ client }}</li>
+            {% endfor%}
+          </ul>
+          {% else %} {{ page.contract }} {% endif %}
+        </div>
+      </div>
+      {% if page.domain %}
+      <hr>
+      <div class="item">
+        <div class="title">Web</div>
+        <div class="description">
+          <a href="{{ page.domain }}" target="_blank" rel="noopener">{{ page.domain }}</a>
+        </div>
+      </div>
+      {% endif %}
+      {% if page.contact %}
+      <hr>
+      <div class="item">
+        <div class="title">Contact</div>
+        <div class="description">
+          {% if page.contact contains "@" %}
+          <a target="_blank" href="mailto:{{ page.contact }}?subject={{ " Contact via consultation.gouv.fr " | url_encode }}">{{ page.contact }}</a>
+          {% else %}
+          <a target="_blank" href="{{ page.contact }}" target="_blank" rel="noopener">Formulaire</a>
+          {% endif%}
+        </div>
+      </div>
+      {% endif %}
+      {% if page.partners %}
+      <hr>
+      <div class="item">
+        <div class="title">Sources et partenaires</div>
+        <div class="description">
+          {{ page.partners | join: ' - ' }}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <!--Right column-->
+    <div class="col-md-8 col-12 mt-3">
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" id="description-tab" data-toggle="tab" target="_blank" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" id="services-inclus-tab" data-toggle="tab" target="_blank" href="#services-inclus" role="tab" aria-controls="services-inclus" aria-selected="false">Détails</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row py-5">
+        <div class="tab-content col-12" id="myTabContent">
+
+          <!--Description-->
+          <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+            <div class="content">
+              {{ content }}
+            </div>
+            {% if page.atouts  %}
+            <div id="atouts" class="p-3 mt-4">
+              <h4 class="blue">Atouts</h4>
+              <ul class="list-unstyled">
+                {% for atout in page.atouts %}
+                <li><i class="fas fa-angle-right blue"></i> {{ atout }} </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+
+            {% if page.facteursclés  %}
+            <div id="atouts" class="p-3 mt-4">
+              <h4 class="blue">Facteurs clés de succès</h4>
+              <ul class="list-unstyled">
+                {% for facteursclés in page.facteursclés %}
+                <li><i class="fas fa-angle-right blue"></i> {{ facteursclés }} </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+
+            {% if page.risques  %}
+            <div id="atouts" class="p-3 mt-4">
+              <h4 class="blue">Précautions à prendre</h4>
+              <ul class="list-unstyled">
+                {% for risques in page.risques %}
+                <li><i class="fas fa-angle-right blue"></i> {{ risques }} </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+
+          </div>
+
+          <!--Détails-->
+          <div class="tab-pane fade" id="services-inclus" role="tabpanel" aria-labelledby="services-inclus-tab">
+            <h4 class="blue">Détail de la méthodologie</h4>
+
+            {% if page.feature_inclus %}
+            <h6 class="mb-1">Fonctionnalités</h6>
+            <ul class="list-unstyled">
+              {% for fonctionnality in page.feature_inclus  %}
+              <li><i class="fas fa-angle-right blue"></i> {{ fonctionnality }} </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if page.accompagnement_inclus %}
+            <h6 class="mb-1">Accompagnement</h6>
+            <ul class="list-unstyled">
+              {% for accompagnement in page.accompagnement_inclus  %}
+              <li><i class="fas fa-angle-right blue"></i> {{ accompagnement  }} </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+
+            <h4 class="blue mt-4">Aller plus loin avec une prestation complémentaire</h4>
+
+            {% if page.feature_plusloin %}
+            <h6 class="mb-1">Fonctionnalités</h6>
+            <ul class="list-unstyled">
+              {% for feature in page.feature_plusloin %}
+              <li><i class="fas fa-angle-right blue"></i> {{ feature }} </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if page.accompagnement_plusloin %}
+            <h6 class="mb-1">Accompagnement</h6>
+            <ul class="list-unstyled">
+              {% for accompagnement in page.accompagnement_plusloin %}
+              <li><i class="fas fa-angle-right blue"></i> {{ accompagnement }} </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+      {% for usage in site.usage %}
+      {% if usage.outil contains page.title %}
+      {% include exemple-card.html usage=usage en-savoir-plus=false%}
+      {% endif %}
+      {% endfor %}
+  </div>
+</div>

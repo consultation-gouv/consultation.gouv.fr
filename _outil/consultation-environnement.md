@@ -1,6 +1,6 @@
 ---
 title: L'atelier citoyen
-tagline: Obtenir un avis citoyen construit sur une thématique controversée à enjeu complexe avec des moyens et des délais contraints
+tagline: Un atelier pour délibérer sur un sujet controversé
 categorie: methode
 img-bg: cap-bg
 contact: arnaud.dechampsavin@data.gouv.fr
