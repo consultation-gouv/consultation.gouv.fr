@@ -44,6 +44,16 @@ h2 {
     border: 1px solid #c6c6c6;
     border-radius: 10px;
   }
+  #risques {
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    background-color: $rouge
+  }
+  #facteurscles {
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    background-color: $vert
+  }
   .tab-pane {
     p {
       margin-bottom: 1rem;
