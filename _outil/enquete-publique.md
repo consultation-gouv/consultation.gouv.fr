@@ -13,7 +13,7 @@ vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 date: '2017-04-04T15:57:58.478+00:00'
 atouts:
 - Démarche ouverte à tous (quels que soient l’âge ou la nationalité)
-facteursclés:
+facteurscles:
 - Forte publicité 
 - Portage politique fort
 - Simplicité des dossiers assurant une plus grande accessibilité pour le grand public
