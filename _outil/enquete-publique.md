@@ -1,6 +1,6 @@
 ---
-title: L'atelier citoyen
-tagline: Un atelier pour délibérer sur un sujet controversé
+title: L'enquête publique
+tagline: Informer et recueillir les avis sur l'aménagement du territoire
 categorie: methode
 img-bg: cap-bg
 contact: arnaud.dechampsavin@data.gouv.fr
