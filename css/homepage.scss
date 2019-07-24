@@ -9,6 +9,7 @@
   &:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
     z-index: 10;
+    text-decoration: none;
   }
   h2 {
     font-weight: normal;
@@ -26,7 +27,7 @@
     margin-bottom: 0.3em;
   }
   .icons {
-    height: 10em;
+    height: 7rem;
   }
 }
 
@@ -34,24 +35,20 @@
   color: white;
   background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('/img/banner-home2.png');
   background-size: cover;
-  height: 20rem;
-  .title {
-    height: 100%;
-    h1, h4 {
+  h1, h4 {
+    color: white !important;
+  }
+  h4 {
+    font-weight: lighter;
+  }
+  .text-banniere {
+    font-size: 1.2rem;
+  }
+  a {
+    color: white;
+    &:hover {
       color: white;
-    }
-    h4 {
-      font-weight: lighter;
-    }
-    .text-banniere {
-      font-size: 1.2rem;
-    }
-    a {
-      color: white;
-      &:hover {
-        color: white;
-        text-decoration: none;
-      }
+      text-decoration: none;
     }
   }
   h1 {

@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: $gray-background;
 }
 
+.purple-background {
+  background-color: $violet-pale;
+}
+
 .light-gray {
   color: #929292;
 }
@@ -153,7 +157,10 @@ header {
 
 footer {
   img, svg {
-    width: 60%;
+    max-width: 90%;
+  }
+  .etalab {
+    width: 10rem;
   }
 }
 
