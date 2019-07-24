@@ -13,35 +13,18 @@ title: Choisir
 {% assign methodes = site.outil | where: "categorie", "methode" %}
 <div class="row">
   <div class="col-md-8 col-12">
-    <h4 class="mb-3">Nous avons référencé {{ methodes | size }} méthodes respectant les <a href="/criteres.html">25 critères</a> des consultations publiques. Vous y avez accès <strong>en quelques clics</strong> pour fabriquer vos consultations</h4>
+    <h4 class="mb-3">Nous avons référencé {{ methodes | size }} méthodes respectant les <a href="/criteres.html">25 critères</a> des consultations publiques.
   </div>
 </div>
 <div class="row mt-5">
   {% for outil in methodes %}
   {% include outil-card.html description=outil %}
   {% endfor %}
-  <div class="row mt-3 d-flex align-items-center">
-    <div class="col-md-9">
-      <p class="m-0">Fiabilité, sécurité, RGPD, hébergement en France, ... ces outils répondent à
-        <a href="/criteres.html">25 critères</a> de sélection définis conjointement par les
-        administrations, les acteurs de la Civic Tech et des experts de la concertation.</p>
-    </div>
-  </div>
-  <div class="col-12">
-    <p class="mt-2 mb-3">Tout agent public ayant une adresse en « .gouv » peut déployer simplement ces outils,
-      directement à partir de ce site.</p>
-    Ces outils sont :
-    <ul class="list-unstyled ml-4">
-      <li><i class="fas fa-angle-right blue"></i> déployables en quelques clics,</li>
-      <li><i class="fas fa-angle-right blue"></i> ergonomiques et simples à prendre en main,</li>
-      <li><i class="fas fa-angle-right blue"></i> gratuits sur un premier niveau de services.</li>
-    </ul>
-  </div>
 </div>
 <div class="row">
   <div class="col-md-8 col-12">
     <p class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</p>
-    <p>Pour être accompagné sur le choix des outils, <a href="/support.html"> sollicitez Etalab </a> </p>
+    <p>Pour être accompagné sur le choix d'une méthode, <a href="/support.html"> sollicitez le Centre de la Participation Citoyenne ! </a> </p>
   </div>
 </div>
 
@@ -68,8 +51,7 @@ title: Choisir
     </div>
   </div>
   <div class="col-12">
-    <p class="mt-2 mb-3">Tout agent public ayant une adresse en « .gouv » peut déployer simplement ces outils,
-      directement à partir de ce site.</p>
+    <p class="mt-2 mb-3">Tout agent public ayant une adresse en « .gouv » peut déployer simplement ces outils, directement à partir de ce site.</p>
     Ces outils sont :
     <ul class="list-unstyled ml-4">
       <li><i class="fas fa-angle-right blue"></i> déployables en quelques clics,</li>
@@ -81,7 +63,7 @@ title: Choisir
 <div class="row">
   <div class="col-md-8 col-12">
     <h2 class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</h2>
-    <p>Pour être accompagné sur le choix des outils, <a href="/support.html"> sollicitez Etalab </a> </p>
+    <p>Pour être accompagné sur le choix d'un outil, <a href="/support.html"> sollicitez le Centre de la Participation Citoyenne !</a> </p>
   </div>
 </div>
 
