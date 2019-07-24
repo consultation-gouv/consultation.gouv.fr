@@ -107,6 +107,4 @@ production :
 
 2017-2019 DINSIC/Etalab
 
-Le code source de ce dépôt est publié sous licence GNU Affero General
-Public License (voir [LICENSE](LICENSE)).
-
+Le code source de ce dépôt est publié sous licence MIT (voir [LICENSE](LICENSE)), à l'exception du module [JSunidecode](https://github.com/xen0n/jsunidecode) qui est publié sous licence GNU GPL.
