@@ -1,15 +1,15 @@
 ---
 top:
   - link: "/catalogue.html"
-    name: S'inspirer
+    name: Inspiration
   - link: "/laconsultation.html"
-    name: Concevoir
+    name: Conception
   - link: "/lesoutils.html"
-    name: Choisir
+    name: Choix
 bottom:
   - link: "/accompagnement.html"
-    name: Acheter
+    name: Accompagnement
   - link: "/analyser.html"
-    name: Analyser
+    name: Analyse
   - link: "/evaluer.html"
-    name: Evaluer
+    name: Evaluation
