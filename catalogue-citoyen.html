@@ -1,0 +1,51 @@
+---
+layout: default_citoyens
+additional_css: catalogue_citoyen
+title: "Catalogue"
+---
+<div class="row d-flex align-items-center justify-content-end" id="bandeau-notifications">
+  <p>Inscrivez-vous au service de notification automatique (sms/mail) <img src="/img/citoyens/icons/enveloppe.png" alt="icone enveloppe"></p>
+</div>
+
+<div class="row" id="bandeau-recherche">
+  <div class="container d-flex flex-column align-items-center">
+    <h2 class="row d-flex justify-content-center">Contribuez et suivez toutes les démarches citoyennes de l'Etat</h2>
+    <div class="row" id="barre-recherche">
+      <div class="col-md-8 col offset-md-2">
+        <input id="search" name="search" placeholder="Ma ville, mon code postal, mon centre d'intérêt ...." type="text" data-list=".list" class="form-control" >
+        <i class='fas fa-search'></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row list" id="results">
+  {% assign usages = site.usage | sort: 'ordre' | reverse %}
+  {% for usage in usages %}
+  {% if usage.in_progress %}
+  {% include citoyen-card.html usage=usage en-savoir-plus=true %}
+  {% endif %}
+  {% endfor %}
+</div>
+
+
+
+<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('#search').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true
+  })
+  $('#outils').on('change', function() {
+    var e = jQuery.Event("keydown");
+    e.which = 90; // # Some key code value
+    $('#outils').trigger(e);
+  })
+  $('#outils').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true,
+    navigation: true
+  });
+});
+</script>

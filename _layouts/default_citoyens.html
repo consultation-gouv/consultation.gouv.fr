@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  {% include head_citoyens.html %}
+  <body>
+    <div id="wrapper">
+      <div id="page">
+        <header>
+
+          <nav class="navbar d-flex row align-items-start">
+            <img id="header-marianne" alt="Brand" src="/img/marianne.svg">
+            <img class="d-md-none" id="megaphone" src="/img/citoyens/icons/megaphone.png" alt="icone megaphone">
+            <div id="titre">
+              Participation-citoyenne.fr
+            </div>
+            <img class="d-none d-md-block" id="megaphone" src="/img/citoyens/icons/megaphone.png" alt="icone megaphone">
+          </nav>
+        </header>
+
+
+        <main class="" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
+        <img id="bandeau-beta" src="/img/bandeau-beta.png" alt="bandeau site en beta">
+        {{ content }}
+        </main>
+        {% include footer_citoyens.html %}
+      </div>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>

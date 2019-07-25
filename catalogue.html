@@ -44,7 +44,6 @@ $(document).ready(function() {
     ignore_accents: true
   })
   $('#outils').on('change', function() {
-    console.log('hello')
     var e = jQuery.Event("keydown");
     e.which = 90; // # Some key code value
     $('#outils').trigger(e);
