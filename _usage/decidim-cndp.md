@@ -11,6 +11,7 @@ date: 2018-11-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
+ordre: 1
 ---
 - Développement de fonctionnalités spécifiques au fonctionnement de la CNDP
 - Un portail qui centralise tous les débats publics
