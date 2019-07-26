@@ -20,15 +20,13 @@ title: "Catalogue"
 </div>
 
 <div class="row list" id="results">
-  {% assign usages = site.usage | sort: 'ordre' | reverse %}
+  {% assign usages = site.usage_citoyens | sort: 'ordre' | reverse %}
   {% for usage in usages %}
   {% if usage.in_progress %}
-  {% include citoyen-card.html usage=usage en-savoir-plus=true %}
+  {% include citoyen-card.html usage=usage en-savoir-plus=true layout=default %}
   {% endif %}
   {% endfor %}
 </div>
-
-
 
 <script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
 <script>
