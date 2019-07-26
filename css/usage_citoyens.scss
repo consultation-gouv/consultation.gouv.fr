@@ -25,10 +25,28 @@ h1, h3 {
     height: 100%;
     margin-right: 2rem;
   }
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    border: none;
+    outline: none;
+  }
 }
 
 .card-body {
   margin: -1rem 0 -1rem 3.4rem;
   border-left: 7px solid $vert;
   padding: 3rem 5rem 5rem 5rem;
+}
+
+.desactive {
+  color: $gray !important;
+  &:hover {
+    cursor: default;
+  }
+  img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
 }
