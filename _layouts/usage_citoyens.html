@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_citoyens
 additional_css: usage_citoyens
 ---
 <div id="title" class="row py-5 " {% if page.img-bg %} style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/img/{{ page.img-bg }}.jpg);" {% endif %}>
@@ -13,14 +13,12 @@ additional_css: usage_citoyens
     <div>
       {% if page.link %}
       <a class="btn btn-outline-light mr-2" href="{{ page.link }}" rel="noopener" target="_blank">
-        Voir la consultation &nbsp;&nbsp;<i class="rocket icon"></i>
+        Contribuer
       </a>
       {% endif %}
-      {% if page.opendata %}
-      <a class="btn btn-outline-light mr-2" href="{{ page.opendata }}" rel="noopener" target="_blank">
-        Accéder aux données en OpenData &nbsp;&nbsp;<i class="rocket icon"></i>
+      <a class="btn btn-outline-light mr-2" href="https://airtable.com/shrZJ8XgkvQqrUVpj" rel="noopener" target="_blank">
+        Suivre
       </a>
-      {% endif %}
     </div>
   </div>
 </div>
@@ -29,8 +27,8 @@ additional_css: usage_citoyens
   <div class="accordion mt-5" id="accordionCatalogue">
     <div class="">
       <div class="" id="headingOne">
-        <h2 class="mb-0 {% unless page.message_sponsor %} desactive {% endunless %}">
-          <button class="titre-section" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h2 class="mb-0">
+          <button class="titre-section {% unless page.message_sponsor %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <img src="/img/citoyens/icons/tete-hexagone.png" alt="icone tête de personnage">
             Message du sponsor
           </button>
