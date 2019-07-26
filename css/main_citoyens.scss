@@ -80,3 +80,28 @@ header {
   bottom: 0;
   right: 0;
 }
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  border-top: solid 1px $gray;
+  padding: 2rem 0;
+  img {
+    width: 100%;
+  }
+  #logo-ministere {
+    width: 9rem;
+  }
+  a {
+    padding: 0 1rem;
+    color: black;
+    &:hover {
+      color: $black;
+    }
+  }
+  .liens-externes {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+}
