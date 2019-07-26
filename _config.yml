@@ -19,6 +19,8 @@ collections:
     output: true
   usage:
     output: true
+  usage_citoyens:
+    output: true
 
 defaults:
   -
@@ -35,6 +37,12 @@ defaults:
       type: usage	# targets a collection
     values:
       layout: usage
+  -
+    scope:
+      path: ""	# means "all files"
+      type: usage_citoyens	# targets a collection
+    values:
+      layout: usage_citoyens
   -
     scope:
       path: ""  # means "all files"
