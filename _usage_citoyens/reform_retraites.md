@@ -5,6 +5,7 @@ link: https://participez.reforme-retraite.gouv.fr
 img-bg: banniere-retraites.png
 screenshot: banniere-retraites.png
 date-banniere: "démarche close le 18/07"
+echelle: national
 
 message_sponsor: |- 
     > <iframe width='560' height='315' src='https://www.youtube.com/embed/t69jhbUmBGQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
