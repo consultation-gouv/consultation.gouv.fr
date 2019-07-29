@@ -19,6 +19,13 @@ header {
   padding: 0 1rem;
 }
 
+a {
+  color: $bleu;
+  &:hover {
+  color: $vert;
+  }
+}
+
 .row {
   width: 100%;
   margin: auto;
@@ -78,6 +85,9 @@ footer {
   }
   #logo-ministere {
     width: 9rem;
+    @media ( $small ) {
+      width: 4rem;
+    }
   }
   a {
     padding: 0 1rem;

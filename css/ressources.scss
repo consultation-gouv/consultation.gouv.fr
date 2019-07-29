@@ -1,0 +1,15 @@
+---
+# Homepage pages style
+---
+
+@import "variables";
+
+.carousel {
+  background-color: $vert;
+}
+
+.carousel-inner {
+  img {
+    width: 100%;
+  }
+}

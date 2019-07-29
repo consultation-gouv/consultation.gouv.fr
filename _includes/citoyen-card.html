@@ -12,6 +12,7 @@
     </div>
     <div class="card-footer bg-transparent extra content d-flex justify-content-between align-items-center">
       <div>
+        {% if include.usage.outil %}
         Outil utilisé{% if include.usage.outil.size > 1 %}s{% endif %}&nbsp;:
         {% for outilName in include.usage.outil %}
         {% assign outil = site.outil | where: "title", outilName | first %}
@@ -23,8 +24,8 @@
         {% endif %}
         {% endif %}
         {% endfor %}
+        {% endif %}
       </div>
-      <a class="more" href="{{ outil.url }}">En savoir plus</a>
     </div>
   </div>
 </div>
