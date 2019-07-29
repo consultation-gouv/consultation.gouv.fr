@@ -7,25 +7,42 @@ screenshot: banniere-retraites.png
 date-banniere: "démarche close le 18/07"
 
 message_sponsor: |- 
-    <div class="text-center">
-    <iframe width='560' height='315' src='https://www.youtube.com/embed/t69jhbUmBGQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-    </div>
+    > <iframe width='560' height='315' src='https://www.youtube.com/embed/t69jhbUmBGQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+    {: .text-center }
 presentation: |-
     Le débat sur la réforme de notre système de retraite ne peut se limiter à des questions d’équilibre budgétaire, ou à la seule question du montant des
     retraites. La création d’un système universel de retraite nécessite de revisiter l’ensemble de notre système actuel et d’imaginer les modalités de mise en
     œuvre des principes d’équité, de justice et de solidarité.
     Sur chacun des 11 thèmes ci-dessous il vous a été proposé durant 5 mois :
-    <ul>
-    <li>de donner votre avis sur les constats et les propositions identifiés par le Haut-Commissaire à la réforme des retraites</li>
-    <li>de proposer de nouvelles pistes de réflexion ou des solutions</li></ul>
-engagements: |-
     
+    * de donner votre avis sur les constats et les propositions identifiés par le Haut-Commissaire à la réforme des retraites
+    * de proposer de nouvelles pistes de réflexion ou des solutions
+engagements: |-
+    <div class="row text-center">
+      <div class="col-6"><i class="far fa-newspaper bleu mb-2" style="font-size: 4rem"></i><br>Une synthèse exhaustive de toutes les contributions</div>
+      <div class="col-6"><i class="fas fa-microphone-alt bleu mb-2" style="font-size: 4rem"></i><br>Une réponse aux 100 contributions les plus soutenues</div>
+    </div>
+    <div class="row text-center mt-4">
+      <div class="col-6"><i class="far fa-comments bleu mb-2" style="font-size: 4rem"></i><br>Une invitation pour les 15 contributeurs les plus actifs et un grand atelier de contribution</div>
+      <div class="col-6"><i class="fas fa-clipboard-list bleu mb-2" style="font-size: 4rem"></i><br>Un suivi des contributions citoyennes et de celles reprises dans les préconisations du Haut-Commissaire</div>
+    </div>
 dispositif: |-
-    <ul><li><b>Atelier Citoyens</b></li>
-    <li class="mt-4"><b>Ateliers en région</b></li>
-    <li class="mt-4"><b>Ateliers relais</b></li>
-    <li class="mt-4"><b>Plateforme en ligne</b></li></ul>
-resultats: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin"
+    * **Atelier Citoyens**
+    
+    > * **Ateliers en région**
+    {: mt-4 }
+    > * **Ateliers relais**
+    {: mt-4 }
+    > * **Plateforme en ligne**
+    {: mt-4 }
+resultats: |-
+    #### Le rapport :
+    <i class="fas fa-file-download mt-3"></i> Pour un système universel de retraite : Préconisation de Jean-PaulDelevoye (...) <a href="#">Télécharger le document</a>
+    #### Le dossier de presse : 
+    <i class="fas fa-file-download mt-3"></i> Pour un système universel de retraite : Préconisation de Jean-PaulDelevoye (...) <a href="#">Télécharger le document</a>
+    #### Les annexes du rapport :
+    <i class="fas fa-file-download mt-3"></i> Pour un système universel de retraite : Préconisation de Jean-PaulDelevoye (...) <a href="#">Télécharger le document</a>
+
 le_mot_du_sponsor:
 annexes:
 ---

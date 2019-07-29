@@ -2,7 +2,7 @@
 layout: default_citoyens
 additional_css: usage_citoyens
 ---
-<div id="title" class="row py-5 " {% if page.img-bg %} style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/img/{{ page.img-bg }}.jpg);" {% endif %}>
+<div id="title" class="row py-5 " {% if page.img-bg %} style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/img/{{ page.img-bg }});" {% endif %}>
   <div class="offset-md-1 text-center col-md-10 col-12 d-flex justify-content-center flex-column align-items-center">
     <h1 class="m-0">
       {{ page.title }}
@@ -37,7 +37,7 @@ additional_css: usage_citoyens
       {% if page.message_sponsor %}
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionCatalogue">
         <div class="card-body">
-          {{ page.message_sponsor }}
+          {{ page.message_sponsor | markdownify }}
         </div>
       </div>
       {% endif %}
@@ -55,7 +55,7 @@ additional_css: usage_citoyens
       {% if page.presentation %}
       <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionCatalogue">
         <div class="card-body">
-          {{ page.presentation }}
+          {{ page.presentation | markdownify }}
         </div>
       </div>
       {% endif %}
@@ -73,7 +73,7 @@ additional_css: usage_citoyens
       {% if page.engagements %}
       <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionCatalogue">
         <div class="card-body">
-          {{ page.engagements }}
+          {{ page.engagements | markdownify }}
         </div>
       </div>
       {% endif %}
@@ -91,7 +91,7 @@ additional_css: usage_citoyens
       {% if page.dispositif %}
       <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionCatalogue">
         <div class="card-body">
-          {{ page.dispositif }}
+          {{ page.dispositif | markdownify }}
         </div>
       </div>
       {% endif %}
@@ -109,7 +109,7 @@ additional_css: usage_citoyens
       {% if page.resultats %}
       <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionCatalogue">
         <div class="card-body">
-          {{ page.resultats }}
+          {{ page.resultats | markdownify }}
         </div>
       </div>
       {% endif %}
@@ -127,7 +127,7 @@ additional_css: usage_citoyens
       {% if page.le_mot_du_sponsor %}
       <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionCatalogue">
         <div class="card-body">
-          {{ page.le_mot_du_sponsor }}
+          {{ page.le_mot_du_sponsor | markdownify }}
         </div>
       </div>
       {% endif %}
@@ -145,7 +145,7 @@ additional_css: usage_citoyens
       {% if page.annexes %}
       <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordionCatalogue">
         <div class="card-body">
-          {{ page.annexes }}
+          {{ page.annexes | markdownify }}
         </div>
       </div>
       {% endif %}
