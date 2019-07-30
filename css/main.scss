@@ -7,20 +7,8 @@
 @import "cards";
 @import "support";
 @import "utilities";
+@import url('https://fonts.googleapis.com/css?family=Courgette|Montserrat:200,400,700&display=swap');
 
-@font-face {
-  font-family: 'Courgette';
-  src: url('/fonts/courgette/Courgette-Regular.ttf');
-}
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat/Montserrat-Black.ttf', '/fonts/Montserrat/Montserrat-BlackItalic.ttf', '/fonts/Montserrat/Montserrat-Bold.ttf',
-  '/fonts/Montserrat/Montserrat-BoldItalic.ttf', '/fonts/Montserrat/Montserrat-ExtraBold.ttf', '/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf',
-  '/fonts/Montserrat/Montserrat-ExtraLight.ttf', '/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf', '/fonts/Montserrat/Montserrat-Italic.ttf',
-  '/fonts/Montserrat/Montserrat-Light.ttf', '/fonts/Montserrat/Montserrat-LightItalic.ttf', '/fonts/Montserrat/Montserrat-Medium.ttf',
-  '/fonts/Montserrat/Montserrat-MediumItalic.ttf', '/fonts/Montserrat/Montserrat-Regular.ttf', '/fonts/Montserrat/Montserrat-SemiBold.ttf',
-  '/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf', '/fonts/Montserrat/Montserrat-Thin.ttf', '/fonts/Montserrat/Montserrat-ThinItalic.ttf');
-}
 
 @mixin picto($url) {
 		display: inline-block;
