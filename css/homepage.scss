@@ -4,34 +4,6 @@
 
 @import "variables";
 
-.home-section {
-  color: $black;
-  transition: ease 0.3s;
-  &:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-    text-decoration: none;
-  }
-  h2 {
-    font-weight: normal;
-    font-size: 1.8rem;
-    color: $black;
-    margin: 0;
-  }
-  p {
-    margin-top: 1.5em;
-    margin-bottom: 3em;
-    font-size: 1.2em;
-  }
-  .fa-file-download {
-    font-size: 4em;
-    margin-bottom: 0.3em;
-  }
-  .icons {
-    height: 7rem;
-  }
-}
-
 .home-head {
   background: $violet;
   h1 {
@@ -39,11 +11,45 @@
   }
 }
 
-.underline {
-  text-decoration: underline;
+.exemples {
+  a:hover {
+    text-decoration: none;
+  }
 }
 
-.img-team {
-  border-radius: 50%;
-  height: 7rem;
+#retraites {
+  background-image: url("/img/banniere-retraites.png");
+}
+#revenu-universel {
+  background-image: url("/img/banner-home2.png");
+}
+
+.ligne-dispositifs {
+  height: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  h3 {
+    color: white;
+    margin: 2rem;
+  }
+}
+
+.carousel {
+  height: 20rem;
+  width: 100%;
+  .carousel-inner {
+    height: 100%;
+  }
+  .carousel-item {
+    font-size: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .img-caroussel {
+    height: 70%;
+  }
 }
