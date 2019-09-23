@@ -9,40 +9,17 @@
           <nav class="navbar d-flex justify-content-start ">
             <a class="navbar-brand site-name" href="/">
               <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
-            <div class="ml-1">
-              <div class="site-name">Participation-Citoyenne-<b class="bleu">agent</b>.fr</div>
+            <div class="ml-1 div-titre">
+              <div class="site-name">Participation-Citoyenne.gouv.fr</div>
               <div class="low font-italic">
                 Concevez des démarches de qualité
               </div>
             </div>
-            <div class="flex-grow-1 text-right d-none d-lg-block" id="navbar">
-              <ul class="navbar-nav flex-row justify-content-center">
-                {% for item in site.data.nav-menu.top %}
-                <li class="nav-item">
-                    {% unless item.name == site.data.nav-menu.top[0].name %} <span class="pipe font-weight-normal">/</span> {% endunless %}
-                  <a href="{{ item.link }}" id="{{ item.name }}" class="{% if page.title ==  item.name %} font-weight-bold {% endif %}">
-                    {{ item.name }}</a>
-                </li>
-                {% endfor %}
-              </ul>
-              <ul class="navbar-nav flex-row justify-content-center">
-                {% for item in site.data.nav-menu.bottom %}
-                <li class="nav-item">
-                    {% unless item.name == site.data.nav-menu.bottom[0].name %} <span class="pipe font-weight-normal">/</span> {% endunless %}
-                  <a href="{{ item.link }}" id="{{ item.name }}" class="{% if page.title ==  item.name %} font-weight-bold {% endif %}">
-                    {{ item.name }}</a>
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
+
             <div class="autres-liens flex-column justify-content-end align-items-center d-none d-lg-flex">
               <div class="mb-1 d-flex align-items-center justify-content-around">
                 <i class="fas fa-phone-volume logo-telephone"></i>
                 <a href="/contact.html">Se faire<br>accompagner</a>
-              </div>
-              <div class="d-flex align-items-center justify-content-around">
-                <img src="/img/icons/ressources.png" alt="icone ressources">
-                <a href="/ressources.html">Ressources utiles</a>
               </div>
             </div>
 
@@ -52,24 +29,22 @@
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
                 <a href="/" class="dropdown-item p-1">Accueil</a>
-                {% for item in site.data.nav-menu.top %}
+                {% for item in site.data.nav-menu %}
                 <a href="{{ item.link }}" class="dropdown-item p-1">
-                  {% unless item.name == site.data.nav-menu.top[0].name %}{% endunless %}
-                  {{ item.name }}</a>
-                {% endfor %}
-                {% for item in site.data.nav-menu.bottom %}
-                <a href="{{ item.link }}" class="dropdown-item p-1">
-                  {% unless item.name == site.data.nav-menu.bottom[0].name %}{% endunless %}
                   {{ item.name }}</a>
                 {% endfor %}
                 <a href="/contact.html" class="vert">Se faire<br> accompagner</a>
               </div>
             </div>
           </nav>
+          <nav id="menu-haut" class="row justify-content-between">
+            {% for item in site.data.nav-menu %}
+            <a href="{{ item.link }}" class="p-1 {% if page.url == item.link %}font-weight-bold {% endif %}">{{ item.name }}</a>
+            {% endfor %}
+          </nav>
         </header>
 
-
-        <main class="pt-5 mt-5 mb-3" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
+        <main class="pt-10 mt-5 mb-3" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
         <img id="bandeau-beta" src="/img/bandeau-beta.png" alt="bandeau site en beta">
         {{ content }}
         </main>

@@ -1,15 +1,9 @@
 ---
-top:
-  - link: "/catalogue.html"
-    name: S'inspirer
-  - link: "/laconsultation.html"
-    name: Concevoir
-  - link: "/lesoutils.html"
-    name: Choisir
-bottom:
-  - link: "/accompagnement.html"
-    name: Acheter
-  - link: "/analyser.html"
-    name: Analyser
-  - link: "/evaluer.html"
-    name: Evaluer
+- link: "/"
+  name: Notre mission
+- link: "/laconsultation.html"
+  name: Concevoir une démarche de qualité
+- link: "/ressources.html"
+  name: Le Campus
+- link: "/rejoindre.html"
+  name: Rejoindre la communauté

@@ -8,10 +8,13 @@
   background: $vert;
 }
 
+.pt-10 {
+  padding-top: 10rem !important;
+}
+
 .container-kit-cadrage {
   text-align: center;
   display: flex;
-  flex-direction: column;
 }
 
 .kit-cadrage {

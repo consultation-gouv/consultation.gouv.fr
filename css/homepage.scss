@@ -33,39 +33,9 @@
 }
 
 .home-head {
-  color: white;
-  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('/img/banner-home2.png');
-  background-size: cover;
-  h1, h4 {
-    color: white !important;
-  }
-  h4 {
-    font-weight: lighter;
-  }
-  .text-banniere {
-    font-size: 1.2rem;
-  }
-  a {
-    color: white;
-    &:hover {
-      color: white;
-      text-decoration: none;
-    }
-  }
+  background: $violet;
   h1 {
-    font-size: 2.4em;
-    text-align: center;
-    margin-bottom: 0;
-  }
-  .logos-banniere {
-    font-size: 3rem;
-    color: black;
-    background: white;
-    padding: 1rem;
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    margin: 0 1rem 0 2rem;
+    color: white;
   }
 }
 

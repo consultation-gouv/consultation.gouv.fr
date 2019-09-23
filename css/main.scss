@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #wrapper, header {
+  position: relative;
   width: 70%;
   margin: auto;
   @media ( max-width: 1400px ) {
@@ -119,6 +120,18 @@ header {
     margin: 0 !important;
     &:hover {
       color: $bleu;
+    }
+  }
+
+  .div-titre {
+    flex: 1 1 auto;
+  }
+
+  #menu-haut {
+    background: $violet;
+    a {
+      font-size: 1.5rem;
+      color: white;
     }
   }
 

@@ -3,110 +3,323 @@ layout: default
 additional_css: laconsultation
 title: Conception
 ---
-<div class="row mt-5 col" id="title">
-  <h1><b>Concevoir sa démarche de participation</b></h1>
-  <p>Nos conseils, convictions et kit d'animation pour bien cadrer votre démarche de participation</p>
-</div>
-
-<div class="row d-flex justify-content-around">
-  <div class="py-3 wide column container-kit-cadrage d-flex justify-content-center align-items-center">
-    <div>
-      <div class="kit-cadrage">
-        <i class="fas fa-file-download"></i>
-        <span>Téléchargez nos convictions (pdf - 6Mo)</span>
-      </div>
-      <div>
-        <a href="/uploads/kit-de-cadrage.v0.3.pdf" download="kit-de-cadrage.v0.3.pdf" class="btn btn-primary btn-lg">
-          <i class="fas fa-chevron-right"></i> Nos convictions
-        </a>
-      </div>
-    </div>
+<div class="row col" id="title">
+  <div class="row">
+    <h1><b>CONCEVOIR</b><br/>
+      UNE DÉMARCHE DE QUALITÉ</h1>
   </div>
-  <div class="py-3 wide column container-kit-cadrage d-flex justify-content-center align-items-center">
-    <div>
-      <div class="kit-cadrage">
-        <i class="fas fa-file-download"></i>
-        <span>Téléchargez le kit de cadrage (pdf - 6Mo)</span>
-      </div>
-      <div>
-        <a href="/uploads/kit-de-cadrage.v0.3.pdf" download="kit-de-cadrage.v0.3.pdf" class="btn btn-primary btn-lg">
-          <i class="fas fa-chevron-right"></i> Kit de cadrage
-        </a>
-      </div>
-    </div>
+  <div class="row py-5 d-flex justify-content-center">
+    <a href="/uploads/kit-de-cadrage.v0.3.pdf" download="kit-de-cadrage.v0.3.pdf" class="row-links px-2">
+      <i class="fas fa-file-download"></i>
+      <p><b>Téléchargez la doctrine et le kit de cadrage</b><br/>
+        pour vous aider à concevoir votre démarche</p>
+    </a>
+    <a href="/contact.html" class="row-links px-2">
+      <i class="fas fa-phone-volume"></i>
+      <p><b>Faites-vous accompagner</b><br/>
+        par notre équipe interministérielle</p>
+    </a>
   </div>
-</div>
-
-<div class="row mt-5">
-  <div class="col-12">
+  <div class="row border-top" id="sous-menu">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active text-dark" id="home-tab" data-toggle="tab" target="_blank" href="#avant" role="tab" aria-controls="avant" aria-selected="true">Nos convictions</a>
+        <a class="nav-link" id="inspirer-tab" data-toggle="tab" target="_blank"
+           href="#inspirer" role="tab" aria-controls="inspirer" aria-selected="true">S'inspirer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" id="profile-tab" data-toggle="tab" target="_blank" href="#pendant" role="tab" aria-controls="pendant" aria-selected="false">Cadrer sa démarche de participation</a>
+        <a class="nav-link active" id="concevoir-tab" data-toggle="tab" target="_blank"
+           href="#concevoir" role="tab" aria-controls="concevoir" aria-selected="true">Concevoir</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="choisir-tab" data-toggle="tab" target="_blank"
+           href="#choisir" role="tab" aria-controls="choisir" aria-selected="true">Choisir</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="acheter-tab" data-toggle="tab" target="_blank"
+           href="#acheter" role="tab" aria-controls="acheter" aria-selected="false">Acheter</a>
       </li>
     </ul>
   </div>
 </div>
+
 <div class="row py-5">
   <div class="tab-content col-12" id="myTabContent">
 
-    <!--Convictions-->
-    <div class="tab-pane fade show active" id="avant" role="tabpanel" aria-labelledby="avant-tab">
+    <!--S'inspirer-->
+    <div class="tab-pane fade show" id="inspirer" role="tabpanel" aria-labelledby="inspirer-tab">
       <div class="row">
-        <div class="col-md-8 col-12">
-          <h2>Nous avons rédigé un document d'aide</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, accusantium aliquam, autem dolorem eligendi eos eum harum incidunt itaque laboriosam molestiae neque nesciunt omnis quae tenetur, vel veritatis. Ut, veniam.</p>
+        <h2 class="mb-0">S'inspirer d'exemples de dispositifs</h2>
+        <p class="sous-titre">Ces démarches de participation mixent ateliers en présentiel, plateformes en ligne et divers formats participatifs</p>
+      </div>
+      <div class="row my-5 exemples">
+        <a href="/usage/hcrr.html" id="retraites" class="ligne-dispositifs">
+          <h3>La réforme des retraites (Haut Commissariat à la Réforme des Retraites)</h3>
+        </a>
+        <a href="/usage/granddebatnational.html" id="grand-debat" class="ligne-dispositifs">
+          <h3>Le Grand Débat National (Service d'Information du Gouvernement)</h3>
+        </a>
+        <a href="/usage/rua.html" id="revenu-universel" class="ligne-dispositifs">
+          <h3>Le Revenu Universel d'Activité</h3>
+        </a>
+      </div>
+      <div class="row">
+        <h2 class="mt-5 mb-0">Explorer d'autres démarches de participation</h2>
+        <p class="sous-titre">Débat public, atelier-citoyen, consultation en ligne...</p>
+      </div>
+      <div class="form-group row my-3">
+        <div class="col-sm-4">
+          <input id="search" name="search" placeholder="Recherche rapide" type="text" data-list=".list" class="form-control" >
         </div>
-          <div class="col-md-4 col py-3 wide column container-kit-cadrage d-flex justify-content-center align-items-center">
-            <div>
-              <div class="kit-cadrage">
-                <i class="fas fa-file-download"></i>
-                <span>Téléchargez nos convictions (pdf - 6Mo)</span>
-              </div>
-              <div>
-                <a href="/uploads/kit-de-cadrage.v0.3.pdf" download="kit-de-cadrage.v0.3.pdf" class="btn btn-primary btn-lg">
-                  <i class="fas fa-chevron-right"></i> Nos convictions
-                </a>
-              </div>
-            </div>
-          </div>
+      </div>
+      <div class="row list" id="results">
+        {% assign usages = site.usage | sort: 'ordre' | reverse %}
+        {% for usage in usages %}
+        {% if usage.in_progress %}
+        {% include exemple-card.html usage=usage en-savoir-plus=true %}
+        {% endif %}
+        {% endfor %}
       </div>
     </div>
 
-    <!--Cadrer-->
-    <div class="tab-pane fade" id="pendant" role="tabpanel" aria-labelledby="pendant-tab">
+    <!--Concevoir-->
+    <div class="tab-pane fade active show" id="concevoir" role="tabpanel" aria-labelledby="concevoir-tab">
       <div class="row">
-        <div class="col-md-8 col-12">
-          <h2>Préparez votre consultation</h2>
-          <p>Réussir sa démarche de participation nécessite de prendre en compte les axes suivants :</p>
-          <ul class="list-unstyled ml-4">
-            <li><i class="fas fa-angle-right blue"></i> Les objectifs de la démarche</li>
-            <li><i class="fas fa-angle-right blue"></i> Le périmètre de la démarche</li>
-            <li><i class="fas fa-angle-right blue"></i> La documentation existante</li>
-            <li><i class="fas fa-angle-right blue"></i> Le ou les outils à utiliser</li>
-            <li><i class="fas fa-angle-right blue"></i> Le plan de communication</li>
-            <li><i class="fas fa-angle-right blue"></i> L'engagement vis à vis du consulté</li>
-          </ul>
-          <h2 class="mt-5">Remplissez en équipe ce kit de cadrage de votre consultation</h2>
-          <p>Organisez un atelier avec toutes les personnes concernées :</p>
-          <ul class="list-unstyled ml-4">
-            <li><i class="fas fa-angle-right blue"></i> équipe "cœur"</li>
-            <li><i class="fas fa-angle-right blue"></i> commanditaire</li>
-            <li><i class="fas fa-angle-right blue"></i> équipe communication...</li>
-          </ul>
-          <p>Etalab et la DITP peuvent vous aider à animer cet atelier <a href="/accompagnement.html">sur demande</a></p>
-        </div>
-        <div class="py-3 col-md-4 col-12 wide column container-kit-cadrage d-flex justify-content-center align-items-center">
+        <h2 class="mb-0">Concevoir sa démarche de participation</h2>
+        <p class="sous-titre">Nos conseils, convictions et kit d'animation pour bien cadrer votre démarche de participation</p>
+      </div>
+      <div class="py-3 row container-kit-cadrage d-flex justify-content-center align-items-center">
+        <div class="m-5">
+          <div class="kit-cadrage">
+            <i class="fas fa-file-download"></i>
+            <span>Téléchargez le kit de cadrage (pdf - 6Mo)</span>
+          </div>
           <div>
-            <div class="kit-cadrage">
-              <i class="fas fa-file-download"></i>
-              <span>Téléchargez le kit de cadrage (pdf - 6Mo)</span>
+            <a href="/uploads/kit-de-cadrage.v0.1.pdf" download="kit-de-cadrage.v0.1.pdf" class="btn btn-primary btn-lg"><i class="fas fa-chevron-right"></i> Kit de cadrage</a>
+          </div>
+        </div>
+        <div class="m-5">
+          <div class="kit-cadrage">
+            <i class="fas fa-file-download"></i>
+            <span>Téléchargez le kit de cadrage (pdf - 6Mo)</span>
+          </div>
+          <div>
+            <a href="/uploads/kit-de-cadrage.v0.1.pdf" download="kit-de-cadrage.v0.1.pdf" class="btn btn-primary btn-lg"><i class="fas fa-chevron-right"></i> Kit de cadrage</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Choisir-->
+    <div class="tab-pane fade show" id="choisir" role="tabpanel" aria-labelledby="choisir-tab">
+      <div class="row">
+        <h2>Explorer les différentes méthodes</h2>
+        <div class="row mt-5">
+          {% assign methodes = site.outil | where: "categorie", "methode" %}
+          {% for outil in methodes %}
+          {% include outil-card.html description=outil %}
+          {% endfor %}
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-12">
+            <p class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</p>
+            <p>Pour être accompagné sur le choix d'une méthode, <a href="/support.html"> sollicitez le Centre de la Participation Citoyenne ! </a> </p>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12">
+            <h2>Choisir un outil de consultation</h2>
+          </div>
+        </div>
+        {% assign outils = site.outil | where: "categorie", "outil" %}
+        <div class="row">
+          <div class="col-md-8 col-12">
+            <h4 class="mb-3">Nous avons référencé {{ outils | size }} outils respectant les <a href="/criteres.html">25 critères</a> des consultations publiques. Vous y avez accès <strong>en quelques clics</strong> pour fabriquer vos consultations</h4>
+          </div>
+        </div>
+        <div class="row mt-5">
+          {% for outil in outils %}
+          {% include outil-card.html description=outil %}
+          {% endfor %}
+          <div class="row mt-3 d-flex align-items-center">
+            <div class="col-md-9">
+              <p class="m-0">Fiabilité, sécurité, RGPD, hébergement en France, ... ces outils répondent à
+                <a href="/criteres.html">25 critères</a> de sélection définis conjointement par les
+                administrations, les acteurs de la Civic Tech et des experts de la concertation.</p>
+            </div>
+          </div>
+          <div class="col-12">
+            <p class="mt-2 mb-3">Tout agent public ayant une adresse en « .gouv » peut déployer simplement ces outils, directement à partir de ce site.</p>
+            Ces outils sont :
+            <ul class="list-unstyled ml-4">
+              <li><i class="fas fa-angle-right blue"></i> déployables en quelques clics,</li>
+              <li><i class="fas fa-angle-right blue"></i> ergonomiques et simples à prendre en main,</li>
+              <li><i class="fas fa-angle-right blue"></i> gratuits sur un premier niveau de services.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-12">
+            <h2 class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</h2>
+            <p>Pour être accompagné sur le choix d'un outil, <a href="/support.html"> sollicitez le Centre de la Participation Citoyenne !</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Acheter-->
+    <div class="tab-pane fade show" id="acheter" role="tabpanel" aria-labelledby="acheter-tab">
+      <div class="row">
+        <div class="row">
+          <h2 class="blue mb-5 ">Acheter de la prestation de service</h2>
+        </div>
+        <div class="row accompagnement-choices mb-5">
+          <div class="col-md-8 offset-md-2 col-12">
+            <button class="links btn-primary btn" data-target="#accompagne"><i class="fas fa-chevron-right"></i> Mobiliser un prestataire</button>
+            <div class="row-choice">
+              <div class="dark-gray">Mise en concurrence de 3 devis</div>
+              <div class="time">
+                <span>max 25 000€</span>
+                <span><i class="fas fa-stopwatch"></i> < 1 mois</span>
+              </div>
+            </div>
+            <div class="row-choice mt-2">
+              <div class="dark-gray">Procédure d'Achat Innovant DAE </div>
+              <div class="time">
+                <span>max 100 000€</span>
+                <span><i class="fas fa-stopwatch"></i> < 1 mois</span>
+              </div>
+            </div>
+            <div class="row-choice mt-2">
+              <div class="dark-gray">Procédure accélérée UGAP</div>
+              <div class="time">
+                <span>sans limite de montant</span>
+                <span><i class="fas fa-stopwatch"></i> 1 à 2 mois</span>
+              </div>
+            </div>
+            <div class="row-choice mt-2">
+              <div class="dark-gray">Marché public</div>
+              <div class="time">
+                <span>sans limite de montant</span>
+                <span><i class="fas fa-stopwatch"></i> 6 à 9 mois</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h2 class="mb-3 blue">Un prestataire peut vous accompagner dans la réalisation de votre consultation </h2>
+
+            Ce prestataire pourra :
+            <ul class="list-unstyled ml-4">
+              <li><i class="fas fa-angle-right blue"></i> penser et organiser le projet de consultation, </li>
+              <li><i class="fas fa-angle-right blue"></i> paramétrer l'outil de consultation, </li>
+              <li><i class="fas fa-angle-right blue"></i> gérer la consultation pour vous, </li>
+              <li><i class="fas fa-angle-right blue"></i> analyser les résultats </li>
+              <li><i class="fas fa-angle-right blue"></i> etc. etc. </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-5 col-12">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2 class="blue">Contacter directement les éditeurs</h2>
+              <span class="price">- 25 000€</span>
+            </div>
+            <p>Pour des montants inférieurs à 25 000€, vous pouvez contacter directement les éditeurs et mettre en concurrence 3 devis : </p>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              {% for outil in site.outil %}
+              {% include outil-card-contact.html description=outil %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 p-4 gray-background">
+          <div class="row d-flex justify-content-between p-4">
+            <div>
+              <h2 class="blue">Procédure d'Achat Innovant</h2>
+              <h4 class="blue">par la Direction des Achats de l'Etat</h4>
+              <p>dans le cadre du décret n°2018-1225 du 24 décembre 2018</p>
             </div>
             <div>
-              <a href="/uploads/kit-de-cadrage.v0.1.pdf" download="kit-de-cadrage.v0.1.pdf" class="btn btn-primary btn-lg"><i class="fas fa-chevron-right"></i> Kit de cadrage</a>
+              <span class="price">- 100 000€ HT</span>
             </div>
+          </div>
+          <div class="row row-procedure">
+            <div class="col cols-procedure">
+              <h5 class="text-center">Conditions</h5>
+              <ul class="list-unstyled">
+                <li>- Besoin inférieur à 100 00 euros HT</li>
+                <li>- Solution innovante : procédé, usage qui n’existe pas encore dans l’administration</li>
+              </ul>
+            </div>
+            <div class="col cols-procedure">
+              <h5 class="text-center">Recommandations</h5>
+              <ul class="list-unstyled">
+                <li>- Rencontrer ou solliciter plusieurs prestataires</li>
+                <li>- Fixer des critères de choix</li>
+                <li>- Négocier</li>
+              </ul>
+            </div>
+            <div class="col cols-procedure">
+              <h5 class="text-center">Obligations</h5>
+              <ul class="list-unstyled">
+                <li>- Traçabilité (Rapport de présentation)</li>
+                <li>- Nécessité d’un contrat (CCP valant acte d’engagement)</li>
+                <li>- Déclaration à l’OECP</li>
+              </ul>
+            </div>
+            <div class="py-3 col wide column container-kit-cadrage d-flex justify-content-center align-items-center">
+              <div>
+                <div class="kit-cadrage-acheter d-flex align-items-center justify-content-center">
+                  <i class="fas fa-file-download"></i>
+                </div>
+                <div>
+                  <a href="/uploads/kit-d-aide-achat-innovant.rar" download="kit-d-aide-achat-innovant.rar" class="btn btn-primary btn-lg">Téléchargez le guide</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-end">
+            <p class="font-weight-bold">Téléchargez le guide et commencez dès à présent la procédure d'achat innovant</p>
+          </div>
+        </div>
+        <div class="row my-4 py-4">
+          <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2 class="blue">Contacter l'UGAP</h2>
+              <span class="price">pas de limite de montant</span>
+            </div>
+            <p>L'UGAP vous permettra de faire appel à un prestataire en 1 mois, même pour les prestations de + de 25 000€ </p>
+            <div class="logo-ugap d-flex justify-content-center flex-column mt-5 offset-md-3 col-md-6 col-12">
+              <a href="https://www.ugap.fr" target="_blank" class="mt-3 text-center">
+                <img class="img-fluid" src="/img/ugap-slogant.png" alt="logo UGAP">
+              </a>
+              <a href="https://www.ugap.fr" target="_blank" class="my-2 text-center">https://www.ugap.fr/</a>
+              <div id="contact-ugap" class="py-3 text-center">
+                <h5>Contacter l'UGAP</h5>
+                <span><img id="icon-malentendants" src="/img/icon-malentendants.png" alt="icon malentendants"> 0 811 702 703</span>
+                <span>(prix d'un appel local depuis un post fixe)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gray-background my-4 py-4">
+          <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2 class="blue">Passer un marché public</h2>
+              <span class="price">pas de limite de montant</span>
+            </div>
+            <p>Pour les devis à plus de 100 000€, vous devrez passer par un marché public classique.</p>
           </div>
         </div>
       </div>
@@ -114,4 +327,32 @@ title: Conception
   </div>
 </div>
 
+<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(window).bind('scroll', function() {
+    const navHeight = 310;
+    if ($(window).scrollTop() > navHeight) {
+      $('#sous-menu').addClass('fixed-menu');
+    }
+    else {
+      $('#sous-menu').removeClass('fixed-menu');
+    }
+  });
 
+  $('#search').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true
+  })
+  $('#outils').on('change', function() {
+    var e = jQuery.Event("keydown");
+    e.which = 90; // # Some key code value
+    $('#outils').trigger(e);
+  })
+  $('#outils').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true,
+    navigation: true
+  });
+});
+</script>

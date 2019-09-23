@@ -6,18 +6,235 @@
 
 
 #title {
-  color: $bleu;
-  h1 {
-    font-size: 2rem;
+  padding: 3rem;
+  background: $violet;
+  color: white;
+  .fas {
+    color: black;
+    padding: 1.3rem 1.6rem;
+    margin-right: 1rem;
+    background: white;
+    border-radius: 50%;
+    font-size: 3rem;
   }
-  p {
-    font-size: 1.8rem;
+  a {
+    color: white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  h1 {
+    color: white;
+  }
+  .row-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 h2 {
-  color: $bleu;
-  margin-bottom: 3rem;
+  color: $violet;
   font-size: 1.7rem;
   font-weight: bold;
+}
+
+.sous-titre {
+  color: $violet;
+  font-size: 1.7rem;
+}
+
+.nav-link {
+  border: none !important;
+  &:hover {
+    border: none !important;
+    cursor: pointer;
+  }
+  &.active {
+    background: none !important;
+    border: none !important;
+    font-weight: bold;
+  }
+}
+.nav-tabs {
+  border: none !important
+}
+
+.exemples {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+#catalogue {
+  .mailto-link {
+    font-size: 2rem;
+  }
+}
+
+.ligne-dispositifs {
+  height: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  h3 {
+    color: white;
+    margin: 2rem;
+  }
+}
+
+.header {
+  color: $bleu;
+}
+
+#grand-debat {
+  background-image: url("/img/banner-home2.png");
+}
+#retraites {
+  background-image: url("/img/banniere-retraites.png");
+}
+#revenu-universel {
+  background-color: $bleu-vert;
+}
+
+.btn-consultation-over {
+  color: red;
+}
+
+.btn-consultation-ongoing {
+  color: green;
+}
+
+.iframe-container {
+  overflow: hidden
+}
+
+.iframe-container iframe {
+  height: 100%
+}
+
+#sous-menu {
+  position: absolute;
+  top: 20.5rem;
+  background: $violet;
+  left: 0;
+  padding: 0 1rem;
+}
+
+.fixed-menu {
+  position: fixed !important;
+  top: 148px !important;
+  z-index: 1;
+  left: 15% !important;
+  width: 70%;
+  @media (max-width: 1400px) {
+    width: 80%;
+    left: 10% !important;
+  }
+  @media (max-width: 1200px) {
+    width: 100%;
+    left: 0 !important;
+  };
+}
+
+.logo-ugap {
+  width: 25rem;
+  margin: auto;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+#contact-ugap {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  span {
+    display: block;
+  }
+  img {
+    width: 3rem;
+  }
+}
+#icon-malentendants {
+  width: 2rem;
+}
+
+.accompagnement-choices {
+  .links {
+    border-radius: 0;
+    margin-bottom: -0.5rem;
+    cursor: pointer;
+    max-width: 70%;
+    font-weight: bold;
+    background: $bleu;
+    color: #fff;
+    padding: 1rem;
+    z-index: 1;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .dark-gray {
+    background: #EEE;
+    padding: 1rem;
+    flex: 1;
+    z-index: -1;
+    margin-left: 1rem;
+  }
+  .row-choice {
+    display: flex;
+  }
+  .time {
+    color: $gray;
+    flex: 0 1 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.row-procedure {
+  .cols-procedure {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    h5 {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.price {
+  color: white;
+  padding: 0.8rem;
+  background-color: $bleu;
+}
+
+.kit-cadrage-acheter {
+  text-align: center;
+  font-size: 5rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 8rem;
+  height: 8rem;
+  margin: auto;
+  i {
+    font-size: 5rem;
+  }
+}
+
+.meta {
+  font-size: 0.7rem;
+}
+
+.card-body {
+  height: 8rem !important;
+  h3 {
+    font-size: 1.4rem;
+  }
 }
