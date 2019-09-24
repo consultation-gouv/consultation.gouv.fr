@@ -16,7 +16,7 @@ body {
 
 header {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0;
 }
 
 a {
@@ -65,6 +65,14 @@ a {
     #megaphone {
       height: 6rem;
     }
+  }
+}
+
+.menu {
+  background: $rouge;
+  a {
+    font-size: 2rem;
+    color: white;
   }
 }
 

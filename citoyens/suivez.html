@@ -1,0 +1,35 @@
+---
+layout: default_citoyens
+additional_css: suivez_citoyen
+title: "Suivez"
+---
+<div class="row purple-background text-center p-5 d-flex justify-content-center">
+  <h1>Quelle suite à mes contributions ?</h1>
+</div>
+
+<div class="row list" id="results">
+  {% assign usages = site.usage_citoyens | sort: 'ordre' | reverse %}
+  {% for usage in usages %}
+  {% include citoyen-card.html usage=usage %}
+  {% endfor %}
+</div>
+
+<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('#search').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true
+  })
+  $('#outils').on('change', function() {
+    var e = jQuery.Event("keydown");
+    e.which = 90; // # Some key code value
+    $('#outils').trigger(e);
+  })
+  $('#outils').hideseek({
+    nodata: 'Aucun résultat trouvé pour cette recherche',
+    ignore_accents: true,
+    navigation: true
+  });
+});
+</script>

@@ -1,0 +1,27 @@
+---
+# Homepage pages style
+---
+
+@import "variables";
+
+.image-en-tete {
+  border-right: 5px solid white;
+  img {
+    height: 15rem;
+  }
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.col-icone {
+  text-align: center;
+  color: $violet;
+  p {
+    font-size: 1.2rem;
+  }
+  img {
+    height: 6rem;
+  }
+}

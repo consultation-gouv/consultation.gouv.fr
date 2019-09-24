@@ -5,14 +5,18 @@
     <div id="wrapper">
       <div id="page">
         <header>
-
-          <nav class="navbar d-flex row align-items-start">
+          <div class="navbar d-flex row align-items-start">
             <img id="header-marianne" alt="Brand" src="/img/marianne.svg">
             <img class="d-md-none" id="megaphone" src="/img/citoyens/icons/megaphone.png" alt="icone megaphone">
             <div id="titre">
               Participation-citoyenne.fr
             </div>
             <img class="d-none d-md-block" id="megaphone" src="/img/citoyens/icons/megaphone.png" alt="icone megaphone">
+          </div>
+          <nav class="menu row justify-content-between px-4">
+            {% for item in site.data.nav-menu-citoyens %}
+            <a href="{{ item.link }}" class="p-1 {% if page.title == item.name %}font-weight-bold {% endif %}">{{ item.name }}</a>
+            {% endfor %}
           </nav>
         </header>
 

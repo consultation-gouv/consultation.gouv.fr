@@ -1,9 +1,9 @@
 ---
 - link: "/"
   name: Notre mission
-- link: "/laconsultation.html"
+- link: "/laconsultation"
   name: Concevoir une démarche de qualité
-- link: "/campus.html"
+- link: "/campus"
   name: Le Campus
-- link: "/rejoindre.html"
+- link: "/rejoindre"
   name: Rejoindre la communauté

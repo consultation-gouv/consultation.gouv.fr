@@ -39,7 +39,7 @@
           </nav>
           <nav id="menu-haut" class="row justify-content-between">
             {% for item in site.data.nav-menu %}
-            <a href="{{ item.link }}" class="p-1 {% if page.url == item.link %}font-weight-bold {% endif %}">{{ item.name }}</a>
+            <a href="{{ item.link }}" class="p-1 {% if page.title == item.name %}font-weight-bold {% endif %}">{{ item.name }}</a>
             {% endfor %}
           </nav>
         </header>
