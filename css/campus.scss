@@ -1,0 +1,24 @@
+---
+# Homepage pages style
+---
+
+@import "variables";
+
+.carousel {
+  background-color: $violet;
+  width: 100%;
+  height: 20rem;
+  .img-carousel {
+    height: 18rem;
+    margin-top: 1rem;
+  }
+}
+
+#logo-campus {
+  display: flex;
+  justify-content: center;
+  img {
+    height: 12rem;
+    margin-top: 2rem;
+  }
+}
