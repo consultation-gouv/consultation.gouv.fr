@@ -1,9 +1,9 @@
 ---
 - link: "/citoyens/suivez"
   name: Suivez
-- link: "/participez"
+- link: "/citoyens/participez"
   name: Participez
-- link: "/communaute"
+- link: "/citoyens/communaute"
   name: Communauté
-- link: "/inscription"
+- link: "/citoyens/inscription"
   name: Inscription aux notfications

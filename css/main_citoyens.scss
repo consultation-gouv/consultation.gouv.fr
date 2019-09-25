@@ -26,6 +26,17 @@ a {
   }
 }
 
+.bandeau-haut-de-page {
+  padding: 3rem;
+  background: $violet;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem !important;
+  h1 {
+    color: white;
+  }
+}
+
 .row {
   width: 100%;
   margin: auto;
@@ -108,5 +119,42 @@ footer {
     font-style: italic;
     font-size: 0.9rem;
     margin-top: 1rem;
+  }
+}
+
+.citoyen-card {
+  .card {
+    height: 100%;
+    border: 1px solid #cecece;
+    padding: 1rem;
+    h5 {
+      a {
+        color: $bleu;
+        font-weight: bold;
+      }
+    }
+    .image {
+      height: 100%;
+      width: 100%;
+      background-size: contain !important;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 7rem;
+    }
+    .card-body {
+      position: relative;
+    }
+    .fa-heart {
+      background: rgba(50, 50, 50, 0.40);
+      color: white;
+      padding: 1rem;
+      border-radius: 50%;
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
