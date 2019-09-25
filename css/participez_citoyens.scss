@@ -6,20 +6,19 @@
 
 #bandeau-recherche {
   padding: 1rem 4rem;
-  h2 {
-    margin-bottom: 2rem;
-    color: white;
-  }
   #barre-recherche {
     position: relative;
     color: $gray;
     #search {
+      background-color: $violet;
+      color: white;
       height: 6rem;
       width: 100%;
       font-size: 1.4rem;
       padding-left: 4rem;
     }
     .fa-search {
+      color: white;
       position: absolute;
       top: 2rem;
       left: 2rem;
@@ -27,3 +26,12 @@
     }
   }
 }
+
+.form-control {
+  background-color: $violet;
+  color: white;
+  &::placeholder {
+    color: white;
+  }
+}
+

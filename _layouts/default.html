@@ -10,7 +10,7 @@
             <a class="navbar-brand site-name" href="/">
               <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
             <div class="ml-1 div-titre">
-              <div class="site-name">Participation-Citoyenne.gouv.fr</div>
+              <div class="site-name">macontribution.fr</div>
               <div class="low font-italic">
                 Concevez des démarches de qualité
               </div>
@@ -28,7 +28,6 @@
                 Menu
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
-                <a href="/" class="dropdown-item p-1">Accueil</a>
                 {% for item in site.data.nav-menu %}
                 <a href="{{ item.link }}" class="dropdown-item p-1">
                   {{ item.name }}</a>
@@ -37,7 +36,7 @@
               </div>
             </div>
           </nav>
-          <nav id="menu-haut" class="row justify-content-between">
+          <nav id="menu-haut" class="row justify-content-between d-none d-lg-flex">
             {% for item in site.data.nav-menu %}
             <a href="{{ item.link }}" class="p-1 {% if page.title == item.name %}font-weight-bold {% endif %}">{{ item.name }}</a>
             {% endfor %}

@@ -119,6 +119,14 @@ h2 {
   background: $violet;
   left: 0;
   padding: 0 1rem;
+  a {
+    cursor: pointer;
+  }
+  @media ( max-width: 1200px ) {
+    position: relative !important;
+    top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .fixed-menu {
@@ -132,6 +140,8 @@ h2 {
     left: 10% !important;
   }
   @media (max-width: 1200px) {
+    position: relative !important;
+    top: 0 !important;
     width: 100%;
     left: 0 !important;
   };

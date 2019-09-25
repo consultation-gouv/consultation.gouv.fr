@@ -68,6 +68,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   @media ( max-width: 1200px ) {
     width: 100%;
+    main {
+      overflow-x: hidden;
+    }
   }
 }
 
@@ -207,4 +210,24 @@ input:focus::-moz-placeholder{
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.bandeau-haut-de-page {
+  padding: 3rem;
+  margin-bottom: 3rem;
+  background: $violet;
+  h1 {
+    color: white;
+    padding: 0 3rem;
+  }
+  @media ( max-width: 1200px ) {
+    padding: 3rem 0;
+    h1 {
+      padding: 0 1rem;
+    }
+  }
+}
+
+.dropdown-menu {
+  width: 100%;
 }
