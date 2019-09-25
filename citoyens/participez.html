@@ -13,6 +13,7 @@ title: "Participez"
       <div class="col-md-8 col offset-md-2">
         <input id="search" name="search" placeholder="Ma ville, mon code postal, mon centre d'intérêt ...." type="text" data-list=".list" class="form-control" >
         <i class='fas fa-search'></i>
+        <div id="ligne" class="d-none d-lg-block"></div>
       </div>
     </div>
   </div>
@@ -57,7 +58,6 @@ title: "Participez"
         <div class="content card-header bg-transparent">
           <h5>
             <a class="header" :href="item.fields.link" v-text="item.fields.title"></a>
-            <div v-text="item.fields.en_cours"></div>
           </h5>
           <div class="meta" v-text="item.fields.organisateur">
           </div>

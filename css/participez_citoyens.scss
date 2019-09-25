@@ -4,21 +4,30 @@
 
 @import "variables";
 
+.form-control {
+  background-color: $violet;
+  color: white;
+  &::placeholder {
+    color: $violet;
+  }
+}
+
 #bandeau-recherche {
   padding: 1rem 4rem;
   #barre-recherche {
     position: relative;
-    color: $gray;
+    color: $violet;
     #search {
-      background-color: $violet;
-      color: white;
+      background-color: white;
+      border: 3px solid $violet;
+      color: $violet;
       height: 6rem;
       width: 100%;
       font-size: 1.4rem;
       padding-left: 4rem;
     }
     .fa-search {
-      color: white;
+      color: $violet;
       position: absolute;
       top: 2rem;
       left: 2rem;
@@ -27,11 +36,10 @@
   }
 }
 
-.form-control {
-  background-color: $violet;
-  color: white;
-  &::placeholder {
-    color: white;
-  }
+#ligne {
+  border-bottom: 2px solid $violet;
+  margin-top: -1.5rem;
+  width: 88%;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
 }
-
