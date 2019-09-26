@@ -5,19 +5,23 @@
 @import "variables";
 
 .image-en-tete {
-  border-right: 5px solid white;
+  border-right: 5px solid $violet;
   img {
     height: 15rem;
   }
 }
 
-h2 {
-  font-size: 2.5rem;
+h1 {
+  color: $violet;
 }
 
 .col-icone {
   text-align: center;
   color: $violet;
+  &:hover {
+    text-decoration: none;
+    color: $violet;
+  }
   p {
     font-size: 1.2rem;
   }

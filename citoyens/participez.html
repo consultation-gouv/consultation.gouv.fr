@@ -11,13 +11,15 @@ title: "Participez"
   <div class="container d-flex flex-column align-items-center">
     <div class="row" id="barre-recherche">
       <div class="col-md-8 col offset-md-2">
-        <input id="search" name="search" placeholder="Ma ville, mon code postal, mon centre d'intérêt ...." type="text" data-list=".list" class="form-control" >
+<!--        <input id="search" name="search" placeholder="Ma ville, mon code postal, mon centre d'intérêt ...." type="text" data-list=".list" class="form-control" >-->
+        <input id="search" name="search" placeholder="Ville, Région, Nom de la démarche, ... " type="text" data-list=".list" class="form-control" >
         <i class='fas fa-search'></i>
         <div id="ligne" class="d-none d-lg-block"></div>
       </div>
     </div>
   </div>
 </div>
+
 
 <div id="catalogue">
   <div class="form-group row my-3 d-flex justify-content-center">
@@ -71,6 +73,12 @@ title: "Participez"
             <span v-if="item.fields.date_fin" v-text="'Fin : ' + formatDate(item.fields.date_fin)"></span>
           </div>
         </div>
+      </div>
+      <div class="d-none">
+        <div v-text="item.fields.ville"></div>
+        <div v-text="item.fields.departement"></div>
+        <div v-text="item.fields.region"></div>
+        <div v-text="item.fields.code_postal"></div>
       </div>
     </div>
   </div>
