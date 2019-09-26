@@ -1,0 +1,48 @@
+---
+# API pages style
+---
+
+@import "variables";
+
+#ligne-visages {
+  display: flex;
+  align-items: center;
+  .col {
+    img {
+      height: 15rem;
+    }
+  }
+}
+
+h2, ul, p {
+  color: $violet;
+}
+
+#ligne-cible {
+  display: flex;
+  align-items: center;
+  .col {
+    img {
+      height: 10rem;
+    }
+  }
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  li {
+  line-height: 2rem;
+  }
+}
+
+#ligne-rejoindre {
+  .col-12 {
+    img {
+      height: 9rem;
+    }
+  }
+}

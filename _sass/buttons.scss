@@ -21,6 +21,7 @@
 
 .btn-primary {
   background-color: $violet;
+  color: white !important;
   border: none;
   &:hover, &:active, &:focus {
     border: none !important;
