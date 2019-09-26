@@ -9,7 +9,10 @@
   align-items: center;
   .col {
     img {
-      height: 15rem;
+      height: 10rem;
+    }
+    li {
+      font-style: italic;
     }
   }
 }
@@ -23,7 +26,10 @@ h2, ul, p {
   align-items: center;
   .col {
     img {
-      height: 10rem;
+      height: 8rem;
+    }
+    ul > li {
+      line-height: 2rem;
     }
   }
 }
@@ -34,9 +40,6 @@ p {
 
 ul {
   list-style: none;
-  li {
-  line-height: 2rem;
-  }
 }
 
 #ligne-rejoindre {
