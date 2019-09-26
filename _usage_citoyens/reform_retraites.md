@@ -1,6 +1,6 @@
 ---
-title: Consultation publique sur la réforme des retraite
-organisateur: Haut Commissariat à la Réforme des Retraites
+title: Vers un système universel de retraite
+organisateur: Concertation du Haut Commissariat à la Réforme des Retraites
 link: https://participez.reforme-retraite.gouv.fr
 img-bg: banniere-retraites.png
 screenshot: banniere-retraites.png
