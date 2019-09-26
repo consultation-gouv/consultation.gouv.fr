@@ -67,10 +67,13 @@ a {
   }
   #header-marianne {
     height: 100%;
+    img {
+      height: 100%;
+    }
   }
   @media ( max-width: 1200px ) {
     height: auto;
-    #header-marianne {
+    #header-marianne > img {
       height: 6rem;
     }
     #megaphone {

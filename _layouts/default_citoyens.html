@@ -6,7 +6,9 @@
       <div id="page">
         <header>
           <div class="navbar d-flex row align-items-start">
-            <img id="header-marianne" alt="Brand" src="/img/marianne.svg">
+            <a href="/" id="header-marianne">
+              <img alt="Brand" src="/img/marianne.svg">
+            </a>
             <img class="d-md-none" id="megaphone" src="/img/citoyens/icons/megaphone.png" alt="icone megaphone">
             <div id="titre">
               macontribution.fr
@@ -17,9 +19,9 @@
             {% for item in site.data.nav-menu-citoyens %}
             <a href="{{ item.link }}" class="p-1 {% if page.title == item.name %}font-weight-bold {% endif %}">{{ item.name }}</a>
             {% endfor %}
+            <a href="https://airtable.com/shrZJ8XgkvQqrUVpj" target="_blank" class="p-1">Inscription aux notfications</a>
           </nav>
         </header>
-
 
         <main class="" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
         <img id="bandeau-beta" src="/img/bandeau-beta.png" alt="bandeau site en beta">

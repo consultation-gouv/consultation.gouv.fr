@@ -29,11 +29,55 @@
 }
 
 .carousel {
-  background-color: $violet-pale;
+  background-color: $violet-80;
   width: 100%;
   height: 20rem;
+  .carousel-item.active {
+    //display: flex;
+  }
+  .carousel-content {
+    height: 20rem;
+    .col {
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      p {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+    .auteur {
+      font-size: 0.9rem !important;
+      float: right;
+    }
+    .col-md-9 {
+
+    }
+  }
   .img-carousel {
-    height: 18rem;
+   width: 100%;
     margin-top: 1rem;
+  }
+}
+
+.ligne-logo-text {
+  border-right: 5px solid $rouge;
+  img {
+    height: 15rem;
+  }
+}
+
+.col-icone {
+  text-align: center;
+  color: $violet;
+  p {
+    font-size: 1.2rem;
+  }
+  img {
+    height: 6rem;
+    margin-bottom: 1rem;
   }
 }
