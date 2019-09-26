@@ -28,11 +28,11 @@ title: Concevoir une démarche de qualité
       </li>
       <li class="nav-item">
         <a class="nav-link active" id="concevoir-tab" data-toggle="tab" target="_blank"
-           href="#concevoir" role="tab" aria-controls="concevoir" aria-selected="true">Concevoir</a>
+           href="#concevoir" role="tab" aria-controls="concevoir" aria-selected="true">Chosir une méthode</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" id="choisir-tab" data-toggle="tab" target="_blank"
-           href="#choisir" role="tab" aria-controls="choisir" aria-selected="true">Choisir</a>
+           href="#choisir" role="tab" aria-controls="choisir" aria-selected="true">Choisir une plateforme</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" id="acheter-tab" data-toggle="tab" target="_blank"
@@ -83,28 +83,19 @@ title: Concevoir une démarche de qualité
 
     <!--Concevoir-->
     <div class="tab-pane fade active show" id="concevoir" role="tabpanel" aria-labelledby="concevoir-tab">
-      <div class="row">
-        <h2 class="mb-0">Concevoir sa démarche de participation</h2>
-        <p class="sous-titre">Nos conseils, convictions et kit d'animation pour bien cadrer votre démarche de participation</p>
+      <div class="col-12">
+        <h2>Explorer les différentes méthodes</h2>
       </div>
-      <div class="py-3 row container-kit-cadrage d-flex justify-content-center align-items-center">
-        <div class="m-5">
-          <div class="kit-cadrage">
-            <i class="fas fa-file-download"></i>
-            <span>Téléchargez le kit de cadrage (pdf - 6Mo)</span>
-          </div>
-          <div>
-            <a href="/uploads/kit-de-cadrage.v0.1.pdf" download="kit-de-cadrage.v0.1.pdf" class="btn btn-primary btn-lg"><i class="fas fa-chevron-right"></i> Kit de cadrage</a>
-          </div>
-        </div>
-        <div class="m-5">
-          <div class="kit-cadrage">
-            <i class="fas fa-file-download"></i>
-            <span>Téléchargez le kit de cadrage (pdf - 6Mo)</span>
-          </div>
-          <div>
-            <a href="/uploads/kit-de-cadrage.v0.1.pdf" download="kit-de-cadrage.v0.1.pdf" class="btn btn-primary btn-lg"><i class="fas fa-chevron-right"></i> Kit de cadrage</a>
-          </div>
+      <div class="row mt-5">
+        {% assign methodes = site.outil | where: "categorie", "methode" %}
+        {% for outil in methodes %}
+        {% include outil-card.html description=outil %}
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-12">
+          <p class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</p>
+          <p>Pour être accompagné sur le choix d'une méthode, <a href="/support.html"> sollicitez le Centre de la Participation Citoyenne ! </a> </p>
         </div>
       </div>
     </div>
@@ -112,24 +103,8 @@ title: Concevoir une démarche de qualité
     <!--Choisir-->
     <div class="tab-pane fade show" id="choisir" role="tabpanel" aria-labelledby="choisir-tab">
       <div class="row">
-        <h2>Explorer les différentes méthodes</h2>
-        <div class="row mt-5">
-          {% assign methodes = site.outil | where: "categorie", "methode" %}
-          {% for outil in methodes %}
-          {% include outil-card.html description=outil %}
-          {% endfor %}
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-12">
-            <p class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</p>
-            <p>Pour être accompagné sur le choix d'une méthode, <a href="/support.html"> sollicitez le Centre de la Participation Citoyenne ! </a> </p>
-          </div>
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-12">
-            <h2>Choisir un outil de consultation</h2>
-          </div>
+        <div class="col-12">
+          <h2>Choisir un outil de consultation</h2>
         </div>
         {% assign outils = site.outil | where: "categorie", "outil" %}
         <div class="row">

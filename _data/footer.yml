@@ -20,11 +20,10 @@ consultation:
   link: "/laconsultation.html#bonnes-pratiques"
 
 troisieme:
-- name: Se faire accompagner par le
-    Centre de la Participation Citoyenne
+- name: Se faire accompagner
   link: "/contact.html"
 - name: macontribution.fr
-  link: "/catalogue-citoyen.html"
+  link: "/citoyens/index.html"
 
 quatrieme:
 - name: Modernisation.gouv.fr

@@ -3,6 +3,7 @@ layout: default_citoyens
 additional_css: participez_citoyens
 title: "Participez"
 ---
+<div id="catalogue">
 <div class="row bandeau-haut-de-page">
   <h1>Prenez part au débat et partagez vos idées !</h1>
 </div>
@@ -11,17 +12,20 @@ title: "Participez"
   <div class="container d-flex flex-column align-items-center">
     <div class="row" id="barre-recherche">
       <div class="col-md-8 col offset-md-2">
-<!--        <input id="search" name="search" placeholder="Ma ville, mon code postal, mon centre d'intérêt ...." type="text" data-list=".list" class="form-control" >-->
         <input id="search" name="search" placeholder="Ville, Région, Nom de la démarche, ... " type="text" data-list=".list" class="form-control" >
         <i class='fas fa-search'></i>
         <div id="ligne" class="d-none d-lg-block"></div>
       </div>
     </div>
+    <div class="col-md-8 col offset-md-4" id="ligne-checkbox">
+      <input type="checkbox" id="cb1" class="tgl tgl-light" v-model="enCours" v-on:change="selectItems">
+      <label for="cb1" class="tgl-btn"></label>
+      <span class="pl-3">Démarches en cours uniquement</span>
+    </div>
   </div>
 </div>
 
 
-<div id="catalogue">
   <div class="form-group row my-3 d-flex justify-content-center">
     <div class="form-group col-md-3 col">
       <select name="thematique" v-model="thematique" class="form-control" v-on:change="selectItems" >
@@ -46,10 +50,6 @@ title: "Participez"
         <option value='{{ type }}'>{{ type }}</option>
         {% endfor %}
       </select>
-    </div>
-    <div class="form-group col-md-6 col text-center">
-      <input type="checkbox" id="checkbox" v-model="enCours" v-on:change="selectItems">
-      <label for="checkbox">Démarches en cours uniquement</label>
     </div>
   </div>
 

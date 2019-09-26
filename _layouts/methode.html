@@ -35,8 +35,6 @@ additional_css: outil
       <div class="logo-outil p-4 d-flex justify-content-center align-items-center">
         {% if page.logo %}
         <img src="/img/{{ page.logo }}" alt="{{ page.title }}" />
-        {% else %}
-        <img src="/img/{{ page.default_logo }}" alt="{{ page.title }}" />
         {% endif %}
       </div>
       {% if page.url_video_demo %}
@@ -45,130 +43,53 @@ additional_css: outil
       </div>
       <hr>
       {% endif %}
-      <div class="item">
-        <div class="title">Licence</div>
+      <div class="item violet">
+        <div class="title">Priorités pour l'organisateur</div>
         <div class="description">
-          {% if page.contract == "OUVERT sous contrat"%} {{ page.contract }} au :
-          <ul>
-            {% for client in page.clients %}
-            <li>{{ client }}</li>
-            {% endfor%}
+          <ul class="list-unstyled">
+            {% for priorite in page.priorites %}
+            <li>{{ priorite }}</li>
+            {% endfor %}
           </ul>
-          {% else %} {{ page.contract }} {% endif %}
         </div>
       </div>
-      {% if page.domain %}
       <hr>
-      <div class="item">
-        <div class="title">Web</div>
-        <div class="description">
-          <a href="{{ page.domain }}" target="_blank" rel="noopener">{{ page.domain }}</a>
-        </div>
+      <div class="item violet">
+        <div class="title">Qualités principales</div>
+        <ul class="list-unstyled">
+          {% for qualite in page.qualites %}
+          <li>{{ qualite }}</li>
+          {% endfor %}
+        </ul>
       </div>
-      {% endif %}
-      {% if page.contact %}
-      <hr>
-      <div class="item">
-        <div class="title">Contact</div>
-        <div class="description">
-          {% if page.contact contains "@" %}
-          <a target="_blank" href="mailto:{{ page.contact }}?subject={{ " Contact via consultation.gouv.fr " | url_encode }}">{{ page.contact }}</a>
-          {% else %}
-          <a target="_blank" href="{{ page.contact }}" target="_blank" rel="noopener">Formulaire</a>
-          {% endif%}
-        </div>
-      </div>
-      {% endif %}
-      {% if page.partners %}
-      <hr>
-      <div class="item">
-        <div class="title">Sources et partenaires</div>
-        <div class="description">
-          {{ page.partners | join: ' - ' }}
-        </div>
-      </div>
-      {% endif %}
     </div>
 
     <!--Right column-->
     <div class="col-md-8 col-12 mt-3">
-      <div class="row">
-        <div class="col-12">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active text-dark" id="description-tab" data-toggle="tab" target="_blank" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" id="services-inclus-tab" data-toggle="tab" target="_blank" href="#services-inclus" role="tab" aria-controls="services-inclus" aria-selected="false">Services inclus</a>
-            </li>
+      <div class="row py-5">
+        <div class="content">
+          {{ content }}
+        </div>
+        {% if page.atouts  %}
+        <div id="atouts" class="p-3 mt-4">
+          <h4 class="blue">Atouts</h4>
+          <ul class="list-unstyled">
+            {% for atout in page.atouts %}
+            <li><i class="fas fa-angle-right blue"></i> {{ atout }} </li>
+            {% endfor %}
           </ul>
         </div>
-      </div>
-
-
-      <div class="row py-5">
-        <div class="tab-content col-12" id="myTabContent">
-
-          <!--Description-->
-          <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-            <div class="content">
-              {{ content }}
-            </div>
-            {% if page.atouts  %}
-            <div id="atouts" class="p-3 mt-4">
-              <h4 class="blue">Atouts</h4>
-              <ul class="list-unstyled">
-                {% for atout in page.atouts %}
-                <li><i class="fas fa-angle-right blue"></i> {{ atout }} </li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% endif %}
-          </div>
-
-          <!--Services inclus-->
-          <div class="tab-pane fade" id="services-inclus" role="tabpanel" aria-labelledby="services-inclus-tab">
-            <h4 class="blue">Inclus avec l'offre gratuite</h4>
-
-            {% if page.feature_inclus %}
-            <h6 class="mb-1">Fonctionnalités</h6>
-            <ul class="list-unstyled">
-              {% for fonctionnality in page.feature_inclus  %}
-              <li><i class="fas fa-angle-right blue"></i> {{ fonctionnality }} </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-
-            {% if page.accompagnement_inclus %}
-            <h6 class="mb-1">Accompagnement</h6>
-            <ul class="list-unstyled">
-              {% for accompagnement in page.accompagnement_inclus  %}
-              <li><i class="fas fa-angle-right blue"></i> {{ accompagnement  }} </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-
-            <h4 class="blue mt-4">Aller plus loin avec une prestation complémentaire</h4>
-
-            {% if page.feature_plusloin %}
-            <h6 class="mb-1">Fonctionnalités</h6>
-            <ul class="list-unstyled">
-              {% for feature in page.feature_plusloin %}
-              <li><i class="fas fa-angle-right blue"></i> {{ feature }} </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-
-            {% if page.accompagnement_plusloin %}
-            <h6 class="mb-1">Accompagnement</h6>
-            <ul class="list-unstyled">
-              {% for accompagnement in page.accompagnement_plusloin %}
-              <li><i class="fas fa-angle-right blue"></i> {{ accompagnement }} </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </div>
+        {% endif %}
+        {% if page.inconvenients  %}
+        <div id="atouts" class="p-3 mt-4">
+          <h4 class="blue">Inconvenients</h4>
+          <ul class="list-unstyled">
+            {% for inconvenient in page.inconvenients %}
+            <li><i class="fas fa-angle-right blue"></i> {{ inconvenient }} </li>
+            {% endfor %}
+          </ul>
         </div>
+        {% endif %}
       </div>
     </div>
   </div>

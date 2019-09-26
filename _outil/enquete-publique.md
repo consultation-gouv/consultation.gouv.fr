@@ -5,22 +5,22 @@ categorie: methode
 img-bg: cap-bg
 contact: arnaud.dechampsavin@data.gouv.fr
 contract: OpenSource
-logo: logoDITP_print_Baseline.svg
+logo: 
 owner: DITP
 access_link: https://airtable.com/shrjeKVyOE7eoNg6K
 url_video_demo: https://dai.ly/x711dei
-vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
+vignette_video_demo:
 date: '2017-04-04T15:57:58.478+00:00'
 atouts:
 - Démarche ouverte à tous (quels que soient l’âge ou la nationalité)
-facteurscles:
-- Forte publicité 
-- Portage politique fort
-- Simplicité des dossiers assurant une plus grande accessibilité pour le grand public
-risques:
-- Temporalité inadaptée : l’enquête arrive bien souvent trop tard dans le cours de l’évolution du projet. - Technicité des dossiers pour le grand public
-- Mauvaise connaissance de la procédure impliquant une faible participation du grand public
-- Champ de l’obligation de l’enquête limité aux projets dépassant certains seuils techniques et financiers, au détriment de petits projets peu coûteux mais pouvant avoir des impacts environnementaux majeurs
+inconvenients:
+- Démarche ouverte à tous (quels que soient l’âge ou la nationalité)
+priorites:
+- prio 1
+- PRIO 2
+qualites:
+- qualite 1
+- qualite 2
 layout: methode
 default_logo: ''
 ---
