@@ -1,6 +1,6 @@
 ---
 title: L'atelier citoyen
-tagline: Obtenir un avis citoyen construit sur une thématique controversée à enjeu complexe avec des moyens et des délais contraints
+tagline: Dispositif fondé sur le principe de délibération collective en vue d’obtenir un avis collectif et construit sur une question controversée
 categorie: methode
 img-bg: cap-bg
 contact: arnaud.dechampsavin@data.gouv.fr
@@ -11,26 +11,37 @@ access_link: https://airtable.com/shrjeKVyOE7eoNg6K
 url_video_demo: https://dai.ly/x711dei
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 date: '2017-04-04T15:57:58.478+00:00'
+priorites
+- Obtenir des résultats robustes, Qualité de l'expérience vécue par les citoyens
+qualites
+- Qualité du panel: 4 à 5 (dans la mesure où les critères de recrutement sont établis par le comité de pilotage indépendant)
+- Montée en compétences des citoyens: 4 à 5 (dans la mesure où le caractère contradictoire de la formation est un des éléments clés du dispositif)
+- Qualité de la délibération: 4 à 5 (selon les qualités de l’animation)
+- Transparence et devoir de suite: 2 à 4 (selon le niveau d’engagement pris par le commanditaire) 
+- Qualité de l’information: 4 (selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible)
+- Nombre de personnes touchées: 3
 atouts:
-- Permet de réfléchir en profondeur sur un sujet
-- Adapté aux petites démarches comme aux démarches d'envergure nationale
-- Un format indispensable pour une démarche de participation de qualité
+- L’indépendance, à l’égard de l’administration commanditaire, du comité de pilotage  en charge de l’élaboration de la question, des critères de recrutement et du programme de formation 
+- Le caractère contradictoire des interventions et formations dispensées aux citoyens participants qui assure que tous les points de vue sur la question controversée sont présentés
+- La présence d’un garant qui veille au respect du protocole de l’atelier (information objective permettant de rendre un avis éclairé) et qui veille à ce que la parole de chacun soit entendue
+- L’avis rendu est un avis collectif et informé puisqu’il est issu de la délibération entre les citoyens sur la base des informations qu’ils ont entendues
+inconvenients
+- Ce dispositif suppose de disposer du temps nécessaire à sa mise en place : 4 mois entre la saisine par le commanditaire et le rendu de l’avis
+- Le nombre de citoyens concernés rend parfois difficile la communication autour de l’avis, en dépit de la robustesse du dispositif
 layout: methode
 default_logo: ''
 ---
 
-Conçus au sein de la direction interministérielle de la transformation publique, les Ateliers Citoyens sont un dispositif collaboratif permettant de recueillir l’avis d'un panel de français sur une question qui les concerne directement. Récemment éprouvé dans le cadre des consultations autour de la réforme des retraites, le protocole mis en place par les équipes de la DITP permet, en un temps relativement court, d’éclairer les décideurs publics en amont d’un chantier gouvernemental. Dans un contexte où les orientations du Gouvernement sont soumises au débat public, lumière sur un outil de démocratie participative au service des administrations. 
+* Descriptif de l'objectif :
+L’atelier citoyen permet de questionner de manière crédible, robuste et sincère un groupe de citoyens représentatifs de la diversité de la population française sur une thématique mise en débat en amont d’une décision, d’un programme de travail ou d’un projet de loi.
 
-* 15 citoyens sont réunis lors de deux weekends et de deux sessions en ligne.
+* Public visé : 
+Un groupe de 15 citoyens représentatifs de la diversité de la population française. Le recrutement des participants se fait en fonction de quotas socio-démographiques classiques (sexe, âge, CSP, situation familiale, niveau de diplôme…) auxquels s’ajoutent des critères d’inclusion ou d’exclusion en fonction de la question posée. Ces critères permettent de représenter la diversité des situations, des opinions et des attitudes par rapport au sujet. 
+ 
+* Grandes lignes du  dispositif, description : 
+Le dispositif garantit l’indépendance de la démarche, la transparence des résultats et de la méthode employée. Il est piloté par la DITP avec le soutien de ses partenaires. Il est également placé sous le regard vigilant d’un garant dont le rôle est de veiller à ce que les citoyens bénéficient d’une information objective leur permettant de rendre un avis éclairé. le garant veille également au respect de l’expression et de la prise en compte de tous les avis.
+La question posée aux citoyens est définie par un comité de pilotage indépendant, après audition du commanditaire.
+Pendant deux weekends, complétés par des formations en ligne, les citoyens composant le groupe suivent des formations à caractère pluriel ou contradictoire entendent des intervenants aux points de vue différents et ont la possibilité d’auditionner des personnes de leur choix pour se former une opinion éclairée.
+L’avis citoyen auquel aboutit le groupe de citoyens est le fruit d’un travail collectif, construit et informé. Cet avis collectif peut prendre en compte les points d’accords et de désaccords.
 
-* Les sélections se font sur des critères socio-démographiques garantissant la diversité et la représentativité du panel de citoyens.
-
-* L'avis délivré peut prendre diverses formes, définies au préalable par le ministère ou l'administration commanditaire : avis sur un projet, (in)validation d'une position, choix entre plusieurs alternatives, propositions de solutions, identification de principe d'action d'une politique publique...
-
-* Les citoyens reçoivent une formation faisant état de la pluralité des points de vue, parfois contradictoires, sur le sujet.
-
-* L'avis final est construit à plusieurs et vient répondre à la question d'un commanditaire en vue de l'adoption d'une politique publique.
-
-* 4 mois sont nécessaires entre la prise de décision d'un atelier citoyen et la remise de l'avis, contre 8 mois pour une conférence de citoyens.
-
-* La méthodologie des ateliers citoyens repose sur des fondements scientifiques que sont les conférences citoyennes menées au Danemark depuis les années 1980.
+* Coût estimatif : 80K € TTC
