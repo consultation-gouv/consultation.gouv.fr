@@ -48,7 +48,7 @@ additional_css: outil
         <div class="description">
           <ul class="list-unstyled">
             {% for priorite in page.priorites %}
-            <li>{{ priorite }}</li>
+            <li class="mb-2">- {{ priorite }}</li>
             {% endfor %}
           </ul>
         </div>
@@ -58,7 +58,7 @@ additional_css: outil
         <div class="title">Qualités principales</div>
         <ul class="list-unstyled">
           {% for qualite in page.qualites %}
-          <li>{{ qualite }}</li>
+          <li class="mb-2">- {{ qualite }}</li>
           {% endfor %}
         </ul>
       </div>
