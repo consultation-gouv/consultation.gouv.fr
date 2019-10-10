@@ -14,12 +14,12 @@ date: '2017-04-04T15:57:58.478+00:00'
 priorites:
 - Explorer les futurs possibles d’une politique publique en faisant travailler les participants sur les conséquences à venir de décisions prises aujourd’hui
 qualites:
-- Qualité du panel ":" 2 à 4 selon les moyens consacrés pour le recrutement des citoyens 
-- Montée en compétences des citoyens ":" 2 à 3 selon le temps de l’atelier (l’apport d’information est dense pour un format réduit)
-- Qualité de la délibération ":" 4
-- Transparence et devoir de suite ":" 2 à 4 (selon le niveau d’engagement pris par le commanditaire) 
-- Qualité de l’information ":" 2 à 4 selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible 
-- Nombre de personnes touchées ":" 3
+- "Qualité du panel : 2 à 4 (selon les moyens consacrés pour le recrutement des citoyens)"
+- "Montée en compétences des citoyens : 2 à 3 selon le temps de l’atelier (l’apport d’information est dense pour un format réduit)"
+- "Qualité de la délibération : 4"
+- "Transparence et devoir de suite : 2 à 4 (selon le niveau d’engagement pris par le commanditaire)"
+- "Qualité de l’information : 2 à 4 selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible)"
+- Nombre de personnes touchées : 3
 atouts:
 - Le travail sur la base d’éléments de prospective partagée permet de s’affranchir des représentations et de positions trop tranchées 
 - Le caractère ludique de l’atelier favorise l’engagement des participants

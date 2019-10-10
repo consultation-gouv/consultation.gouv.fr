@@ -14,12 +14,12 @@ date: '2017-04-04T15:57:58.478+00:00'
 priorites:
 - Obtenir des résultats robustes, et qualité de l'expérience vécue par les citoyens
 qualites:
-- Qualité du panel ":" 4 à 5 dans la mesure où les critères de recrutement sont établis par le comité de pilotage indépendant
-- Montée en compétences des citoyens ":" 4 à 5  dans la mesure où le caractère contradictoire de la formation est un des éléments clés du dispositif
-- Qualité de la délibération ":" 4 à 5 selon les qualités de l’animation
-- Transparence et devoir de suite ":" 2 à 4 (selon le niveau d’engagement pris par le commanditaire) 
-- Qualité de l’information ":" 4 selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible 
-- Nombre de personnes touchées ":" 3
+- "Qualité du panel : 4 à 5 (dans la mesure où les critères de recrutement sont établis par le comité de pilotage indépendant)"
+- "Montée en compétences des citoyens : 4 à 5 (dans la mesure où le caractère contradictoire de la formation est un des éléments clés du dispositif)"
+- "Qualité de la délibération : 4 à 5 (selon les qualités de l’animation)"
+- "Transparence et devoir de suite : 2 à 4 (selon le niveau d’engagement pris par le commanditaire)" 
+- "Qualité de l’information : 4 (selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible)"
+- "Nombre de personnes touchées : 3"
 atouts:
 - L’indépendance, à l’égard du commanditaire, du comité de pilotage  en charge de l’élaboration de la question, des critères de recrutement et du programme de formation 
 - Le caractère contradictoire des interventions et formations dispensées aux citoyens participants qui assure que tous les points de vue sur la question controversée sont présentés

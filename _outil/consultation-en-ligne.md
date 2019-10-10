@@ -14,12 +14,12 @@ date: '2017-04-04T15:57:58.478+00:00'
 priorites:
 - Faire participer un public large sur internet
 qualites:
-- Qualité du panel ":" 2 
-- Montée en compétences des citoyens ":" 1 à 3, grâce à l’accès à des ressources en ligne et au débat argumenté en ligne
-- Qualité de la délibération ":" 0 à 2, en fonction du temps laissé aux échanges en ligne
-- Transparence et devoir de suite ":" 4 (l’intégralité du processus et des débats sont visibles et documentés en ligne)
-- Qualité de l’information ":" 3 (vidéos, documents peuvent être mis à disposition, )
-- Nombre de personnes touchées ":" 5 (plusieurs centaines de milliers de participants) 
+- "Qualité du panel : 2"
+- "Montée en compétences des citoyens : 1 à 3 (grâce à l’accès à des ressources en ligne et au débat argumenté en ligne)"
+- "Qualité de la délibération : 0 à 2 (en fonction du temps laissé aux échanges en ligne)"
+- "Transparence et devoir de suite : 4 (l’intégralité du processus et des débats sont visibles et documentés en ligne)"
+- "Qualité de l’information : 3 (des vidéos et des documents pouvant être mis à disposition en ligne)"
+- "Nombre de personnes touchées : 5 (plusieurs centaines de milliers de participants)" 
 atouts:
 - Captation d’un public large donnant une légitimité plus importante à la consultation voire à la décision publique
 - Pour des dispositifs simples ":" coût quasi nul une fois la plateforme mise en place et les bases du paramétrage acquises
