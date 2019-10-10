@@ -1,33 +1,47 @@
 ---
 title: La conférence de citoyen
-tagline: Obtenir un avis citoyen construit sur une thématique controversée à enjeu complexe
+tagline: Dispositif fondé sur le principe de délibération collective en vue d’obtenir un avis collectif et construit sur une thématique de société controversée
 categorie: methode
-img-bg: rodion-kutsaev-24833-unsplash
-contact: arnaud.dechampsavin@data.gouv.fr
-contract: OpenSource
-logo: mikael-kristenson-242070-unsplash.png
+img-bg: cap-bg
+contact: participationcitoyenne@modernisation.gouv.fr
+contract:
+logo: logoDITP_print_Baseline.svg
 owner: DITP
-access_link: https://airtable.com/shrjeKVyOE7eoNg6K
-url_video_demo: https://www.dailymotion.com/video/xvoboa
+access_link:
+url_video_demo: https://www.dailymotion.com/embed/video/x711dei
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 date: '2017-04-04T15:57:58.478+00:00'
+priorites:
+- Obtenir des résultats robustes, et qualité de l'expérience vécue par les citoyens
+qualites:
+- Qualité du panel ":" 4 à 5 dans la mesure où les critères de recrutement sont établis par le comité de pilotage indépendant
+- Montée en compétences des citoyens ":" 4 à 5  dans la mesure où le caractère contradictoire de la formation est un des éléments clés du dispositif
+- Qualité de la délibération ":" 4 à 5 selon les qualités de l’animation
+- Transparence et devoir de suite ":" 2 à 4 (selon le niveau d’engagement pris par le commanditaire) 
+- Qualité de l’information ":" 4 selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible 
+- Nombre de personnes touchées ":" 3
 atouts:
-- Approfondissement des connaissances des citoyens grâce à l’affrontement d’avis opposés sur les questions soulevées. 
-- Valeur ajoutée de la contribution dans le débat public grâce à la formation proposée par les experts.
-- Fort impact des conclusions citoyennes considérées comme neutres et désintéressées par rapport à celles qui auraient été proposées par un expert ou un élu. 
-- Renforcement de la cohésion citoyenne pour les participants. 
-- Méthodologie structurée et mobilisation de compétences, notamment pour l’animation.  Formation d’un groupe « soudé » de citoyens. 
-- Appel à des citoyens profanes (non experts de leur sujet) et non engagés (ni élus, présidents de fédération, d’association, etc.), représentatifs de la diversité de la population.
-- Briefing des experts afin qu’ils adaptent leur discours aux citoyens.  
-- Taille critique du panel (15 – 20 citoyens) afin de faciliter le dialogue. 
+- L’indépendance, à l’égard du commanditaire, du comité de pilotage  en charge de l’élaboration de la question, des critères de recrutement et du programme de formation 
+- Le caractère contradictoire des interventions et formations dispensées aux citoyens participants qui assure que tous les points de vue sur la question controversée sont présentés
+- La valeur ajoutée de la contribution des citoyens dans le débat public grâce à leur formation qui assure une montée en compétence sur le sujet
+inconvenients:
+- Ce dispositif est long et coûteux. La majeure partie du coût est concentré sur la logistique de la conférence de citoyens (transports, hébergement…)
+- Le nombre de citoyens concernés rend parfois difficile la communication autour de l’avis, en dépit de la robustesse du dispositif
 layout: methode
 default_logo: ''
 ---
 
-* Une conférence de citoyens est un outil de démocratie participative créé au Danemark dans les années 1980 par le Danish Board of Technology et importé en France à la fin des années 1990. 
+Objectif du dispositif :
+* La conférence de citoyen  permet de questionner de manière crédible, robuste et sincère un groupe de citoyens dont on s’assure qu’ils ont des profils diversifiés sur une thématique de société controversée, le plus souvent à caractère scientifique ou technique en amont d’une décision afin d’alimenter le débat public sur ce sujet. Par exemple, la conférence de citoyen sur l’enfouissement des déchets radioactifs. 
 
-* L'appellation internationale de cette démarche est "conférence de consensus". La méthode employée peut varier selon les pays.  
+Public visé : 
+* Un groupe de 15 à 30 citoyens reflétant la diversité socio-démographique de la population française. .Le recrutement peut se faire par tirage au sort (liste électorale, annuaire téléphonique…) soit en recourant à un organisme chargé de recruter ce panel représentatif de la diversité de la population française
 
-* La conférence de citoyens s’applique à une question de société controversée à caractère scientifique ou technique, en amont d’une décision, afin d’alimenter la réflexion publique sur ce sujet. 
+Grandes lignes du  dispositif : 
+* Le dispositif permet d’aller en profondeur sur un sujet, l’avis produit est argumenté, collectif et facilement utilisable par le commanditaire. 
+* Le temps accordé à la discussion (3 week-ends), la diversité du panel et l’apport d’information font de cette méthode un outil robuste et puissant. 
+* La question posée aux citoyens est définie par un comité de pilotage indépendant, chargé de définir et de décliner la problématique pour structurer le débat et chargé d’établir le programme de formation.
+* Pendant trois week-ends les citoyens composant le groupe suivent des formations à caractère pluriel ou contradictoire entendent des intervenants aux points de vue différents. Lors du troisième week-end, les citoyens auditionnent les experts de leur choix et leur soumettent leurs questions. Cette dernière phase est normalement ouverte au public mais l’organisateur peut faire le choix qu’elle se déroule à huis clos.
+* L’avis rendu est le fruit d’une délibération collective. l’avis est collectif, construit et informé. Il fait état des réflexions des citoyens sur le sujet et peut, le cas échéant, faire part de recommandations.
 
-* Les citoyens sont formés sur le sujet par des experts, et fournissent ainsi un avis éclairé construit collectivement qui vient appuyer la décision publique et limite les contestations.  
+Coût estimatif : minimum 100K € TTC

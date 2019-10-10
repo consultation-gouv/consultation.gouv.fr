@@ -1,25 +1,49 @@
 ---
 title: Les consultations en ligne
-tagline: Recueillir l’avis d’un public large ou ciblé en mobilisant peu de moyens dans un délai contraint
+tagline: Faire discuter, débattre, s’exprimer, décider… un petit groupe ou un très large public grâce à des plateformes numériques
 categorie: methode
 img-bg: cap-bg
-contact: arnaud.dechampsavin@data.gouv.fr
-contract: OpenSource
-logo: logo-test.png
-owner: Etalab
-access_link: https://airtable.com/shrjeKVyOE7eoNg6K
-url_video_demo: https://dai.ly/x711dei
+contact: participationcitoyenne@modernisation.gouv.fr
+contract:
+logo: logoDITP_print_Baseline.svg
+owner: DITP
+access_link:
+url_video_demo: https://www.dailymotion.com/embed/video/x711dei
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 date: '2017-04-04T15:57:58.478+00:00'
+priorites:
+- Faire participer un public large sur internet
+qualites:
+- Qualité du panel ":" 2 
+- Montée en compétences des citoyens ":" 1 à 3, grâce à l’accès à des ressources en ligne et au débat argumenté en ligne
+- Qualité de la délibération ":" 0 à 2, en fonction du temps laissé aux échanges en ligne
+- Transparence et devoir de suite ":" 4 (l’intégralité du processus et des débats sont visibles et documentés en ligne)
+- Qualité de l’information ":" 3 (vidéos, documents peuvent être mis à disposition, )
+- Nombre de personnes touchées ":" 5 (plusieurs centaines de milliers de participants) 
 atouts:
-- Captation d’un public large donnant une légitimité plus importante à la consultation voire à la décision publique.
-- Coût quasi nul (à l’exception de la communication) une fois la plateforme développée. 
+- Captation d’un public large donnant une légitimité plus importante à la consultation voire à la décision publique
+- Pour des dispositifs simples ":" coût quasi nul une fois la plateforme mise en place et les bases du paramétrage acquises
+- L’aspect plateforme permet de rythmer les différents temps de la consultation (dépôt d’idée, vote, …) jusqu’à la restitution des résultats, voire d’enchaîner plusieurs consultations à la suite
+inconvenients:
+- L’inscription à une plateforme en ligne est parfois une barrière à l’entrée
+- La matière produite n’est pas le fruit d’une délibération collective mais représente une somme d’opinions qui donnent des indications sur les grandes tendances
+- L’analyse d’un trop grand nombre de contributions peut être compliquée
 layout: methode
 default_logo: ''
 ---
 
-* Les consultations en ligne permettent de recueillir l’avis d’un public large tout en mobilisant peu de moyens. Elles constituent par ailleurs un outil de communication important sur les thématiques qui font l’objet d’une consultation. 
+Objectif du dispositif: 
+* Les consultations en ligne permettent de recueillir l’avis d’un public large tout en mobilisant peu de moyens. Elles constituent par ailleurs un outil de communication important sur les thématiques qui font l’objet d’une consultation.
 
-* Les textes font également état de règles déontologiques strictes : o Respect du public (engagement de prendre sérieusement en compte ce qui sera exprimé dans la consultation). o Respect de l’intérêt général (la consultation doit tenir compte de l’intérêt général et ne pas donner l’impression que l’impact d’une proposition n’est lié qu’à l’ampleur de la mobilisation d’un groupe particulier). 
+Public visé : 
+* Bien que les consultations publiques aient vocation à toucher un public large (+500 000 contributeurs au Grand Débat National), ces outils peuvent également permettre des échanges de groupes plus restreints, pour de la co-construction par exemple
+ 
+Grandes lignes du  dispositif : 
+* Les consultations en ligne utilisent des plateformes pour recueillir l’avis du public, en activant différentes fonctionnalités :
+** des fonctionnalités de dépôt (dépôt d’idées, dépôt de propositions…)
+** des fonctionnalités de vote (priorisation, adhésion…)
+** des fonctionnalités d’éditorialisation (articles, actualités, contenus “froids” mis à disposition des participants)
+* La plupart des plateformes permettent un découpage en plusieurs phases, afin de rythmer la démarche ":" dépôt d'irritants, vote sur les irritants, dépôts de solutions, vote sur les solutions, synthèse (par exemple)
+* Les plateformes de consultations sont parfois également utilisées comme point d’entrée et vitrine de dispositifs mixtes mêlant participation en ligne et  ateliers, rencontres, débats … ayant lieu en présentiel. On utilisera alors des fonctionnalités telles que localisation d’événements, la publication des comptes-rendus, la gestion de commissions/sous-commission etc. etc.
 
-* Vous trouverez une sélection de plateformes à déployer gratuitement (sur un premier niveau de service) en suivant ce lien.
+Coût estimatif : 3k€ à 30k€, en fonction du degré d’autonomie de l’organisateur
