@@ -213,7 +213,7 @@ title: Concevoir une démarche de qualité
             <div class="row">
           {% assign outils = site.outil | where: "categorie", "outil" %}
           {% for outil in outils %}
-          {% include outil-card.html description=contact %}
+          {% include outil-card-contact.html description=outil %}
           {% endfor %}
             </div>
           </div>
