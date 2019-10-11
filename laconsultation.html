@@ -212,7 +212,9 @@ title: Concevoir une démarche de qualité
           <div class="col-12">
             <div class="row">
               {% for outil in site.outil %}
+              {% if outil.categorie == methode %}
               {% include outil-card-contact.html description=outil %}
+              {% endif %}
               {% endfor %}
             </div>
           </div>
