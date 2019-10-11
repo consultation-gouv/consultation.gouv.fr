@@ -81,7 +81,7 @@ title: Concevoir une démarche de qualité
       </div>
     </div>
 
-    <!--Concevoir-->
+    <!--Choisir une méthode-->
     <div class="tab-pane fade active show" id="concevoir" role="tabpanel" aria-labelledby="concevoir-tab">
       <div class="col-12">
         <h2>Explorer les différentes méthodes</h2>
@@ -100,7 +100,7 @@ title: Concevoir une démarche de qualité
       </div>
     </div>
 
-    <!--Choisir-->
+    <!--Choisir une plateforme-->
     <div class="tab-pane fade show" id="choisir" role="tabpanel" aria-labelledby="choisir-tab">
       <div class="row">
         <div class="col-12">
@@ -211,11 +211,10 @@ title: Concevoir une démarche de qualité
           </div>
           <div class="col-12">
             <div class="row">
-              {% for outil in site.outil %}
-              {% if outil.categorie == methode %}
-              {% include outil-card-contact.html description=outil %}
-              {% endif %}
-              {% endfor %}
+          {% assign outils = site.outil | where: "categorie", "outil" %}
+          {% for outil in outils %}
+          {% include outil-card.html description=contact %}
+          {% endfor %}
             </div>
           </div>
         </div>
