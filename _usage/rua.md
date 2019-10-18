@@ -1,7 +1,7 @@
 ---
 title: Consultation publique sur le Revenu Universel d'Activité
 link: https://www.consultation-rua.gouv.fr/
-description: Consultation menée par le Service d'Information du Gouvernement
+description: Consultation menée par la délégation à la prévention et à la lutte contre la pauvreté
 organisateur : la délégation à la prévention et à la lutte contre la pauvreté
 outil:
 - Cap Collectif
