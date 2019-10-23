@@ -4,6 +4,7 @@ link:
 description: Concertation du Ministère des Solidarités et de la Santé
 organisateur : ...
 outil:
+- Cap Collectif
 screenshot: granddebat.png
 date: 2019-01-15 09:29:08 +0000
 in_progress: true
