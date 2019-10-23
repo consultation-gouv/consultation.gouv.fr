@@ -4,7 +4,7 @@ link: https://budgetparticipatif.ville-roubaix.fr/processes/bpe2019
 description: Plateforme de la Commune de Roubaix
 organisateur: ville de Roubaix
 outil: 
-- decidim
+- Decidim
 screenshot: Roubaix.png
 date: 2019-01-15 09:29:08 +0000
 in_progress: true

@@ -5,7 +5,7 @@ opendata:
 description: Plateforme de la Commune de Grenoble
 organisateur: Ville de Grenoble
 outil: 
-- capcollectif
+- Cap Collectif
 screenshot: Grenoble.png
 date: 2019-01-15 09:29:08 +0000
 in_progress: true

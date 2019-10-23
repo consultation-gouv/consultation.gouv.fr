@@ -5,7 +5,7 @@ opendata:
 description: Plateforme de la Commune de Nanterre
 organisateur: Ville de Nanterre
 outil: 
-- decidim
+- Decidim
 screenshot: Nanterre.png
 date: 2019-01-01 09:29:08 +0000
 in_progress: true

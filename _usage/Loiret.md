@@ -5,7 +5,7 @@ opendata:
 description: Plateforme du Département du Loiret
 organisateur: Département du Loiret
 outil: 
-- decidim
+- Decidim
 screenshot: Loiret.png
 date: 2019-05-22 09:29:08 +0000
 in_progress: true

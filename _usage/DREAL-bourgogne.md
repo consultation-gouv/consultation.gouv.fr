@@ -4,7 +4,7 @@ link: https://gouvernement-et-citoyens.consultation.etalab.gouv.fr/project/troph
 opendata: 
 description: DREAL de Bourgogne Franche-Comté 
 outil:
-- Cap-collectif
+- Cap Collectif
 screenshot: ESS.png
 date: 2019-06-05 09:29:08 +0000
 in_progress: true

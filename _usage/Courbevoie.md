@@ -5,7 +5,7 @@ opendata:
 description: Plateforme de Consultation de la Ville de Courbevoie
 organisateur: Ville de Courbevoie
 outil: 
-- cap-collectif
+- Cap Collectif
 screenshot: Courbevoie.png
 date: 2019-04-08 09:29:08 +0000
 in_progress: true

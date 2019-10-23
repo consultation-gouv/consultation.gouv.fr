@@ -6,7 +6,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">{{ include.description.title }}</h5>
-        <p class="card-text">{{ include.description.tagline }}</p>
+        <p class="card-text">{{ include.description.tagline | truncate: 110 }}</p>
       </div>
     </a>
     <div class="card-body pt-0 d-flex align-items-end justify-content-between">

@@ -5,7 +5,7 @@ opendata:
 description: Préfecture de Loire-Atlantique (44)
 organisateur: Préfecture de Loire-Atlantique (44)
 outil:
-- Cap-collectif
+- Cap Collectif
 screenshot: Loire-atlantique.png
 date: 2019-06-01 09:29:08 +0000
 in_progress: true
