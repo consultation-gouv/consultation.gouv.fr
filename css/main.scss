@@ -118,7 +118,11 @@ header {
   }
 
   .div-titre {
+    color: black !important;
     flex: 1 1 auto;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   #menu-haut {
