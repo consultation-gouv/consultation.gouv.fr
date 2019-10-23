@@ -97,3 +97,14 @@
     text-decoration: none;
   }
 }
+
+.links-bottom-home {
+  font-size: 1.5rem;
+  i {
+    font-size: 2rem;
+  }
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}

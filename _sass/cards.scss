@@ -78,3 +78,11 @@
     text-decoration: none;
   }
 }
+
+.cadre {
+  border: 1px solid $violet;
+  padding: 1rem;
+  &:hover {
+    text-decoration: none;
+  }
+}
