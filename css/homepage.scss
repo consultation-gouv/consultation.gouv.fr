@@ -89,3 +89,11 @@
     margin-bottom: 1rem;
   }
 }
+
+.row-acccompagne {
+  border: 1px solid $violet-pale;
+  &:hover {
+    background-color: $violet-pale;
+    text-decoration: none;
+  }
+}
