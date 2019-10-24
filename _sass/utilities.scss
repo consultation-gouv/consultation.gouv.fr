@@ -42,7 +42,9 @@
   }
 }
 
-.img-fluid {
-  width: 100% \9 !important;
-  height: 100% \9 !important;
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .img-fluid {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
