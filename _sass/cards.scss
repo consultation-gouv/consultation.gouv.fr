@@ -83,12 +83,14 @@
   border: 1px solid $bleu;
   padding: 0.5rem;
   font-size: 1.4rem;
+  background-size: cover;
   span {
     font-size: 1.2rem;
   }
   &:hover {
     text-decoration: none;
     background-color: $violet-pale;
+    box-shadow: 4px 4px 5px 0px rgba(97,97,97,0.5);
   }
 }
 
@@ -97,6 +99,7 @@
   color: white;
   h4 {
     color: white;
+    font-weight: bold;
   }
   &:hover {
     background-color: $bleu-80;

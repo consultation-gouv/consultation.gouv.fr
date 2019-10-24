@@ -100,3 +100,19 @@
     opacity: 0.8;
   }
 }
+
+.fas {
+  color: $bleu;
+  font-size: 1.5rem;
+}
+
+.auteur {
+  font-size: 0.8rem;
+  align-self: flex-end;
+  color: $bleu;
+  text-align: right;
+}
+
+iframe {
+  justify-self: center;
+}
