@@ -54,6 +54,7 @@ accompagnement_plusloin:
 - L'analyse des résultats
 layout: outil
 default_logo: ''
+ordre: 1
 ---
 
 * Expert en participation citoyenne numérique, Civocracy offre une plateforme numérique sécurisée et transparente qui facilite l’émergence du consensus citoyen.

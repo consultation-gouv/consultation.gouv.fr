@@ -96,7 +96,7 @@ title: Concevoir sa démarche
         <div class="col-12">
           <h2>Choisir un outil de consultation</h2>
         </div>
-        {% assign outils = site.outil | where: "categorie", "outil" %}
+        {% assign outils = site.outil | where: "categorie", "outil" | sort: 'ordre' | reverse %}
         <div class="row">
           <div class="col-md-8 col-12">
             <h4 class="mb-3">Nous avons référencé {{ outils | size }} outils respectant les <a href="/criteres.html">25 critères</a> des consultations publiques. Vous y avez accès <strong>en quelques clics</strong> pour fabriquer vos consultations</h4>
