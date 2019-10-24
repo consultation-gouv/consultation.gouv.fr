@@ -80,7 +80,7 @@
 }
 
 .cadre {
-  border: 1px solid $violet;
+  border: 1px solid $bleu;
   padding: 0.5rem;
   font-size: 1.4rem;
   span {
@@ -89,5 +89,19 @@
   &:hover {
     text-decoration: none;
     background-color: $violet-pale;
+  }
+}
+
+.bg-bleu {
+  background-color: $bleu;
+  color: white;
+  h4 {
+    color: white;
+  }
+  &:hover {
+    background-color: $bleu-80;
+    span {
+      color: white !important;
+    }
   }
 }

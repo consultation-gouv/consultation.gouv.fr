@@ -5,10 +5,10 @@
 @import "variables";
 
 .form-control {
-  background-color: $violet;
+  background-color: $bleu;
   color: white;
   &::placeholder {
-    color: $violet;
+    color: $bleu;
   }
 }
 
@@ -16,18 +16,18 @@
   padding: 1rem 4rem;
   #barre-recherche {
     position: relative;
-    color: $violet;
+    color: $bleu;
     #search {
       background-color: white;
-      border: 3px solid $violet;
-      color: $violet;
+      border: 3px solid $bleu;
+      color: $bleu;
       height: 6rem;
       width: 100%;
       font-size: 1.4rem;
       padding-left: 4rem;
     }
     .fa-search {
-      color: $violet;
+      color: $bleu;
       position: absolute;
       top: 2rem;
       left: 2rem;
@@ -37,7 +37,7 @@
 }
 
 #ligne {
-  border-bottom: 2px solid $violet;
+  border-bottom: 2px solid $bleu;
   margin-top: -1.5rem;
   width: 88%;
   margin-bottom: 2rem;
@@ -115,6 +115,6 @@
   }
 
   &:checked + .tgl-btn {
-    background: $violet;
+    background: $bleu;
   }
 }

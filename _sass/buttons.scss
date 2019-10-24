@@ -20,7 +20,7 @@
 }
 
 .btn-primary {
-  background-color: $violet;
+  background-color: $bleu;
   color: white !important;
   border: none;
   &:hover, &:active, &:focus {
@@ -31,13 +31,13 @@
 }
 
 .btn-outline-primary {
-  color: $violet;
+  color: $bleu;
   background-color: transparent;
   background-image: none;
-  border-color: $violet;
+  border-color: $bleu;
   &:hover, &:active, &:focus {
     color: #fff;
-    background-color: $violet;
-    border-color: $violet;
+    background-color: $bleu;
+    border-color: $bleu;
   }
 }

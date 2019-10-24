@@ -5,22 +5,22 @@
 @import "variables";
 
 .image-en-tete {
-  border-right: 5px solid $violet;
+  border-right: 5px solid $bleu;
   img {
     height: 15rem;
   }
 }
 
 h1 {
-  color: $violet;
+  color: $bleu;
 }
 
 .col-icone {
   text-align: center;
-  color: $violet;
+  color: $bleu;
   &:hover {
     text-decoration: none;
-    color: $violet;
+    color: $bleu;
   }
   p {
     font-size: 1.2rem;

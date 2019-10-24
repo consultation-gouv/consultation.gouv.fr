@@ -34,7 +34,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $violet;
+  color: $bleu;
 }
 
 #wrapper {
@@ -113,7 +113,7 @@ header {
     padding: 0 !important;
     margin: 0 !important;
     &:hover {
-      color: $violet;
+      color: $bleu;
     }
   }
 
@@ -126,7 +126,7 @@ header {
   }
 
   #menu-haut {
-    background: $violet;
+    background: $bleu;
     a {
       font-size: 1.5rem;
       color: white;
@@ -219,7 +219,7 @@ input:focus::-moz-placeholder{
 .bandeau-haut-de-page {
   padding: 3rem;
   margin-bottom: 3rem;
-  background: $violet;
+  background: $bleu;
   h1 {
     color: white;
     padding: 0 3rem;
