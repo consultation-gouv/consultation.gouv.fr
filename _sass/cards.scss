@@ -83,7 +83,11 @@
   border: 1px solid $violet;
   padding: 0.5rem;
   font-size: 1.4rem;
+  span {
+    font-size: 1.2rem;
+  }
   &:hover {
     text-decoration: none;
+    background-color: $violet-pale;
   }
 }
