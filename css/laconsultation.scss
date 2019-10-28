@@ -131,10 +131,11 @@ h2 {
 
 .fixed-menu {
   position: fixed !important;
-  top: 149px !important;
+  top: 129px !important;
   z-index: 1;
   left: 15% !important;
   width: 70%;
+  box-shadow: 10px 10px 19px 0 rgba(0,0,0,0.4);
   @media (max-width: 1400px) {
     width: 80%;
     left: 10% !important;
