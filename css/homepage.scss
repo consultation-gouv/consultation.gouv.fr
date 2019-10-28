@@ -130,3 +130,18 @@ iframe {
     font-size: 2rem;
   }
 }
+
+.edito {
+  h2 {
+    background: white;
+    z-index: 18;
+    padding-right: 2rem;
+    padding-bottom: 0.4rem;
+    margin: 0;
+  }
+  .text {
+    border: 3px solid $bleu;
+    padding: 1.3rem;
+    margin-top: -1.5rem;
+  }
+}
