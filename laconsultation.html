@@ -296,6 +296,19 @@ title: Concevoir sa démarche
 <script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
 <script>
 $(document).ready(function() {
+  $(function () {
+    var activeTab = $(location.hash)
+    if (activeTab.length > 0) {
+      var activeLink = $(location.hash + '-tab')
+      $('.tab-pane').removeClass('active show')
+      activeTab.addClass('active show')
+      $('.nav-link').removeClass('active').attr('aria-selected', false)
+      activeLink.addClass('active')
+      activeLink.attr('aria-selected', true)
+    }
+    window.scrollTo(500, 0)
+  })
+
   $(window).bind('scroll', function() {
     const navHeight = 310;
     if ($(window).scrollTop() > navHeight) {

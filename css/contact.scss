@@ -13,12 +13,15 @@ h1 {
   margin-top: 3rem;
   color: white;
   background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('/img/banner-home2.png');
-  height: 10rem;
+  height: 7rem;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+  &:hover {
+    text-decoration: none;
+  }
   h2 {
     font-size: 4rem;
     color: white;
@@ -78,17 +81,33 @@ h5 {
   margin: 2rem
 }
 
-.carousel {
-  height: 20rem;
-  .carousel-inner {
-    height: 100%;
+.col-contact {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 20%;
+  padding: 2rem 0.5rem;
+  i {
+    font-size: 3rem;
+    color: $bleu;
   }
-  .carousel-item {
-    font-size: 2rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  .macontribution {
+    font-weight: bold;
+    a {
+      color: $rouge;
+    }
+    img {
+      width: 2rem;
+    }
+  }
+  img {
+    width: 10rem
+  }
+  @media ( max-width: 700px ) {
+    flex: 1 1 50%;
   }
 }
+
+
