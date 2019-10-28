@@ -2,7 +2,7 @@
 title: La conférence de citoyen
 tagline: Dispositif fondé sur le principe de délibération collective en vue d’obtenir un avis collectif et construit sur une thématique de société controversée
 categorie: methode
-img-bg: cap-bg
+img-bg: cap-bg.jpg
 contact: participationcitoyenne@modernisation.gouv.fr
 contract:
 logo: logoDITP_print_Baseline.svg

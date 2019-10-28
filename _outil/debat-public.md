@@ -2,7 +2,7 @@
 title: Le débat public CNDP
 tagline: Un atelier pour délibérer sur un sujet controversé
 categorie: methode
-img-bg: cap-bg
+img-bg: cap-bg.jpg
 contact: arnaud.dechampsavin@data.gouv.fr
 contract: OpenSource
 logo: logo-cndp.png

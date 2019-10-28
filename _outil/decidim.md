@@ -49,6 +49,7 @@ accompagnement_plusloin:
 - Cadrage, formation, suivi méthodologique, animation numérique et d'ateliers présentiels, synthèse et évaluation de la démarche
 layout: outil
 default_logo: ''
+ordre: 1
 ---
 
 Grâce à un investissement public initial de la mairie de Barcelone, Decidim est rapidement devenu le meilleur logiciel libre de participation citoyenne en Europe. Complète, personnalisable et modulaire pour s'adapter à votre contexte grâce à ses 9 fonctionnalités activables : 

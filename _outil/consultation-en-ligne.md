@@ -2,7 +2,7 @@
 title: Les consultations en ligne
 tagline: Faire discuter, débattre, s’exprimer, décider… un petit groupe ou un très large public grâce à des plateformes numériques
 categorie: methode
-img-bg: cap-bg
+img-bg: cap-bg.jpg
 contact: participationcitoyenne@modernisation.gouv.fr
 contract:
 logo: logoDITP_print_Baseline.svg

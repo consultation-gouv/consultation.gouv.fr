@@ -21,11 +21,12 @@
   .card-img {
     height: 7rem;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
     img {
       max-height: 100%;
     }
     .logo-etalabel {
-      width: 6rem;
       width: 6rem;
       position: absolute;
       right: -2.5rem;

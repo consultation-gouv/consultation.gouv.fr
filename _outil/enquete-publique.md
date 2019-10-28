@@ -2,7 +2,7 @@
 title: L'enquête publique
 tagline: Informer et recueillir les avis sur l'aménagement du territoire
 categorie: methode
-img-bg: cap-bg
+img-bg: cap-bg.jpg
 contact: arnaud.dechampsavin@data.gouv.fr
 contract: OpenSource
 logo: 

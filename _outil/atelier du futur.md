@@ -2,7 +2,7 @@
 title: L'atelier du futur
 tagline: Produire un plan d’action avec les citoyens et les parties prenantes
 categorie: methode
-img-bg: cap-bg
+img-bg: cap-bg.jpg
 contact:
 contract:
 logo: 
