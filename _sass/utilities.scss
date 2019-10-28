@@ -46,6 +46,11 @@
   }
 }
 
+.liens-soulignes {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .img-fluid {
     max-width: 100% !important;
