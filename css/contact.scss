@@ -12,10 +12,8 @@ h1 {
 #banniere-contact {
   margin-top: 3rem;
   color: white;
-  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('/img/banner-home2.png');
   height: 7rem;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: $bleu;
   display: flex;
   align-items: center;
   justify-content: center;
