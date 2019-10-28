@@ -1,29 +1,11 @@
 ---
-plateforme:
-- name: Condition générales d'utilisation
-  link: "/cgu.html"
-- name: Mentions légales
-  link: "/mentions.html"
-- name: Contact
-  link: "/contact.html"
-
-outils:
-- name: Les outils disponibles
-  link: "/lesoutils.html"
-- name: Proposer un outil
-  link: "/contact.html#dunno"
-
-consultation:
-- name: Nos contributeurs
-  link: "leprojet.html#espace-4"
-- name: Documentation utile
-  link: "/laconsultation.html#bonnes-pratiques"
-
 troisieme:
 - name: Se faire accompagner
   link: "/contact.html"
 - name: macontribution.fr
   link: "/citoyens/index.html"
+- name: Mentions légales / CGU
+  link: "/cgu.html"
 
 quatrieme:
 - name: Modernisation.gouv.fr
