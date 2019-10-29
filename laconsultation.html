@@ -77,7 +77,7 @@ title: Concevoir sa démarche
           </div>
         </div>
       <div class="row mt-5">
-        {% assign methodes = site.outil | where: "categorie", "methode" %}
+        {% assign methodes = site.outil | where: "categorie", "methode" | sort: 'ordre' | reverse %}
         {% for outil in methodes %}
         {% include outil-card.html description=outil %}
         {% endfor %}
@@ -85,7 +85,7 @@ title: Concevoir sa démarche
       <div class="row">
         <div class="col-md-8 col-12">
           <p class="mt-5 blue">Cliquez sur leurs icônes pour comparer les outils !</p>
-          <p>Pour être accompagné sur le choix d'une méthode, <a href="/support.html" class="liens-soulignes"> sollicitez le Centre de la Participation Citoyenne ! </a> </p>
+          <p>Pour être accompagné sur le choix d'une méthode, <a href="/contact.html" class="liens-soulignes"> sollicitez le Centre de la Participation Citoyenne ! </a> </p>
         </div>
       </div>
     </div>

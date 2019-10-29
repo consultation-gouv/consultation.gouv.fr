@@ -2,7 +2,7 @@
 title: Les ateliers participatifs
 tagline: Déployer des ateliers ouverts, sur plusieurs territoires, sur une ou plusieurs journées
 categorie: methode
-img-bg: cap-bg.jpg
+img-bg: postitsurunevitre.png
 contact:
 contract:
 logo: 

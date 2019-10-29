@@ -1,8 +1,8 @@
 ---
 troisieme:
-- name: Se faire accompagner
+- name: Nous contacter
   link: "/contact.html"
-- name: macontribution.fr
+- name: Vous êtes un citoyen ?
   link: "/citoyens/index.html"
 - name: Mentions légales / CGU
   link: "/cgu.html"

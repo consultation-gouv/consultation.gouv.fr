@@ -2,7 +2,7 @@
 title: Atelier de prospective collaborative
 tagline: Dispositif de prospective qui s’inspire du design fiction pour explorer des futurs vraisemblables en amont d’un projet de réforme
 categorie: methode
-img-bg: cap-bg.jpg
+img-bg: main-vitrine.png
 contact:
 contract:
 logo:

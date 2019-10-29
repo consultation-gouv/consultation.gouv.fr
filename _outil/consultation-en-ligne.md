@@ -2,12 +2,12 @@
 title: Les consultations en ligne
 tagline: Faire discuter, débattre, s’exprimer, décider… un petit groupe ou un très large public grâce à des plateformes numériques
 categorie: methode
-img-bg: cap-bg.jpg
+img-bg: ordi.png
 contact: participationcitoyenne@modernisation.gouv.fr
 contract:
-logo: logoDITP_print_Baseline.svg
-owner: DITP
-access_link:
+logo:
+owner:
+access_link: /laconsultation.html#choisir
 url_video_demo: https://www.dailymotion.com/embed/video/x711dei
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 date: '2017-04-04T15:57:58.478+00:00'

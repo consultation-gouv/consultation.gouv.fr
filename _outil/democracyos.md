@@ -62,6 +62,7 @@ accompagnement_plusloin:
   des synthèses complètes des contributions
 layout: outil
 default_logo: ''
+ordre: 2
 ---
 * DemocracyOS est la plateforme de référence à l'international de débat et de vote en ligne. Créée en 2012 en Argentine elle a été adoptée par plus de 40 institutions officielles en France et dans le monde.
 

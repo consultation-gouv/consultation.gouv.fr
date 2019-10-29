@@ -2,7 +2,7 @@
 title: Le budget participatif
 tagline: Sélectionner collectivement des projets auxquels attribuer un budget
 categorie: methode
-img-bg: cap-bg.jpg
+img-bg: mur-vert.png
 contact: participationcitoyenne@modernisation.gouv.fr
 contract:
 logo:
