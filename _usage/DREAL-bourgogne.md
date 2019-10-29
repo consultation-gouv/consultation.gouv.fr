@@ -5,7 +5,7 @@ opendata:
 description: DREAL de Bourgogne Franche-Comté 
 outil:
 - Cap Collectif
-screenshot: ESS.png
+screenshot: bourgogne.jpg
 date: 2019-06-05 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
@@ -25,9 +25,9 @@ Vous proposez les moyens d’une consommation plus responsable à destination du
 
 Participer aux trophées, c’est :
 
-    valoriser votre engagement éco-responsable et votre savoir
-    promouvoir vos pratiques développement durable en Bourgogne-Franche-Comté
-    mettre en lumière votre initiative
-    bénéficier de la couverture médiatique des trophées
-    gagner la réalisation d’un clip sur votre projet
-    gagner une enveloppe (allant de 200 à 1000€)
+* valoriser votre engagement éco-responsable et votre savoir
+* promouvoir vos pratiques développement durable en Bourgogne-Franche-Comté
+* mettre en lumière votre initiative
+* bénéficier de la couverture médiatique des trophées
+* gagner la réalisation d’un clip sur votre projet
+* gagner une enveloppe (allant de 200 à 1000€)

@@ -7,8 +7,8 @@ organisateur: SIG
 outil:
 - Cap Collectif
 methode:
-- La conférence de citoyen
-screenshot: parlonsclimat.png
+- Les ateliers participatifs
+screenshot: granddebat.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
@@ -16,43 +16,37 @@ note-decidee: 5
 ---
 **Information sur la démarche**
 
-* Contexte : annoncée à l’issue du grand débat national, la création d’une convention citoyenne pour le climat permettra l’émergence de propositions concrètes en faveur de l’environnement et de la transition écologique. Ce dispositif répond à une double demande exprimée par les citoyens; plus de démocratie et plus d’écologie. 
+* Contexte : face au mouvement social des Gilets Jaunes qui a secoué la France pendant plusieurs mois, le gouvernement s’est engagé dans le Grand Débat National sur quatre thèmes : la fiscalité et les dépenses publiques, l’organisation des services publics, la transition écologique, la démocratie et la citoyenneté. Dans cette présentation, nous nous concentrerons sur les conférences citoyennes régionales (21 au total). A noter que d’autres dispositifs ont été déployés en amont de ces conférences: des cahiers de doléances ouverts dans de nombreuses mairies, des réunions locales organisées par qui le souhaitaient, des conférences nationales thématiques, des stands de proximité établis dans les gares et les postes et une consultation en ligne. 
 
-* Finalité de la concertation : Réduire les émissions de gaz à effet de serre de 40% d’ici à 2030 (par rapport à 1990) sur la base des propositions faites par les citoyens, dans un esprit de justice sociale.
+* Finalité de la concertation : « Clarifier le projet national […]et transformer les colères en solutions […] bâtir un nouveau contrat pour la Nation, de structurer l’action du Gouvernement et Parlement ». Extraits de la lettre du Président de la République aux Français.
 
-* Durée: d’octobre 2019 à janvier 2020 (6 week end et des temps en ligne) 
+* Durée: mars 2019
 
-* Nombre de participants : 150 citoyens tirés au sort
+* Nombre de participants : 1404 participants
 
-* Modalités de participation : 6 week end en présentiel avec des temps de travail en ligne 
+* Modalités de participation : 1,5 journée par atelier régional, déploiement en simultané sur deux week-end
 
-* Livrables : les propositions des citoyens seront soumises au vote du parlement et/ou au référendum ou à application réglementaire directe
+* Livrables : une synthèse par atelier, une synthèse globale de toutes les conférences et une synthèse en bref 
 
 **Points forts du dispositif**
 
 Transparence et indépendance 
-* Un comité de gouvernance composé d’experts techniques, juridiques et de la participation citoyenne
-* Trois garants pour veiller à la neutralité et à la sincérité des débats
-* Des temps de restitution des débats retransmis en direct 
-* Organisé par une institution indépendante : le Conseil Economique Social et Environnemental 
-* Des messages clefs, des points de blocage de chaque week end sont publiés et téléchargeables sur le site de la convention 
-* La possibilité pour des citoyens non participants de venir assister aux séances prévues dans l’hémicycle 
+* Toutes les synthèses sont publiques et téléchargeables sur le site du grand débat
+* Les synthèses ont été réalisées par des prestataires sans intérêt partisan 
+* Un collège de garants a été nommé pour suivre l’ensemble des consultations régionales 
 
 Diversité des acteurs  
-* 150 citoyens tirés au sort, représentatifs de la diversité de la société française
-
-Montée en compétences des citoyens
-* Les citoyens reçoivent de l’information via l’intervention d’experts à des temps donnés et la remise de documents pédagogiques 
+* Les citoyens ont été tirés au sort au niveau régional, puis une panélisation sur la base de 5 critères socio-démographiques a été réalisée
 
 Devoir de suite et engagements 
-* Les propositions des citoyens seront soumises au vote du parlement et/ou au référendum ou à application réglementaire directe
-* Le gouvernement répondra publiquement aux propositions
-* Les citoyens pourront formuler une réaction commune et publique aux réponses du gouvernement 
-
-Conditions facilitantes 
-* L’indemnisation des participants pour compenser une perte de salaire ainsi que les frais de déplacements et de garde d’enfants sont pris en charge et ne sont pas à avancer 
+* Une restitution publique a été organisée en présence du Premier Ministre avec une présentation de la synthèse globale
+* Une série de mesures a été annoncée par le Président à l’issue des résultats 
 
 
 **Pour en savoir plus**
 
-https://www.conventioncitoyennepourleclimat.fr/
+https://granddebat.fr/
+https://granddebat.fr/media/default/0001/01/0fb76a304e8f30869c8e8b34f14cb564b18f4836.pdf
+https://granddebat.fr/media/default/0001/01/4affa12418c5b7d0cf030f3114a6e370e71dc744.pdf
+https://granddebat.fr/media/default/0001/01/02fa6323494f28ad2e22f0aae62f778c22469a6c.pdf
+https://granddebat.fr/pages/les-conferences-citoyennes-regionales
