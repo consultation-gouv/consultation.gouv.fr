@@ -7,7 +7,7 @@ organisateur: CNDP
 outil:
 - Cap Collectif
 methode:
-- Les ateliers citoyens
+- Les ateliers participatifs
 screenshot: europe.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: false

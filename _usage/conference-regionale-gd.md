@@ -3,7 +3,7 @@ title: Conférence régionale du Grand Débat
 link: 
 opendata:
 description: 
-organisateur: SIG
+organisateur: Service d'Information du Gouvernement
 outil:
 - Cap Collectif
 methode:
