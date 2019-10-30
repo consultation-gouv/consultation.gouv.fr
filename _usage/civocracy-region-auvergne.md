@@ -6,6 +6,9 @@ description: Construire une région unifiée et résiliente
 organisateur: Région Auvergne Rhône Alpes
 outil:
 - Civocracy
+methodes:
+- Les consultations en ligne
+- Les ateliers participatifs
 screenshot: auvergne-rhonesalpes.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true

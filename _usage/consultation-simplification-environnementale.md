@@ -6,6 +6,8 @@ description: Ministère de la Transition Écologique et Solidaire
 organisateur : Ministère de la Transition Écologique et Solidaire
 outil:
 - Autre
+methodes:
+- Les consultations en ligne
 screenshot: min-agri.png
 date: 2019-04-16 09:29:08 +0000
 in_progress: false

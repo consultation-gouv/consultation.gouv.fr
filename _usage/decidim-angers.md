@@ -6,6 +6,8 @@ description: La plateforme de participation citoyenne de la ville d'Angers
 organisateur: Ville d'Angers
 outil:
 - Decidim
+methodes: 
+- Les consultations en ligne
 screenshot: decidim_angers.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true

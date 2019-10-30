@@ -6,6 +6,8 @@ description: Consultation sur un projet de loi
 organisateur : Ministère de l'Enseignement Supérieur de la Recherche et de l'innovation
 outil:
 - Cap Collectif
+methodes:
+- Les consultations en ligne
 screenshot: mesri.png
 date: 2019-02-24 09:29:08 +0000
 in_progress: true

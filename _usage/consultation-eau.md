@@ -6,6 +6,8 @@ description: https://consultationeau.fr
 organisateur: DRIEE
 outil:
 - Autre
+methodes:
+- Les consultations en ligne
 screenshot: consultation_eau.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true

@@ -5,6 +5,8 @@ description: Consulter les éditeurs français sur la stratégie cloud de l'Etat
 organisateur : DINSIC
 outil:
 - DemocracyOS
+methodes: 
+- Les consultations en ligne
 screenshot: cloud.png
 date: 2018-08-15 00:00:01 +0000
 in_progress: false

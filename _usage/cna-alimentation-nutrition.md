@@ -6,6 +6,8 @@ description: organisé par le Conseil National de l'Alimentation
 organisateur: Conseil National de l'Alimentation
 outil:
 - DemocracyOS
+methodes:
+- Les consultations en ligne
 screenshot: cna-programme-alimentation-nutrition.png
 date: 2019-04-08 09:29:08 +0000
 in_progress: true

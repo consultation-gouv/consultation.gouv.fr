@@ -6,6 +6,8 @@ description: Plateforme de la Commune de Mulhouse
 organisateur: Ville de Mulhouse
 outil: 
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
 screenshot: Mulhouse.png
 date: 2019-05-19 09:29:08 +0000
 in_progress: true

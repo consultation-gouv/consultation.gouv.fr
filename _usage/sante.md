@@ -3,8 +3,8 @@ title: Atelier citoyen sur l’impact des objets connectés et des applications 
 link: 
 description: Conférence nationale de santé
 organisateur : Conférence nationale de santé
-outil:
-- Cap Collectif
+methodes:
+- L'atelier citoyen
 screenshot: personne-ombre.jpeg
 date: 2019-01-15 09:29:08 +0000
 in_progress: true

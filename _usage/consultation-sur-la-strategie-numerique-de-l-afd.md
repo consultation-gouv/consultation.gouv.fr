@@ -6,6 +6,8 @@ link: http://consultation-numerique.afd.fr/
 organisateur: Agence Française de Développement
 outil:
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
 screenshot: consultation_afd.jpg
 title: Consultation sur la stratégie numérique de l'AFD
 in_progress: false

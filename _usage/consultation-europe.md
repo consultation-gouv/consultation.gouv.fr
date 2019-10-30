@@ -8,6 +8,7 @@ outil:
 - Cap Collectif
 methode:
 - Les ateliers participatifs
+- Les consultations en ligne
 screenshot: europe.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: false

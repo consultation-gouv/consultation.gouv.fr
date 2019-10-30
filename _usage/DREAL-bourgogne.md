@@ -5,6 +5,8 @@ opendata:
 description: DREAL de Bourgogne Franche-Comté 
 outil:
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
 screenshot: bourgogne.jpg
 date: 2019-06-05 09:29:08 +0000
 in_progress: true

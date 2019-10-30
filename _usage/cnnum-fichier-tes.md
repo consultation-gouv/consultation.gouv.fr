@@ -6,6 +6,8 @@ link: https://tes.cnnumerique.fr/
 organisateur: Conseil National du Numérique
 outil:
 - Cap Collectif
+methodes:
+- Les consultations en ligne
 screenshot: "./CNNum - Fichier TES.jpg"
 title: CNNum - Fichier TES
 in_progress: false

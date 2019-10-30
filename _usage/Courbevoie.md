@@ -6,6 +6,8 @@ description: Plateforme de Consultation de la Ville de Courbevoie
 organisateur: Ville de Courbevoie
 outil: 
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
 screenshot: Courbevoie.png
 date: 2019-04-08 09:29:08 +0000
 in_progress: true

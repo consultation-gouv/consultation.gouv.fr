@@ -6,6 +6,8 @@ link: https://contribuez.cnnumerique.fr/
 organisateur: Conseil National du Numérique
 outil:
 - Cap Collectif
+methodes:
+- Les consultations en ligne
 screenshot: "./CNNum-Ambition_Numérique.jpg"
 title: CNNum - Ambition Numérique
 in_progress: false

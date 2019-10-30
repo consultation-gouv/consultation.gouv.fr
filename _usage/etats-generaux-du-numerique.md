@@ -6,6 +6,8 @@ organisateur : Conseil National du Numérique
 description: Les contributeurs peuvent voter, donner leur avis et faire des propositions sur les nouvelles régulations numériques
 outil:
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
 screenshot: cnnum.jpg
 date: 2019-01-14 09:29:08 +0000
 in_progress: true

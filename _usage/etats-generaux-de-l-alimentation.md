@@ -6,6 +6,8 @@ layout: usage
 link: https://www.egalimentation.gouv.fr
 outil:
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
 screenshot: "./consultation_alimentation.png"
 title: Etats Généraux de l'Alimentation
 in_progress: false

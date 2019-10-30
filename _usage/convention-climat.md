@@ -6,7 +6,7 @@ description: 150 citoyens pour orienter une transition écologique ET solidaire
 organisateur: MTES
 outil:
 - Cap Collectif
-methode:
+methodes:
 - La conférence de citoyen
 screenshot: convention-climat.png
 date: 2018-11-14 09:29:08 +0000

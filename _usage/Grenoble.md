@@ -6,6 +6,8 @@ description: Plateforme de la Commune de Grenoble
 organisateur: Ville de Grenoble
 outil: 
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
 screenshot: Grenoble.png
 date: 2019-01-15 09:29:08 +0000
 in_progress: true

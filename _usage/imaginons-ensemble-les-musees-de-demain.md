@@ -6,6 +6,9 @@ link: http://consultation-musee21e.culturecommunication.gouv.fr/
 organisateur: Ministère de la Culture et de la Communication
 outil:
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
+- Les ateliers participatifs
 screenshot: "./Imaginons ensemble les Musées de demain.jpg"
 title: Imaginons ensemble les Musées de demain
 in_progress: false

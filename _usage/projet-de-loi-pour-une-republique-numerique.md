@@ -6,6 +6,8 @@ layout: usage
 link: https://www.republique-numerique.fr/
 outil:
 - Cap Collectif
+methodes:
+- Les consultations en ligne
 screenshot: "./Projet de loi pour une République Numérique.jpg"
 title: Projet de loi pour une République numérique
 in_progress: false

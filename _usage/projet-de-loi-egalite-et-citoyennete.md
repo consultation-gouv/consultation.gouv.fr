@@ -6,6 +6,8 @@ layout: usage
 link: https://www.egalite-citoyennete-participez.gouv.fr/
 outil:
 - Cap Collectif
+methodes:
+- Les consultations en ligne
 screenshot: "./Projet de loi Égalité Citoyenneté.jpg"
 title: Projet de loi Égalité et Citoyenneté
 in_progress: false

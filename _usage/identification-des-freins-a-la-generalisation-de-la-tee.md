@@ -6,6 +6,8 @@ layout: usage
 link: http://laconsultation.ademe.fr/
 outil:
 - Cap Collectif
+methodes: 
+- Les consultations en ligne
 screenshot: "./Identification des freins à la généralisation de la TEE.png"
 title: Identification des freins à la généralisation de la TEE
 in_progress: false

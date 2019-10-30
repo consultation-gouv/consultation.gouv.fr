@@ -6,6 +6,9 @@ description: Mobiliser sa communauté pour lutter contre le changement climatiqu
 organisateur: Ville de Lyon
 outil:
 - Civocracy
+methodes:
+- Les consultations en ligne
+- Les ateliers participatifs
 screenshot: parlonsclimat.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true

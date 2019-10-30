@@ -5,6 +5,8 @@ description: Plateforme de la Commune de Roubaix
 organisateur: ville de Roubaix
 outil: 
 - Decidim
+methodes:
+- Les consultations en ligne
 screenshot: Roubaix.png
 date: 2019-01-15 09:29:08 +0000
 in_progress: true
