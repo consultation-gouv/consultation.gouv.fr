@@ -13,6 +13,7 @@ date: 2018-11-14 09:29:08 +0000
 in_progress: false
 note-citoyenne: 5
 note-decidee: 5
+ordre: 3
 ---
 **Information sur la démarche**
 

@@ -36,6 +36,7 @@ inconvenients:
 - L’analyse d’un trop grand nombre de contributions peut être compliquée
 layout: methode
 default_logo: ''
+ordre: 2
 ---
 
 Objectif du dispositif: 

@@ -10,7 +10,7 @@ date: 2019-01-15 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
-ordre: 5
+ordre: 8
 ---
 **Information sur la démarche**
 

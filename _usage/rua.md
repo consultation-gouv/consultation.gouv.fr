@@ -10,7 +10,7 @@ date: 2019-01-15 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
-ordre: 6
+ordre: 9
 ---
 
 Organisateur : Ministère des Solidarités et de la Santé
