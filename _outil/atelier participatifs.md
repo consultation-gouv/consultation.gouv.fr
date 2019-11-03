@@ -14,18 +14,10 @@ date: '2017-04-04T15:57:58.478+00:00'
 priorites:
 - Recueillir l’avis des citoyens sur plusieurs territoires, observer les points de convergence, et générer de l’argumentation collective sur la base d’informations données par l’organisateur 
 qualites:
-- |-
-  Qualité du panel : 2 à 4<br/><i>(selon les moyens consacrés pour le recrutement des citoyens)</i>
-- |-
-  Montée en connaissances : 2 à 3<br/><i>(selon le temps de la concertation -plus elle sera longue plus les citoyens auront le temps de recevoir de l’information et de d’argumenter leurs points de vue- )</i>
-- |-
-  Qualité de la délibération : 4
-- |-
-  Transparence et devoir de suite : 2 à 4<br/><i>(selon le niveau d’engagement pris par le commanditaire)</i>
-- |-
-  Qualité de l’information : 2 à 4<br/><i>(selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible)</i>
-- |-
-  Nombre de personnes touchées : 3
+- "Concevoir un format d'atelier clair et cohérent, adapté à l'objectif recherché"
+- "Qualité de l'animation pour s'assurer d'une bonne dynamique dans les groupes"
+- "S'assurer d'arriver à des solutions concrètes, formalisées sur un support"
+- "Avoir un lieu & du matériel propice à l'échange, la créativité et la collaboration"
 atouts:
 - Nombre de personnes touchées sur du présentiel
 - Montée en compétence des citoyens sur le sujet

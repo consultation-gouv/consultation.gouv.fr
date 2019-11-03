@@ -8,24 +8,19 @@ contract:
 logo:
 owner:
 access_link: /laconsultation.html#choisir
-url_video_demo: https://www.dailymotion.com/embed/video/x711dei
+url_video_demo:
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 date: '2017-04-04T15:57:58.478+00:00'
 priorites:
 - Faire participer un public large sur internet
 qualites:
-- |-
-  Qualité du panel : 2
-- |-
-  Montée en connaissances : 1 à 3<br/><i>(grâce à l’accès à des ressources en ligne et au débat argumenté en ligne)</i>
-- |-
-  Qualité de la délibération : 0 à 2<br/><i>(en fonction du temps laissé aux échanges en ligne)</i>
-- |-
-  Transparence et devoir de suite : 4<br/><i>(l’intégralité du processus et des débats sont visibles et documentés en ligne)</i>
-- |-
-  Qualité de l’information : 3<br/><i>(des vidéos et des documents pouvant être mis à disposition en ligne)</i>
-- |-
-  Nombre de personnes touchées : 5<br/><i>(plusieurs centaines de milliers de participants)</i>
+- "Définition d’objectifs clairs et clarification des règles du jeu en amont du lancement de la consultation afin de limiter les risques de déception"
+- "Publication d’éléments de contexte en amont de la consultation de façon à limiter les risques de déception liés à l’inapplicabilité législative ou réglementaire des propositions citoyennes"
+- "Portage politique fort en amont en amont, pendant et en aval (communication et intégration des résultats)"
+- "Suivi de la consultation par une équipe dédiée pendant la consultation (modération des commentaires, réponse aux questions etc.) et en aval (exploitation des résultats, rédaction de la synthèse)"
+- "Adoption d’une charte de la participation diffusée à l’ensemble des participants"
+- "Recours à un outil simple et accessible au plus grand nombre"
+- "Conciliation à des ateliers en présentiel afin de toucher le plus large public possible"
 atouts:
 - Captation d’un public large donnant une légitimité plus importante à la consultation voire à la décision publique
 - Pour des dispositifs simples ":" coût quasi nul une fois la plateforme mise en place et les bases du paramétrage acquises

@@ -8,24 +8,19 @@ contract:
 logo:
 owner:
 access_link:
-url_video_demo: https://www.dailymotion.com/embed/video/x711dei
+url_video_demo:
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"
 date: '2017-04-04T15:57:58.478+00:00'
 priorites:
 - Obtenir des résultats robustes, et qualité de l'expérience vécue par les citoyens
 qualites:
-- |-
-  Qualité du panel : 4 à 5<br/><i>(dans la mesure où les critères de recrutement sont établis par le comité de pilotage indépendant)</i>
-- |-
-  Montée en connaissances : 4 à 5<br/><i>(dans la mesure où le caractère contradictoire de la formation est un des éléments clés du dispositif)</i>
-- |-
-  Qualité de la délibération : 4 à 5<br/><i>(selon les qualités de l’animation)</i>
-- |-
-  Transparence et devoir de suite : 2 à 4<br/><i>(selon le niveau d’engagement pris par le commanditaire)</i>
-- |-
-  Qualité de l’information : 4<br/><i>(selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible)</i>
-- |-
-  Nombre de personnes touchées : 3
+- "Méthodologie structurée et mobilisation de compétences, notamment pour l’animation"
+- "Formation d’un groupe soudé de citoyens"
+- "Appel à des citoyens profanes (non experts de leur sujet) et non engagés (ni élus,
+présidents de fédération, d’association, etc.), représentatifs de la diversité de la
+population"
+- "Briefing des experts afin qu’ils adaptent leur discours aux citoyens"
+- "Taille critique du panel (15 – 20 citoyens) afin de faciliter le dialogue"
 atouts:
 - L’indépendance, à l’égard du commanditaire, du comité de pilotage  en charge de l’élaboration de la question, des critères de recrutement et du programme de formation 
 - Le caractère contradictoire des interventions et formations dispensées aux citoyens participants qui assure que tous les points de vue sur la question controversée sont présentés

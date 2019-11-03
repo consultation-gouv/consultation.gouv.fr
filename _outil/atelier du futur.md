@@ -14,18 +14,8 @@ date: '2017-04-04T15:57:58.478+00:00'
 priorites:
 - Produire un plan d’actions de manière participative, et faire discuter des profils pouvant avoir des intérêts et des positionnements différents
 qualites:
-- |-
-  Qualité du panel : 3 à 4<br/><i>(selon les moyens consacrés pour le recrutement des citoyens et le bon équilibre entre les profils)</i>
-- |-
-  Montée en connaissances : 3 à 5<br/><i>selon les informations portées à connaissance des citoyens en amont et la capacité des acteurs à ne pas trop techniciser les sujets)</i>
-- |-
-  Qualité de la délibération : 5
-- |-
-  Transparence et devoir de suite : 4 à 5<br/><i>(selon les engagements pris par le commanditaire dans l’application du plan d’actions et du retour d’avancement qui en est fait)</i>
-- |-
-  Qualité de l’information : 2 à 4<br/><i>(selon la capacité du commanditaire à proposer une information neutre, argumentée et accessible)</i>
-- |-
-  Nombre de personnes touchées : 3
+- "Qualité de l'animation encourageant le travail en groupe"
+- "S'assurer d'arriver à des solutions concrètes, formalisées sur un support"
 atouts:
 - Méthode structurée multi-acteurs qui permet de faire travailler de manière collaborative des acteurs aux enjeux différents 
 - Permet de produire un plan d’action en un temps record en se basant sur le savoir et les compétences (thématiques mais aussi en termes de décision) des acteurs.

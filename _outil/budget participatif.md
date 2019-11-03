@@ -14,10 +14,10 @@ date: '2017-04-04T15:57:58.478+00:00'
 priorites:
 - Répartir un budget d'investissement en fonction des attentes des citoyens pour leur ville
 qualites:
-- Prendre le temps et séquencer le dispositif
-- S'assurer de l'inclusivité du dispositif en allant chercher les publics éloignés
-- Mêler une plateforme en ligne et des stands en présentiels
-- Mixer les projets qui se ressemblent
+- "Prendre le temps et séquencer le dispositif"
+- "S'assurer de l'inclusivité du dispositif en allant chercher les publics éloignés"
+- "Mêler une plateforme en ligne et des stands en présentiels"
+- "Mixer les projets qui se ressemblent"
 atouts:
 - "Permet aux habitants de faire remonter des idées et des projets pour leur territoire"
 - "Alimente une dynamique locale, fait se rencontrer les porteurs de projets et les habitants"
