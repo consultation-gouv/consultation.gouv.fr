@@ -4,6 +4,9 @@
 
 @import "variables";
 
+h1 {
+  font-size: 1.5rem;
+}
 
 #title {
   padding: 3rem;
@@ -248,5 +251,35 @@ h2 {
   height: 8rem !important;
   h3 {
     font-size: 1.4rem;
+  }
+}
+
+#banniere-contact {
+  margin-top: 3rem;
+  color: white;
+  height: 7rem;
+  background-color: $bleu;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    text-decoration: none;
+  }
+  h2 {
+    font-size: 4rem;
+    color: white;
+  }
+  
+  .logo-telephone {
+    background: white;
+    color: black;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-right: 1rem;
   }
 }
