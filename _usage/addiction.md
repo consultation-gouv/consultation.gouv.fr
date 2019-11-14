@@ -4,6 +4,7 @@ link:
 description: Mission interministérielle de lutte contre les drogues et les conduites addictives
 organisateur : Mission interministérielle de lutte contre les drogues et les conduites addictives
 outil:
+methodes:
 - L'atelier citoyen
 screenshot: assembl-bg.jpg
 date: 2019-01-15 09:29:08 +0000
