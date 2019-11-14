@@ -29,17 +29,17 @@ default_logo: ''
 ordre: 1
 ---
 
-Objectif du dispositif :
+**Objectif du dispositif :**
 * Le budget participatif est une façon pour un élu (souvent local) de laisser à la discrétion des habitants la répartition d'un budget entre différents projets. C'est donc une manière de collecter des projets intéressants pour le territoire, de faire s'exprimer les habitants sur ces projets, de les prioriser, et d'attribuer une certaine somme d'argent aux projets plébiscités par les votes.
 
-Public visé :
+**Public visé :**
 * L'ensemble des habitants d'un territoire (commune, arrondissement, département...)
  
-Grandes lignes du  dispositif : 
+**Grandes lignes du  dispositif :** 
 * Les dispositifs sont variés, et diffèrent en fonction de leurs objectifs. On note néanmoins quelques constantes
 * Recueil des idées / projets pour le territoire via des dispositifs "Boîte à Idées" via une plateforme en ligne et/ou via des urnes physiques disposés en Mairie, voire transportées aux moments clés (Forum des Association, Marchés...)
 * Vote / priorisation des projets par les habitants
 * Attribution d'un budget aux projets les plus populaires
 * L'organisateur public se réserve généralement un droit de modération des projets, et établi la règle d'attribution des budgets (référendum pur, décision finale par l'organisateur uniquement...)
 
-Coût estimatif : 5 à 15K € TTC
+**Coût estimatif :** 5 à 15K € TTC

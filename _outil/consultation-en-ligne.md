@@ -34,18 +34,18 @@ default_logo: ''
 ordre: 2
 ---
 
-Objectif du dispositif: 
+**Objectif du dispositif:** 
 * Les consultations en ligne permettent de recueillir l’avis d’un public large tout en mobilisant peu de moyens. Elles constituent par ailleurs un outil de communication important sur les thématiques qui font l’objet d’une consultation.
 
-Public visé : 
+**Public visé :**
 * Bien que les consultations publiques aient vocation à toucher un public large (+500 000 contributeurs au Grand Débat National), ces outils peuvent également permettre des échanges de groupes plus restreints, pour de la co-construction par exemple
  
-Grandes lignes du  dispositif : 
+**Grandes lignes du  dispositif :**
 * Les consultations en ligne utilisent des plateformes pour recueillir l’avis du public, en activant différentes fonctionnalités :
-** des fonctionnalités de dépôt (dépôt d’idées, dépôt de propositions…)
-** des fonctionnalités de vote (priorisation, adhésion…)
-** des fonctionnalités d’éditorialisation (articles, actualités, contenus “froids” mis à disposition des participants)
+- des fonctionnalités de dépôt (dépôt d’idées, dépôt de propositions…)
+- des fonctionnalités de vote (priorisation, adhésion…)
+- des fonctionnalités d’éditorialisation (articles, actualités, contenus “froids” mis à disposition des participants)
 * La plupart des plateformes permettent un découpage en plusieurs phases, afin de rythmer la démarche ":" dépôt d'irritants, vote sur les irritants, dépôts de solutions, vote sur les solutions, synthèse (par exemple)
 * Les plateformes de consultations sont parfois également utilisées comme point d’entrée et vitrine de dispositifs mixtes mêlant participation en ligne et  ateliers, rencontres, débats … ayant lieu en présentiel. On utilisera alors des fonctionnalités telles que localisation d’événements, la publication des comptes-rendus, la gestion de commissions/sous-commission etc. etc.
 
-Coût estimatif : 3k€ à 30k€, en fonction du degré d’autonomie de l’organisateur
+**Coût estimatif :** 3k€ à 100k€, en fonction du degré d’autonomie de l’organisateur et de la complexité de la démarche (nombre de contributions à analyser notamment)

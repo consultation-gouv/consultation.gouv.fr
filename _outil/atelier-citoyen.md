@@ -29,16 +29,16 @@ default_logo: ''
 ordre: 3
 ---
 
-Objectif du dispositif :
+**Objectif du dispositif :**
 * L’atelier citoyen permet de questionner de manière crédible, robuste et sincère un groupe de citoyens représentatifs de la diversité de la population française sur une thématique mise en débat en amont d’une décision, d’un programme de travail ou d’un projet de loi.
 
-Public visé :
+**Public visé :**
 * Un groupe de 15 citoyens représentatifs de la diversité de la population française. Le recrutement des participants se fait en fonction de quotas socio-démographiques classiques (sexe, âge, CSP, situation familiale, niveau de diplôme…) auxquels s’ajoutent des critères d’inclusion ou d’exclusion en fonction de la question posée. Ces critères permettent de représenter la diversité des situations, des opinions et des attitudes par rapport au sujet. 
  
-Grandes lignes du  dispositif : 
+**Grandes lignes du  dispositif :**
 * Le dispositif garantit l’indépendance de la démarche, la transparence des résultats et de la méthode employée. Il est piloté par la DITP avec le soutien de ses partenaires. Il est également placé sous le regard vigilant d’un garant dont le rôle est de veiller à ce que les citoyens bénéficient d’une information objective leur permettant de rendre un avis éclairé. le garant veille également au respect de l’expression et de la prise en compte de tous les avis.
 La question posée aux citoyens est définie par un comité de pilotage indépendant, après audition du commanditaire.
 Pendant deux weekends, complétés par des formations en ligne, les citoyens composant le groupe suivent des formations à caractère pluriel ou contradictoire entendent des intervenants aux points de vue différents et ont la possibilité d’auditionner des personnes de leur choix pour se former une opinion éclairée.
 L’avis citoyen auquel aboutit le groupe de citoyens est le fruit d’un travail collectif, construit et informé. Cet avis collectif peut prendre en compte les points d’accords et de désaccords.
 
-Coût estimatif : 80K € TTC
+**Coût estimatif :** 80K € TTC

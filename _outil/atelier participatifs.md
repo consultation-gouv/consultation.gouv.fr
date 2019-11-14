@@ -31,13 +31,13 @@ layout: methode
 default_logo: ''
 ---
 
-Descriptif de l'objectif : 
+**Descriptif de l'objectif :**
 * L’atelier participatif est une méthode qui permet de générer du débat entre des profils différents et d’identifier des points de consensus, des lignes rouges, des points de controverse sur un sujet. La méthode permet à la fois de prendre le pouls de l’opinion publique tout en générant de l’argumentation collective sur des sujets clefs, identifiés par l’organisateur. 
 
-Public visé : 
+**Public visé :** 
 * Un groupe de 100 citoyens avec des profils diversifiés. 
  
-Grandes lignes du  dispositif, description : 
+**Grandes lignes du  dispositif :**
 * Le contenu de la journée et les thématiques de travail peuvent être modifiées selon les besoins de l’organisateur. Néanmoins quelques briques clefs structurent la journée; à savoir un temps dédié au diagnostic collectif sur le sujet donné, un temps pour des questions/réponses entre le décideur politique et les citoyens, un temps d’argumentation collective en petits groupes pour creuser une thématique, un temps de partage en plénière et un temps où les citoyens formulent des propositions. 
 
-Coût estimatif : environ 25K € TTC par atelier
+**Coût estimatif :** environ 25K € TTC par atelier

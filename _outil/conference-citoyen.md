@@ -32,17 +32,17 @@ layout: methode
 default_logo: ''
 ---
 
-Objectif du dispositif :
+**Objectif du dispositif :**
 * La conférence de citoyen  permet de questionner de manière crédible, robuste et sincère un groupe de citoyens dont on s’assure qu’ils ont des profils diversifiés sur une thématique de société controversée, le plus souvent à caractère scientifique ou technique en amont d’une décision afin d’alimenter le débat public sur ce sujet. Par exemple, la conférence de citoyen sur l’enfouissement des déchets radioactifs. 
 
-Public visé : 
+**Public visé :**
 * Un groupe de 15 à 30 citoyens reflétant la diversité socio-démographique de la population française. .Le recrutement peut se faire par tirage au sort (liste électorale, annuaire téléphonique…) soit en recourant à un organisme chargé de recruter ce panel représentatif de la diversité de la population française
 
-Grandes lignes du  dispositif : 
+**Grandes lignes du  dispositif :**
 * Le dispositif permet d’aller en profondeur sur un sujet, l’avis produit est argumenté, collectif et facilement utilisable par le commanditaire. 
 * Le temps accordé à la discussion (3 week-ends), la diversité du panel et l’apport d’information font de cette méthode un outil robuste et puissant. 
 * La question posée aux citoyens est définie par un comité de pilotage indépendant, chargé de définir et de décliner la problématique pour structurer le débat et chargé d’établir le programme de formation.
 * Pendant trois week-ends les citoyens composant le groupe suivent des formations à caractère pluriel ou contradictoire entendent des intervenants aux points de vue différents. Lors du troisième week-end, les citoyens auditionnent les experts de leur choix et leur soumettent leurs questions. Cette dernière phase est normalement ouverte au public mais l’organisateur peut faire le choix qu’elle se déroule à huis clos.
 * L’avis rendu est le fruit d’une délibération collective. l’avis est collectif, construit et informé. Il fait état des réflexions des citoyens sur le sujet et peut, le cas échéant, faire part de recommandations.
 
-Coût estimatif : minimum 100K € TTC
+**Coût estimatif :** minimum 100K € TTC
