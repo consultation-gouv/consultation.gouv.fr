@@ -32,3 +32,12 @@ h1 {
 .fas {
   padding: 0 1rem;
 }
+
+.col-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 60%;
+  }
+}
