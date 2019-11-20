@@ -40,5 +40,3 @@ ordre: 3
 La question posée aux citoyens est définie par un comité de pilotage indépendant, après audition du commanditaire.
 Pendant deux weekends, complétés par des formations en ligne, les citoyens composant le groupe suivent des formations à caractère pluriel ou contradictoire entendent des intervenants aux points de vue différents et ont la possibilité d’auditionner des personnes de leur choix pour se former une opinion éclairée.
 L’avis citoyen auquel aboutit le groupe de citoyens est le fruit d’un travail collectif, construit et informé. Cet avis collectif peut prendre en compte les points d’accords et de désaccords.
-
-**Coût estimatif :** 80K € TTC

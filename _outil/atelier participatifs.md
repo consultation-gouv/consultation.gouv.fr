@@ -39,5 +39,3 @@ default_logo: ''
  
 **Grandes lignes du  dispositif :**
 * Le contenu de la journée et les thématiques de travail peuvent être modifiées selon les besoins de l’organisateur. Néanmoins quelques briques clefs structurent la journée; à savoir un temps dédié au diagnostic collectif sur le sujet donné, un temps pour des questions/réponses entre le décideur politique et les citoyens, un temps d’argumentation collective en petits groupes pour creuser une thématique, un temps de partage en plénière et un temps où les citoyens formulent des propositions. 
-
-**Coût estimatif :** environ 25K € TTC par atelier

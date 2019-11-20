@@ -44,5 +44,3 @@ default_logo: ''
 * La question posée aux citoyens est définie par un comité de pilotage indépendant, chargé de définir et de décliner la problématique pour structurer le débat et chargé d’établir le programme de formation.
 * Pendant trois week-ends les citoyens composant le groupe suivent des formations à caractère pluriel ou contradictoire entendent des intervenants aux points de vue différents. Lors du troisième week-end, les citoyens auditionnent les experts de leur choix et leur soumettent leurs questions. Cette dernière phase est normalement ouverte au public mais l’organisateur peut faire le choix qu’elle se déroule à huis clos.
 * L’avis rendu est le fruit d’une délibération collective. l’avis est collectif, construit et informé. Il fait état des réflexions des citoyens sur le sujet et peut, le cas échéant, faire part de recommandations.
-
-**Coût estimatif :** minimum 100K € TTC

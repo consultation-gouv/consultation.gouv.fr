@@ -47,5 +47,3 @@ ordre: 2
 - des fonctionnalités d’éditorialisation (articles, actualités, contenus “froids” mis à disposition des participants)
 * La plupart des plateformes permettent un découpage en plusieurs phases, afin de rythmer la démarche ":" dépôt d'irritants, vote sur les irritants, dépôts de solutions, vote sur les solutions, synthèse (par exemple)
 * Les plateformes de consultations sont parfois également utilisées comme point d’entrée et vitrine de dispositifs mixtes mêlant participation en ligne et  ateliers, rencontres, débats … ayant lieu en présentiel. On utilisera alors des fonctionnalités telles que localisation d’événements, la publication des comptes-rendus, la gestion de commissions/sous-commission etc. etc.
-
-**Coût estimatif :** 3k€ à 100k€, en fonction du degré d’autonomie de l’organisateur et de la complexité de la démarche (nombre de contributions à analyser notamment)

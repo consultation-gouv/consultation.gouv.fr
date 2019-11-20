@@ -41,5 +41,3 @@ ordre: 1
 * Vote / priorisation des projets par les habitants
 * Attribution d'un budget aux projets les plus populaires
 * L'organisateur public se réserve généralement un droit de modération des projets, et établi la règle d'attribution des budgets (référendum pur, décision finale par l'organisateur uniquement...)
-
-**Coût estimatif :** 5 à 15K € TTC
