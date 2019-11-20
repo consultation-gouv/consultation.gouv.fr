@@ -68,9 +68,12 @@ title: "Participez"
           <a v-if="item.fields.screenshot && item.fields.screenshot[0]" :href="item.fields.link" :style="getImageStyleProperties(item)"></a>
         </div>
         <div class="card-footer bg-transparent extra content d-flex justify-content-between align-items-center">
-          <div>
+          <div v-if="item.fields.date_debut">
             <span v-if="item.fields.date_debut" v-text="'Début : ' + formatDate(item.fields.date_debut)"></span>
             <span v-if="item.fields.date_fin" v-text="'Fin : ' + formatDate(item.fields.date_fin)"></span>
+          </div>
+          <div v-if="item.fields.devoir_de_suite">
+            <a class="devoir" :href="item.fields.link">Consulter le devoir de suite</a>
           </div>
         </div>
       </div>
@@ -118,9 +121,10 @@ var results = new Vue({
       var app_id = "appGm0fBXKeCfIHSH"
       var app_key = "keyXfCXZNCfIupNra"
       axios.get(
-        "https://api.airtable.com/v0/"+app_id+"/Catalogue-citoyen?" + (!!offset && `&offset=${offset}` || ''),
+        "https://api.airtable.com/v0/"+app_id+"/Catalogue-citoyen?sort%5B0%5D%5Bfield%5D=order&sort%5B0%5D%5Bdirection%5D=desc" + (!!offset && `&offset=${offset}` || ''),
         {
-          headers: { Authorization: "Bearer "+app_key }
+          headers: { Authorization: "Bearer "+app_key },
+          sort: [{field: "title", direction: "desc"}]
         }
       ).then(response => {
         self.items = self.items.concat(response.data.records)
