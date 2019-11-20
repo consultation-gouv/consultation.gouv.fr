@@ -12,7 +12,7 @@ title: "Accueil"
     <div class="container d-flex flex-column align-items-center">
       <div class="row" id="barre-recherche">
         <div class="col-md-8 col offset-md-2">
-          <input id="search" name="search" placeholder="Ville, Région, Thème, Mot-clé, ... " type="text" data-list=".list" class="form-control" >
+          <input id="search" name="search" placeholder="Thème, Mot-clé, ... " type="text" data-list=".list" class="form-control" >
           <i class='fas fa-search'></i>
           <div id="ligne" class="d-none d-lg-block"></div>
         </div>
@@ -54,7 +54,7 @@ title: "Accueil"
   </div>
 
   <div class="row list" id="results">
-    <div v-if="selectedItems.length < 1 " class="d-flex justify-content-center w-100">Il n'y a pas de résultat pour votre recherche</div>
+    <div v-if="selectedItems.length < 1 " class="d-flex justify-content-center w-100">Il n'y a pas encore de résultat pour votre recherche, mais notre catalogue s'enrichit de jour en jour :)</div>
     <div v-for="item in selectedItems" class="col-md-4 col-12 mt-4 card-list">
       <div class="card mb-3 card-exemple">
         <div class="content card-header bg-transparent">
