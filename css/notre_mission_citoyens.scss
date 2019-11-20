@@ -1,0 +1,34 @@
+---
+# Homepage pages style
+---
+
+@import "variables";
+
+.image-en-tete {
+  border-right: 5px solid $bleu;
+  img {
+    height: 15rem;
+  }
+}
+
+h1 {
+  color: $bleu;
+}
+
+.col-icone {
+  text-align: center;
+  color: black;
+  &:hover {
+    text-decoration: none;
+    color: $bleu;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  img {
+    height: 6rem;
+  }
+}
+.fas {
+  padding: 0 1rem;
+}
