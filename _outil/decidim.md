@@ -3,7 +3,7 @@ title: Decidim
 tagline: La démocratie n'a jamais été aussi réelle
 categorie: outil
 lettre_engagement: "/uploads/Lettre-engagement-OSP-Decidim.png"
-img-bg: cover-decidim
+img-bg: cover-decidim.png
 doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
 demo_link: https://demo.decidim.opensourcepolitics.eu/
 domain: https://meta.decidim.org/
