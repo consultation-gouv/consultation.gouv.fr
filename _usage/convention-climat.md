@@ -5,7 +5,7 @@ opendata:
 description: 150 citoyens pour orienter une transition écologique ET solidaire
 organisateur: MTES
 outil:
-- Cap Collectif
+- Decidim
 methodes:
 - La conférence de citoyen
 screenshot: convention-climat.png
@@ -56,4 +56,4 @@ Conditions facilitantes
 
 **Pour en savoir plus**
 
-https://www.conventioncitoyennepourleclimat.fr/
+<a href="https://www.conventioncitoyennepourleclimat.fr/">Voir le site officiel</a>

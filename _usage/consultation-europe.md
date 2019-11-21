@@ -27,7 +27,7 @@ ordre: 3
 * Nombre de participants : 70000 participants, 1082 évènements organisés dans 97 départements français
 Modalités de participation: large éventail (réunions dans les mairies, conférences, débats, outils en ligne, manifestations publiques) 
 
-* Livrables : un travail d’analyse et de synthèse, réalisé en France par la Commission Nationale du Débat Public. Une synthèse européenne des restitutions nationales a été présentée aux chefs d’Etat et de gouvernement lors du Conseil européen des 13 et 14 décembre 2018. Cf http://data.consilium.europa.eu/doc/document/ST-14535-2018-INIT/fr/pdf
+* Livrables : un travail d’analyse et de synthèse, réalisé en France par la Commission Nationale du Débat Public. Une synthèse européenne des restitutions nationales a été présentée aux chefs d’Etat et de gouvernement lors du Conseil européen des 13 et 14 décembre 2018. <a href="http://data.consilium.europa.eu/doc/document/ST-14535-2018-INIT/fr/pdf">Voir ce lien </a>
 
 **Points forts du dispositif**
 
@@ -50,5 +50,5 @@ Conditions facilitantes
 
 **Pour en savoir plus**
 
-https://www.diplomatie.gouv.fr/IMG/pdf/dossier_de_presse_consultations_citoyennes_cle09769f.pdf
-https://www.touteleurope.eu/actualite/quelles-suites-pour-les-consultations-citoyennes.html
+<a href="https://www.diplomatie.gouv.fr/IMG/pdf/dossier_de_presse_consultations_citoyennes_cle09769f.pdf">Dossier de presse</a> 
+<a href="https://www.touteleurope.eu/actualite/quelles-suites-pour-les-consultations-citoyennes.html">Les suites</a>

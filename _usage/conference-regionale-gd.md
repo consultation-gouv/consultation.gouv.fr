@@ -46,8 +46,5 @@ Devoir de suite et engagements
 
 **Pour en savoir plus**
 
-https://granddebat.fr/
-https://granddebat.fr/media/default/0001/01/0fb76a304e8f30869c8e8b34f14cb564b18f4836.pdf
-https://granddebat.fr/media/default/0001/01/4affa12418c5b7d0cf030f3114a6e370e71dc744.pdf
-https://granddebat.fr/media/default/0001/01/02fa6323494f28ad2e22f0aae62f778c22469a6c.pdf
-https://granddebat.fr/pages/les-conferences-citoyennes-regionales
+<a href="https://granddebat.fr/">le site officiel</a>
+<a href="https://granddebat.fr/pages/les-conferences-citoyennes-regionales">consulter les synthèses</a>
