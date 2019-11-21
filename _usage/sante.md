@@ -1,6 +1,6 @@
 ---
 title: Débat  public sur les objets connectés et les applications numériques en santé
-link: https://solidarites-sante.gouv.fr/ministere/acteurs/instances-rattachees/conference-nationale-de-sante/debats-publics-et-seminaire/
+link: 
 description: Conférence nationale de santé
 organisateur : Conférence nationale de santé
 methodes:
