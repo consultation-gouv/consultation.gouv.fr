@@ -140,7 +140,6 @@ devoir: |-
     * p. 86 et suivantes du rapport « Un conseil citoyen pleinement intégré à la gouvernance » : 
     * p. 92 : « Des citoyens directement associés au pilotage du système // La démarche de participation citoyenne initiée lors des travaux préparatoires à l’instauration du système universel de retraite se prolongera dans le cadre de sa gouvernance. Une représentation directe de citoyens aura vocation ainsi à être pleinement associée au pilotage du système de retraite. Un Conseil citoyen des retraites composé de 30 citoyens représentatifs de la diversité de la société française sera créé. Les citoyens seront renouvelés par moitié tous les ans. […]
 
-
 message_sponsor: |- 
 
 annexes:
