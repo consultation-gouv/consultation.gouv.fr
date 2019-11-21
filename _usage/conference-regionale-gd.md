@@ -1,6 +1,6 @@
 ---
 title: Conférence régionale du Grand Débat
-link: https://granddebat.fr/
+link:
 opendata:
 description: 
 organisateur: Service d'Information du Gouvernement

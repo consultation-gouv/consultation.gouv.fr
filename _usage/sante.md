@@ -34,7 +34,7 @@ La Conférence nationale de santé, l’instance consultative placée auprès de
 **Points forts du dispositif**
 
 Transparence et indépendance
-* Les synthèses sont publiques et sont <a href="https://solidarites-sante.gouv.fr/ministere/acteurs/instances-rattachees/conference-nationale-de-sante/debats-publics-et-seminaire/"></a> en ligne sur le site de la CNS
+* Les synthèses sont publiques et sont <a href="https://solidarites-sante.gouv.fr/ministere/acteurs/instances-rattachees/conference-nationale-de-sante/debats-publics-et-seminaire/">en ligne sur le site de la CNS</a>
 * L’avis de l’atelier citoyen est écrit collectivement par les citoyens eux-mêmes, signé et remis tel quel au commanditaire. Un comité de pilotage indépendant veille à la pluralité et à la qualité de l’information portée à connaissance des citoyens et un garant suit tout le dispositif.
 
 Qualité du panel
