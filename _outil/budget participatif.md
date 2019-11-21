@@ -37,7 +37,15 @@ ordre: 1
  
 **Grandes lignes du  dispositif :** 
 * Les dispositifs sont variés, et diffèrent en fonction de leurs objectifs. On note néanmoins quelques constantes
-* Recueil des idées / projets pour le territoire via des dispositifs "Boîte à Idées" via une plateforme en ligne et/ou via des urnes physiques disposés en Mairie, voire transportées aux moments clés (Forum des Association, Marchés...)
+* Recueil des idées / projets pour le territoire via des dispositifs type "Boîte à Idées" via une plateforme en ligne et/ou via des urnes physiques disposés en Mairie, voire transportées aux moments clés (Forum des Association, Marchés...)
 * Vote / priorisation des projets par les habitants
 * Attribution d'un budget aux projets les plus populaires
 * L'organisateur public se réserve généralement un droit de modération des projets, et établi la règle d'attribution des budgets (référendum pur, décision finale par l'organisateur uniquement...)
+
+**Les enjeux pour l'organisateur :**
+* Associer et interagir avec les porteurs de projets du dépôt de leur idée à sa réalisation
+* Accompagner l'évolution des postures en interne et le croisement des expertises techniques et citoyennes
+* Mettre en œuvre une organisation interne adaptée à la réalisation des projets votés
+* Déployer un système d’information interne pour permettre des interactions nécessaires et nombreuses entre la direction générale, les territoires et les directions opérationnelles chargées de l’instruction et de la mise en œuvre des projets gagnants
+* Rendre compte des réalisations livrées suite au vote
+
