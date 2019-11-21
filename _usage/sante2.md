@@ -1,6 +1,6 @@
 ---
 title: Concertation sur l’ouverture des données personnelles en santé
-link: 
+link: https://solidarites-sante.gouv.fr/IMG/pdf/5-_avis_citoyen_big_data_en_sante.pdf
 description: Ministère des Solidarités et de la Santé
 organisateur : Ministère des Solidarités et de la Santé
 methodes:
