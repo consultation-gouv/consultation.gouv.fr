@@ -16,33 +16,18 @@ additional_css: usage_citoyens
         Contribuer
       </a>
       {% endif %}
+      <!--
       <a class="btn btn-outline-light mr-2" href="https://airtable.com/shrZJ8XgkvQqrUVpj" rel="noopener" target="_blank">
         Suivre
       </a>
+      -->
     </div>
   </div>
 </div>
 
 <div class="container">
   <div class="accordion mt-5" id="accordionCatalogue">
-    <div class="">
-      <div class="" id="headingOne">
-        <h2 class="mb-0">
-          <button class="titre-section {% unless page.message_sponsor %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            <img src="/img/citoyens/icons/tete-hexagone.png" alt="icone tête de personnage">
-            Message du sponsor
-          </button>
-        </h2>
-      </div>
-      {% if page.message_sponsor %}
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionCatalogue">
-        <div class="card-body">
-          {{ page.message_sponsor | markdownify }}
-        </div>
-      </div>
-      {% endif %}
-    </div>
-
+    
     <div class="">
       <div class="" id="headingTwo">
         <h2 class="mb-0">
@@ -62,29 +47,11 @@ additional_css: usage_citoyens
     </div>
 
     <div class="">
-      <div class="" id="headingThree">
-        <h2 class="mb-0">
-          <button class="titre-section {% unless page.engagements %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            <img src="/img/citoyens/icons/mains-hexagone.png" alt="icone poigné de mains">
-            Engagements vis à vis du participant
-          </button>
-        </h2>
-      </div>
-      {% if page.engagements %}
-      <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionCatalogue">
-        <div class="card-body">
-          {{ page.engagements | markdownify }}
-        </div>
-      </div>
-      {% endif %}
-    </div>
-
-    <div class="">
       <div class="" id="headingFour">
         <h2 class="mb-0">
           <button class="titre-section {% unless page.dispositif %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <img src="/img/citoyens/icons/jumelles-hexagone.png" alt="icone jumelles">
-            Dispositif employé
+            Le dispositif participatif
           </button>
         </h2>
       </div>
@@ -98,11 +65,29 @@ additional_css: usage_citoyens
     </div>
 
     <div class="">
+      <div class="" id="headingThree">
+        <h2 class="mb-0">
+          <button class="titre-section {% unless page.engagements %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <img src="/img/citoyens/icons/mains-hexagone.png" alt="icone poigné de mains">
+            Les engagements vis à vis des participants
+          </button>
+        </h2>
+      </div>
+      {% if page.engagements %}
+      <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionCatalogue">
+        <div class="card-body">
+          {{ page.engagements | markdownify }}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="">
       <div class="" id="headingFive">
         <h2 class="mb-0">
           <button class="titre-section {% unless page.resultats %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <img src="/img/citoyens/icons/main-hexagone.png" alt="icone main qui montre du doigt">
-            Résultats de la démarche
+            Les résultats de la démarche
           </button>
         </h2>
       </div>
@@ -116,18 +101,54 @@ additional_css: usage_citoyens
     </div>
 
     <div class="">
-      <div class="" id="headingSix">
+      <div class="" id="headingSeven">
         <h2 class="mb-0">
-          <button class="titre-section collapsed {% unless page.le_mot_du_sponsor %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            <img src="/img/citoyens/icons/bulle-hexagone.png" alt="icone main qui montre du doigt">
-            Le mot du sponsor
+          <button class="titre-section collapsed {% unless page.devoir_def %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <img src="/img/citoyens/icons/ordinateur-hexagone.png" alt="icone ordinateur-hexagone">
+            Qu'est-ce que le devoir de suite ?
           </button>
         </h2>
       </div>
-      {% if page.le_mot_du_sponsor %}
-      <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordionCatalogue">
+      {% if page.devoir_def %}
+      <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordionCatalogue">
         <div class="card-body">
-          {{ page.le_mot_du_sponsor | markdownify }}
+          {{ page.devoir_def | markdownify }}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="">
+      <div class="" id="headingSeven">
+        <h2 class="mb-0">
+          <button class="titre-section collapsed {% unless page.devoir %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <img src="/img/citoyens/icons/ordinateur-hexagone.png" alt="icone ordinateur-hexagone">
+            Le devoir de suite
+          </button>
+        </h2>
+      </div>
+      {% if page.devoir %}
+      <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordionCatalogue">
+        <div class="card-body">
+          {{ page.devoir | markdownify }}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="">
+      <div class="" id="headingOne">
+        <h2 class="mb-0">
+          <button class="titre-section {% unless page.message_sponsor %} desactive {% endunless %}" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <img src="/img/citoyens/icons/bulle-hexagone.png" alt="icone bulle-hexagone">
+            Le retour du commanditaire
+          </button>
+        </h2>
+      </div>
+      {% if page.message_sponsor %}
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionCatalogue">
+        <div class="card-body">
+          {{ page.message_sponsor | markdownify }}
         </div>
       </div>
       {% endif %}
@@ -150,5 +171,6 @@ additional_css: usage_citoyens
       </div>
       {% endif %}
     </div>
+
   </div>
 </div>
