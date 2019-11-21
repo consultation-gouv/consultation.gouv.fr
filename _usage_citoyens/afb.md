@@ -9,7 +9,11 @@ devoir_de_suite: /usage_citoyens/afb.html
 
 presentation: |-
 
-    * A l'occasion de la construction du projet d’établissement de l’Agence Française de la Biodiversité, l'Agence souhaite définir une manière d’associer les citoyens de manière pérenne à la vie et à la gouvernance de l’AFB.
+    Dès 2017, dans le cadre de la construction de l’établissement, l’AFB a lancé une démarche expérimentale d’ateliers de co-construction citoyenne. Ces ateliers ont mobilisé à la fois des citoyens et des agents. 
+
+    L'objectif pour l'Agence était de définir une manière d’associer les citoyens de manière pérenne à la vie et à la gouvernance de l’AFB.
+
+    <a href="/usage/afb.html">En savoir plus sur la démarche</a>
 
 engagements:
 
@@ -25,11 +29,14 @@ dispositif: |-
     <a href="https://www.afbiodiversite.fr/index.php/experimentation-des-projets-co-construits-avec-les-citoyens">Une présentation des Ateliers de co-construction citoyenne de l’AFB phase 2, sur le site de l’AFB</a>
     {: .text-center }
 
-    * Points forts du dispositif : permettre la participation des citoyens dès la phase de définition du projet jusqu’à la conduite de l’exercice.
-
 resultats: |-
     
-    * Nombre de participants : 50 participants (dont une dizaine d'agents AFB), puis 26 pour l'expérimentation
+    * Phase 1 de concertation: 50 participants (dont une dizaine d'agents AFB)
+    {: .md-4 }
+
+    * Phase 2 d'expérimentation: 26 pour l'expérimentation
+    {: .md-4 }
+
     * <a href="https://www.afbiodiversite.fr/actualites/en-2019-lexperimentation-des-ateliers-de-co-construction-citoyenne-continue ">Consulter l'actualité du projet</a>
 
 devoir_def: |- 
@@ -40,11 +47,7 @@ devoir_def: |-
 
     Le devoir de suite permet au décideur public de faire la preuve de la sincérité et l’honnêteté  de sa démarche. En permettant au décideur d’exploiter politiquement les résultats, il contribue à renforcer la relation de confiance entre l’institution et les citoyens.
 
-devoir:
-message_sponsor: |- 
-
-    Dès 2017, dans le cadre de la construction de l’établissement, l’AFB a lancé une démarche expérimentale d’ateliers de co-construction citoyenne. Ces ateliers ont mobilisé à la fois des citoyens et des agents. 
-    <a href="/usage/afb.html">En savoir plus sur la démarche</a>
+devoir: |-
 
     #### Si l’on considère que le devoir de suite, le fait de revenir vers les citoyens après un temps de concertation est l’un des piliers fondamentaux pour la crédibilité d’une démarche participative, considérez-vous que l’AFB a réussi sur ce point ? 
 
