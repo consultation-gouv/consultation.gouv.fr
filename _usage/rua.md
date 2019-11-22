@@ -1,5 +1,5 @@
 ---
-title: Consultation publique sur le Revenu Universel d'Activité
+title: Concertation nationale sur le Revenu Universel d'Activité
 link: https://www.consultation-rua.gouv.fr/
 description: Délégation à la prévention et à la lutte contre la pauvreté
 organisateur : Délégation à la prévention et à la lutte contre la pauvreté
