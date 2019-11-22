@@ -1,5 +1,5 @@
 ---
-title: Le Budget Participatif
+title: Le budget participatif
 tagline: Sélectionner collectivement des projets auxquels attribuer un budget
 categorie: methode
 img-bg: mur-vert.png

@@ -8,7 +8,7 @@ outil:
 - Decidim
 methodes:
 - Les consultations en ligne
-- Le Budget Participatif
+- Le budget participatif
 screenshot: Nanterre.png
 date: 2019-01-01 09:29:08 +0000
 in_progress: true
