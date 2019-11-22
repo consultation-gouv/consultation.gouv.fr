@@ -137,3 +137,8 @@
 .date {
   color: $bleu
 }
+
+#results {
+  max-height: 1000px;
+  overflow: scroll;
+}
