@@ -1,6 +1,6 @@
 ---
 title: L'atelier citoyen
-tagline: Dispositif fondé sur le principe de délibération collective en vue d’obtenir un avis collectif et construit sur une question controversée
+tagline: Dispositif fondé sur le principe de délibération collective en vue d’obtenir un avis collectif et construit sur un sujet controversé en amont d’une décision, d’une loi ou d’un programme de travail
 categorie: methode
 img-bg: groupetable.png
 contact: participationcitoyenne@modernisation.gouv.fr
