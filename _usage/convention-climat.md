@@ -2,28 +2,27 @@
 title: Convention Citoyenne sur le Climat
 link: https://www.conventioncitoyennepourleclimat.fr/
 opendata:
-description: 150 citoyens pour orienter une transition écologique ET solidaire
-organisateur: MTES
+description: 150 citoyens pour orienter une transition écologique et solidaire
+organisateur: Conseil Économique Social et Environnemental
 outil:
 - Decidim
 methodes:
-- La conférence de citoyen
 screenshot: convention-climat.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
-ordre: 2
+ordre: 10
 ---
 **Information sur la démarche**
 
 * Contexte : annoncée à l’issue du grand débat national, la création d’une convention citoyenne pour le climat permettra l’émergence de propositions concrètes en faveur de l’environnement et de la transition écologique. Ce dispositif répond à une double demande exprimée par les citoyens; plus de démocratie et plus d’écologie. 
 
-* Finalité de la concertation : Réduire les émissions de gaz à effet de serre de 40% d’ici à 2030 (par rapport à 1990) sur la base des propositions faites par les citoyens, dans un esprit de justice sociale.
+* Finalité de la concertation : réduire les émissions de gaz à effet de serre de 40% d’ici à 2030 (par rapport à 1990) sur la base des propositions faites par les citoyens, dans un esprit de justice sociale.
 
 * Durée: d’octobre 2019 à janvier 2020 (6 week end et des temps en ligne) 
 
-* Nombre de participants : 150 citoyens tirés au sort
+* Nombre de participants : 150 citoyens
 
 * Modalités de participation : 6 week end en présentiel avec des temps de travail en ligne 
 

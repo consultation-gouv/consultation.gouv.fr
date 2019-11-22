@@ -26,7 +26,7 @@ inconvenients:
 - "Se prémunir contre les risques de lobbying en s'assurant de la diversité des publics touchés et d'un nombre suffisant de participants"
 layout: methode
 default_logo: ''
-ordre: 1
+ordre: 3
 ---
 
 **Objectif du dispositif :**

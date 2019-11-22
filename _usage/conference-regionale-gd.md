@@ -1,5 +1,5 @@
 ---
-title: Conférence régionale du Grand Débat
+title: Les Conférences régionales du Grand Débat
 link:
 opendata:
 description: 
@@ -13,7 +13,7 @@ date: 2018-11-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
-ordre: 8
+ordre: 9
 ---
 **Information sur la démarche**
 
@@ -31,18 +31,21 @@ ordre: 8
 
 **Points forts du dispositif**
 
-Transparence et indépendance 
+Transparence et indépendance
 * Toutes les synthèses sont publiques et téléchargeables sur le site du grand débat
 * Les synthèses ont été réalisées par des prestataires sans intérêt partisan 
 * Un collège de garants a été nommé pour suivre l’ensemble des consultations régionales 
 
-Diversité des acteurs  
-* Les citoyens ont été tirés au sort au niveau régional, puis une panélisation sur la base de 5 critères socio-démographiques a été réalisée
+Qualité du panel
+* Les citoyens ont été tirés au sort au niveau régional, puis une panelisation sur la base de 5 critères socio-démographiques a été réalisée
 
 Devoir de suite et engagements 
-* Une restitution publique a été organisée en présence du Premier Ministre avec une présentation de la synthèse globale
-* Une série de mesures a été annoncée par le Président à l’issue des résultats 
+* Une restitution publique a été organisée en présence du Premier Ministre avec une présentation de la synthèse globale 
+* Une <a href="https://www.elysee.fr/emmanuel-macron/2019/05/06/les-annonces-apres-le-grand-debat-national
+">série d’annonces à l’issue du Grand débat</a>
 
+Conditions facilitantes 
+* Les citoyens ayant participé aux conférences citoyennes régionales ont vu leurs frais de transports remboursés
 
 **Pour en savoir plus**
 

@@ -5,13 +5,12 @@ description: Conférence nationale de santé
 organisateur : Conférence nationale de santé
 methodes:
 - L'atelier citoyen
-- Les ateliers participatifs
 screenshot: personne-ombre.jpeg
 date: 2019-01-15 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
-ordre: 6
+ordre: 4
 ---
 
 **Information sur la démarche**
