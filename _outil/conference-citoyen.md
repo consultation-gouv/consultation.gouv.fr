@@ -1,5 +1,5 @@
 ---
-title: La conférence de citoyen
+title: La conférence de citoyens
 tagline: Dispositif fondé sur le principe de délibération collective en vue d’obtenir un avis collectif et construit sur une thématique de société controversée
 categorie: methode
 img-bg: conference.png
