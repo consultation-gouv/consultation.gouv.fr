@@ -3,8 +3,12 @@ date: 2017-08-08 00:00:00 +0000
 description: Démarche d'intelligence collective en ligne
 layout: usage
 link: https://www.ecologique-solidaire.gouv.fr/charte-participation-du-public
+organisateur : Ministère de la Transition Écologique et Solidaire
 outil:
 - Cap Collectif
+methodes:
+- Les ateliers participatifs
+- Les plateformes en lignes
 screenshot: "./consultation_charte_participation_du_public.png"
 title: Consultation sur l'élaboration de la Charte de la participation du public
 in_progress: false

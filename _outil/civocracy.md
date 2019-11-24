@@ -1,6 +1,7 @@
 ---
 title: Civocracy
 tagline: La solution pour une participation citoyenne réussie
+categorie: outil
 lettre_engagement: "/uploads/Lettre-engagement-DemocracyOS.jpeg"
 img-bg: Etalab_Civocracy
 doc_tech: https://guide.civocracy.org/hc/fr
@@ -53,6 +54,7 @@ accompagnement_plusloin:
 - L'analyse des résultats
 layout: outil
 default_logo: ''
+ordre: 4
 ---
 
 * Expert en participation citoyenne numérique, Civocracy offre une plateforme numérique sécurisée et transparente qui facilite l’émergence du consensus citoyen.

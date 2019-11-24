@@ -1,9 +1,11 @@
 ---
 title: Decidim
 tagline: La démocratie n'a jamais été aussi réelle
-lettre_engagement: "/uploads/Lettre-engagement-OSP-Decidim.pdf"
-img-bg: cover-decidim
+categorie: outil
+lettre_engagement: "/uploads/Lettre-engagement-OSP-Decidim.png"
+img-bg: cover-decidim.png
 doc_tech: https://www.opensourcepolitics.eu/docs-admin-decidim/
+demo_link: https://demo.decidim.opensourcepolitics.eu/
 domain: https://meta.decidim.org/
 contact: contact@opensourcepolitics.eu
 contract: Logiciel libre - AGPLv3
@@ -47,6 +49,7 @@ accompagnement_plusloin:
 - Cadrage, formation, suivi méthodologique, animation numérique et d'ateliers présentiels, synthèse et évaluation de la démarche
 layout: outil
 default_logo: ''
+ordre: 3
 ---
 
 Grâce à un investissement public initial de la mairie de Barcelone, Decidim est rapidement devenu le meilleur logiciel libre de participation citoyenne en Europe. Complète, personnalisable et modulaire pour s'adapter à votre contexte grâce à ses 9 fonctionnalités activables : 

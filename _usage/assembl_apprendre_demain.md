@@ -2,8 +2,11 @@
 title: Consultation "Apprendre Demain" sur la R&D de l'éducation
 link: https://assembl-civic.bluenove.com/apprendredemain
 description: Démarche d'intelligence collective en ligne
+organisateur: Ministère de l'Education Nationale
 outil:
 - Assembl
+methodes:
+- Les consultations en ligne
 screenshot: assembl_apprendre.jpg
 date: '2017-04-11T09:29:08.124+00:00'
 in_progress: false

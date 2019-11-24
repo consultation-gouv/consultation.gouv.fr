@@ -1,0 +1,59 @@
+.bleu {
+  color: $bleu
+}
+.vert {
+  color: $vert;
+}
+.green-background {
+  background: $vert;
+}
+
+.bleu {
+  color: $bleu;
+}
+
+.purple-background {
+  background: $bleu;
+  color: white;
+}
+
+.violet-pale-background {
+  background: $violet-pale;
+}
+
+.pt-8 {
+  padding-top: 8rem !important;
+}
+
+.container-kit-cadrage {
+  text-align: center;
+  display: flex;
+}
+
+.kit-cadrage {
+  background-color: #EEEEEE;
+  border-radius: 50%;
+  height: 13.5em;
+  width: 13.5em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5em;
+  i {
+    font-size: 4em;
+    margin-bottom: 0.3em;
+  }
+}
+
+.liens-soulignes {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .img-fluid {
+    max-width: 100% !important;
+    height: 100% !important;
+  }
+}

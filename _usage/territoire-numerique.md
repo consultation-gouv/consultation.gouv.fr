@@ -5,6 +5,7 @@ description: Une plateforme libre déployée avec la Boîte à Outils du Gouvern
   Politics.
 layout: usage
 link: https://article69.agencedunumerique.gouv.fr/
+organisateur: Agence du Numérique
 outil:
 - DemocracyOS
 screenshot: "./LEAD.png"

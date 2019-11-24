@@ -1,0 +1,25 @@
+echelles:
+  - Locale
+  - Régionale
+  - Nationale
+types:
+  - Atelier en présentiel
+  - Consultation en ligne
+  - Mixte
+thematiques:
+  - Environnement
+  - Santé
+  - Solidarités
+  - Europe et affaires étrangères
+  - Culture
+  - Agriculture
+  - Alimentation
+  - Sports
+  - Outre-mer
+  - Organisation de l'Etat et des collectivités
+  - Education
+  - Recherche et innovation
+  - Jeunesse
+  - Aménagement du territoire
+  - Egalité femmes hommes
+  - Autres

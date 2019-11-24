@@ -3,8 +3,12 @@ title: Concertation pour l’élaboration du prochain Plan Climat Énergie Terri
 link: https://www.civocracy.org/parlonsclimat
 opendata: 
 description: Mobiliser sa communauté pour lutter contre le changement climatique
+organisateur: Ville de Lyon
 outil:
 - Civocracy
+methodes:
+- Les consultations en ligne
+- Les ateliers participatifs
 screenshot: parlonsclimat.png
 date: 2018-11-14 09:29:08 +0000
 in_progress: true

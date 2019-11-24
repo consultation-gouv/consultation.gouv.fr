@@ -2,8 +2,11 @@
 title: Débat international « Cities for Life » sur les villes inclusives
 link: https://assembl-civic.bluenove.com/debate/citiesforlife
 description: Démarche d'intelligence collective en ligne
+organisateur: Ville de Paris
 outil:
 - Assembl
+methodes:
+- Les consultations en ligne
 screenshot: assembl_cities.jpg
 date: 2017-04-11 09:29:08 +0000
 in_progress: false

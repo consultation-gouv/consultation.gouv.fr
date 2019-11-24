@@ -5,67 +5,108 @@
 @import "variables";
 @import "usage";
 
-
-@media ( max-width: 768px ) {
-#contact{
-padding-top: 30% !important;
-}
+h1 {
+  font-size: 1.5rem;
 }
 
-
-#contact {
-  padding: 10% 0 10%;
-  h1{
-    text-transform: uppercase;
-    color: $simulation-color;
-   
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: 400;
+#banniere-contact {
+  margin-top: 3rem;
+  color: white;
+  height: 7rem;
+  background-color: $bleu;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    text-decoration: none;
   }
-
-  #contact-details {
-    text-align: center;
-    padding: 3em 0 1em;
-  }
-
-  h2:first-child {
-    padding-bottom: 2em;
+  h2 {
+    font-size: 4rem;
+    color: white;
   }
   
-  h2 {
-    color: $simulation-color;    
-    letter-spacing: 2px;
+  .logo-telephone {
+    background: white;
+    color: black;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+  }
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+
+.ligne-contact {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  h4 {
+    font-size: 1.3rem;
     text-align: center;
-     padding: 2em 0 0.5em;
+    margin-bottom: 1rem;
   }
-  p{
-    font-size: 120%;
-    line-height: 2em;
-    letter-spacing: 1.5px;
+  .col-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .bouton {
+      color: white;
+      background-color: $bleu;
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 30px;
+      text-align: center;
+    }
   }
-  .button.moreButton {
-    color: #fff;
-    background: $simulation-color;
-    margin: auto;
-    text-transform: uppercase;
-    font-weight: 300;
-    padding: 1.5em 1em;
-    margin: 1em;
+  ul {
+    list-style: none;
   }
-
-  .button.moreButton2 {
-    color: $simulation-color;
-    background: #fff;
-    margin: auto;
-    text-transform: uppercase;
-    font-weight: 300;
-    border: solid 2px $simulation-color;
-    padding: 1.5em 1em;
-    margin: 1em;
+  .icons {
+    height: 8rem;
   }
-
 }
-.card:hover {
-  z-index: 0 !important;
+
+h5 {
+  font-size: 2rem;
+  margin: 2rem
 }
+
+.col-contact {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 20%;
+  padding: 2rem 0.5rem;
+  i {
+    font-size: 3rem;
+    color: $bleu;
+  }
+  .macontribution {
+    font-weight: bold;
+    a {
+      color: $rouge;
+    }
+    img {
+      width: 2rem;
+    }
+  }
+  img {
+    width: 7rem
+  }
+  @media ( max-width: 700px ) {
+    flex: 1 1 50%;
+  }
+}
+
+

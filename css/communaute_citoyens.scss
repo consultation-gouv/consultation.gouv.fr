@@ -1,0 +1,59 @@
+---
+# API pages style
+---
+
+@import "variables";
+
+#ligne-visages {
+  display: flex;
+  align-items: center;
+  .col {
+    img {
+      height: 10rem;
+    }
+    li {
+      font-style: italic;
+    }
+  }
+}
+
+.fa-quote-right {
+  padding-left: 1rem;
+}
+.fa-quote-left {
+  margin-left: -2.3rem;
+  padding-right: 1rem;
+}
+
+h2, ul, p {
+  color: $bleu;
+}
+
+#ligne-cible {
+  display: flex;
+  align-items: center;
+  .col {
+    img {
+      height: 8rem;
+    }
+    ul > li {
+      line-height: 2rem;
+    }
+  }
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+#ligne-rejoindre {
+  .col-12 {
+    img {
+      height: 9rem;
+    }
+  }
+}

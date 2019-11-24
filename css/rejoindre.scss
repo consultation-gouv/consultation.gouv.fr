@@ -1,0 +1,15 @@
+---
+# API pages style
+---
+
+@import "variables";
+
+.carousel {
+  background-color: $violet-pale;
+  width: 100%;
+  height: 20rem;
+  .img-carousel {
+    height: 18rem;
+    margin-top: 1rem;
+  }
+}

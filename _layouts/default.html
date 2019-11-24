@@ -7,24 +7,20 @@
         <header>
 
           <nav class="navbar d-flex justify-content-start ">
-            <a class="navbar-brand site-name" href="/">
+            <a class="navbar-brand site-name" href="/index.html">
               <img id="header-marianne" alt="Brand" src="/img/marianne.svg" width="96" height="60"></a>
-            <div class="ml-1">
-              <div class="site-name"><b>consultation.etalab</b><i>.gouv.fr</i></div>
+            <a href="/index.html" class="ml-1 div-titre">
+              <div class="site-name"><i class="bleu">agents.</i>participation-citoyenne.gouv.fr</div>
               <div class="low">
-                Fabriquez votre consultation en ligne
+                Concevez des démarches participatives de qualité
               </div>
-            </div>
-            <div class="flex-grow-1 text-right d-none d-lg-block" id="navbar">
-              <ul class="navbar-nav flex-row justify-content-end">
-                {% for item in site.data.topmenu %}
-                <li class="nav-item">
-                    {% unless item.name == site.data.topmenu[0].name %} <span class="pipe font-weight-normal">|</span> {% endunless %}
-                  <a href="{{ item.link }}" id="{{ item.name }}" class="{% if page.title ==  item.name %} font-weight-bold {% endif %}">
-                    {{ item.name }}</a>
-                </li>
-                {% endfor %}
-              </ul>
+            </a>
+
+            <div class="autres-liens flex-column justify-content-end align-items-center d-none d-lg-flex">
+              <div class="mb-1 d-flex align-items-center justify-content-around">
+                <i class="fas fa-headset logo-telephone"></i>
+                <a href="/contact.html">Se faire accompagner<br>par nos équipes</a>
+              </div>
             </div>
 
             <div class="mr-2 text-right flex-grow-1 dropdown d-lg-none">
@@ -32,19 +28,22 @@
                 Menu
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2 w-100">
-                <a href="/" class="dropdown-item p-1">Accueil</a>
-                {% for item in site.data.topmenu %}
+                {% for item in site.data.nav-menu %}
                 <a href="{{ item.link }}" class="dropdown-item p-1">
-                  {% unless item.name == site.data.topmenu[0].name %}{% endunless %}
                   {{ item.name }}</a>
                 {% endfor %}
+                <a href="/contact.html" class="vert">Se faire<br> accompagner</a>
               </div>
             </div>
           </nav>
+          <nav id="menu-haut" class="row justify-content-between d-none d-lg-flex">
+            {% for item in site.data.nav-menu %}
+            <a href="{{ item.link }}" class="p-1 {% if page.title == item.name %}font-weight-bold {% endif %}">{{ item.name }}</a>
+            {% endfor %}
+          </nav>
         </header>
 
-
-        <main class="pt-5 mt-5 mb-3" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
+        <main class="pt-8 mt-5 mb-3" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
         <img id="bandeau-beta" src="/img/bandeau-beta.png" alt="bandeau site en beta">
         {{ content }}
         </main>

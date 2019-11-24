@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  {% include head_citoyens.html %}
+  <body>
+    <div id="wrapper">
+      <div id="page">
+        <header>
+          <div class="navbar d-flex row align-items-start">
+            <a href="/citoyens/index.html" id="header-marianne">
+              <img alt="Brand" src="/img/marianne.svg">
+            </a>
+            <img class="d-md-none" id="megaphone" src="/img/citoyens/icons/megaphone.png" alt="icone megaphone">
+            <div id="titre">
+              <a href="/citoyens/index.html" class="titre-citoyen" id="titre-site">
+              participation-citoyenne.gouv.fr
+              </a>
+            </div>
+            <img class="d-none d-md-block" id="megaphone" src="/img/citoyens/icons/megaphone.png" alt="icone megaphone">
+          </div>
+          <nav class="menu row justify-content-end px-4">
+            <a href="https://airtable.com/shrZJ8XgkvQqrUVpj" target="_blank" class="p-1">Être notifié dès qu'une démarche me concerne !</a>
+          </nav>
+        </header>
+
+        <main class="" {% if page.nom %} id="{{ page.nom }}" {% endif %}>
+        <img id="bandeau-beta" src="/img/bandeau-beta.png" alt="bandeau site en beta">
+        {{ content }}
+        </main>
+        {% include footer_citoyens.html %}
+      </div>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>

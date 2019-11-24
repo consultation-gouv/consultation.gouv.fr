@@ -1,32 +1,55 @@
- <div class="col-md-4 col-12 mt-4 card-list">
+<div class="col-md-4 col-12 mt-4 card-list">
   <div class="card mb-3 card-exemple">
     <div class="content card-header bg-transparent">
       <h5>
-        <a class="header" href="{{ include.usage.url }}" >{{ include.usage.title }}</a>
+        <a class="header" href="{{ include.usage.url }}" >{{ include.usage.title | truncate: 50 }}</a>
       </h5>
       <div class="meta">
-        {{ include.usage.description }}
+        {{ include.usage.organisateur }}
       </div>
     </div>
     <div class="card-body d-flex justify-content-center align-items-center">
-      <a href="{{ include.usage.url }}" style="background-image: url('/img/{{ include.usage.screenshot }}'); background-size: cover;">
+      <a href="{{ include.usage.url }}" style="background-image: url('/img/{{ include.usage.screenshot }}');">
       </a>
     </div>
-    <div class="card-footer bg-transparent extra content d-flex justify-content-between align-items-center">
-      <div>
-        Outil utilisé{% if include.usage.outil.size > 1 %}s{% endif %}&nbsp;:
-        {% for outilName in include.usage.outil %}
-        {% assign outil = site.outil | where: "title", outilName | first %}
-        {% if outilName == 'Autre' %}
-          <span class="btn btn-secondary btn-sm outil-title">Autre</span>
-        {% else %}
-          <a class="btn btn-secondary btn-sm outil-title" href="{{ outil.url }}">{{ outil.title }}</a>
+    <div class="card-footer bg-transparent">
+      <div class="extra content d-flex justify-content-between align-items-center">
+        {% if include.usage.methodes %}
+          <div>
+          Méthode{% if include.usage.methodes.size > 1 %}s{% endif %}&nbsp;:
+          {% for methodeName in include.usage.methodes %}
+            {% assign outil = site.outil | where: "title", methodeName | first %}
+            {% if methodeName == 'Autre' %}
+              <span class="btn btn-secondary btn-sm outil-title">Autre</span>
+            {% else %}
+              {% if outil.title %}
+                <a class="btn btn-secondary btn-sm outil-title" href="{{ outil.url }}">{{ outil.title }}</a>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          </div>
         {% endif %}
-        {% endfor %}
       </div>
-      {% if en-savoir-plus %}
-      <a class="more" href="{{ outil.url }}">En savoir plus</a>
-      {% endif %}
+      <div class="extra content d-flex justify-content-between align-items-center">
+        {% if include.usage.outil %}
+          <div class="mt-3">
+            Outil utilisé{% if include.usage.outil.size > 1 %}s{% endif %}&nbsp;:
+            {% for outilName in include.usage.outil %}
+              {% assign outil = site.outil | where: "title", outilName | first %}
+              {% if outilName == 'Autre' %}
+                <span class="btn btn-secondary btn-sm outil-title">Autre</span>
+              {% else %}
+                {% if outil.title %}
+                  <a class="btn btn-secondary btn-sm outil-title" href="{{ outil.url }}">{{ outil.title }}</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if en-savoir-plus %}
+        <a class="more" href="{{ outil.url }}">En savoir plus</a>
+        {% endif %}
+      </div>
     </div>
   </div>
- </div>
+</div>

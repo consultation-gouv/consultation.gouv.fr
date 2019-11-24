@@ -4,93 +4,144 @@
 
 @import "variables";
 
-.home-section {
-  transition: ease 0.3s;
-  &:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
-    z-index: 10;
+.exemples {
+  a:hover {
+    text-decoration: none;
   }
-  .section-title {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1em;
-    .time {
-      color: $simulation-color;
-      font-size: 1.3rem;
-      margin-left: 1em;
+}
+
+#retraites {
+  background-image: url("/img/banniere-retraites.png");
+}
+#revenu-universel {
+  background-image: url("/img/RUA_fond.png");
+}
+
+#sante{
+  background-image: url("/img/banner-home2.png");
+}
+
+#afb{
+  background-image: url("/img/fond-jaune.png");
+}
+
+.ligne-dispositifs {
+  height: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  h3 {
+    color: white;
+    margin: 2rem;
+  }
+}
+
+.carousel {
+  background-color: $bleu-80;
+  width: 100%;
+  height: 20rem;
+  .carousel-item.active {
+    //display: flex;
+  }
+  .carousel-content {
+    height: 20rem;
+    .col {
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      p {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+    .auteur {
+      font-size: 0.9rem !important;
+      float: right;
+    }
+    .col-md-9 {
+
     }
   }
-  h2 {
-    font-weight: normal;
-    font-size: 2.6em;
-    color: $black;
-    margin: 0;
-    @media (max-width: 1000px) {
-      font-size: 2em;
-    }
+  .img-carousel {
+   width: 100%;
+    margin-top: 1rem;
   }
+}
+
+.ligne-logo-text {
+  border-right: 5px solid $rouge;
+  img {
+    height: 15rem;
+  }
+}
+
+.col-icone {
+  text-align: center;
+  color: $bleu;
   p {
-    margin-top: 1.5em;
-    margin-bottom: 3em;
-    font-size: 1.2em;
-  }
-  .fa-file-download {
-    font-size: 4em;
-    margin-bottom: 0.3em;
+    font-size: 1.2rem;
   }
   img {
-    height: 16em;
+    height: 6rem;
+    margin-bottom: 1rem;
   }
 }
 
-.home-contact {
-  padding: 3em 5rem;
-  p {
-    margin-bottom: 0;
-  }
+.row-bottom-home {
+  margin: 6rem 0;
 }
 
-.home-head {
-  color: white;
-  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('/img/banner-home2.png');
-  background-size: cover;
-  height: 20rem;
-  .title {
-    height: 100%;
-  }
-  h1 {
-    font-size: 2.4em;
-    text-align: center;
-    margin-bottom: 0;
-  }
-  p {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-}
-.container-kit-cadrage {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.kit-cadrage {
-  background-color: #EEEEEE;
-  border-radius: 50%;
-  height: 13.5em;
-  width: 13.5em;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5em;
+.links-bottom-home {
+  font-size: 1.5rem;
   i {
-    font-size: 4em;
-    margin-bottom: 0.3em;
+    font-size: 2rem;
+  }
+  &:hover {
+    text-decoration: none;
+    opacity: 0.8;
   }
 }
 
-.underline {
-  text-decoration: underline;
+.fas {
+  color: $bleu;
+  font-size: 1.5rem;
+}
+
+.auteur {
+  font-size: 0.8rem;
+  align-self: flex-end;
+  color: $bleu;
+  text-align: right;
+}
+
+iframe {
+  justify-self: center;
+}
+
+.card-macontrbution {
+  font-family: Courgette, Georgia, sans-serif;
+  img {
+    width: 6rem;
+  }
+  .titre {
+    font-size: 2rem;
+  }
+}
+
+.edito {
+  h2 {
+    background: white;
+    z-index: 18;
+    padding-right: 2rem;
+    padding-bottom: 0.4rem;
+    margin: 0;
+  }
+  .text {
+    border: 3px solid $bleu;
+    padding: 1.3rem;
+    margin-top: -1.5rem;
+  }
 }

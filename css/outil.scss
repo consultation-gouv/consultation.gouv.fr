@@ -5,6 +5,29 @@
 @import "variables";
 @import "usage";
 
+h1, h3 {
+  color: white;
+}
+
+#title {
+  color: $bleu;
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+li
+
+h2 {
+  font-weight: bold;
+  color: $bleu;
+  font-size: 1.7rem;
+}
+
 #outil {
   .outil-banner {
     background-position: center center;
@@ -26,6 +49,16 @@
   #atouts {
     border: 1px solid #c6c6c6;
     border-radius: 10px;
+  }
+  #risques {
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    background-color: $rouge
+  }
+  #facteurscles {
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    background-color: $vert
   }
   .tab-pane {
     p {

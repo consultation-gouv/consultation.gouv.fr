@@ -1,0 +1,172 @@
+---
+# Main pages style
+---
+
+@import "variables";
+@import "buttons";
+@import "cards";
+@import "support";
+@import "utilities";
+@import url('https://fonts.googleapis.com/css?family=Courgette|Montserrat:200,400,700&display=swap');
+
+body {
+  font-family: Montserrat, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $bleu;
+  &:hover {
+  color: $vert;
+  }
+}
+
+.bandeau-haut-de-page {
+  padding: 3rem;
+  background: $bleu;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem !important;
+  h1 {
+    color: white;
+  }
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  @media ( max-width: 1400px ) {
+    width: 80%;
+  }
+  @media ( max-width: 1200px ) {
+    width: 100%;
+  }
+}
+
+.navbar {
+  font-family: Courgette, Georgia, sans-serif;
+  font-size: 2.5rem;
+  height: 8rem;
+  #titre {
+    margin-top: 0.7rem;
+  }
+  #megaphone {
+    height: 9rem;
+  }
+  #header-marianne {
+    height: 100%;
+    &:hover {
+      opacity: 0.8;
+    }
+    img {
+      height: 100%;
+    }
+  }
+  @media ( max-width: 1200px ) {
+    height: auto;
+    #header-marianne > img {
+      height: 6rem;
+    }
+    #megaphone {
+      height: 6rem;
+    }
+  }
+}
+
+.menu {
+  background: $rouge;
+  a {
+    font-size: 1.5rem;
+    color: white;
+  }
+}
+
+.titre-citoyen {
+  &:hover {
+      text-decoration: none;
+  }
+}
+
+#bandeau-beta {
+  max-width: 11rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  border-top: solid 1px $gray;
+  padding: 2rem 0;
+  img {
+    width: 100%;
+  }
+  #logo-ministere {
+    width: 9rem;
+    @media ( $small ) {
+      width: 4rem;
+    }
+  }
+  a {
+    padding: 0 1rem;
+    color: black;
+    &:hover {
+      color: $black;
+    }
+  }
+  .liens-externes {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+}
+
+.citoyen-card {
+  .card {
+    height: 100%;
+    border: 1px solid #cecece;
+    padding: 1rem;
+    h5 {
+      a {
+        color: $bleu;
+        font-weight: bold;
+      }
+    }
+    .image {
+      height: 100%;
+      width: 100%;
+      background-size: contain !important;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 7rem;
+    }
+    .card-body {
+      position: relative;
+    }
+    .fa-heart {
+      background: rgba(50, 50, 50, 0.40);
+      color: white;
+      padding: 1rem;
+      border-radius: 50%;
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

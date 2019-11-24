@@ -27,10 +27,30 @@ additional_css: usage
 
 <div class="row">
   <div class="col-md-4 col-12">
-    <h4 class="text-center my-4">Les outils utilisés</h4>
+
+    <h4 class="text-center my-4">Méthode(s) utilisée(s)</h4>
+    {% for methodesName in page.methodes %}
+    {% assign outil = site.outil | where: "title", methodesName | first %}
+    <div class="row card-outils-utilise p-2 m-2">
+      <div class="col-4 d-flex align-items-center">
+        {% if outil.img-bg %}
+        <img class="" src="/img/{{ outil.img-bg }}" alt="logo de {{ outil.title }}"/>
+        {% else %}
+        <img class="" src="/img/{{ outil.default_logo }}" alt="logo générique"/>
+        {% endif %}
+      </div>
+      <div class="col-8 m-auto">
+        <h5>
+          <a href="{{ outil.url }}" class="">{{ outil.title }}</a>
+        </h5>
+      </div>
+    </div>
+    {% endfor %}
+
+    <h4 class="text-center my-4">Outil(s) utilisé(s)</h4>
     {% for outilName in page.outil %}
     {% assign outil = site.outil | where: "title", outilName | first %}
-    <div class="row card-outils-utilise p-2">
+    <div class="row card-outils-utilise p-2 m-2">
       <div class="col-4 d-flex align-items-center">
         {% if outil.logo %}
         <img class="" src="/img/{{ outil.logo }}" alt="logo de {{ outil.title }}"/>
@@ -38,14 +58,14 @@ additional_css: usage
         <img class="" src="/img/{{ outil.default_logo }}" alt="logo générique"/>
         {% endif %}
       </div>
-      <div class="col-8">
-        <h4>
+      <div class="col-8 m-auto">
+        <h5>
           <a href="{{ outil.url }}" class="">{{ outil.title }}</a>
-        </h4>
-        {{ outil.tagline }}
+        </h5>
       </div>
     </div>
     {% endfor %}
+
   </div>
 
   <div class="col-md-8 col-12 mt-4">
@@ -67,6 +87,6 @@ additional_css: usage
     <div class="text-center" >
       <img class="img-fluid" src="/img/{{ page.screenshot }}" alt="capture d'écran de {{ page.title }}">
     </div>
-
   </div>
+
 </div>

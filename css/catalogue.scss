@@ -4,17 +4,52 @@
 
 @import "variables";
 
+
+#title {
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.exemples {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
 #catalogue {
   .mailto-link {
     font-size: 2rem;
   }
 }
 
-.btn-add-consutlation {
-  a {
+.ligne-dispositifs {
+  height: 12rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  h3 {
     color: white;
-    text-decoration: none;
+    margin: 2rem;
   }
+}
+
+.header {
+  color: $bleu;
+}
+
+#grand-debat {
+  background-image: url("/img/banner-home2.png");
+}
+#retraites {
+  background-image: url("/img/banniere-retraites.png");
+}
+#revenu-universel {
+  background-color: $bleu-vert;
 }
 
 .btn-consultation-over {
@@ -23,4 +58,12 @@
 
 .btn-consultation-ongoing {
 	color: green;
+}
+
+.iframe-container {
+	overflow: hidden
+}
+
+.iframe-container iframe {
+	height: 100%
 }

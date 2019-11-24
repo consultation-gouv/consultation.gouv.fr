@@ -1,0 +1,16 @@
+---
+troisieme:
+- name: CGU
+  link: "/cgu.html"
+- name: Mentions légales
+  link: "/mentions.html"
+
+quatrieme:
+- name: Service Public.fr
+  link: "https://www.service-public.fr"
+- name: Legifrance.gouv.fr
+  link: "https://www.legifrance.gouv.fr"
+- name: Data.gouv.fr
+  link: "https://www.data.gouv.fr"
+- name: Gouvernement.fr
+  link: "https://www.gouvernement.fr" 

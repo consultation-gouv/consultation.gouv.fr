@@ -2,6 +2,7 @@
 title: Nova Ideo
 tagline: 'La fusion du meilleur de la boîte à idées, du portail collaboratif et des
   outils de communication internes '
+categorie: outil
 lettre_engagement: "/uploads/Lettre-engagement-NovaIdeo.jpeg"
 img-bg: nova-bg
 doc_tech: https://www.nova-ideo.com/documentation
@@ -18,8 +19,6 @@ clients:
 owner: Ecréall
 access_link: https://deploiement.consultation.etalab.gouv.fr/outil/nova-ideo
 date: '2017-04-04T15:57:58.478+00:00'
-layout: outil
-default_logo: ''
 atouts:
 - Capacité à créer plusieurs groupes de travail (12 personnes maximum) sur un
   même sujet
@@ -41,7 +40,6 @@ accompagnement_plusloin:
   heures
 - Formations par webinaires
 - Accompagnement téléphonique (si nécéssaire)
-
 details_techniques:
 - name: Développeur
   content: Ecréall
@@ -54,6 +52,9 @@ details_techniques:
 - name: Source
   link: https://github.com/ecreall/nova-ideo/
   content: https://github.com/ecreall/nova-ideo/
+layout: outil
+default_logo: ''
+ordre: 1
 ---
 
 * Une bonne proposition est une proposition travaillée collectivement qui a franchi tous les "Oui, mais", et qui fait consensus.

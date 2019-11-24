@@ -1,0 +1,104 @@
+---
+layout: default
+additional_css: outil
+---
+
+<div class="section" id="outil">
+  <div class="row outil-banner" {% if page.img-bg %} style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(/img/{{ page.img-bg }});" {% endif %} >
+    <div class="offset-md-1 text-center col-md-10 col-12 d-flex justify-content-center flex-column align-items-center">
+      <h1 class="m-0">
+        {{ page.title }}
+      </h1>
+      <h3 class="my-4">
+        {{ page.tagline }}
+      </h3>
+      <div>
+        {% if page.demo_link %}
+        <a class="btn btn-outline-light" href="{{ page.demo_link }}" target="_blank">
+          Utilisez !&nbsp;
+          <i class="ticket icon"></i>
+        </a>
+        {% endif %}
+        {% if page.access_link %}
+        <a class="btn btn-outline-light" href="{{ page.access_link }}" target="_blank">
+          Utilisez !&nbsp;
+          <i class="ticket icon"></i>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <!--Left column-->
+    <div class="col-md-4 col-12">
+      <div class="logo-outil p-4 d-flex justify-content-center align-items-center">
+        {% if page.logo %}
+        <img src="/img/{{ page.logo }}" alt="{{ page.title }}" />
+        {% endif %}
+      </div>
+      {% if page.url_video_demo %}
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="{{ page.url_video_demo }}" placeholder="/img/{{ page.vignette_video_demo }}" allowfullscreen></iframe>
+      </div>
+      <hr>
+      {% endif %}
+      <div class="item bleu">
+        <div class="title">Priorités pour l'organisateur</div>
+        <div class="description">
+          <ul class="list-unstyled">
+            {% for priorite in page.priorites %}
+            <li class="mb-2">- {{ priorite }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="item bleu">
+        <div class="title">Facteurs clés de succès</div>
+        <ul class="list-unstyled">
+          {% for qualite in page.qualites %}
+          <li class="mb-2">- {{ qualite }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <!--Right column-->
+    <div class="col-md-8 col-12 mt-3">
+      <div class="row py-5">
+        <div class="content">
+          {{ content }}
+        </div>
+        {% if page.atouts  %}
+        <div id="atouts" class="p-3 mt-4">
+          <h4 class="blue">Atouts</h4>
+          <ul class="list-unstyled">
+            {% for atout in page.atouts %}
+            <li><i class="fas fa-angle-right blue"></i> {{ atout }} </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if page.inconvenients  %}
+        <div id="atouts" class="p-3 mt-4">
+          <h4 class="blue">Limites</h4>
+          <ul class="list-unstyled">
+            {% for inconvenient in page.inconvenients %}
+            <li><i class="fas fa-angle-right blue"></i> {{ inconvenient }} </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    {% for usage in site.usage %}
+    {% if usage.outil contains page.title %}
+    {% include exemple-card.html usage=usage en-savoir-plus=false%}
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

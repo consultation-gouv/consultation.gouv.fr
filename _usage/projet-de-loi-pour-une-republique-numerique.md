@@ -1,10 +1,13 @@
 ---
 date: 2017-08-08 00:00:00 +0000
 description: 'Démarche d''intelligence collective en ligne '
+organisateur: Ministère de l'Économie, de l'Industrie et du Numérique
 layout: usage
 link: https://www.republique-numerique.fr/
 outil:
 - Cap Collectif
+methodes:
+- Les consultations en ligne
 screenshot: "./Projet de loi pour une République Numérique.jpg"
 title: Projet de loi pour une République numérique
 in_progress: false
@@ -13,7 +16,8 @@ in_progress: false
 
 Objet : consultation sur l'avant-projet de loi pour une République Numérique avant sa transmission au Conseil d'Etat et sa présentation en Conseil des Ministres
 
-Organisateur : Ministère de l'Économie, de l'Industrie et du Numérique Durée : 3 mois
+Organisateur : Ministère de l'Économie, de l'Industrie et du Numérique
+Durée : 3 mois
 
 Participants : 21410
 

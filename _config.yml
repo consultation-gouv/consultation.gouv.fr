@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: consultation.etalab.gouv.fr
+title: Participation-Citoyenne.gouv.fr
 baseurl: ""
 url: "https://consultation.etalab.gouv.fr"
-description: Des outils de consultations en ligne pour les administrations
+description: Fabriquez vos démarches administratives
 
 # see https://jekyllrb.com/docs/continuous-integration/
 exclude: [vendor, app.json, Gemfile.lock]
@@ -19,6 +19,8 @@ collections:
     output: true
   usage:
     output: true
+  usage_citoyens:
+    output: true
 
 defaults:
   -
@@ -27,7 +29,7 @@ defaults:
       type: outil	# targets a collection
     values:
       layout: outil
-      default_logo: 
+      default_logo:
 
   -
     scope:
@@ -35,6 +37,12 @@ defaults:
       type: usage	# targets a collection
     values:
       layout: usage
+  -
+    scope:
+      path: ""	# means "a  ll files"
+      type: usage_citoyens	# targets a collection
+    values:
+      layout: usage_citoyens
   -
     scope:
       path: ""  # means "all files"

@@ -1,22 +1,27 @@
 @import "variables";
 
 .blue-button {
-  color: $simulation-color;
-  box-shadow: 3px 3px 0px 0px $simulation-color;
-  border: 3px solid $simulation-color;
+  color: $bleu;
+  box-shadow: 3px 3px 0px 0px $bleu;
+  border: 3px solid $bleu;
   padding: 0.5em 0.7em;
   font-size: 1.4em;
   background-color: white;
   &:hover {
-    color: $simulation-color;
+    color: $bleu;
   }
   @media (max-width: 1000px) {
     font-size: 1em;
   }
 }
 
+.btn-link {
+  color: $vert;
+}
+
 .btn-primary {
-  background-color: $simulation-color;
+  background-color: $bleu;
+  color: white !important;
   border: none;
   &:hover, &:active, &:focus {
     border: none !important;
@@ -26,13 +31,13 @@
 }
 
 .btn-outline-primary {
-  color: $simulation-color;
+  color: $bleu;
   background-color: transparent;
   background-image: none;
-  border-color: $simulation-color;
+  border-color: $bleu;
   &:hover, &:active, &:focus {
     color: #fff;
-    background-color: $simulation-color;
-    border-color: $simulation-color;
+    background-color: $bleu;
+    border-color: $bleu;
   }
 }

@@ -1,0 +1,146 @@
+---
+# Homepage pages style
+---
+
+@import "variables";
+
+.form-control {
+  background-color: $bleu;
+  color: white;
+  &::placeholder {
+    color: $bleu;
+  }
+}
+
+#bandeau-recherche {
+  padding: 1rem 4rem;
+  #barre-recherche {
+    position: relative;
+    color: $bleu;
+    #search {
+      background-color: white;
+      border: 3px solid $bleu;
+      color: $bleu;
+      height: 6rem;
+      width: 100%;
+      font-size: 1.4rem;
+      padding-left: 4rem;
+    }
+    .fa-search {
+      color: $bleu;
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+#ligne {
+  border-bottom: 2px solid $bleu;
+  margin-top: -1.5rem;
+  width: 88%;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+}
+
+#ligne-checkbox {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tgl {
+  display: none;
+
+  // add default box-sizing for this scope
+  &,
+  &:after,
+  &:before,
+  & *,
+  & *:after,
+  & *:before,
+  & + .tgl-btn {
+    box-sizing: border-box;
+    &::selection {
+      background: none;
+    }
+  }
+
+  + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    &:after,
+    &:before {
+      position: relative;
+      display: block;
+      content: "";
+      width: 50%;
+      height: 100%;
+    }
+
+    &:after {
+      left: 0;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+  &:checked + .tgl-btn:after {
+    left: 50%;
+  }
+}
+
+// themes
+.tgl-light {
+  + .tgl-btn {
+    background: #a4a4a4;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all .4s ease;
+    margin: 0;
+    &:after {
+      border-radius: 50%;
+      background: #fff;
+      transition: all .2s ease;
+    }
+  }
+
+  &:checked + .tgl-btn {
+    background: $bleu;
+  }
+}
+
+.devoir {
+  &:hover {
+    color: $bleu;
+    text-decoration: none;
+  }
+}
+
+.icones {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  img {
+    width: 2rem;
+  }
+
+}
+
+.date {
+  color: $bleu
+}
+
+#results {
+  max-height: 1000px;
+  overflow: scroll;
+}
