@@ -28,7 +28,7 @@ La réforme systémique des retraites a pour principal objectif la création d�
 
 * Modalités de participation : une consultation en ligne, un atelier de prospective collaborative, 8 ateliers en régions, 1 atelier citoyen DITP
 
-* Nombre de participants : + 200 en cumulant les différents dispositifs
+* Nombre de participants : 600+ participants pour les ateliers en présentiel, et plus de 35 000 contributions en ligne
 
 * Livrables : une synthèse de la consultation en ligne, une synthèse par atelier en région, une synthèse globale des 8 ateliers en régions, une synthèse commune entre les propositions du numérique et du présentiel et un avis citoyen : consulter la <a href="https://reforme-retraite.gouv.fr/participez/la-participation-citoyenne-2018/article/l-atelier-prospectif">synthèse de l'atelier prospectif</a>, la <a href="https://reforme-retraite.gouv.fr/IMG/pdf/synthese_finale_version_finale__0412.pdf">synthèse de l'atelier en région</a> et l'
 <a href="https://www.reforme-retraite.gouv.fr/IMG/pdf/ditp_atelier_citoyen-2.pdf
@@ -55,5 +55,5 @@ Conditions facilitantes
 
 **Pour en savoir plus**
 
-<a href="https://www.reforme-retraite.gouv.fr/
-">Voir le site officiel</a>
+<a href="https://www.reforme-retraite.gouv.fr/participez/la-participation-citoyenne-2018/">Voir la description du dispositif global</a>
+<a href="https://www.reforme-retraite.gouv.fr/">Voir le site officiel</a>
