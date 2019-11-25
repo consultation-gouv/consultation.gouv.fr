@@ -16,7 +16,7 @@ clients:
 - Ministères
 - Entreprises
 owner: Open Source Politics
-access_link: https://deploiement.consultation.etalab.gouv.fr/outil/decidim
+access_link: https://participation-citoyenne.gouv.fr/outil/decidim
 date: '2017-04-04T15:57:58.478+00:00'
 url_video_demo: https://www.youtube.com/embed/NdjvAjnzqaQ
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"

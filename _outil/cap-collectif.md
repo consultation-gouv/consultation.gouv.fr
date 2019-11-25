@@ -13,7 +13,7 @@ clients:
 - Administrations
 - Associations
 owner: Cap-Collectif
-access_link: https://deploiement.consultation.etalab.gouv.fr/outil/cap-collectif
+access_link: https://participation-citoyenne.gouv.fr/outil/cap-collectif
 date: '2017-04-04T15:57:58.478+00:00'
 details_techniques:
 - name: Développeur
