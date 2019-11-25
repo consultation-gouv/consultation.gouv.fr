@@ -17,7 +17,7 @@ clients:
 - Ministères
 - Entreprises
 owner: Ecréall
-access_link: https://deploiement.consultation.etalab.gouv.fr/outil/nova-ideo
+access_link: https://participation-citoyenne.gouv.fr/outil/nova-ideo
 date: '2017-04-04T15:57:58.478+00:00'
 atouts:
 - Capacité à créer plusieurs groupes de travail (12 personnes maximum) sur un
