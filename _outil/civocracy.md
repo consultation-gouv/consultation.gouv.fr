@@ -15,7 +15,7 @@ clients:
 - Ministères
 - Entreprises
 owner: Civocracy bv Zweigniederlassung
-access_link: https://participation-citoyenne.gouv.fr/outil/civocracy
+access_link: https://deploiement.participation-citoyenne.gouv.fr/outil/civocracy
 date: '2019-04-04T15:57:58.478+00:00'
 url_video_demo: https://www.youtube.com/embed/6HAx04JZFm4
 vignette_video_demo: "/uploads/2017/08/02/videoAssembl.png"

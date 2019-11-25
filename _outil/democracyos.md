@@ -15,7 +15,7 @@ clients:
 - Ministères
 - Entreprises
 owner: Open Source Politics
-access_link: https://participation-citoyenne.gouv.fr/outil/democracyos
+access_link: https://deploiement.participation-citoyenne.gouv.fr/outil/democracyos
 date: '2017-04-04T15:57:58.478+00:00'
 details_techniques:
 - name: Demo
