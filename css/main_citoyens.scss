@@ -93,6 +93,12 @@ a {
   }
 }
 
+.titre-citoyen {
+  &:hover {
+      text-decoration: none;
+  }
+}
+
 #bandeau-beta {
   max-width: 11rem;
   position: absolute;

@@ -3,9 +3,7 @@ title: Consultations citoyennes sur l’Europe
 link: https://www.touteleurope.eu/actualite/quelles-suites-pour-les-consultations-citoyennes.html
 opendata:
 description: Faire s'exprimer les citoyens sur ce qu'ils attendent de l'Europe
-organisateur: CNDP
-outil:
-- Cap Collectif
+organisateur: Ministère de l'Europe et des Affaires Étrangères
 methode:
 - Les ateliers participatifs
 - Les consultations en ligne
@@ -14,7 +12,7 @@ date: 2018-11-14 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
-ordre: 3
+ordre: 6
 ---
 **Information sur la démarche**
 
@@ -24,8 +22,9 @@ ordre: 3
 
 * Durée: d’avril à décembre 2018
 
+* Modalité de participation : large éventail (réunions dans les mairies, conférences, débats, outils en ligne, manifestations publiques)
+
 * Nombre de participants : 70000 participants, 1082 évènements organisés dans 97 départements français
-Modalités de participation: large éventail (réunions dans les mairies, conférences, débats, outils en ligne, manifestations publiques) 
 
 * Livrables : un travail d’analyse et de synthèse, réalisé en France par la Commission Nationale du Débat Public. Une synthèse européenne des restitutions nationales a été présentée aux chefs d’Etat et de gouvernement lors du Conseil européen des 13 et 14 décembre 2018. <a href="http://data.consilium.europa.eu/doc/document/ST-14535-2018-INIT/fr/pdf">Voir ce lien </a>
 

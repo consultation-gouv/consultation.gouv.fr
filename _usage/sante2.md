@@ -1,6 +1,6 @@
 ---
 title: Concertation sur l’ouverture des données personnelles en santé
-link: https://solidarites-sante.gouv.fr/IMG/pdf/5-_avis_citoyen_big_data_en_sante.pdf
+link:
 description: Ministère des Solidarités et de la Santé
 organisateur : Ministère des Solidarités et de la Santé
 methodes:
@@ -11,7 +11,7 @@ date: 2019-01-15 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
-ordre: 5
+ordre: 2
 ---
 
 **Information sur la démarche**
@@ -30,7 +30,7 @@ La DREES, en charge de l’ouverture des données de santé au sein du MSS, est 
 
 * Nombre de participants : 17 citoyens représentatifs de la diversité de la population française pour l’atelier citoyen et plus de 600 contributions sur le site faire-simple.gouv.fr
 
-* Modalités de participation : 6 week end en présentiel avec des temps de travail en ligne 
+* Modalités de participation : une consultation en ligne (faire-simple.gouv.fr) et un atelier citoyen (DITP)
 
 * Livrables : l’avis citoyen est <a href="https://solidarites-sante.gouv.fr/IMG/pdf/5-_avis_citoyen_big_data_en_sante.pdf">publié</a> et a été relayé dans <a href="https://drees.solidarites-sante.gouv.fr/IMG/pdf/ra2016.pdf">le rapport d’activité de la DREES</a>
 

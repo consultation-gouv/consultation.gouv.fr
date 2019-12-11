@@ -11,7 +11,7 @@ date: 2019-01-15 09:29:08 +0000
 in_progress: true
 note-citoyenne: 5
 note-decidee: 5
-ordre: 4
+ordre: 3
 ---
 
 **Information sur la démarche**
@@ -19,6 +19,7 @@ ordre: 4
 * Contexte : 
 
 Le Plan gouvernemental de lutte contre les drogues et les conduites addictives 2013-2017 a  fixé comme priorité le renforcement de la prévention et l’action vers les publics les plus exposés et principalement les jeunes. Le milieu scolaire est donc une cible majeure de la prévention des conduites addictives (principalement alcool, tabac, cannabis et autres addictions comportementales aux jeux vidéos, internet…) et des risques sanitaires et sociaux qui y sont associés.
+
 La Mission interministérielle de lutte contre les drogues et les conduites addictives (MILDECA) coordonne la politique de prévention au sein d’une commission dédiée destinée à mobiliser les acteurs chargés de la santé, de l’éducation et de l’ordre public autour de « programmes » de prévention dont l’efficacité a été scientifiquement prouvée. Le principal ressort de ces programmes est le développement de savoirs être, qualifiés par les spécialistes de « compétences psychosociales ». Ces compétences ou « savoirs être » vont aider les jeunes à faire des choix, débattre, comprendre les influences et les règles, développer le travail d’équipe et la coopération soit autant d’aptitudes utiles pour résister à l’expérimentation ou à la consommation de drogues. 
 
 * Finalité de la concertation : alimenter le plan de lutte contre les drogues et les conduites addictives et mesurer la pertinence ou pas d’inscrire des programmes de prévention en milieu scolaire dans le cadre des enseignements ou des parcours scolaires des élèves.
