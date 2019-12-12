@@ -1,10 +1,9 @@
 ---
 title: Nova Ideo
-tagline: 'La fusion du meilleur de la boîte à idées, du portail collaboratif et des
-  outils de communication internes '
+tagline: 'Travailler en groupe, de la boîte à idée au consensus collectif'
 categorie: outil
 lettre_engagement: "/uploads/Lettre-engagement-NovaIdeo.jpeg"
-img-bg: nova-bg
+img-bg: test-home.png
 doc_tech: https://www.nova-ideo.com/documentation
 domain: https://www.nova-ideo.com/
 url_video_demo: https://www.youtube.com/embed/ap_Xjprzld4
@@ -27,8 +26,7 @@ atouts:
 - Tri automatique des propositions et des votes par un système de jetons afin
   de gagner en visibilité et transparence
 feature_inclus:
-- L'offre gratuite dispose de tous les services, mais est ouverte et
-  donc il n'y a pas de confidentialité, tous les contenus sont visibles
+- Toutes les fonctionnalités sont mises à disposition gratuitement
 feature_plusloin:
 - Gestion de la sélection des membres et de la confidentialité des
   contenus

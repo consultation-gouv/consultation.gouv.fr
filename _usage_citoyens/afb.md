@@ -4,7 +4,7 @@ organisateur: Consultation menée par l'Agence Française de la Biodiversité
 link:
 img-bg: mur-vert.png
 screenshot: banniere-retraites.png
-date-banniere: "démarche close le 18/07/2019"
+date-banniere: "démarche en cours"
 devoir_de_suite: /usage_citoyens/afb.html
 
 presentation: |-

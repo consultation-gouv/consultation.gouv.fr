@@ -3,9 +3,9 @@ echelles:
   - Régionale
   - Nationale
 types:
-  - Atelier en présentiel
-  - Consultation en ligne
-  - Mixte
+  - Ateliers en présentiel
+  - Démarches en ligne
+  - Présentiel & en ligne
 thematiques:
   - Environnement
   - Santé
@@ -22,4 +22,5 @@ thematiques:
   - Jeunesse
   - Aménagement du territoire
   - Egalité femmes hommes
+  - Numérique
   - Autres

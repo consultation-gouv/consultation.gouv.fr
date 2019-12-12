@@ -69,15 +69,15 @@ title: "Accueil"
         </div>
         <div class="card-footer bg-transparent extra content d-flex justify-content-between align-items-center">
           <div class="date">
-            <span v-if="formatDate(item.fields.date_fin) < formatDate(Date.now())">Terminée</span>
-            <span v-if="formatDate(item.fields.date_fin) > formatDate(Date.now())" v-text="'Fin le ' + new Date(item.fields.date_debut).toLocaleDateString('fr-FR')"></span>
+            <span v-if="new Date(item.fields.date_fin) < new Date(Date.now())">Terminée</span>
+            <span v-if="new Date(item.fields.date_fin) > new Date(Date.now())" v-text="'Fin le ' + new Date(item.fields.date_fin).toLocaleDateString('fr-FR')"></span>
           </div>
 
           <div v-if="item.fields.devoir_de_suite" class="icones">
             <a class="devoir" :href="item.fields.devoir_de_suite">Voir le devoir de suite</a>
             <img src="/img/icons/megaphone.png" alt="icone de mégaphone" style="margin-left: 0.5rem">
           </div>
-          <div v-if="!item.fields.devoir_de_suite" class="icones">
+          <div v-if="!item.fields.devoir_de_suite && new Date(item.fields.date_fin) > new Date(Date.now())" class="icones">
             <a class="devoir" :href="item.fields.link">Contribuer</a>
             <img src="/img/icons/ampoule.png" alt="icone d'ampoule">
           </div>
@@ -148,7 +148,7 @@ var results = new Vue({
         if ((item.fields.echelle === that.echelle || that.echelle === "Toutes les échelles") &&
           (item.fields.type === that.type || that.type === "Tous les types") &&
           (item.fields.thematique === that.thematique || that.thematique === "Toutes les thématiques")) {
-          if ((that.enCours && item.fields.en_cours === that.enCours) || that.enCours === false) {
+          if ((that.date_debut && item.fields.en_cours === that.enCours) || that.enCours === false) {
             items.push(item)
           }
         }
