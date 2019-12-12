@@ -116,7 +116,7 @@ var results = new Vue({
     selectedItems: [],
     type: "Tous les types",
     thematique: "Toutes les thématiques",
-    enCours: false
+    enCours: true
   },
   mounted: function(){
     this.loadItems();
@@ -140,20 +140,28 @@ var results = new Vue({
         }
       })
     },
-    selectItems: function () {
+    selectItems: function (e) {
       let items = []
       const that = this
 
-      that.items.forEach(function(item,index) {
-        if ((item.fields.echelle === that.echelle || that.echelle === "Toutes les échelles") &&
-          (item.fields.type === that.type || that.type === "Tous les types") &&
-          (item.fields.thematique === that.thematique || that.thematique === "Toutes les thématiques")) {
-          if ((that.date_debut && item.fields.en_cours === that.enCours) || that.enCours === false) {
-            items.push(item)
+      if (this.enCours) {
+        console.log("en cours")
+        console.log(this.enCours)
+        that.items.forEach(function(item,index) {
+          if ((item.fields.echelle === that.echelle || that.echelle === "Toutes les échelles") &&
+            (item.fields.type === that.type || that.type === "Tous les types") &&
+            (item.fields.thematique === that.thematique || that.thematique === "Toutes les thématiques")) {
+            if ((new Date(item.fields.date_fin)) >= (new Date(Date.now()))) {
+              items.push(item)
+            }
           }
-        }
-      })
-      this.selectedItems = items
+        })
+        this.selectedItems = items
+      } else {
+        console.log("pas en cours")
+        console.log(this.enCours)
+        this.loadItems()
+      }
     },
     getImageStyleProperties:function(item){
       return 'background: url(' + item.fields.screenshot[0].url + '); background-size: cover'
